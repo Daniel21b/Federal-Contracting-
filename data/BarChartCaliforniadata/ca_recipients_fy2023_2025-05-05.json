@@ -1,0 +1,4502 @@
+[
+  {
+    "rank": 1,
+    "recipient_name": "HEALTH NET FEDERAL SERVICES, LLC",
+    "recipient_id": "95e5fad6-bf60-0254-a5b0-65c750733414-C",
+    "amount": 3601081144,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$3,601,081,144"
+  },
+  {
+    "rank": 2,
+    "recipient_name": "LAWRENCE LIVERMORE NATIONAL SECURITY, LLC",
+    "recipient_id": "6d990129-9566-ff86-e9ae-7c6eeef1df7c-C",
+    "amount": 2966113062,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$2,966,113,062"
+  },
+  {
+    "rank": 3,
+    "recipient_name": "CALIFORNIA INSTITUTE OF TECHNOLOGY",
+    "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
+    "amount": 2748045558,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$2,748,045,558"
+  },
+  {
+    "rank": 4,
+    "recipient_name": "LOCKHEED MARTIN CORP",
+    "recipient_id": "46023044-eacc-a9ca-5b5e-ddc4673fc267-C",
+    "amount": 1905768359,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$1,905,768,359"
+  },
+  {
+    "rank": 5,
+    "recipient_name": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+    "recipient_id": "8a3a5525-3218-a488-db0e-4823241ceb90-C",
+    "amount": 1827923552,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$1,827,923,552"
+  },
+  {
+    "rank": 6,
+    "recipient_name": "GENERAL ATOMICS AERONAUTICAL SYSTEMS, INC.",
+    "recipient_id": "e262465b-a9eb-8206-020a-98327ae917fa-C",
+    "amount": 1781632397,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$1,781,632,397"
+  },
+  {
+    "rank": 7,
+    "recipient_name": "THE BOEING COMPANY",
+    "recipient_id": "5fa231ae-15e3-afd3-8c5c-bb9911ba57f8-C",
+    "amount": 1753904947,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$1,753,904,947"
+  },
+  {
+    "rank": 8,
+    "recipient_name": "RAYTHEON COMPANY",
+    "recipient_id": "b6b091bb-570b-bf26-3e7a-b4a1a7c2d61a-C",
+    "amount": 1436129663,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$1,436,129,663"
+  },
+  {
+    "rank": 9,
+    "recipient_name": "THE AEROSPACE CORPORATION",
+    "recipient_id": "6cbea0a9-b56a-1fd8-3dee-e808ea373a4b-C",
+    "amount": 1211308339,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$1,211,308,339"
+  },
+  {
+    "rank": 10,
+    "recipient_name": "NATIONAL STEEL AND SHIPBUILDING COMPANY",
+    "recipient_id": "d3b182df-5daa-6f63-c00e-d99b7ba7875e-C",
+    "amount": 1156359452,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$1,156,359,452"
+  },
+  {
+    "rank": 11,
+    "recipient_name": "QTC MEDICAL SERVICES INC",
+    "recipient_id": "bed6217b-c46e-3951-fe4c-dab140bb2125-C",
+    "amount": 1111660037,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$1,111,660,037"
+  },
+  {
+    "rank": 12,
+    "recipient_name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+    "recipient_id": "c1d87c0c-1b5f-f2c8-c447-e001bb4cc08c-C",
+    "amount": 1001951051,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$1,001,951,051"
+  },
+  {
+    "rank": 13,
+    "recipient_name": "THE REGENTS OF THE UNIVERSITY OF CALIFORNIA",
+    "recipient_id": "9df6f273-648d-cf72-c4ef-346f414c585c-C",
+    "amount": 982212242,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$982,212,242"
+  },
+  {
+    "rank": 14,
+    "recipient_name": "A-MARK PRECIOUS METALS, INC.",
+    "recipient_id": "15780210-826c-b52c-a2ea-4323ae3a95f8-C",
+    "amount": 744742060,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$744,742,060"
+  },
+  {
+    "rank": 15,
+    "recipient_name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+    "recipient_id": "fe5032b4-c053-b1d1-c4c9-7d6d9e770723-C",
+    "amount": 685522040,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$685,522,040"
+  },
+  {
+    "rank": 16,
+    "recipient_name": "THE LELAND STANFORD JUNIOR UNIVERSITY",
+    "recipient_id": "0c13d643-4334-38ed-1952-0db7e2ac5e56-C",
+    "amount": 655701214,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$655,701,214"
+  },
+  {
+    "rank": 17,
+    "recipient_name": "VITOL AVIATION CO",
+    "recipient_id": "2d826e8d-d63c-ea5b-9465-c53b458b6c75-C",
+    "amount": 623768576,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$623,768,576"
+  },
+  {
+    "rank": 18,
+    "recipient_name": "NORTHROP GRUMMAN SYSTEMS CORP",
+    "recipient_id": "a4e18d9e-ec75-2c26-9475-543f727fdbe7-C",
+    "amount": 521375771,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$521,375,771"
+  },
+  {
+    "rank": 19,
+    "recipient_name": "BOOZ ALLEN HAMILTON INC",
+    "recipient_id": "ffca72e5-fba2-798a-6969-2a6c45e9f985-C",
+    "amount": 468441898,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$468,441,898"
+  },
+  {
+    "rank": 20,
+    "recipient_name": "AEVEX AEROSPACE, LLC",
+    "recipient_id": "5da4b54f-498e-61d5-5927-dd6bf5a1d3e5-C",
+    "amount": 454760920,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$454,760,920"
+  },
+  {
+    "rank": 21,
+    "recipient_name": "GENERAL ATOMICS",
+    "recipient_id": "e33e9412-0ef8-71d1-941b-300424a00029-C",
+    "amount": 452303110,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$452,303,110"
+  },
+  {
+    "rank": 22,
+    "recipient_name": "LOCKHEED MARTIN CORPORATION",
+    "recipient_id": "c798c2aa-022b-9a6f-21c5-8060af622f14-C",
+    "amount": 415996195,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$415,996,195"
+  },
+  {
+    "rank": 23,
+    "recipient_name": "THE REGENTS OF THE UNIVERSITY OF CALIFORNIA",
+    "recipient_id": "75fc71be-d3ca-f8b5-c3ab-2e7614f71459-C",
+    "amount": 415894889,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$415,894,889"
+  },
+  {
+    "rank": 24,
+    "recipient_name": "PARKER-HANNIFIN CORPORATION",
+    "recipient_id": "137b38c4-bf6f-f07e-ff51-388f7c2748b9-C",
+    "amount": 399334915,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$399,334,915"
+  },
+  {
+    "rank": 25,
+    "recipient_name": "VIASAT INC",
+    "recipient_id": "3e01e0d6-80fd-1df8-fd7c-08efc2828a82-C",
+    "amount": 395172790,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$395,172,790"
+  },
+  {
+    "rank": 26,
+    "recipient_name": "IHEALTH LABS INC.",
+    "recipient_id": "754e2f2f-ca59-f85f-8ca0-6bf1b8c95b1e-C",
+    "amount": 357750000,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$357,750,000"
+  },
+  {
+    "rank": 27,
+    "recipient_name": "THE BOEING COMPANY",
+    "recipient_id": "df8638e3-b642-fae8-6730-21c1ec716038-C",
+    "amount": 343890358,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$343,890,358"
+  },
+  {
+    "rank": 28,
+    "recipient_name": "PATRIOT CONTRACT SERVICES, LLC",
+    "recipient_id": "409db48f-4ace-26a3-5b52-6d6cebfed48a-C",
+    "amount": 339130769,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$339,130,769"
+  },
+  {
+    "rank": 29,
+    "recipient_name": "AEROJET ROCKETDYNE OF DE, INC",
+    "recipient_id": "f87ea7aa-b645-2932-36c2-e89cb4e9a016-C",
+    "amount": 334958206,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$334,958,206"
+  },
+  {
+    "rank": 30,
+    "recipient_name": "AEROVIRONMENT, INC.",
+    "recipient_id": "5c230f88-bf30-19f8-5853-79c1472f53a9-C",
+    "amount": 315685093,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$315,685,093"
+  },
+  {
+    "rank": 31,
+    "recipient_name": "ARMTEC DEFENSE PRODUCTS CO.",
+    "recipient_id": "f068550b-e1e7-c215-438a-337081922281-C",
+    "amount": 315300733,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$315,300,733"
+  },
+  {
+    "rank": 32,
+    "recipient_name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+    "recipient_id": "e5a4578f-af26-a940-ae73-aac74a0863aa-C",
+    "amount": 291905953,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$291,905,953"
+  },
+  {
+    "rank": 33,
+    "recipient_name": "NEW TECH SOLUTIONS, INC.",
+    "recipient_id": "e0f8746a-9a3b-810a-257a-cae2d63868da-C",
+    "amount": 281116655,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$281,116,655"
+  },
+  {
+    "rank": 34,
+    "recipient_name": "BARNARD SPENCER JOINT VENTURE",
+    "recipient_id": "eadbdb24-6a7b-473a-36b6-9e4d711f8825-C",
+    "amount": 266285875,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$266,285,875"
+  },
+  {
+    "rank": 35,
+    "recipient_name": "R.A. BURCH CONSTRUCTION CO., INC.",
+    "recipient_id": "e95b0a7d-46fe-db83-7a45-2377a4307a7e-C",
+    "amount": 259942738,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$259,942,738"
+  },
+  {
+    "rank": 36,
+    "recipient_name": "OSANG LLC",
+    "recipient_id": "79278455-f5f5-3c1e-a06b-5527dc536388-C",
+    "amount": 237000000,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$237,000,000"
+  },
+  {
+    "rank": 37,
+    "recipient_name": "BAE SYSTEMS SAN DIEGO SHIP REPAIR INC.",
+    "recipient_id": "e35a8de4-8796-4af3-56c6-9583f780ab11-C",
+    "amount": 224574218,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$224,574,218"
+  },
+  {
+    "rank": 38,
+    "recipient_name": "TECHFLOW, INC.",
+    "recipient_id": "5c0e234e-22eb-facb-f1ac-15f7644564b1-C",
+    "amount": 217957560,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$217,957,560"
+  },
+  {
+    "rank": 39,
+    "recipient_name": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+    "recipient_id": "20af0683-f17d-1f8f-38ee-2f11bd124559-C",
+    "amount": 210228488,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$210,228,488"
+  },
+  {
+    "rank": 40,
+    "recipient_name": "AMGEN USA INC",
+    "recipient_id": "c4a5ad8c-8508-57f1-d795-c77512f85fe9-C",
+    "amount": 204974385,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$204,974,385"
+  },
+  {
+    "rank": 41,
+    "recipient_name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+    "recipient_id": "f7392ad3-7b3f-619d-bad4-a8a48b0ba61e-C",
+    "amount": 189386250,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$189,386,250"
+  },
+  {
+    "rank": 42,
+    "recipient_name": "GRANITE CONSTRUCTION COMPANY",
+    "recipient_id": "5c5c255f-88aa-e029-7b17-f53d64e0734a-C",
+    "amount": 188728773,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$188,728,773"
+  },
+  {
+    "rank": 43,
+    "recipient_name": "THE RAND CORPORATION",
+    "recipient_id": "c2e789dd-a647-f435-a418-0a918163d623-C",
+    "amount": 188178986,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$188,178,986"
+  },
+  {
+    "rank": 44,
+    "recipient_name": "ANDURIL INDUSTRIES, INC.",
+    "recipient_id": "1869c03a-77bb-b66c-469b-988719bbec4c-C",
+    "amount": 182963943,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$182,963,943"
+  },
+  {
+    "rank": 45,
+    "recipient_name": "QUIDEL CORP",
+    "recipient_id": "076ba422-7a43-8988-5150-615651b1c5c2-C",
+    "amount": 181220596,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$181,220,596"
+  },
+  {
+    "rank": 46,
+    "recipient_name": "CHEVRON USA INC.",
+    "recipient_id": "deb1d465-49fc-877e-6f83-066c774fb2f5-C",
+    "amount": 179848991,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$179,848,991"
+  },
+  {
+    "rank": 47,
+    "recipient_name": "CONTINENTAL MARITIME OF SAN DIEGO, LLC",
+    "recipient_id": "29d2c9c0-7580-b0c5-7c34-39860e985811-C",
+    "amount": 174909086,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$174,909,086"
+  },
+  {
+    "rank": 48,
+    "recipient_name": "THE GEO GROUP, INC.",
+    "recipient_id": "9b308edb-a62c-659b-704b-ef4e5cf3f795-C",
+    "amount": 174255668,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$174,255,668"
+  },
+  {
+    "rank": 49,
+    "recipient_name": "KRATOS UNMANNED AERIAL SYSTEMS, INC",
+    "recipient_id": "50f9dcb6-f3c8-f75d-1ab2-1b380b024d65-C",
+    "amount": 171563525,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$171,563,525"
+  },
+  {
+    "rank": 50,
+    "recipient_name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+    "recipient_id": "a398e5f8-3381-5983-2fb6-c60a3f701eb4-C",
+    "amount": 171278538,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$171,278,538"
+  },
+  {
+    "rank": 51,
+    "recipient_name": "TECOLOTE RESEARCH, INC.",
+    "recipient_id": "d8f9524f-faae-66f1-0094-c37a117d7b3b-C",
+    "amount": 171021709,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$171,021,709"
+  },
+  {
+    "rank": 52,
+    "recipient_name": "A&R PACIFIC-GARNEY FEDERAL JV",
+    "recipient_id": "e497636d-b7d8-31ad-442e-04dfa436de36-C",
+    "amount": 154885873,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$154,885,873"
+  },
+  {
+    "rank": 53,
+    "recipient_name": "US FOODS INC",
+    "recipient_id": "8bde7cbd-4614-644d-2b0b-d6359e672090-C",
+    "amount": 150002404,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$150,002,404"
+  },
+  {
+    "rank": 54,
+    "recipient_name": "PALANTIR USG INC",
+    "recipient_id": "11a97fdb-cb3b-16d2-aa67-a0f7b265b4ae-C",
+    "amount": 149663479,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$149,663,479"
+  },
+  {
+    "rank": 55,
+    "recipient_name": "SERCO INC",
+    "recipient_id": "89bcff2a-2813-19f6-92a5-47dd33313207-C",
+    "amount": 149322185,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$149,322,185"
+  },
+  {
+    "rank": 56,
+    "recipient_name": "VALIANT GLOBAL DEFENSE SERVICES INC.",
+    "recipient_id": "3e8849bb-d4a7-c664-9900-3cc32c7d9f36-C",
+    "amount": 140681282,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$140,681,282"
+  },
+  {
+    "rank": 57,
+    "recipient_name": "LINQUEST CORPORATION",
+    "recipient_id": "94657412-ad9f-323d-a845-cf0021e8dfb7-C",
+    "amount": 140632103,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$140,632,103"
+  },
+  {
+    "rank": 58,
+    "recipient_name": "COASTAL PACIFIC FOOD DISTRIBUTORS, INC.",
+    "recipient_id": "089b15e7-4651-bd55-3235-079bdb343d34-C",
+    "amount": 139647063,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$139,647,063"
+  },
+  {
+    "rank": 59,
+    "recipient_name": "GILBANE FEDERAL",
+    "recipient_id": "d1f86443-3285-37ee-befe-b5aa1131a802-C",
+    "amount": 139363223,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$139,363,223"
+  },
+  {
+    "rank": 60,
+    "recipient_name": "WHITING-TURNER CONTRACTING COMPANY, THE",
+    "recipient_id": "71cf1e91-51f2-f450-1fe3-3576b19bb828-C",
+    "amount": 138962365,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$138,962,365"
+  },
+  {
+    "rank": 61,
+    "recipient_name": "PERATON ENTERPRISE SOLUTIONS LLC",
+    "recipient_id": "333909ba-42cf-a1ce-3959-1ede2882d7f6-C",
+    "amount": 135670659,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$135,670,659"
+  },
+  {
+    "rank": 62,
+    "recipient_name": "COVENANT AVIATION SECURITY, LLC",
+    "recipient_id": "9682eab3-634e-250b-f14f-f76ccda70f13-C",
+    "amount": 134211433,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$134,211,433"
+  },
+  {
+    "rank": 63,
+    "recipient_name": "HARPER CONSTRUCTION COMPANY, INC.",
+    "recipient_id": "bcc6c5bc-1af8-dd8c-f661-b7e35ae139bd-C",
+    "amount": 133382696,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$133,382,696"
+  },
+  {
+    "rank": 64,
+    "recipient_name": "STUTZ PACKING COMPANY",
+    "recipient_id": "d88fb2d1-be9f-57c3-22d0-a0ede33c7d16-C",
+    "amount": 131858255,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$131,858,255"
+  },
+  {
+    "rank": 65,
+    "recipient_name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+    "recipient_id": "0ca58ca0-62b6-202c-8fb2-08c05b07b900-C",
+    "amount": 131006192,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$131,006,192"
+  },
+  {
+    "rank": 66,
+    "recipient_name": "INTER-CON SECURITY SYSTEMS, INC.",
+    "recipient_id": "d980dbd4-7628-6bf4-7e48-301f8a222324-C",
+    "amount": 124090025,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$124,090,025"
+  },
+  {
+    "rank": 67,
+    "recipient_name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+    "recipient_id": "c19bef58-16e3-f32b-b699-25b3078161f8-C",
+    "amount": 123145640,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$123,145,640"
+  },
+  {
+    "rank": 68,
+    "recipient_name": "RQ CONSTRUCTION, LLC",
+    "recipient_id": "cfa69dd8-4b23-ff60-720d-4b32d819868b-C",
+    "amount": 122200591,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$122,200,591"
+  },
+  {
+    "rank": 69,
+    "recipient_name": "BAE SYSTEMS LAND & ARMAMENTS L.P.",
+    "recipient_id": "a84d5720-5f89-78de-f635-4c0bbd23dcff-C",
+    "amount": 121891341,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$121,891,341"
+  },
+  {
+    "rank": 70,
+    "recipient_name": "KORTE CONSTRUCTION COMPANY",
+    "recipient_id": "56a056b7-6afa-4ef0-a5a4-8e8e235c1f39-C",
+    "amount": 121404690,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$121,404,690"
+  },
+  {
+    "rank": 71,
+    "recipient_name": "AERO TURBINE, INC",
+    "recipient_id": "fe10576e-df5d-2921-c447-b394396f56de-C",
+    "amount": 120989660,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$120,989,660"
+  },
+  {
+    "rank": 72,
+    "recipient_name": "SRI INTERNATIONAL",
+    "recipient_id": "a43aff3e-a570-0cb9-f0e5-3f0b2cc7d6e9-C",
+    "amount": 119736930,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$119,736,930"
+  },
+  {
+    "rank": 73,
+    "recipient_name": "TIMKEN GEARS & SERVICES INC.",
+    "recipient_id": "76dce8c1-6f2b-c218-647c-286c22e004f0-C",
+    "amount": 119387344,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$119,387,344"
+  },
+  {
+    "rank": 74,
+    "recipient_name": "CORECIVIC, INC.",
+    "recipient_id": "b7ab6cd4-f511-cfe7-c92f-b20d45921e9c-C",
+    "amount": 119275488,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$119,275,488"
+  },
+  {
+    "rank": 75,
+    "recipient_name": "KBR SERVICES, LLC",
+    "recipient_id": "77b600af-8a01-de99-cfcc-06558d83a984-C",
+    "amount": 118646428,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$118,646,428"
+  },
+  {
+    "rank": 76,
+    "recipient_name": "FOLSOM DAM CONSTRUCTORS",
+    "recipient_id": "a1260ac0-adc1-a6ca-8a61-8d82327d5af1-C",
+    "amount": 114160417,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$114,160,417"
+  },
+  {
+    "rank": 77,
+    "recipient_name": "ALLIANT TECHSYSTEMS OPERATIONS LLC",
+    "recipient_id": "e9c32d8f-2650-128f-4ba1-a806aadfdffc-C",
+    "amount": 111748594,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$111,748,594"
+  },
+  {
+    "rank": 78,
+    "recipient_name": "L3HARRIS INTERSTATE ELECTRONICS CORPORATION",
+    "recipient_id": "4f89ba1c-2595-d485-3052-97cecae4f1b4-C",
+    "amount": 111234675,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$111,234,675"
+  },
+  {
+    "rank": 79,
+    "recipient_name": "MARVIN LAND SYSTEMS, INC.",
+    "recipient_id": "bbdd0102-76ef-7b2c-e456-019825ed6281-C",
+    "amount": 109547268,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$109,547,268"
+  },
+  {
+    "rank": 80,
+    "recipient_name": "THE BOEING COMPANY",
+    "recipient_id": "2bf5d203-604f-4c6c-7c7b-4ad81a350613-C",
+    "amount": 102222285,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$102,222,285"
+  },
+  {
+    "rank": 81,
+    "recipient_name": "MARE ISLAND DRY DOCK LLC",
+    "recipient_id": "0773bb37-1077-5638-a0b5-6182225430a2-C",
+    "amount": 98173999,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$98,173,999"
+  },
+  {
+    "rank": 82,
+    "recipient_name": "ACUMEN LLC",
+    "recipient_id": "43b6a6cc-9216-fae5-3cba-fffd776feb1c-C",
+    "amount": 95218094,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$95,218,094"
+  },
+  {
+    "rank": 83,
+    "recipient_name": "PARAGON SYSTEMS INC",
+    "recipient_id": "9d4208db-18a5-67fc-43ec-1232c608ede7-C",
+    "amount": 94648068,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$94,648,068"
+  },
+  {
+    "rank": 84,
+    "recipient_name": "BLUE TECH INC.",
+    "recipient_id": "1d2b86ed-22ef-ab63-ef2c-787925497c54-C",
+    "amount": 94415328,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$94,415,328"
+  },
+  {
+    "rank": 85,
+    "recipient_name": "DYNAMIC SYSTEMS INC",
+    "recipient_id": "b3f4a970-826f-4d84-8f0f-3b66cffeb27d-C",
+    "amount": 93183180,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$93,183,180"
+  },
+  {
+    "rank": 86,
+    "recipient_name": "VETERANS EZ INFO INC.",
+    "recipient_id": "ec9ccf31-7869-05d6-9acf-2e7bcef863f9-C",
+    "amount": 89131903,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$89,131,903"
+  },
+  {
+    "rank": 87,
+    "recipient_name": "PHYSICAL OPTICS CORPORATION",
+    "recipient_id": "82c454a3-9e88-f324-7db4-336a916b9ef1-C",
+    "amount": 87896386,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$87,896,386"
+  },
+  {
+    "rank": 88,
+    "recipient_name": "BCSS, LLC",
+    "recipient_id": "d0951686-82e8-9e97-3dff-d35627baf9bf-C",
+    "amount": 86549033,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$86,549,033"
+  },
+  {
+    "rank": 89,
+    "recipient_name": "BARUPON L. L. C.",
+    "recipient_id": "196ebfb5-b607-128c-f4cd-ff3ec474cd67-C",
+    "amount": 86400000,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$86,400,000"
+  },
+  {
+    "rank": 90,
+    "recipient_name": "HUNTINGTON INGALLS INC",
+    "recipient_id": "dde47d6b-a165-dbed-d5bd-a6e55ca6e591-C",
+    "amount": 81748043,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$81,748,043"
+  },
+  {
+    "rank": 91,
+    "recipient_name": "ENVIRONMENTAL SYSTEMS RESEARCH INSTITUTE, INC.",
+    "recipient_id": "45bf6ddc-7dc3-00c3-f635-ce8c18e09f72-C",
+    "amount": 80137405,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$80,137,405"
+  },
+  {
+    "rank": 92,
+    "recipient_name": "AECOM TECHNICAL SERVICES, INC.",
+    "recipient_id": "5613b50e-28cb-41f8-331e-2fc18e08b0ae-C",
+    "amount": 79035403,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$79,035,403"
+  },
+  {
+    "rank": 93,
+    "recipient_name": "LOCKHEED MARTIN CORPORATION",
+    "recipient_id": "4de935fd-7eb9-654c-bd76-c9bd3a6943db-C",
+    "amount": 77777228,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$77,777,228"
+  },
+  {
+    "rank": 94,
+    "recipient_name": "HII FLEET SUPPORT GROUP LLC",
+    "recipient_id": "670bf984-b000-9ce3-4c3a-032ca41b44b9-C",
+    "amount": 77075975,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$77,075,975"
+  },
+  {
+    "rank": 95,
+    "recipient_name": "MATSON NAVIGATION COMPANY, INC.",
+    "recipient_id": "ec2dec13-0c9c-6f7c-dc27-b904eddb1d9c-C",
+    "amount": 75998255,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$75,998,255"
+  },
+  {
+    "rank": 96,
+    "recipient_name": "WOODWARD HRT INC",
+    "recipient_id": "7aa85776-5212-16db-493d-98df26b69f1c-C",
+    "amount": 74938975,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$74,938,975"
+  },
+  {
+    "rank": 97,
+    "recipient_name": "SAN RAFAEL ROCK QUARRY, INC.",
+    "recipient_id": "d92052b7-2175-569e-4bd7-246714076bb6-C",
+    "amount": 73863110,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$73,863,110"
+  },
+  {
+    "rank": 98,
+    "recipient_name": "PERATON INC.",
+    "recipient_id": "129fccb1-783c-9fd1-7b6d-6ddea65ace79-C",
+    "amount": 72559245,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$72,559,245"
+  },
+  {
+    "rank": 99,
+    "recipient_name": "ENVIRONMENTAL CHEMICAL CORPORATION",
+    "recipient_id": "3fedc592-5502-0e53-31ff-39d5ab0406d2-C",
+    "amount": 70563345,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$70,563,345"
+  },
+  {
+    "rank": 100,
+    "recipient_name": "EPSILON SYSTEMS SOLUTIONS, INC.",
+    "recipient_id": "416fc7fe-e557-dfc5-5c9d-dd27cfb46f89-C",
+    "amount": 70086823,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$70,086,823"
+  },
+  {
+    "rank": 101,
+    "recipient_name": "PACIFIC COAST PRODUCERS",
+    "recipient_id": "c273eb48-d122-a5f1-8037-040e89c0d237-C",
+    "amount": 68865390,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$68,865,390"
+  },
+  {
+    "rank": 102,
+    "recipient_name": "AVMAC LLC",
+    "recipient_id": "c2cc41cf-6a78-992c-bf83-0f8c071a65bb-C",
+    "amount": 68397434,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$68,397,434"
+  },
+  {
+    "rank": 103,
+    "recipient_name": "MALONEY-ODIN A JOINT VENTURE",
+    "recipient_id": "93edad0c-fdd6-7472-5571-aa8865d49c75-C",
+    "amount": 68022362,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$68,022,362"
+  },
+  {
+    "rank": 104,
+    "recipient_name": "CUBIC DEFENSE APPLICATIONS, INC.",
+    "recipient_id": "903ec4a1-abb7-3657-dd3e-1107aff7716b-C",
+    "amount": 66880110,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$66,880,110"
+  },
+  {
+    "rank": 105,
+    "recipient_name": "MANAGEMENT & TRAINING CORPORATION",
+    "recipient_id": "05d0fd70-3b91-2efe-b533-5d973d1ea671-C",
+    "amount": 66830739,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$66,830,739"
+  },
+  {
+    "rank": 106,
+    "recipient_name": "SOUTHCOAST WELDING & MANUFACTURING, LLC.",
+    "recipient_id": "e4b88b62-428b-0455-ade8-77e78c5e9480-C",
+    "amount": 66191528,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$66,191,528"
+  },
+  {
+    "rank": 107,
+    "recipient_name": "NOBLIS MSD LLC",
+    "recipient_id": "87eece72-8061-08ca-700e-35ed445c5fd6-C",
+    "amount": 65930270,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$65,930,270"
+  },
+  {
+    "rank": 108,
+    "recipient_name": "DELOITTE CONSULTING LLP",
+    "recipient_id": "92663aec-4451-0476-502b-d8c6919e98e0-C",
+    "amount": 65180657,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$65,180,657"
+  },
+  {
+    "rank": 109,
+    "recipient_name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+    "recipient_id": "268e592a-4851-0f22-aec6-351a0a0590c9-C",
+    "amount": 65016674,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$65,016,674"
+  },
+  {
+    "rank": 110,
+    "recipient_name": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE",
+    "recipient_id": "2f14ac11-bc8d-d1e9-d103-1585414b0792-C",
+    "amount": 64446083,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$64,446,083"
+  },
+  {
+    "rank": 111,
+    "recipient_name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+    "recipient_id": "99b7ee6b-29ca-7741-022d-68dfdcac76b2-C",
+    "amount": 63986839,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$63,986,839"
+  },
+  {
+    "rank": 112,
+    "recipient_name": "BECKMAN COULTER, INC",
+    "recipient_id": "790cc276-b1e8-5d50-e48e-4b2a8304b4b5-C",
+    "amount": 63847766,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$63,847,766"
+  },
+  {
+    "rank": 113,
+    "recipient_name": "LOCKHEED MARTIN CORPORATION",
+    "recipient_id": "695d5739-ecc3-8484-ba2b-f9c8b4652a4a-C",
+    "amount": 62003908,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$62,003,908"
+  },
+  {
+    "rank": 114,
+    "recipient_name": "L3 TECHNOLOGIES, INC.",
+    "recipient_id": "606f4467-422c-94b5-1049-c6d0641babdb-C",
+    "amount": 61513365,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$61,513,365"
+  },
+  {
+    "rank": 115,
+    "recipient_name": "CEPHEID",
+    "recipient_id": "f6397cdb-c833-3628-6fb3-a38803b567f6-C",
+    "amount": 61449430,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$61,449,430"
+  },
+  {
+    "rank": 116,
+    "recipient_name": "VIR BIOTECHNOLOGY, INC.",
+    "recipient_id": "2527cdd8-b186-d899-476d-86c1ef04ebc2-C",
+    "amount": 61300401,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$61,300,401"
+  },
+  {
+    "rank": 117,
+    "recipient_name": "UNIVERSITY OF SOUTHERN CALIFORNIA",
+    "recipient_id": "56e7333e-38ec-5402-80b8-4d50309afb4c-C",
+    "amount": 61123316,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$61,123,316"
+  },
+  {
+    "rank": 118,
+    "recipient_name": "MAPP BIOPHARMACEUTICAL, INC.",
+    "recipient_id": "4f1fb6c4-c787-fe5c-c54b-647a97fb46d0-C",
+    "amount": 60547927,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$60,547,927"
+  },
+  {
+    "rank": 119,
+    "recipient_name": "GLOBAL PCCI (GPC)",
+    "recipient_id": "69fe7ed1-0e71-d263-6272-c1e9c32fb605-C",
+    "amount": 60426912,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$60,426,912"
+  },
+  {
+    "rank": 120,
+    "recipient_name": "SOUTHWEST CONCRETE PAVING CO",
+    "recipient_id": "49418c82-1205-7e57-bb12-d95d46fae80c-C",
+    "amount": 59830000,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$59,830,000"
+  },
+  {
+    "rank": 121,
+    "recipient_name": "COAST CITRUS DISTRIBUTORS",
+    "recipient_id": "2c172f36-ceba-9ffc-cc2c-c8a2af106eec-C",
+    "amount": 59444265,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$59,444,265"
+  },
+  {
+    "rank": 122,
+    "recipient_name": "AEROVIRONMENT, INC.",
+    "recipient_id": "2a80bcad-447f-ea4d-89ad-31b8dab4c2ca-C",
+    "amount": 59264440,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$59,264,440"
+  },
+  {
+    "rank": 123,
+    "recipient_name": "ANACAPA MICRO PRODUCTS, INC.",
+    "recipient_id": "a7060a5f-e8f7-e482-ceb4-e7f97a3ed5cb-C",
+    "amount": 59207666,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$59,207,666"
+  },
+  {
+    "rank": 124,
+    "recipient_name": "BAE SYSTEMS INFORMATION AND ELECTRONIC SYSTEMS INTEGRATION INC.",
+    "recipient_id": "3aadb63a-54fd-526c-ec7e-f2d1e63d8112-C",
+    "amount": 57246633,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$57,246,633"
+  },
+  {
+    "rank": 125,
+    "recipient_name": "BWI TPC, A JOINT VENTURE",
+    "recipient_id": "4304bd9c-7425-84a3-f4c7-269da35619a1-C",
+    "amount": 56854528,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$56,854,528"
+  },
+  {
+    "rank": 126,
+    "recipient_name": "CENTURUM INFORMATION TECHNOLOGY INC",
+    "recipient_id": "3419e335-8cd1-a67d-f94f-ea5cd3241f1d-C",
+    "amount": 56344398,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$56,344,398"
+  },
+  {
+    "rank": 127,
+    "recipient_name": "MERCURY MISSION SYSTEMS LLC",
+    "recipient_id": "cbeb9690-1ae1-a3f0-c85f-397dccde3d96-C",
+    "amount": 56297621,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$56,297,621"
+  },
+  {
+    "rank": 128,
+    "recipient_name": "AXIENT LLC",
+    "recipient_id": "e4f80b7a-5e27-decc-84ee-2790e8737c62-C",
+    "amount": 56204223,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$56,204,223"
+  },
+  {
+    "rank": 129,
+    "recipient_name": "L3 TECHNOLOGIES, INC.",
+    "recipient_id": "757f5f3f-542b-122c-f71b-77c4962d5b40-C",
+    "amount": 56161455,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$56,161,455"
+  },
+  {
+    "rank": 130,
+    "recipient_name": "GOODMAN FOOD PRODUCTS, INC.",
+    "recipient_id": "49aadac4-4e93-88e0-6e52-f6425f0ad1fd-C",
+    "amount": 55333158,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$55,333,158"
+  },
+  {
+    "rank": 131,
+    "recipient_name": "APTIM FEDERAL SERVICES, LLC",
+    "recipient_id": "c5912817-ed0a-c755-b348-a6281e8c41cc-C",
+    "amount": 55184258,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$55,184,258"
+  },
+  {
+    "rank": 132,
+    "recipient_name": "FACILITY SERVICES MANAGEMENT, INC.",
+    "recipient_id": "4e915553-ed26-487c-6947-56d0f877d701-C",
+    "amount": 54466235,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$54,466,235"
+  },
+  {
+    "rank": 133,
+    "recipient_name": "LOCKHEED MARTIN CORPORATION",
+    "recipient_id": "687c4cc7-53f1-d028-875d-2fc73de19122-C",
+    "amount": 52994275,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$52,994,275"
+  },
+  {
+    "rank": 134,
+    "recipient_name": "MANSON CONSTRUCTION CO",
+    "recipient_id": "54aa8711-d13e-9d80-45f0-605318253bc6-C",
+    "amount": 52897563,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$52,897,563"
+  },
+  {
+    "rank": 135,
+    "recipient_name": "LEIDOS, INC.",
+    "recipient_id": "876f1621-8b69-d47c-7fa6-933c63b9da44-C",
+    "amount": 52475855,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$52,475,855"
+  },
+  {
+    "rank": 136,
+    "recipient_name": "FRUTA ROYAL, LLC",
+    "recipient_id": "5895868f-6671-4582-3fe0-c666226b5b48-C",
+    "amount": 51909768,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$51,909,768"
+  },
+  {
+    "rank": 137,
+    "recipient_name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+    "recipient_id": "b8c50d24-c4c4-e4d8-e427-7b995601fd88-C",
+    "amount": 51659095,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$51,659,095"
+  },
+  {
+    "rank": 138,
+    "recipient_name": "GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC.",
+    "recipient_id": "455555be-773d-eab1-1e6b-7b94400b757e-C",
+    "amount": 51578415,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$51,578,415"
+  },
+  {
+    "rank": 139,
+    "recipient_name": "RAYTHEON COMPANY",
+    "recipient_id": "fd6c0b5b-39dc-0e68-64e3-aa4534c5d07f-C",
+    "amount": 51003476,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$51,003,476"
+  },
+  {
+    "rank": 140,
+    "recipient_name": "CENTRAL VALLEY MEAT CO., INC.",
+    "recipient_id": "562e02cd-f995-bb32-e730-4a413d1b34ae-C",
+    "amount": 50183764,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$50,183,764"
+  },
+  {
+    "rank": 141,
+    "recipient_name": "BRICE BUILDERS, LLC",
+    "recipient_id": "be44c577-4b75-ace0-3d33-2493d47da2b6-C",
+    "amount": 50043967,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$50,043,967"
+  },
+  {
+    "rank": 142,
+    "recipient_name": "SOLUTE",
+    "recipient_id": "844e5879-42f8-f731-c252-f6a1b6ef129b-C",
+    "amount": 49745259,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$49,745,259"
+  },
+  {
+    "rank": 143,
+    "recipient_name": "ONTIC ENGINEERING & MANUFACTURING, INC",
+    "recipient_id": "ab12935d-67ef-f52a-a8f5-715f575d4151-C",
+    "amount": 49235920,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$49,235,920"
+  },
+  {
+    "rank": 144,
+    "recipient_name": "RAYTHEON COMPANY",
+    "recipient_id": "0937c7a9-37f0-28fd-5706-d1450484463b-C",
+    "amount": 49157666,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$49,157,666"
+  },
+  {
+    "rank": 145,
+    "recipient_name": "KINDER MORGAN TANK STORAGE TERMINALS LLC",
+    "recipient_id": "a5629d69-2e78-3475-4b47-5287a02ed7cc-C",
+    "amount": 48682268,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$48,682,268"
+  },
+  {
+    "rank": 146,
+    "recipient_name": "INSIGHT ENVIRONMENTAL ENGINEERING & CONSTRUCTION, INC.",
+    "recipient_id": "8ba80591-a539-2485-baa2-40ea5973ee79-C",
+    "amount": 48574257,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$48,574,257"
+  },
+  {
+    "rank": 147,
+    "recipient_name": "CALIFORNIA INSTITUTE OF TECHNOLOGY",
+    "recipient_id": "74bac010-0a24-8f82-8021-0fa16ab4bc6d-C",
+    "amount": 47976255,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$47,976,255"
+  },
+  {
+    "rank": 148,
+    "recipient_name": "INTUITIVE SURGICAL INC",
+    "recipient_id": "8e28d0b8-5297-7835-1f69-8fce707daf27-C",
+    "amount": 47541786,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$47,541,786"
+  },
+  {
+    "rank": 149,
+    "recipient_name": "PERFORMANT RECOVERY, INC.",
+    "recipient_id": "69f19cf4-0577-a5bb-0852-a462fc965321-C",
+    "amount": 47532059,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$47,532,059"
+  },
+  {
+    "rank": 150,
+    "recipient_name": "SEVATEC LLC",
+    "recipient_id": "9f6bbc75-a556-15ed-3c5a-150eb76b477a-C",
+    "amount": 47030806,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$47,030,806"
+  },
+  {
+    "rank": 151,
+    "recipient_name": "CYNERGY PROFESSIONAL SYSTEMS LLC",
+    "recipient_id": "c37ed355-cb9c-bbe3-b51e-f1e8e6fb9923-C",
+    "amount": 46620469,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$46,620,469"
+  },
+  {
+    "rank": 152,
+    "recipient_name": "NOVA GROUP, INC.",
+    "recipient_id": "f96b6645-bd05-9f9f-ec11-f9c82aae3c2b-C",
+    "amount": 45936129,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$45,936,129"
+  },
+  {
+    "rank": 153,
+    "recipient_name": "CENTERRA GROUP, LLC",
+    "recipient_id": "170470f0-8d47-72dd-c09c-8affb0d48e5b-C",
+    "amount": 45622119,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$45,622,119"
+  },
+  {
+    "rank": 154,
+    "recipient_name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+    "recipient_id": "2035a629-ce00-2f40-97a9-433ae84eb2f9-C",
+    "amount": 45565006,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$45,565,006"
+  },
+  {
+    "rank": 155,
+    "recipient_name": "HELIX OPCO LLC",
+    "recipient_id": "7954d749-5a93-d738-3134-e86e0fbaade7-C",
+    "amount": 45475768,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$45,475,768"
+  },
+  {
+    "rank": 156,
+    "recipient_name": "AVON PROTECTION CERADYNE LLC",
+    "recipient_id": "796513db-bd7a-2ce0-18ab-701d70259198-C",
+    "amount": 44262802,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$44,262,802"
+  },
+  {
+    "rank": 157,
+    "recipient_name": "OMNICELL, INC.",
+    "recipient_id": "567c857c-8d91-d6b1-2f6d-9161d3dece3c-C",
+    "amount": 43587123,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$43,587,123"
+  },
+  {
+    "rank": 158,
+    "recipient_name": "HIGHBURY DEFENSE GROUP",
+    "recipient_id": "0001da08-d780-9a2e-58a8-e428f09b6a4c-C",
+    "amount": 43410521,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$43,410,521"
+  },
+  {
+    "rank": 159,
+    "recipient_name": "INDUS TECHNOLOGY INC",
+    "recipient_id": "777e9dc7-3caa-887c-ed27-f4f4f85bb878-C",
+    "amount": 43389183,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$43,389,183"
+  },
+  {
+    "rank": 160,
+    "recipient_name": "GUIDRY LIASON GROUP, INC.",
+    "recipient_id": "184f8390-9310-25b9-e4a0-da9b82d89ad3-C",
+    "amount": 43382806,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$43,382,806"
+  },
+  {
+    "rank": 161,
+    "recipient_name": "CERTIFIED STAINLESS SERVICE INC.",
+    "recipient_id": "4afc33f6-e519-9bc2-b41d-b6ba1da14a01-C",
+    "amount": 43054795,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$43,054,795"
+  },
+  {
+    "rank": 162,
+    "recipient_name": "LIFE TECHNOLOGIES CORPORATION",
+    "recipient_id": "d4fcadd5-c9fc-e78a-9465-e075ee069a08-C",
+    "amount": 42769378,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$42,769,378"
+  },
+  {
+    "rank": 163,
+    "recipient_name": "JOB OPTIONS, INCORPORATED",
+    "recipient_id": "ae0121e7-7932-2a00-39af-8191c0d8d621-C",
+    "amount": 42579862,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$42,579,862"
+  },
+  {
+    "rank": 164,
+    "recipient_name": "DCS CORPORATION",
+    "recipient_id": "6eb1a41a-0f06-b7ec-39f3-5c94f8248a6a-C",
+    "amount": 42277125,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$42,277,125"
+  },
+  {
+    "rank": 165,
+    "recipient_name": "AMENTUM SERVICES, INC.",
+    "recipient_id": "fe5366b4-84c8-12ff-126f-f123de29819c-C",
+    "amount": 41971562,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$41,971,562"
+  },
+  {
+    "rank": 166,
+    "recipient_name": "TACTICAL ENGINEERING & ANALYSIS, INC.",
+    "recipient_id": "3ca04162-697c-3bb0-e963-ecf1dcad7a7b-C",
+    "amount": 41859408,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$41,859,408"
+  },
+  {
+    "rank": 167,
+    "recipient_name": "USFI, INC.",
+    "recipient_id": "d22d0b17-ab40-eb95-4494-996ce7af378e-C",
+    "amount": 41490225,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$41,490,225"
+  },
+  {
+    "rank": 168,
+    "recipient_name": "DEL MAR FOOD PRODUCTS CORP.",
+    "recipient_id": "793ad60c-f502-7b66-1687-13fd17b759cc-C",
+    "amount": 41039961,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$41,039,961"
+  },
+  {
+    "rank": 169,
+    "recipient_name": "COFFMAN SPECIALTIES, INC.",
+    "recipient_id": "fcba7cbd-b1b3-5be8-d21b-86c606002481-C",
+    "amount": 40996248,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$40,996,248"
+  },
+  {
+    "rank": 170,
+    "recipient_name": "GENERAL DYNAMICS MISSION SYSTEMS, INC.",
+    "recipient_id": "b2d89a5f-9cb0-1d9e-ced9-0d379873ccf1-C",
+    "amount": 40973674,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$40,973,674"
+  },
+  {
+    "rank": 171,
+    "recipient_name": "SAPUTO CHEESE USA INC",
+    "recipient_id": "ca091e19-2348-5dce-42eb-e5b19bcb7cc8-C",
+    "amount": 40642644,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$40,642,644"
+  },
+  {
+    "rank": 172,
+    "recipient_name": "PRIDE INDUSTRIES",
+    "recipient_id": "9dd5847b-4e5b-1699-ce7c-e78a4cacdc83-C",
+    "amount": 40572533,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$40,572,533"
+  },
+  {
+    "rank": 173,
+    "recipient_name": "TOYON RESEARCH CORPORATION",
+    "recipient_id": "07260464-657f-c800-4010-c69e124ec72e-C",
+    "amount": 40494215,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$40,494,215"
+  },
+  {
+    "rank": 174,
+    "recipient_name": "RAYTHEON COMPANY",
+    "recipient_id": "1fbbbecd-2f1a-6d4d-6b1c-5fa1ef63ebc6-C",
+    "amount": 40357383,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$40,357,383"
+  },
+  {
+    "rank": 175,
+    "recipient_name": "WAWONA FROZEN FOODS INC",
+    "recipient_id": "fd141948-f99b-b798-9ffc-1f69443c3c77-C",
+    "amount": 40309842,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$40,309,842"
+  },
+  {
+    "rank": 176,
+    "recipient_name": "AEROVIRONMENT, INC.",
+    "recipient_id": "e81133c0-b7fc-c8d2-33d3-c9e6288946d0-C",
+    "amount": 40146371,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$40,146,371"
+  },
+  {
+    "rank": 177,
+    "recipient_name": "CH2M HILL, INC",
+    "recipient_id": "dc0fcb13-4321-5205-e8c5-83821fb199bd-C",
+    "amount": 40083286,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$40,083,286"
+  },
+  {
+    "rank": 178,
+    "recipient_name": "HERBACK GENERAL ENGINEERING LLC",
+    "recipient_id": "9974c3b6-a61e-6046-567d-db87e8aa065a-C",
+    "amount": 39733464,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$39,733,464"
+  },
+  {
+    "rank": 179,
+    "recipient_name": "HUMAN RESOURCES RESEARCH ORGANIZATION (HUMRRO)",
+    "recipient_id": "f99f60d8-080d-88e9-3059-c8b0c55815c8-C",
+    "amount": 39563671,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$39,563,671"
+  },
+  {
+    "rank": 180,
+    "recipient_name": "CANON MEDICAL SYSTEMS USA, INC",
+    "recipient_id": "819a698f-debc-805d-90bf-b64413f35fdc-C",
+    "amount": 39563433,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$39,563,433"
+  },
+  {
+    "rank": 181,
+    "recipient_name": "VSOLVIT LLC",
+    "recipient_id": "d6e1cadf-a771-d1b0-c1ec-fe1a6c983369-C",
+    "amount": 39462517,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$39,462,517"
+  },
+  {
+    "rank": 182,
+    "recipient_name": "CLINICOMP INTERNATIONAL INC",
+    "recipient_id": "ce769182-7e67-b8c3-9039-0690b97b5573-C",
+    "amount": 39269656,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$39,269,656"
+  },
+  {
+    "rank": 183,
+    "recipient_name": "CAREER SYSTEMS DEVELOPMENT CORPORATION",
+    "recipient_id": "d5331d20-132d-eb3c-c3f4-8b7b29d46078-C",
+    "amount": 39263073,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$39,263,073"
+  },
+  {
+    "rank": 184,
+    "recipient_name": "KRATOS TECHNOLOGY & TRAINING SOLUTIONS, INC.",
+    "recipient_id": "919f88f6-b5cf-feac-7300-0fc4d72b79a1-C",
+    "amount": 38675142,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$38,675,142"
+  },
+  {
+    "rank": 185,
+    "recipient_name": "ANSIBLE GOVERNMENT SOLUTIONS LLC",
+    "recipient_id": "ba818f6b-7043-e410-2aba-d1802ba9776c-C",
+    "amount": 38568574,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$38,568,574"
+  },
+  {
+    "rank": 186,
+    "recipient_name": "LEIDOS, INC.",
+    "recipient_id": "0bf701d6-8935-ff83-f538-61a988d9e121-C",
+    "amount": 38566421,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$38,566,421"
+  },
+  {
+    "rank": 187,
+    "recipient_name": "NORDIC INDUSTRIES INC",
+    "recipient_id": "5f0c6bff-338a-8d31-cf49-1da2dff11b6a-C",
+    "amount": 38474404,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$38,474,404"
+  },
+  {
+    "rank": 188,
+    "recipient_name": "FORGELINE SOLUTIONS, INC.",
+    "recipient_id": "e64b3a46-a764-d54e-67eb-3b4aedc8a17c-C",
+    "amount": 37870732,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$37,870,732"
+  },
+  {
+    "rank": 189,
+    "recipient_name": "PARSONS GOVERNMENT SERVICES INC.",
+    "recipient_id": "cb0d434a-9ad7-93b5-09dc-6067d8c45d71-C",
+    "amount": 37422891,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$37,422,891"
+  },
+  {
+    "rank": 190,
+    "recipient_name": "SUN VALLEY RAISINS, INC., A CALIFORNIA CORPORATION",
+    "recipient_id": "aaafb951-d9c2-8919-5f51-66ecbed04a92-C",
+    "amount": 37384410,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$37,384,410"
+  },
+  {
+    "rank": 191,
+    "recipient_name": "L3 TECHNOLOGIES, INC.",
+    "recipient_id": "b09dcd04-a8c9-ee78-bf74-30e428504408-C",
+    "amount": 37031238,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$37,031,238"
+  },
+  {
+    "rank": 192,
+    "recipient_name": "CERUS CORPORATION",
+    "recipient_id": "53ae94ef-a01e-284d-5bb2-7a3eb703d600-C",
+    "amount": 36717487,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$36,717,487"
+  },
+  {
+    "rank": 193,
+    "recipient_name": "HEFFLER CONTRACTING GROUP",
+    "recipient_id": "fdb81713-2eda-cc8f-4fc6-3ff38885d12a-C",
+    "amount": 36705334,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$36,705,334"
+  },
+  {
+    "rank": 194,
+    "recipient_name": "AIRBORNE SYSTEMS NORTH AMERICA OF CA INC",
+    "recipient_id": "ec2cc1fc-c61f-23eb-1d50-0d9e2a0cc429-C",
+    "amount": 36703122,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$36,703,122"
+  },
+  {
+    "rank": 195,
+    "recipient_name": "GUSTAV KEONI",
+    "recipient_id": "7029056c-0322-65b5-dd3d-29037c933da3-C",
+    "amount": 36627691,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$36,627,691"
+  },
+  {
+    "rank": 196,
+    "recipient_name": "J. W. BAMFORD, INC.",
+    "recipient_id": "f1bb8397-e83c-0d50-998a-f10b998292d3-C",
+    "amount": 36600320,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$36,600,320"
+  },
+  {
+    "rank": 197,
+    "recipient_name": "KAISER FOUNDATION HOSPITALS",
+    "recipient_id": "d192652e-3551-3991-1674-6885c846fff2-C",
+    "amount": 36578318,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$36,578,318"
+  },
+  {
+    "rank": 198,
+    "recipient_name": "EPSILON SYSTEMS SOLUTIONS INC",
+    "recipient_id": "1183a32d-d5b7-6285-7900-ec42dd748cf6-C",
+    "amount": 35780389,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$35,780,389"
+  },
+  {
+    "rank": 199,
+    "recipient_name": "PACIFIC SCIENTIFIC ENERGETIC MATERIALS COMPANY (CALIFORNIA LLC)",
+    "recipient_id": "ee97c44e-d0b6-2b44-2e17-46358cae439e-C",
+    "amount": 35704871,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$35,704,871"
+  },
+  {
+    "rank": 200,
+    "recipient_name": "TALION CONSTRUCTION, LLC",
+    "recipient_id": "e40ea0e3-9f18-acca-f53e-217c312321d0-C",
+    "amount": 35239085,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$35,239,085"
+  },
+  {
+    "rank": 201,
+    "recipient_name": "T-SOLUTIONS, INC.",
+    "recipient_id": "de8817e6-2c79-5aa4-53fb-c5d1f1bc346e-C",
+    "amount": 35082222,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$35,082,222"
+  },
+  {
+    "rank": 202,
+    "recipient_name": "GRYPHON TECHNOLOGIES, L.C.",
+    "recipient_id": "6b80c5f1-4c25-b0e4-3b22-1305de8fe9d2-C",
+    "amount": 35069549,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$35,069,549"
+  },
+  {
+    "rank": 203,
+    "recipient_name": "CIVITASDX LLC",
+    "recipient_id": "e99b6217-6d70-b465-5969-31b71b53eea9-C",
+    "amount": 34913331,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$34,913,331"
+  },
+  {
+    "rank": 204,
+    "recipient_name": "MANTECH ADVANCED SYSTEMS INTERNATIONAL, INC.",
+    "recipient_id": "ceac1920-9ceb-17a6-9bf7-026817a02917-C",
+    "amount": 34367812,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$34,367,812"
+  },
+  {
+    "rank": 205,
+    "recipient_name": "DESIGN WEST TECHNOLOGIES INC",
+    "recipient_id": "13d86d3b-7429-dd2e-bece-a0ad488910fd-C",
+    "amount": 34194169,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$34,194,169"
+  },
+  {
+    "rank": 206,
+    "recipient_name": "INN FOODS INC",
+    "recipient_id": "47652ac9-782a-4547-9fd7-c612f24e7c29-C",
+    "amount": 34062227,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$34,062,227"
+  },
+  {
+    "rank": 207,
+    "recipient_name": "AMERICAN BEEF PACKERS, INC.",
+    "recipient_id": "89f8cadc-1d5b-cd06-bc7c-d06f37884c2b-C",
+    "amount": 33995322,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$33,995,322"
+  },
+  {
+    "rank": 208,
+    "recipient_name": "SOUTHERN CALIFORNIA GAS COMPANY",
+    "recipient_id": "13360204-f2e1-217a-1f4d-6b068581d243-C",
+    "amount": 33867019,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$33,867,019"
+  },
+  {
+    "rank": 209,
+    "recipient_name": "XTEC, INCORPORATED",
+    "recipient_id": "95ca8cd1-c388-def2-9dd7-04eb33ca1ed7-C",
+    "amount": 33625168,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$33,625,168"
+  },
+  {
+    "rank": 210,
+    "recipient_name": "INNOVASYSTEMS INTERNATIONAL LLC",
+    "recipient_id": "4f3dc58f-d761-0309-5486-32345cf7a60a-C",
+    "amount": 33333174,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$33,333,174"
+  },
+  {
+    "rank": 211,
+    "recipient_name": "FLATIRON-DRAGADOS-SUKUT JOINT VENTURE",
+    "recipient_id": "2db66f73-6e45-5292-06ea-e6ee40e52b70-C",
+    "amount": 33311074,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$33,311,074"
+  },
+  {
+    "rank": 212,
+    "recipient_name": "FORWARD SLOPE INC",
+    "recipient_id": "19536927-e7e4-614d-fd96-ab48277c0e3c-C",
+    "amount": 33263574,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$33,263,574"
+  },
+  {
+    "rank": 213,
+    "recipient_name": "KBR WYLE SERVICES, LLC",
+    "recipient_id": "b64b25d0-9da4-7452-c6b9-2366de8df9d3-C",
+    "amount": 33241116,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$33,241,116"
+  },
+  {
+    "rank": 214,
+    "recipient_name": "RRDS INC",
+    "recipient_id": "1186194a-aad6-7bf5-5a15-7f82bfedbc12-C",
+    "amount": 33187699,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$33,187,699"
+  },
+  {
+    "rank": 215,
+    "recipient_name": "PEARL CROP, INC.",
+    "recipient_id": "8b58bcc3-ea6c-2833-658c-8293a01e6310-C",
+    "amount": 33110190,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$33,110,190"
+  },
+  {
+    "rank": 216,
+    "recipient_name": "AGILE SIX APPLICATIONS, INC",
+    "recipient_id": "dc0f2c89-d77b-11ee-cb24-8d88ae6bd979-C",
+    "amount": 33023909,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$33,023,909"
+  },
+  {
+    "rank": 217,
+    "recipient_name": "INSPIRITEC INC",
+    "recipient_id": "9d88b53d-2c48-02f1-3624-f14aeed2359b-C",
+    "amount": 32851286,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$32,851,286"
+  },
+  {
+    "rank": 218,
+    "recipient_name": "CASS PROFESSIONAL SERVICES CORP",
+    "recipient_id": "aa04f03e-ee03-c883-3db0-6e4f5ac687b8-C",
+    "amount": 32752342,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$32,752,342"
+  },
+  {
+    "rank": 219,
+    "recipient_name": "AMERICAN CUSTOM MEATS, LLC",
+    "recipient_id": "2a967526-6cb5-eea2-4a5d-17254955f374-C",
+    "amount": 32643648,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$32,643,648"
+  },
+  {
+    "rank": 220,
+    "recipient_name": "LAS VEGAS PAVING CORPORATION",
+    "recipient_id": "9be3a78b-a6a9-ae29-3ec4-4c0e0f8f746e-C",
+    "amount": 32574602,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$32,574,602"
+  },
+  {
+    "rank": 221,
+    "recipient_name": "SUSTAINMENT & RESTORATION SERVICES, LLC",
+    "recipient_id": "70ae5835-88bc-1468-e73c-c63f020d348a-C",
+    "amount": 31966507,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$31,966,507"
+  },
+  {
+    "rank": 222,
+    "recipient_name": "I.E.-PACIFIC, INC.",
+    "recipient_id": "200a98fc-839e-12b2-e3d9-c8b23314fffd-C",
+    "amount": 31664073,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$31,664,073"
+  },
+  {
+    "rank": 223,
+    "recipient_name": "HSGS-AMERESCO, LLC",
+    "recipient_id": "b8c9e8ab-54cb-2ba6-141c-5d49a3713f7c-C",
+    "amount": 31546691,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$31,546,691"
+  },
+  {
+    "rank": 224,
+    "recipient_name": "HELLMUTH, OBATA & KASSABAUM, INC.",
+    "recipient_id": "02bfb6ab-8ce3-1de5-e68f-dfec0e8f01f0-C",
+    "amount": 31450632,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$31,450,632"
+  },
+  {
+    "rank": 225,
+    "recipient_name": "CHEMRING AUSTRALIA PTY LTD",
+    "recipient_id": "34e5ae62-6d81-4bae-6ffc-11a69713aae6-C",
+    "amount": 31429629,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$31,429,629"
+  },
+  {
+    "rank": 226,
+    "recipient_name": "SYGNOS INC",
+    "recipient_id": "e253bbc0-271b-741d-45e3-e9552fa066eb-C",
+    "amount": 31417180,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$31,417,180"
+  },
+  {
+    "rank": 227,
+    "recipient_name": "KWELL LABORATORIES LLC",
+    "recipient_id": "b444135c-ab56-ffa3-1bd0-74bab79df3e1-C",
+    "amount": 31384584,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$31,384,584"
+  },
+  {
+    "rank": 228,
+    "recipient_name": "KARL STORZ ENDOSCOPY-AMERICA INC",
+    "recipient_id": "f1fdda39-8545-90ae-d180-27b81b906cde-C",
+    "amount": 31364255,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$31,364,255"
+  },
+  {
+    "rank": 229,
+    "recipient_name": "MARVIN ENGINEERING CO, INC",
+    "recipient_id": "3add2e0e-8eef-6e4e-894f-9bc4b5fb64db-C",
+    "amount": 31037708,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$31,037,708"
+  },
+  {
+    "rank": 230,
+    "recipient_name": "METIS FLIGHT RESEARCH ASSOCIATES, LLC",
+    "recipient_id": "b0975da3-0899-4ce4-287a-bd4601779b80-C",
+    "amount": 30938709,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$30,938,709"
+  },
+  {
+    "rank": 231,
+    "recipient_name": "L3HARRIS TECHNOLOGIES, INC",
+    "recipient_id": "47fdfa4e-1d2c-ce21-54b8-922832ac22b2-C",
+    "amount": 30663609,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$30,663,609"
+  },
+  {
+    "rank": 232,
+    "recipient_name": "LEIDOS, INC.",
+    "recipient_id": "e77c753b-6638-3d5b-442e-c1225ca669d6-C",
+    "amount": 30568372,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$30,568,372"
+  },
+  {
+    "rank": 233,
+    "recipient_name": "BURNBOT INC",
+    "recipient_id": "f2f43061-fe42-d3d0-73c3-4b74d57cd4a1-C",
+    "amount": 30545429,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$30,545,429"
+  },
+  {
+    "rank": 234,
+    "recipient_name": "ES3 PRIME LOGISTICS GROUP INC",
+    "recipient_id": "c8900a23-b855-03b4-8625-7ffc81469325-C",
+    "amount": 30243808,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$30,243,808"
+  },
+  {
+    "rank": 235,
+    "recipient_name": "CJW JOINT VENTURE",
+    "recipient_id": "cad10fd0-a627-7ac7-8dde-b7e9d08dbe1e-C",
+    "amount": 30204147,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$30,204,147"
+  },
+  {
+    "rank": 236,
+    "recipient_name": "FCN INC",
+    "recipient_id": "3792ca7f-d5d2-d89c-872b-8c64e4e6390e-C",
+    "amount": 30015066,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$30,015,066"
+  },
+  {
+    "rank": 237,
+    "recipient_name": "TECHNICAL COMMUNITIES, INC.",
+    "recipient_id": "0e06d3b1-7f4f-3eba-75fb-1e6d97caf64e-C",
+    "amount": 29859754,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$29,859,754"
+  },
+  {
+    "rank": 238,
+    "recipient_name": "NEW DIRECTIONS TECHNOLOGIES, INC.",
+    "recipient_id": "3933c691-2d7d-312c-f076-0bde6775c4ae-C",
+    "amount": 29593939,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$29,593,939"
+  },
+  {
+    "rank": 239,
+    "recipient_name": "ILLUMINA, INC.",
+    "recipient_id": "799ba1f2-401a-d0fd-9e19-368fd58b25df-C",
+    "amount": 29551335,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$29,551,335"
+  },
+  {
+    "rank": 240,
+    "recipient_name": "TEYA ENTERPRISES LLC",
+    "recipient_id": "7b87e93f-f795-79c8-26df-6eb2ffde51bd-C",
+    "amount": 29430875,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$29,430,875"
+  },
+  {
+    "rank": 241,
+    "recipient_name": "PREDICATE LOGIC, INC.",
+    "recipient_id": "4cebdad9-a6be-9028-dea9-50c53de26981-C",
+    "amount": 29369027,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$29,369,027"
+  },
+  {
+    "rank": 242,
+    "recipient_name": "MODULAR MANAGEMENT GROUP INC",
+    "recipient_id": "bc450d56-e694-d0b8-c49a-ac78ed18e869-C",
+    "amount": 29122333,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$29,122,333"
+  },
+  {
+    "rank": 243,
+    "recipient_name": "GOODRICH CORPORATION",
+    "recipient_id": "681621e2-199c-1489-ce07-823b2d82bf16-C",
+    "amount": 29075145,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$29,075,145"
+  },
+  {
+    "rank": 244,
+    "recipient_name": "INUTEQ, LLC",
+    "recipient_id": "83253a28-d5e4-17db-0aa6-15d2c71ba1fa-C",
+    "amount": 29049371,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$29,049,371"
+  },
+  {
+    "rank": 245,
+    "recipient_name": "HONEYWELL INTERNATIONAL INC.",
+    "recipient_id": "62c486be-b101-ea2f-e0c1-4f3bf00a305b-C",
+    "amount": 28944897,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$28,944,897"
+  },
+  {
+    "rank": 246,
+    "recipient_name": "G 2 SOFTWARE SYSTEMS, INC.",
+    "recipient_id": "4870a0eb-4cfb-7494-4046-a703f716e6c7-C",
+    "amount": 28760784,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$28,760,784"
+  },
+  {
+    "rank": 247,
+    "recipient_name": "SMITHS DETECTION, INC",
+    "recipient_id": "9e92a7c0-3115-1433-c112-56596d097218-C",
+    "amount": 28740848,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$28,740,848"
+  },
+  {
+    "rank": 248,
+    "recipient_name": "CUE HEALTH INC",
+    "recipient_id": "1f1018e5-98d9-e194-2940-7e4f3474b895-C",
+    "amount": 28400360,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$28,400,360"
+  },
+  {
+    "rank": 249,
+    "recipient_name": "RAYTHEON COMPANY",
+    "recipient_id": "17296d12-dcf2-41f7-d285-c595591b6a77-C",
+    "amount": 28356491,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$28,356,491"
+  },
+  {
+    "rank": 250,
+    "recipient_name": "PACIFIC-GULF MARINE, INC.",
+    "recipient_id": "59e7da9f-a8f0-d18c-8b33-3a9fa015e84b-C",
+    "amount": 28193283,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$28,193,283"
+  },
+  {
+    "rank": 251,
+    "recipient_name": "WATERMAN TRANSPORT INC",
+    "recipient_id": "3fbc94a9-8848-6854-370d-f0726bd3ef90-C",
+    "amount": 28137040,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$28,137,040"
+  },
+  {
+    "rank": 252,
+    "recipient_name": "LOCKHEED MARTIN CORPORATION",
+    "recipient_id": "ea75ddee-2d00-ac7f-5e72-6f42d7c88c8c-C",
+    "amount": 27987848,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$27,987,848"
+  },
+  {
+    "rank": 253,
+    "recipient_name": "STRUCTSURE PROJECTS INC",
+    "recipient_id": "80464fd4-c2d1-8e26-c32d-2a5bbbd73c15-C",
+    "amount": 27924292,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$27,924,292"
+  },
+  {
+    "rank": 254,
+    "recipient_name": "HENSEL PHELPS CONSTRUCTION CO.",
+    "recipient_id": "b27ba42a-e3b6-9625-4eb5-8bcc4399c70f-C",
+    "amount": 27684535,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$27,684,535"
+  },
+  {
+    "rank": 255,
+    "recipient_name": "CA DEPT OF REHABILITATION",
+    "recipient_id": "eec18551-cafd-e30e-cc4c-9992df2f603e-C",
+    "amount": 27643854,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$27,643,854"
+  },
+  {
+    "rank": 256,
+    "recipient_name": "LN CURTIS & SONS",
+    "recipient_id": "f82c6caa-9c7b-d74b-a44e-ca44181d9b73-C",
+    "amount": 27347524,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$27,347,524"
+  },
+  {
+    "rank": 257,
+    "recipient_name": "GARTNER, INC.",
+    "recipient_id": "ebe6041c-c99b-fb52-193d-1d9ad18e645e-C",
+    "amount": 27345284,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$27,345,284"
+  },
+  {
+    "rank": 258,
+    "recipient_name": "AIRCRAFT READINESS ALLIANCE II, LLC",
+    "recipient_id": "e1487db7-e6c8-e818-68fb-1f861b2af020-C",
+    "amount": 27336692,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$27,336,692"
+  },
+  {
+    "rank": 259,
+    "recipient_name": "DELL MARKETING L.P.",
+    "recipient_id": "d49f36ae-b747-42e3-5257-6787a69e51e9-C",
+    "amount": 27224419,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$27,224,419"
+  },
+  {
+    "rank": 260,
+    "recipient_name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+    "recipient_id": "e398bb29-99aa-01cc-549d-c40fc7d84e10-C",
+    "amount": 27141321,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$27,141,321"
+  },
+  {
+    "rank": 261,
+    "recipient_name": "S. J. AMOROSO CONSTRUCTION CO., LLC",
+    "recipient_id": "6ff9cbd5-019e-8877-b1cb-d88b2789e0db-C",
+    "amount": 27019968,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$27,019,968"
+  },
+  {
+    "rank": 262,
+    "recipient_name": "TRIPLE CANOPY INC",
+    "recipient_id": "b9a8aca3-3402-7ba5-301b-8cabbaf8b523-C",
+    "amount": 26946058,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$26,946,058"
+  },
+  {
+    "rank": 263,
+    "recipient_name": "VACCO INDUSTRIES",
+    "recipient_id": "b4a770a3-4646-5d45-4389-0312f5718303-C",
+    "amount": 26907416,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$26,907,416"
+  },
+  {
+    "rank": 264,
+    "recipient_name": "AIRCRAFT READINESS ALLIANCE, LLC",
+    "recipient_id": "fb76afaf-1a72-2cee-55f5-65d4de6b7514-C",
+    "amount": 26823280,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$26,823,280"
+  },
+  {
+    "rank": 265,
+    "recipient_name": "HYDRAULICS INTERNATIONAL, INC.",
+    "recipient_id": "696b4bd5-73c2-4976-e942-b066d871f548-C",
+    "amount": 26761847,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$26,761,847"
+  },
+  {
+    "rank": 266,
+    "recipient_name": "GHD-COWI JOINT VENTURE",
+    "recipient_id": "122ad5a9-1d15-f564-0b8e-5ba93d48d31a-C",
+    "amount": 26712061,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$26,712,061"
+  },
+  {
+    "rank": 267,
+    "recipient_name": "CARAHSOFT TECHNOLOGY CORP",
+    "recipient_id": "4e74aeb5-dd21-20a7-63bd-e9f934d69583-C",
+    "amount": 26536024,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$26,536,024"
+  },
+  {
+    "rank": 268,
+    "recipient_name": "PALANTIR TECHNOLOGIES INC.",
+    "recipient_id": "1ea8a9a4-3726-3491-9040-66950bb67606-C",
+    "amount": 26447105,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$26,447,105"
+  },
+  {
+    "rank": 269,
+    "recipient_name": "CHICO PRODUCE, INC.",
+    "recipient_id": "83943de1-d282-00e0-4d83-43c6a9c3e56e-C",
+    "amount": 26325518,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$26,325,518"
+  },
+  {
+    "rank": 270,
+    "recipient_name": "JSL TECHNOLOGIES, INC.",
+    "recipient_id": "73dc9e70-f1fa-1dbe-25cd-b040ad0554b7-C",
+    "amount": 26187255,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$26,187,255"
+  },
+  {
+    "rank": 271,
+    "recipient_name": "HONEYBEE ROBOTICS LLC",
+    "recipient_id": "167ba444-1b92-f70a-c490-0bb4686f73a2-C",
+    "amount": 26086807,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$26,086,807"
+  },
+  {
+    "rank": 272,
+    "recipient_name": "SILLER HELICOPTERS, INC.",
+    "recipient_id": "28512ef4-9134-f140-4074-671e50515d39-C",
+    "amount": 25717364,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$25,717,364"
+  },
+  {
+    "rank": 273,
+    "recipient_name": "MARINE GROUP BOAT WORKS, LLC",
+    "recipient_id": "0dabb998-f909-c75a-2170-c7e0056134dd-C",
+    "amount": 25594495,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$25,594,495"
+  },
+  {
+    "rank": 274,
+    "recipient_name": "ESA SOUTH, INC.",
+    "recipient_id": "9289c166-19ef-7317-f96e-50e35fe99276-C",
+    "amount": 25443103,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$25,443,103"
+  },
+  {
+    "rank": 275,
+    "recipient_name": "BAE SYSTEMS INFORMATION AND ELECTRONIC SYSTEMS INTEGRATION INC.",
+    "recipient_id": "cdc6b956-a9c8-8548-7902-4512c9ccb343-C",
+    "amount": 25392450,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$25,392,450"
+  },
+  {
+    "rank": 276,
+    "recipient_name": "JACOBS TECHNOLOGY INC.",
+    "recipient_id": "40ed4eec-af42-15cf-f36d-7a56194f7f4b-C",
+    "amount": 25388697,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$25,388,697"
+  },
+  {
+    "rank": 277,
+    "recipient_name": "VICTOR PACKING, INC.",
+    "recipient_id": "131b04db-2f63-dc86-d8e6-3292a48dce3b-C",
+    "amount": 25326390,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$25,326,390"
+  },
+  {
+    "rank": 278,
+    "recipient_name": "L3HARRIS MARITIME POWER & ENERGY SOLUTIONS, INC",
+    "recipient_id": "b1d3438d-05be-13c4-5a96-90023a016d15-C",
+    "amount": 25135524,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$25,135,524"
+  },
+  {
+    "rank": 279,
+    "recipient_name": "REI SYSTEMS, INC.",
+    "recipient_id": "2e7503c5-6983-7a2c-e936-7f5f9567445a-C",
+    "amount": 25117807,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$25,117,807"
+  },
+  {
+    "rank": 280,
+    "recipient_name": "RAYTHEON COMPANY",
+    "recipient_id": "48ccf047-0c52-058e-11d3-3e71de2671de-C",
+    "amount": 24984856,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$24,984,856"
+  },
+  {
+    "rank": 281,
+    "recipient_name": "STG INTERNATIONAL, INC.",
+    "recipient_id": "8630a7d3-8a1b-1306-cfbc-9587febee443-C",
+    "amount": 24857614,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$24,857,614"
+  },
+  {
+    "rank": 282,
+    "recipient_name": "JACOBS TECHNOLOGY INC.",
+    "recipient_id": "57282986-3068-2477-0374-d43d24fbee41-C",
+    "amount": 24764423,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$24,764,423"
+  },
+  {
+    "rank": 283,
+    "recipient_name": "M. C. DEAN, INC.",
+    "recipient_id": "a81ae18c-cbc0-5d23-ac06-c9243fff1ad0-C",
+    "amount": 24699726,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$24,699,726"
+  },
+  {
+    "rank": 284,
+    "recipient_name": "CM CONSTRUCTION SERVICES, INC.",
+    "recipient_id": "3eaf07b4-bf66-c143-d381-f981a3d619a6-C",
+    "amount": 24665437,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$24,665,437"
+  },
+  {
+    "rank": 285,
+    "recipient_name": "RAYTHEON COMPANY",
+    "recipient_id": "ac0b9590-0ad8-0854-a7ed-8474dc0b203b-C",
+    "amount": 24647318,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$24,647,318"
+  },
+  {
+    "rank": 286,
+    "recipient_name": "ANNA LISA LUNA CONSTRUCTION, INC.",
+    "recipient_id": "17819e23-cf2f-c026-0e87-158dc3ae6544-C",
+    "amount": 24542216,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$24,542,216"
+  },
+  {
+    "rank": 287,
+    "recipient_name": "DISTINCTIVE HEALTH SPECTRUM CARE JV LLC",
+    "recipient_id": "27028191-3b35-15a9-8ec6-68cd1ac26f8f-C",
+    "amount": 24524343,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$24,524,343"
+  },
+  {
+    "rank": 288,
+    "recipient_name": "INTERNATIONAL TOWERS LLC",
+    "recipient_id": "f6d04449-f3e2-3aee-021a-ad97a1629502-C",
+    "amount": 24173216,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$24,173,216"
+  },
+  {
+    "rank": 289,
+    "recipient_name": "G. L. BRUNO ASSOCIATES, INC.",
+    "recipient_id": "62adac63-9760-d220-9f82-cf543703fb3d-C",
+    "amount": 24111695,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$24,111,695"
+  },
+  {
+    "rank": 290,
+    "recipient_name": "LEAD BUILDERS INC",
+    "recipient_id": "6a6100dc-4b4f-362d-a2ee-4ac366d54de5-C",
+    "amount": 24025406,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$24,025,406"
+  },
+  {
+    "rank": 291,
+    "recipient_name": "EATON AEROSPACE LLC",
+    "recipient_id": "b93a8921-adac-fd4b-b16f-314750ba10ca-C",
+    "amount": 24009069,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$24,009,069"
+  },
+  {
+    "rank": 292,
+    "recipient_name": "SCHNEIDER ELECTRIC BUILDINGS AMERICAS, INC.",
+    "recipient_id": "2d7b1eb3-63d8-a322-54b1-612d5264a2a4-C",
+    "amount": 23901092,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$23,901,092"
+  },
+  {
+    "rank": 293,
+    "recipient_name": "ALUTIIQ INFORMATION MANAGEMENT, LLC",
+    "recipient_id": "5e7a6550-0b57-95a7-cdd1-a888d463c2ce-C",
+    "amount": 23747417,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$23,747,417"
+  },
+  {
+    "rank": 294,
+    "recipient_name": "EA ENGINEERING, SCIENCE, AND TECHNOLOGY, INC., PBC",
+    "recipient_id": "42601b59-6dd7-26e8-b6d4-4cd7795103de-C",
+    "amount": 23725986,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$23,725,986"
+  },
+  {
+    "rank": 295,
+    "recipient_name": "LEO A. DALY LLC",
+    "recipient_id": "597ef945-5091-f89c-749e-75a7029f5f74-C",
+    "amount": 23685903,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$23,685,903"
+  },
+  {
+    "rank": 296,
+    "recipient_name": "AFFORDABLE ENGINEERING SERVICES, INC.",
+    "recipient_id": "a3bafa8f-2ab7-e73e-2184-fedefbfcb969-C",
+    "amount": 23621252,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$23,621,252"
+  },
+  {
+    "rank": 297,
+    "recipient_name": "INTEGRATED DATA SERVICES, LLC",
+    "recipient_id": "9ed7928b-7c89-cfdb-bd6f-a471607fd18a-C",
+    "amount": 23385412,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$23,385,412"
+  },
+  {
+    "rank": 298,
+    "recipient_name": "JACOBS TECHNOLOGY INC.",
+    "recipient_id": "435aa33d-8ca5-7631-ec18-85dbb07c6fa1-C",
+    "amount": 23373852,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$23,373,852"
+  },
+  {
+    "rank": 299,
+    "recipient_name": "KOAM ENGINEERING SYSTEMS, INC.",
+    "recipient_id": "85be9045-51cf-f4fd-f4bc-caaf98578382-C",
+    "amount": 23252155,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$23,252,155"
+  },
+  {
+    "rank": 300,
+    "recipient_name": "MODEL 1 COMMERCIAL VEHICLES, INC.",
+    "recipient_id": "9b3e9b7b-f776-e446-bbdd-8bbfe0fbb5eb-C",
+    "amount": 23158186,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$23,158,186"
+  },
+  {
+    "rank": 301,
+    "recipient_name": "ENTERPRISE RESOURCE PLANNING INTERNATIONAL, LLC",
+    "recipient_id": "79b7062c-2888-dfa6-9178-164089a39959-C",
+    "amount": 23127801,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$23,127,801"
+  },
+  {
+    "rank": 302,
+    "recipient_name": "K. W. EMERSON, INC.",
+    "recipient_id": "b89b2d1f-4012-3fd0-20dd-b7b6101c29ef-C",
+    "amount": 23085672,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$23,085,672"
+  },
+  {
+    "rank": 303,
+    "recipient_name": "ALUTIIQ LOGISTICS & MAINTENANCE SERVICES, LLC",
+    "recipient_id": "2f3e09a8-a653-bcbf-4732-714a46103f2c-C",
+    "amount": 23004721,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$23,004,721"
+  },
+  {
+    "rank": 304,
+    "recipient_name": "OCEAN DUCHESS, INC.",
+    "recipient_id": "901a69cd-db47-a247-506f-5b4111a457ce-C",
+    "amount": 22988774,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$22,988,774"
+  },
+  {
+    "rank": 305,
+    "recipient_name": "VEOLIA WATER WEST OPERATING SERVICES INC",
+    "recipient_id": "343d1da3-6ebd-e3ec-9293-2326bdb45c45-C",
+    "amount": 22980246,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$22,980,246"
+  },
+  {
+    "rank": 306,
+    "recipient_name": "PIKA-INSIGHT JV LLC",
+    "recipient_id": "765d0abb-3f07-8eb0-1458-cb9cab60ee35-C",
+    "amount": 22929885,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$22,929,885"
+  },
+  {
+    "rank": 307,
+    "recipient_name": "LEIDOS, INC.",
+    "recipient_id": "5ddb264f-234b-872c-2571-4731fde123c6-C",
+    "amount": 22920250,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$22,920,250"
+  },
+  {
+    "rank": 308,
+    "recipient_name": "CUBIC DEFENSE APPLICATIONS, INC.",
+    "recipient_id": "2a769bc5-9fc9-f106-b8d5-7ff3e8dd0443-C",
+    "amount": 22453556,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$22,453,556"
+  },
+  {
+    "rank": 309,
+    "recipient_name": "PATRICIA I. ROMERO, INC.",
+    "recipient_id": "f9375459-543e-ebf8-b631-ef07d55b647e-C",
+    "amount": 22420293,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$22,420,293"
+  },
+  {
+    "rank": 310,
+    "recipient_name": "HYDRO-AIRE AEROSPACE CORP",
+    "recipient_id": "d84963fd-56a3-0d5d-ea15-5d18b39c6917-C",
+    "amount": 22205580,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$22,205,580"
+  },
+  {
+    "rank": 311,
+    "recipient_name": "AMG & ASSOCIATES INC",
+    "recipient_id": "bf886617-cbd7-0a95-92c8-847f582b69d5-C",
+    "amount": 22177565,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$22,177,565"
+  },
+  {
+    "rank": 312,
+    "recipient_name": "QUANTECH SERVICES INC.",
+    "recipient_id": "a30fd916-d49c-ecde-6949-1733cc09be33-C",
+    "amount": 22175156,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$22,175,156"
+  },
+  {
+    "rank": 313,
+    "recipient_name": "SERGENTS MECHANICAL SYSTEMS INC",
+    "recipient_id": "3e74d519-a210-a2dd-b56c-f1cf5ea83ba1-C",
+    "amount": 22156701,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$22,156,701"
+  },
+  {
+    "rank": 314,
+    "recipient_name": "SYSTEMS APPLICATION & TECHNOLOGIES INC",
+    "recipient_id": "35135d24-8b2c-3cce-7e5e-f8da246e39f7-C",
+    "amount": 22014659,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$22,014,659"
+  },
+  {
+    "rank": 315,
+    "recipient_name": "SCALE AI, INC.",
+    "recipient_id": "9c44b77f-bdfb-349c-0115-56edc14dd01d-C",
+    "amount": 21765984,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$21,765,984"
+  },
+  {
+    "rank": 316,
+    "recipient_name": "HRL LABORATORIES, LLC",
+    "recipient_id": "f1ea3f7a-40c8-5fe0-e8c2-cff59d9ce940-C",
+    "amount": 21753981,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$21,753,981"
+  },
+  {
+    "rank": 317,
+    "recipient_name": "RIVET OPERATIONS COMPANY LLC",
+    "recipient_id": "96c42ef8-f8bd-b908-04b4-83b8c7197f33-C",
+    "amount": 21614037,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$21,614,037"
+  },
+  {
+    "rank": 318,
+    "recipient_name": "DPR-RQ CONSTRUCTION, LLC",
+    "recipient_id": "ea4259c9-0e65-6761-4a94-64538152cc87-C",
+    "amount": 21563786,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$21,563,786"
+  },
+  {
+    "rank": 319,
+    "recipient_name": "SEA PAC ENGINEERING INC",
+    "recipient_id": "43dd0b52-6616-37b6-b9a7-8da65fdbff34-C",
+    "amount": 21526063,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$21,526,063"
+  },
+  {
+    "rank": 320,
+    "recipient_name": "SPECTRUM SECURITY SERVICES, INC.",
+    "recipient_id": "c1a1c757-efc8-2f72-25ea-e3e5cafdb93e-C",
+    "amount": 21464850,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$21,464,850"
+  },
+  {
+    "rank": 321,
+    "recipient_name": "MICHAEL BAKER INTERNATIONAL, INC.",
+    "recipient_id": "ab219857-2f93-6d5b-4c09-f8ffead97a02-C",
+    "amount": 21449305,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$21,449,305"
+  },
+  {
+    "rank": 322,
+    "recipient_name": "RED RIVER SCIENCE & TECHNOLOGY, LLC",
+    "recipient_id": "f71953aa-32df-f917-953a-8fee28f738e1-C",
+    "amount": 21440307,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$21,440,307"
+  },
+  {
+    "rank": 323,
+    "recipient_name": "MIWOK CONSTRUCTION LLC",
+    "recipient_id": "972e5be6-3131-6b5c-420a-e950b33677d2-C",
+    "amount": 21261796,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$21,261,796"
+  },
+  {
+    "rank": 324,
+    "recipient_name": "NEWVAC, LLC",
+    "recipient_id": "b8c8051e-1dba-e2be-d3d7-ca8c838e8c85-C",
+    "amount": 21194033,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$21,194,033"
+  },
+  {
+    "rank": 325,
+    "recipient_name": "SES CONSTRUCTION AND FUEL SERVICES LLC",
+    "recipient_id": "14270ee6-5af2-9aad-fe57-482873128df4-C",
+    "amount": 21159302,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$21,159,302"
+  },
+  {
+    "rank": 326,
+    "recipient_name": "KINGSBURG ORCHARDS",
+    "recipient_id": "5f88c06f-194f-6fbd-e402-f1117f39791b-C",
+    "amount": 21046599,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$21,046,599"
+  },
+  {
+    "rank": 327,
+    "recipient_name": "COGITAN LLC",
+    "recipient_id": "7d156efd-7903-c5b7-03b8-3f7ee480b2d5-C",
+    "amount": 20977938,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$20,977,938"
+  },
+  {
+    "rank": 328,
+    "recipient_name": "OLGA H BARRIOS",
+    "recipient_id": "359fb325-4a44-d7cf-9b50-98e293a445ef-C",
+    "amount": 20975817,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$20,975,817"
+  },
+  {
+    "rank": 329,
+    "recipient_name": "EPSILON C5I INC",
+    "recipient_id": "65b74487-e29a-fedf-cf53-3fa912b4ce42-C",
+    "amount": 20838167,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$20,838,167"
+  },
+  {
+    "rank": 330,
+    "recipient_name": "CONRAD LLP",
+    "recipient_id": "8b347bff-d3fd-1572-33c3-f1270588d4ac-C",
+    "amount": 20763205,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$20,763,205"
+  },
+  {
+    "rank": 331,
+    "recipient_name": "SAALEX CORP",
+    "recipient_id": "32439b5c-3076-2012-f606-0b367779537d-C",
+    "amount": 20666878,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$20,666,878"
+  },
+  {
+    "rank": 332,
+    "recipient_name": "VT MILCOM INC.",
+    "recipient_id": "e483d579-1252-3f24-95da-563450378900-C",
+    "amount": 20461601,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$20,461,601"
+  },
+  {
+    "rank": 333,
+    "recipient_name": "SOUZA CONSTRUCTION, INC.",
+    "recipient_id": "637244c3-9836-387d-d658-619b123e0679-C",
+    "amount": 20410065,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$20,410,065"
+  },
+  {
+    "rank": 334,
+    "recipient_name": "EMERGENT, LLC",
+    "recipient_id": "d20dbc28-ffde-003c-e506-9e3a16d343b6-C",
+    "amount": 20332362,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$20,332,362"
+  },
+  {
+    "rank": 335,
+    "recipient_name": "CALL HENRY INC",
+    "recipient_id": "e48ef2b8-00ce-04e5-f6f4-ab65d02e8533-C",
+    "amount": 20249947,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$20,249,947"
+  },
+  {
+    "rank": 336,
+    "recipient_name": "D7, LLC",
+    "recipient_id": "25d54869-1706-bf85-94d1-3d05ad90200d-C",
+    "amount": 20213501,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$20,213,501"
+  },
+  {
+    "rank": 337,
+    "recipient_name": "TYTO GOVERNMENT SOLUTIONS INC",
+    "recipient_id": "45d4f555-bc25-eef5-e6e1-18cadcc7ac0b-C",
+    "amount": 20201153,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$20,201,153"
+  },
+  {
+    "rank": 338,
+    "recipient_name": "J G CONTRACTING",
+    "recipient_id": "bbb3e8c2-fa7f-b869-0c68-417476e845da-C",
+    "amount": 20092431,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$20,092,431"
+  },
+  {
+    "rank": 339,
+    "recipient_name": "G4S SECURE SOLUTIONS (USA) INC.",
+    "recipient_id": "0cebd10f-2867-7a03-efeb-12c0743b6c92-C",
+    "amount": 20054686,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$20,054,686"
+  },
+  {
+    "rank": 340,
+    "recipient_name": "EVIDATION HEALTH, INC.",
+    "recipient_id": "dac9c6ff-920a-6a7a-3b80-a1c28e14751d-C",
+    "amount": 20000000,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$20,000,000"
+  },
+  {
+    "rank": 341,
+    "recipient_name": "MINACT, INC",
+    "recipient_id": "f024f713-9fed-c8c4-b3c2-4d31ba52dcff-C",
+    "amount": 19982967,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$19,982,967"
+  },
+  {
+    "rank": 342,
+    "recipient_name": "JXR CONSTRUCTORS INC",
+    "recipient_id": "b129515d-0f87-64d6-5681-7608d5520ebb-C",
+    "amount": 19946635,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$19,946,635"
+  },
+  {
+    "rank": 343,
+    "recipient_name": "FISICA APPLIED TECHNOLOGIES, INC.",
+    "recipient_id": "112093a2-a5ed-ab23-a8e0-9daf3a54e89d-C",
+    "amount": 19940737,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$19,940,737"
+  },
+  {
+    "rank": 344,
+    "recipient_name": "MCP COMPUTER PRODUCTS INC",
+    "recipient_id": "acb5cab8-9794-3f4d-584a-714f3994fe75-C",
+    "amount": 19924102,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$19,924,102"
+  },
+  {
+    "rank": 345,
+    "recipient_name": "CHENEGA GLOBAL PROTECTION, LLC",
+    "recipient_id": "a3dca9a1-e9d8-84cf-319d-89482407e6a0-C",
+    "amount": 19825457,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$19,825,457"
+  },
+  {
+    "rank": 346,
+    "recipient_name": "LAFAYETTE GROUP, INC.",
+    "recipient_id": "b8f8e67a-e911-d8e0-79f7-9ff5cb25e1c4-C",
+    "amount": 19811529,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$19,811,529"
+  },
+  {
+    "rank": 347,
+    "recipient_name": "MICROWAVE POWER PRODUCTS, INC.",
+    "recipient_id": "6a2c3983-8b63-4674-c82e-5cb1d1f8c694-C",
+    "amount": 19773902,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$19,773,902"
+  },
+  {
+    "rank": 348,
+    "recipient_name": "PINNACLE PETROLEUM, INC.",
+    "recipient_id": "5227f2bd-9fa3-65f2-1309-224fe418ebcf-C",
+    "amount": 19752696,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$19,752,696"
+  },
+  {
+    "rank": 349,
+    "recipient_name": "RAYTHEON APPLIED SIGNAL TECHNOLOGY, INC.",
+    "recipient_id": "a2f2e33e-af5e-993c-950e-9d54d1d7a2c2-C",
+    "amount": 19725574,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$19,725,574"
+  },
+  {
+    "rank": 350,
+    "recipient_name": "EAST COAST REPAIR & FABRICATION, LLC",
+    "recipient_id": "dfdbe4dc-d921-5815-6b66-72ed7e5fb8e9-C",
+    "amount": 19708612,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$19,708,612"
+  },
+  {
+    "rank": 351,
+    "recipient_name": "LUDFORD'S, INC.",
+    "recipient_id": "9ab4c057-0527-0c5c-bde8-3b74aef2af5e-C",
+    "amount": 19674189,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$19,674,189"
+  },
+  {
+    "rank": 352,
+    "recipient_name": "C4 PLANNING SOLUTIONS, LLC",
+    "recipient_id": "bfa25e09-6935-025a-9700-19459b6194ea-C",
+    "amount": 19612289,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$19,612,289"
+  },
+  {
+    "rank": 353,
+    "recipient_name": "HORNBECK OFFSHORE OPERATORS LLC",
+    "recipient_id": "a3ca40e5-ec50-2420-c16b-2b46c3b6f29e-C",
+    "amount": 19573246,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$19,573,246"
+  },
+  {
+    "rank": 354,
+    "recipient_name": "THE DUTRA GROUP",
+    "recipient_id": "f7bfe14a-8bf0-fa8c-1f3a-d99d1f1c3eb5-C",
+    "amount": 19567901,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$19,567,901"
+  },
+  {
+    "rank": 355,
+    "recipient_name": "COX CONSTRUCTION CO",
+    "recipient_id": "916e6fdf-d6c0-8c66-a7d6-319539f23ae9-C",
+    "amount": 19497867,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$19,497,867"
+  },
+  {
+    "rank": 356,
+    "recipient_name": "STRATTON STRAUB JOINT VENTURE LLC",
+    "recipient_id": "636b7fe2-7e09-4832-5738-944e7c77449c-C",
+    "amount": 19493000,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$19,493,000"
+  },
+  {
+    "rank": 357,
+    "recipient_name": "PARAGON PROFESSIONAL SERVICES LLC",
+    "recipient_id": "a2a0931c-b3fd-8737-f260-ffb2cba740b1-C",
+    "amount": 19378420,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$19,378,420"
+  },
+  {
+    "rank": 358,
+    "recipient_name": "SAN JOAQUIN FIGS INC",
+    "recipient_id": "e0cb1c26-1bc5-29a6-4ab4-4420a363dcb9-C",
+    "amount": 19348537,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$19,348,537"
+  },
+  {
+    "rank": 359,
+    "recipient_name": "GENTEX CORP",
+    "recipient_id": "227b05d9-b14f-1180-7652-e318062e59f2-C",
+    "amount": 19218106,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$19,218,106"
+  },
+  {
+    "rank": 360,
+    "recipient_name": "VOLUNTEERS OF AMERICA OF LOS ANGELES",
+    "recipient_id": "9815ae1f-4157-8b39-33fc-80e56958f3d6-C",
+    "amount": 19195036,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$19,195,036"
+  },
+  {
+    "rank": 361,
+    "recipient_name": "AUSTAL USA, LLC",
+    "recipient_id": "099794ca-0664-2157-ef0e-3ae0148aef77-C",
+    "amount": 19194973,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$19,194,973"
+  },
+  {
+    "rank": 362,
+    "recipient_name": "ISTARI FEDERAL LLC",
+    "recipient_id": "354e1800-60b6-a5d1-b328-83cadaf86bed-C",
+    "amount": 19127311,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$19,127,311"
+  },
+  {
+    "rank": 363,
+    "recipient_name": "UNITED SUPPORT SERVICES, INC.",
+    "recipient_id": "b7fd600c-1952-91ec-27e8-c6a6bd215dbf-C",
+    "amount": 19079017,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$19,079,017"
+  },
+  {
+    "rank": 364,
+    "recipient_name": "R3 STRATEGIC SUPPORT GROUP INC",
+    "recipient_id": "48224411-c9d0-dcb1-4cee-1187044e2f7a-C",
+    "amount": 19069019,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$19,069,019"
+  },
+  {
+    "rank": 365,
+    "recipient_name": "MULTIBEAM CORPORATION",
+    "recipient_id": "c5e33c4e-bca5-ef13-716f-429dff4c857f-C",
+    "amount": 18993222,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$18,993,222"
+  },
+  {
+    "rank": 366,
+    "recipient_name": "ARETE ASSOCIATES",
+    "recipient_id": "bf13ccef-a441-98ef-cc56-749373b4aed4-C",
+    "amount": 18984895,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$18,984,895"
+  },
+  {
+    "rank": 367,
+    "recipient_name": "NEW HORIZONS AERONAUTICS, LLC",
+    "recipient_id": "47b08ef2-078c-c938-d6f9-6733210ff840-C",
+    "amount": 18971478,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$18,971,478"
+  },
+  {
+    "rank": 368,
+    "recipient_name": "TETRA TECH, INC.",
+    "recipient_id": "9c8bd8f3-f7da-600d-94c4-04e09c223b38-C",
+    "amount": 18941331,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$18,941,331"
+  },
+  {
+    "rank": 369,
+    "recipient_name": "INTELLISENSE SYSTEMS INC",
+    "recipient_id": "82eae2c4-dea7-f9a7-85fb-4e1376b7a643-C",
+    "amount": 18847228,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$18,847,228"
+  },
+  {
+    "rank": 370,
+    "recipient_name": "ANALYTICAL MECHANICS ASSOCIATES, INC.",
+    "recipient_id": "c263591e-5a6b-d322-adea-36329bb8b217-C",
+    "amount": 18842538,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$18,842,538"
+  },
+  {
+    "rank": 371,
+    "recipient_name": "ADVANTEDGE TECHNOLOGY, INC.",
+    "recipient_id": "79eb1239-fbf6-efe8-df8f-54d6ff170a5d-C",
+    "amount": 18775193,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$18,775,193"
+  },
+  {
+    "rank": 372,
+    "recipient_name": "UNIVERSITY OF CALIFORNIA, SAN DIEGO",
+    "recipient_id": "ce42d274-7283-659b-de1c-e11666794c48-C",
+    "amount": 18761450,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$18,761,450"
+  },
+  {
+    "rank": 373,
+    "recipient_name": "OCEANETICS INC",
+    "recipient_id": "44a8d9a1-5b47-9854-537c-90892d3d7ddf-C",
+    "amount": 18657853,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$18,657,853"
+  },
+  {
+    "rank": 374,
+    "recipient_name": "PLANET LABS PBC",
+    "recipient_id": "42037c0c-42b5-167c-24c1-52d1dec7ae35-C",
+    "amount": 18551952,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$18,551,952"
+  },
+  {
+    "rank": 375,
+    "recipient_name": "VECTRUS SYSTEMS LLC",
+    "recipient_id": "385c148c-559c-6218-53ff-80836c64dc4c-C",
+    "amount": 18495948,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$18,495,948"
+  },
+  {
+    "rank": 376,
+    "recipient_name": "JARIA LLC",
+    "recipient_id": "7ce240e8-b1a8-d3c6-99c2-db24775cb2a8-C",
+    "amount": 18456505,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$18,456,505"
+  },
+  {
+    "rank": 377,
+    "recipient_name": "STRATEGIX MANAGEMENT LLC",
+    "recipient_id": "402e3761-683c-22d8-fce3-ef638d8082c5-C",
+    "amount": 18293830,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$18,293,830"
+  },
+  {
+    "rank": 378,
+    "recipient_name": "PACIFIC GAS AND ELECTRIC COMPANY",
+    "recipient_id": "8f1a8194-9dab-ca97-e452-6a8af4bdec67-C",
+    "amount": 18170092,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$18,170,092"
+  },
+  {
+    "rank": 379,
+    "recipient_name": "BURNS & MCDONNELL ENGINEERING COMPANY, INC.",
+    "recipient_id": "856d46b6-3adc-8be6-f070-c5a11e8b6c2a-C",
+    "amount": 18139283,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$18,139,283"
+  },
+  {
+    "rank": 380,
+    "recipient_name": "AHTNA-BRENNAN JV, LLC",
+    "recipient_id": "7550c770-0fc0-3e2b-d969-fd183020e81f-C",
+    "amount": 18086265,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$18,086,265"
+  },
+  {
+    "rank": 381,
+    "recipient_name": "UNIVERSITIES SPACE RESEARCH ASSOCIATION",
+    "recipient_id": "26e104c4-1307-f677-c014-ac7fe7ab9e6d-C",
+    "amount": 17842879,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$17,842,879"
+  },
+  {
+    "rank": 382,
+    "recipient_name": "KING & GEORGE, LLC",
+    "recipient_id": "6d4cac2b-0fe3-2286-7c99-ae656304ab63-C",
+    "amount": 17782447,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$17,782,447"
+  },
+  {
+    "rank": 383,
+    "recipient_name": "MEGGITT DEFENSE SYSTEMS, INC.",
+    "recipient_id": "60ba6449-5f1c-b270-b46a-28d5147611d9-C",
+    "amount": 17770586,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$17,770,586"
+  },
+  {
+    "rank": 384,
+    "recipient_name": "PROPULSION CONTROLS ENGINEERING",
+    "recipient_id": "700a9093-5ab6-9160-e05d-b99a8f1c5181-C",
+    "amount": 17749666,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$17,749,666"
+  },
+  {
+    "rank": 385,
+    "recipient_name": "OCS CONSTRUCTION SERVICES INC",
+    "recipient_id": "b044abf4-2190-0ca6-a0ec-e298158aa398-C",
+    "amount": 17672249,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$17,672,249"
+  },
+  {
+    "rank": 386,
+    "recipient_name": "IMPRES TECHNOLOGY SOLUTIONS, INC",
+    "recipient_id": "729e2015-0309-7429-56c8-a6446b735171-C",
+    "amount": 17620006,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$17,620,006"
+  },
+  {
+    "rank": 387,
+    "recipient_name": "NORTH BAY REHABILITATION SERVICES, INC.",
+    "recipient_id": "1c61b05d-3924-11c6-fecc-a64f4f554632-C",
+    "amount": 17614349,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$17,614,349"
+  },
+  {
+    "rank": 388,
+    "recipient_name": "POPLICUS INC",
+    "recipient_id": "794fec9d-d315-25db-147e-6ac87b813c4c-C",
+    "amount": 17595269,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$17,595,269"
+  },
+  {
+    "rank": 389,
+    "recipient_name": "CROWLEY GOVERNMENT SERVICES, INC.",
+    "recipient_id": "572e442b-f0f8-e4ab-6a99-b97521c958ef-C",
+    "amount": 17571108,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$17,571,108"
+  },
+  {
+    "rank": 390,
+    "recipient_name": "AHTNA-GREAT LAKES E&I JV",
+    "recipient_id": "ac22796a-9535-cd4c-0e85-5bdf853141d9-C",
+    "amount": 17417585,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$17,417,585"
+  },
+  {
+    "rank": 391,
+    "recipient_name": "THE MATTHEWS GROUP INC",
+    "recipient_id": "79014161-9a05-b299-1c72-3e281f119a84-C",
+    "amount": 17302503,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$17,302,503"
+  },
+  {
+    "rank": 392,
+    "recipient_name": "HC MERCHANDISERS, INC.",
+    "recipient_id": "137a711d-fbb1-37c4-a754-a39d5b870a27-C",
+    "amount": 17171475,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$17,171,475"
+  },
+  {
+    "rank": 393,
+    "recipient_name": "DEL MONTE FOODS INC",
+    "recipient_id": "0109162f-e39d-647b-5642-d53704ebc099-C",
+    "amount": 17150205,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$17,150,205"
+  },
+  {
+    "rank": 394,
+    "recipient_name": "LINMARR ASSOCIATES, INC.",
+    "recipient_id": "9089c1f4-d650-d432-b115-4637b839d4ae-C",
+    "amount": 17111585,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$17,111,585"
+  },
+  {
+    "rank": 395,
+    "recipient_name": "ABL SPACE SYSTEMS COMPANY",
+    "recipient_id": "c5544718-94f3-f873-235f-d644bf122173-C",
+    "amount": 17054988,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$17,054,988"
+  },
+  {
+    "rank": 396,
+    "recipient_name": "SEV1TECH, LLC",
+    "recipient_id": "355a083e-bded-6e23-4c75-1ca254c160e9-C",
+    "amount": 17054552,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$17,054,552"
+  },
+  {
+    "rank": 397,
+    "recipient_name": "TEICHERT-ODIN, A JOINT VENTURE",
+    "recipient_id": "3e3a5c8c-2d2b-cd05-c6ef-f3893d00ab37-C",
+    "amount": 17000070,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$17,000,070"
+  },
+  {
+    "rank": 398,
+    "recipient_name": "FOUR TRIBES ENTERPRISES, LLC",
+    "recipient_id": "75dec54b-94d0-a465-3e18-725b90e04d6f-C",
+    "amount": 16755536,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$16,755,536"
+  },
+  {
+    "rank": 399,
+    "recipient_name": "CALIBRE SYSTEMS INC",
+    "recipient_id": "5607e316-33f8-0ffc-ef7e-10bfafc85f17-C",
+    "amount": 16736960,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$16,736,960"
+  },
+  {
+    "rank": 400,
+    "recipient_name": "TAPESTRY SOLUTIONS, INC.",
+    "recipient_id": "131cecd8-75ee-8eda-d70a-ead961d3fbd3-C",
+    "amount": 16734605,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$16,734,605"
+  },
+  {
+    "rank": 401,
+    "recipient_name": "METROPOLITAN INTERPRETERS & TRANSLATORS, INC.",
+    "recipient_id": "15279de2-6e37-ec09-73ea-9269b40d904e-C",
+    "amount": 16688699,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$16,688,699"
+  },
+  {
+    "rank": 402,
+    "recipient_name": "ANDERSON BURTON CONSTRUCTION, INC.",
+    "recipient_id": "d133c8f6-2fb6-9010-bf9d-e31a6f305a93-C",
+    "amount": 16604679,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$16,604,679"
+  },
+  {
+    "rank": 403,
+    "recipient_name": "SYSTEMS ENGINEERING SUPPORT CO.",
+    "recipient_id": "ec107cc3-537d-5a55-a040-ac56c8bd8786-C",
+    "amount": 16529746,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$16,529,746"
+  },
+  {
+    "rank": 404,
+    "recipient_name": "SOLPAC CONSTRUCTION INC",
+    "recipient_id": "a549ff84-d31b-032f-3ba7-f9f43588ff09-C",
+    "amount": 16346166,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$16,346,166"
+  },
+  {
+    "rank": 405,
+    "recipient_name": "PARSONS TECHNICAL SERVICES INC",
+    "recipient_id": "4c57be5f-1a5c-3154-1798-28c996cf6683-C",
+    "amount": 16320298,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$16,320,298"
+  },
+  {
+    "rank": 406,
+    "recipient_name": "INNOVATUS TECHNOLOGY CONSULTING",
+    "recipient_id": "a70d5345-9b83-3955-a231-a573b9b92e55-C",
+    "amount": 16294450,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$16,294,450"
+  },
+  {
+    "rank": 407,
+    "recipient_name": "TELEDYNE SCIENTIFIC AND IMAGING LLC",
+    "recipient_id": "8a39976d-0908-4213-1360-81edbf902b3d-C",
+    "amount": 16239298,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$16,239,298"
+  },
+  {
+    "rank": 408,
+    "recipient_name": "CLIPPER OIL, INC.",
+    "recipient_id": "9bd320d4-f512-6260-bf2a-c88b7a9900a7-C",
+    "amount": 16210648,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$16,210,648"
+  },
+  {
+    "rank": 409,
+    "recipient_name": "CONCOURSE FEDERAL GROUP LLC",
+    "recipient_id": "396775b5-6204-3778-9924-64c5b700048b-C",
+    "amount": 16147459,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$16,147,459"
+  },
+  {
+    "rank": 410,
+    "recipient_name": "QED SYSTEMS, INC.",
+    "recipient_id": "423c0292-b27c-040f-6da8-b77218e18967-C",
+    "amount": 16066516,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$16,066,516"
+  },
+  {
+    "rank": 411,
+    "recipient_name": "STELLAR SOLUTIONS INC",
+    "recipient_id": "da9ae174-b869-6d82-6ef6-20b5c3691436-C",
+    "amount": 16050405,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$16,050,405"
+  },
+  {
+    "rank": 412,
+    "recipient_name": "CEBUANA CONSTRUCTION INC",
+    "recipient_id": "6d76cc97-09ed-d8e9-f026-9e8125c4e621-C",
+    "amount": 15974642,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$15,974,642"
+  },
+  {
+    "rank": 413,
+    "recipient_name": "VIRTUAL COMPUTING TECHNOLOGY INC",
+    "recipient_id": "6f2c48fe-06e4-203c-75a5-d6c1a496f79b-C",
+    "amount": 15959095,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$15,959,095"
+  },
+  {
+    "rank": 414,
+    "recipient_name": "VARIAN MEDICAL SYSTEMS, INC",
+    "recipient_id": "4d08c983-54ee-c957-54b2-65e0bb397aba-C",
+    "amount": 15927999,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$15,927,999"
+  },
+  {
+    "rank": 415,
+    "recipient_name": "DSC-EMI MAINTENANCE SOLUTIONS, LLC",
+    "recipient_id": "fa791ff2-d2ff-3d6a-2ae8-9b952bb88925-C",
+    "amount": 15837167,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$15,837,167"
+  },
+  {
+    "rank": 416,
+    "recipient_name": "CORNERSTONE RESEARCH INC",
+    "recipient_id": "08614116-001a-69fc-6286-b38376597322-C",
+    "amount": 15800589,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$15,800,589"
+  },
+  {
+    "rank": 417,
+    "recipient_name": "RIX INDUSTRIES",
+    "recipient_id": "9747afe8-2cb8-cbe2-e5d0-b684ef76e23d-C",
+    "amount": 15786757,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$15,786,757"
+  },
+  {
+    "rank": 418,
+    "recipient_name": "NATIONAL MARINE MAMMAL FOUNDATION, INC.",
+    "recipient_id": "34deb452-43de-e73a-ae70-8f3150463fc3-C",
+    "amount": 15710234,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$15,710,234"
+  },
+  {
+    "rank": 419,
+    "recipient_name": "CHUGACH CONSOLIDATED SOLUTIONS, LLC",
+    "recipient_id": "194f1244-8fae-6b68-c4cf-00f88e7de3b1-C",
+    "amount": 15669065,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$15,669,065"
+  },
+  {
+    "rank": 420,
+    "recipient_name": "THE ARORA GROUP, INC.",
+    "recipient_id": "b33b0642-9999-749e-165f-caaffddc9e59-C",
+    "amount": 15661938,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$15,661,938"
+  },
+  {
+    "rank": 421,
+    "recipient_name": "RAYTHEON COMPANY",
+    "recipient_id": "9a1a05d2-9e68-40ad-a50b-cbe6fff280a6-C",
+    "amount": 15651267,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$15,651,267"
+  },
+  {
+    "rank": 422,
+    "recipient_name": "AEROMETALS, INC.",
+    "recipient_id": "98e4b8e0-ca40-743c-578d-d067106d4da7-C",
+    "amount": 15644775,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$15,644,775"
+  },
+  {
+    "rank": 423,
+    "recipient_name": "MICROSOFT CORPORATION",
+    "recipient_id": "dd77b7c3-663e-cb91-229f-5766a50e9b7f-C",
+    "amount": 15580041,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$15,580,041"
+  },
+  {
+    "rank": 424,
+    "recipient_name": "SAN DIEGO GAS & ELECTRIC COMPANY",
+    "recipient_id": "dbb1654c-5edd-9c5a-482e-35c4a85644bc-C",
+    "amount": 15579285,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$15,579,285"
+  },
+  {
+    "rank": 425,
+    "recipient_name": "GENERAL DYNAMICS INFORMATION TECHNOLOGY INC.",
+    "recipient_id": "97548240-0e02-74d3-4da0-9a8a260a47f0-C",
+    "amount": 15432049,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$15,432,049"
+  },
+  {
+    "rank": 426,
+    "recipient_name": "ALPHA OMEGA GROUP LLC",
+    "recipient_id": "882dd9e7-4c18-d360-29a6-5d04f9e07a3d-C",
+    "amount": 15381913,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$15,381,913"
+  },
+  {
+    "rank": 427,
+    "recipient_name": "FASONE CONSTRUCTION, INC.",
+    "recipient_id": "8c63f8f0-a1be-c5b2-0d44-ccb42c5e5c4d-C",
+    "amount": 15336543,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$15,336,543"
+  },
+  {
+    "rank": 428,
+    "recipient_name": "FREEMAN HOLDINGS OF RIVERSIDE, L.L.C.",
+    "recipient_id": "d1e5e284-c85d-a1e3-44e8-d336fe1d9370-C",
+    "amount": 15334753,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$15,334,753"
+  },
+  {
+    "rank": 429,
+    "recipient_name": "GENERAL MICRO SYSTEMS, INC",
+    "recipient_id": "279b4b02-7bf1-33ad-ebe4-c778a644a448-C",
+    "amount": 15284046,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$15,284,046"
+  },
+  {
+    "rank": 430,
+    "recipient_name": "PARADIGM MECHANICAL CORP.",
+    "recipient_id": "5930b2e3-974a-d385-0a92-3c0a5141d70a-C",
+    "amount": 15256332,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$15,256,332"
+  },
+  {
+    "rank": 431,
+    "recipient_name": "MACRO-Z-TECHNOLOGY COMPANY",
+    "recipient_id": "c598d4b0-50c8-9991-3675-6a5f5c9391ff-C",
+    "amount": 15228026,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$15,228,026"
+  },
+  {
+    "rank": 432,
+    "recipient_name": "ROCKET LAB USA INC",
+    "recipient_id": "9669604f-4d27-3568-c3df-ff74486a93ea-C",
+    "amount": 15227350,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$15,227,350"
+  },
+  {
+    "rank": 433,
+    "recipient_name": "CONDOR RELIABILITY SERVICES, INC.",
+    "recipient_id": "22522f0c-c11d-7d74-45cc-d71890d8c871-C",
+    "amount": 15196048,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$15,196,048"
+  },
+  {
+    "rank": 434,
+    "recipient_name": "AB SCIEX LLC",
+    "recipient_id": "07d56996-c579-6626-d8b4-c0edc713d11c-C",
+    "amount": 15190650,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$15,190,650"
+  },
+  {
+    "rank": 435,
+    "recipient_name": "VERTEX AEROSPACE LLC",
+    "recipient_id": "fb63ba18-02ee-d557-7366-681926c60e0d-C",
+    "amount": 15169538,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$15,169,538"
+  },
+  {
+    "rank": 436,
+    "recipient_name": "CREEK TECHNOLOGIES COMPANY",
+    "recipient_id": "ab799d5b-1108-aeab-1297-078de0170527-C",
+    "amount": 15162137,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$15,162,137"
+  },
+  {
+    "rank": 437,
+    "recipient_name": "CAPE ENVIRONMENTAL MANAGEMENT INC",
+    "recipient_id": "87a71bec-b25e-9904-253e-f03c2e33e1df-C",
+    "amount": 15155396,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$15,155,396"
+  },
+  {
+    "rank": 438,
+    "recipient_name": "PACIFIC INK, INC.",
+    "recipient_id": "5476f304-0c51-9395-7852-31a2dac37356-C",
+    "amount": 15117638,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$15,117,638"
+  },
+  {
+    "rank": 439,
+    "recipient_name": "TIGER NATURAL GAS, INC.",
+    "recipient_id": "2b1a8669-f41b-9b48-6325-9f8a1e52fde6-C",
+    "amount": 15092314,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$15,092,314"
+  },
+  {
+    "rank": 440,
+    "recipient_name": "EDWARDS LIFESCIENCES LLC",
+    "recipient_id": "de388c19-a8c4-1547-ce0f-e99b8ac74b44-C",
+    "amount": 15086554,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$15,086,554"
+  },
+  {
+    "rank": 441,
+    "recipient_name": "CARE MERIDIAN",
+    "recipient_id": "c0c9ebb6-e940-d257-675a-c1c9d8fa45ad-C",
+    "amount": 14978013,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$14,978,013"
+  },
+  {
+    "rank": 442,
+    "recipient_name": "JOHNSON CONTROLS GOVERNMENT SYSTEMS, LLC",
+    "recipient_id": "6eda3ee1-f612-3b12-8ada-a920384dd80b-C",
+    "amount": 14936458,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$14,936,458"
+  },
+  {
+    "rank": 443,
+    "recipient_name": "FRANKLIN YOUNG INTERNATIONAL, INCORPORATED",
+    "recipient_id": "f7dd6034-c3e1-7688-32f3-852f9119cd9c-C",
+    "amount": 14913436,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$14,913,436"
+  },
+  {
+    "rank": 444,
+    "recipient_name": "STRATEGIC INDUSTRY INC",
+    "recipient_id": "ec8816b4-38c8-8fcc-89af-87b4c11ff787-C",
+    "amount": 14907552,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$14,907,552"
+  },
+  {
+    "rank": 445,
+    "recipient_name": "CAPE-BURNS & MCDONNELL JV",
+    "recipient_id": "7d190610-d6c7-d813-95c1-f48797b5c136-C",
+    "amount": 14901207,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$14,901,207"
+  },
+  {
+    "rank": 446,
+    "recipient_name": "HIGH DESERT SUPPORT SERVICES, LLC",
+    "recipient_id": "65b5158e-7d49-bbb9-376e-817bae6c44ed-C",
+    "amount": 14896027,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$14,896,027"
+  },
+  {
+    "rank": 447,
+    "recipient_name": "MODERN TECHNOLOGY SOLUTIONS, INC.",
+    "recipient_id": "b4ef6003-1f01-d9c4-b29f-b4e2015f014e-C",
+    "amount": 14886090,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$14,886,090"
+  },
+  {
+    "rank": 448,
+    "recipient_name": "ROCKWELL COLLINS, INC.",
+    "recipient_id": "fbaf2f7a-d2a8-a4b8-2388-3abc483658a7-C",
+    "amount": 14860181,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$14,860,181"
+  },
+  {
+    "rank": 449,
+    "recipient_name": "OCEANEERING INTERNATIONAL INC",
+    "recipient_id": "8737bab8-e6b0-1ddd-6a10-fb8e77bf0dce-C",
+    "amount": 14747678,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$14,747,678"
+  },
+  {
+    "rank": 450,
+    "recipient_name": "SABEL SYSTEMS TECHNOLOGY SOLUTIONS, LLC",
+    "recipient_id": "efa6a83f-5d3d-3a3c-6916-68ced5ef4e9c-C",
+    "amount": 14649572,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$14,649,572"
+  },
+  {
+    "rank": 451,
+    "recipient_name": "S.T.RHOADES CONSTRUCTION INCORPORATED",
+    "recipient_id": "e0b6f5c8-abc5-ac27-90f0-c2c811bc5773-C",
+    "amount": 14626343,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$14,626,343"
+  },
+  {
+    "rank": 452,
+    "recipient_name": "PD SYSTEMS INC.",
+    "recipient_id": "07e8e49f-3378-568e-8f84-5254da50e5db-C",
+    "amount": 14593768,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$14,593,768"
+  },
+  {
+    "rank": 453,
+    "recipient_name": "MATRIX PROVIDERS INC.",
+    "recipient_id": "5f4528c1-37f5-05c2-ab57-7b5a1d35b4fe-C",
+    "amount": 14579032,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$14,579,032"
+  },
+  {
+    "rank": 454,
+    "recipient_name": "URSA MAJOR TECHNOLOGIES, INC.",
+    "recipient_id": "701305b6-4c35-6385-0c0c-456d7f545f01-C",
+    "amount": 14558000,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$14,558,000"
+  },
+  {
+    "rank": 455,
+    "recipient_name": "HONEYBEE ROBOTICS, LTD.",
+    "recipient_id": "b5247fd3-9125-67ef-151a-ead454257097-C",
+    "amount": 14533698,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$14,533,698"
+  },
+  {
+    "rank": 456,
+    "recipient_name": "HAMILTON SUNDSTRAND CORPORATION",
+    "recipient_id": "439af5e1-2eb4-9db9-92f7-0f6d28b842ff-C",
+    "amount": 14512870,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$14,512,870"
+  },
+  {
+    "rank": 457,
+    "recipient_name": "IGNITE DIGITAL FEDERAL SERVICES, LLC",
+    "recipient_id": "17e02f15-4184-1936-a867-3c570b8cb90c-C",
+    "amount": 14509456,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$14,509,456"
+  },
+  {
+    "rank": 458,
+    "recipient_name": "CHENEGA HEALTHCARE SERVICES LLC",
+    "recipient_id": "868dfbc7-a5b7-633e-8f00-a1e278e7828b-C",
+    "amount": 14486291,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$14,486,291"
+  },
+  {
+    "rank": 459,
+    "recipient_name": "HCI SYSTEMS, INC.",
+    "recipient_id": "f4bc6570-e3f0-f045-a91c-c3514efca59f-C",
+    "amount": 14472616,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$14,472,616"
+  },
+  {
+    "rank": 460,
+    "recipient_name": "PACIFIC CONSOLIDATED INDUSTRIES LLC",
+    "recipient_id": "a28eab97-09f5-398f-a7c7-86dbf97b0f53-C",
+    "amount": 14460542,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$14,460,542"
+  },
+  {
+    "rank": 461,
+    "recipient_name": "ADEPT FASTENERS INC",
+    "recipient_id": "c3ab6693-fdac-0596-321a-0b6fc55e340d-C",
+    "amount": 14459509,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$14,459,509"
+  },
+  {
+    "rank": 462,
+    "recipient_name": "FALCON FUELS, INC.",
+    "recipient_id": "bab08b26-cedb-d34c-31f5-3cca4860f6e9-C",
+    "amount": 14314258,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$14,314,258"
+  },
+  {
+    "rank": 463,
+    "recipient_name": "GE RENEWABLES US LLC",
+    "recipient_id": "8ab45095-888a-2d03-c47d-988261118cec-C",
+    "amount": 14300000,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$14,300,000"
+  },
+  {
+    "rank": 464,
+    "recipient_name": "SYNERGY ELECTRIC COMPANY, INC.",
+    "recipient_id": "40abedc0-60d8-75b3-a89c-e3763e42179c-C",
+    "amount": 14285863,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$14,285,863"
+  },
+  {
+    "rank": 465,
+    "recipient_name": "TELEDYNE DEFENSE ELECTRONICS, LLC",
+    "recipient_id": "1ee39dd8-ef9a-70a0-907b-b2ee04c3b34c-C",
+    "amount": 14261326,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$14,261,326"
+  },
+  {
+    "rank": 466,
+    "recipient_name": "THE BIZZELL GROUP LLC",
+    "recipient_id": "669db5bc-41a4-e042-f683-1ab3e79e56d2-C",
+    "amount": 14245916,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$14,245,916"
+  },
+  {
+    "rank": 467,
+    "recipient_name": "TRILLAMED LLC",
+    "recipient_id": "45e59e37-b289-1207-3481-6c9bea251dd8-C",
+    "amount": 14236194,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$14,236,194"
+  },
+  {
+    "rank": 468,
+    "recipient_name": "CACI TECHNOLOGIES, LLC",
+    "recipient_id": "4763c991-6108-3b12-d5e3-f29d6935270b-C",
+    "amount": 14219731,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$14,219,731"
+  },
+  {
+    "rank": 469,
+    "recipient_name": "WALASHEK INDUSTRIAL & MARINE, INC.",
+    "recipient_id": "40607b59-c311-0fa2-b82f-957415be2ad5-C",
+    "amount": 14148708,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$14,148,708"
+  },
+  {
+    "rank": 470,
+    "recipient_name": "MARTIN BROTHERS CONSTRUCTION",
+    "recipient_id": "4047b84b-92d5-3837-a05b-1a86ce69a21f-C",
+    "amount": 14138159,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$14,138,159"
+  },
+  {
+    "rank": 471,
+    "recipient_name": "CRAWFORD BROS., INC.",
+    "recipient_id": "fd4337f4-1d73-e4e0-1b97-82b72cb7b1e6-C",
+    "amount": 14121491,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$14,121,491"
+  },
+  {
+    "rank": 472,
+    "recipient_name": "YUKON FIRE PROTECTION SERVICES, INC.",
+    "recipient_id": "92ab6e32-13fd-a16c-a93d-0451d0f65858-C",
+    "amount": 14045996,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$14,045,996"
+  },
+  {
+    "rank": 473,
+    "recipient_name": "ABODA, INC",
+    "recipient_id": "e8fc9b2b-721c-b953-2089-04f9fc33cfad-C",
+    "amount": 13991364,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$13,991,364"
+  },
+  {
+    "rank": 474,
+    "recipient_name": "JOHNSON-FRANK & ASSOCIATES, INC.",
+    "recipient_id": "31f32670-59cf-9524-f9ef-ab93495eada8-C",
+    "amount": 13988652,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$13,988,652"
+  },
+  {
+    "rank": 475,
+    "recipient_name": "JACOBS/EWINGCOLE, A JOINT VENTURE",
+    "recipient_id": "6d60c3fa-b83c-0be7-aa39-e69de0d0b5a6-C",
+    "amount": 13972056,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$13,972,056"
+  },
+  {
+    "rank": 476,
+    "recipient_name": "ORACLE AMERICA, INC",
+    "recipient_id": "272478a2-195f-1dd5-da03-0969b678caf4-C",
+    "amount": 13898831,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$13,898,831"
+  },
+  {
+    "rank": 477,
+    "recipient_name": "PACIFIC DEFENSE STRATEGIES, INC.",
+    "recipient_id": "2ff1c03a-f23a-910a-d70a-02c0252f9e00-C",
+    "amount": 13876874,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$13,876,874"
+  },
+  {
+    "rank": 478,
+    "recipient_name": "SPECTRUM SERVICES GROUP INC",
+    "recipient_id": "1176dd72-3bde-4a47-5c63-c01c089cd4db-C",
+    "amount": 13857716,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$13,857,716"
+  },
+  {
+    "rank": 479,
+    "recipient_name": "US FOODS, INC",
+    "recipient_id": "bb3d9a70-4101-44c2-41cf-83ab8559b049-C",
+    "amount": 13814553,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$13,814,553"
+  },
+  {
+    "rank": 480,
+    "recipient_name": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, SAN FRANCISCO, THE",
+    "recipient_id": "bb8d1cd4-e0ae-6348-a07c-04df6a112768-C",
+    "amount": 13798839,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$13,798,839"
+  },
+  {
+    "rank": 481,
+    "recipient_name": "PERATON TECHNOLOGY SERVICES INC.",
+    "recipient_id": "b6cf6b76-108b-9715-e35f-19d7e27422ca-C",
+    "amount": 13738486,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$13,738,486"
+  },
+  {
+    "rank": 482,
+    "recipient_name": "OMNI2MAX, INC.",
+    "recipient_id": "02e0cd9e-4cda-f5ba-5a5b-23366718ffe9-C",
+    "amount": 13725774,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$13,725,774"
+  },
+  {
+    "rank": 483,
+    "recipient_name": "PCX INC",
+    "recipient_id": "aa67a864-22e5-a7f2-b224-9c8f07cba579-C",
+    "amount": 13725441,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$13,725,441"
+  },
+  {
+    "rank": 484,
+    "recipient_name": "VINYL TECHNOLOGY, LLC",
+    "recipient_id": "d8b426d1-7fd3-8cba-6d2e-a957abf594b1-C",
+    "amount": 13697748,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$13,697,748"
+  },
+  {
+    "rank": 485,
+    "recipient_name": "CURTISS-WRIGHT CONTROLS ELECTRONIC SYSTEMS, INC.",
+    "recipient_id": "2d4c9c06-d09e-e764-4bf5-71184179d875-C",
+    "amount": 13690638,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$13,690,638"
+  },
+  {
+    "rank": 486,
+    "recipient_name": "ACCESS MW LLC",
+    "recipient_id": "4f40b27d-ae95-498e-b8e3-4d322e44cffb-C",
+    "amount": 13607000,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$13,607,000"
+  },
+  {
+    "rank": 487,
+    "recipient_name": "SPECTRUM SOLUTIONS INC",
+    "recipient_id": "a7a5f962-0e16-2446-cb00-13c3e2a3e1fa-C",
+    "amount": 13576910,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$13,576,910"
+  },
+  {
+    "rank": 488,
+    "recipient_name": "MDF TECHNOLOGIES INC",
+    "recipient_id": "bbbaa8f8-d858-eb54-c72f-928ef9dbc0ff-C",
+    "amount": 13565137,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$13,565,137"
+  },
+  {
+    "rank": 489,
+    "recipient_name": "RAMPART AVIATION, LLC.",
+    "recipient_id": "955fe04b-ea20-c002-033b-07df94807b63-C",
+    "amount": 13559944,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$13,559,944"
+  },
+  {
+    "rank": 490,
+    "recipient_name": "MX CONSTRUCTION, INC.",
+    "recipient_id": "77ac5a2d-2655-7965-fcef-d637bffec7f7-C",
+    "amount": 13536571,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$13,536,571"
+  },
+  {
+    "rank": 491,
+    "recipient_name": "KBR WYLE SERVICES, LLC",
+    "recipient_id": "eb13e842-2068-e3ee-0453-d02b9582e5cd-C",
+    "amount": 13521149,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$13,521,149"
+  },
+  {
+    "rank": 492,
+    "recipient_name": "ATAC",
+    "recipient_id": "888ac499-bbf2-ba38-9d60-90466f7a4972-C",
+    "amount": 13477046,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$13,477,046"
+  },
+  {
+    "rank": 493,
+    "recipient_name": "KEYSIGHT TECHNOLOGIES, INC.",
+    "recipient_id": "2dc7960d-44d4-abd2-2f00-56223804ce98-C",
+    "amount": 13419540,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$13,419,540"
+  },
+  {
+    "rank": 494,
+    "recipient_name": "D SQUARE CONSTRUCTION LLC",
+    "recipient_id": "9ff68355-f091-5666-4009-b0abc57a8e29-C",
+    "amount": 13360047,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$13,360,047"
+  },
+  {
+    "rank": 495,
+    "recipient_name": "KING FRESH PRODUCE, LLC",
+    "recipient_id": "92cd5d0d-f1a9-e9d1-8c6a-4abff081c97e-C",
+    "amount": 13346406,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$13,346,406"
+  },
+  {
+    "rank": 496,
+    "recipient_name": "ARTEMIS CONSULTING, LLC",
+    "recipient_id": "1a63ad1e-83ce-64d4-2e79-35d150ced32b-C",
+    "amount": 13326472,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$13,326,472"
+  },
+  {
+    "rank": 497,
+    "recipient_name": "GENERAL NUCLEONICS, INC.",
+    "recipient_id": "12c5db74-a84d-10cc-fa51-caf9f5af0ea0-C",
+    "amount": 13314618,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$13,314,618"
+  },
+  {
+    "rank": 498,
+    "recipient_name": "SENECA FAMILY OF AGENCIES",
+    "recipient_id": "5ebb2235-d95b-69e7-8935-9ce1acc91224-C",
+    "amount": 13306257,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$13,306,257"
+  },
+  {
+    "rank": 499,
+    "recipient_name": "AKTARIUS LLC",
+    "recipient_id": "ba590dfa-bdf2-7b98-1882-4d4581cc403f-C",
+    "amount": 13276618,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$13,276,618"
+  },
+  {
+    "rank": 500,
+    "recipient_name": "AUSGAR TECHNOLOGIES, INC.",
+    "recipient_id": "59b0a7be-0835-cc42-2cb2-34fdc5ce31f7-C",
+    "amount": 13258498,
+    "fiscal_year": "2023",
+    "state": "CA",
+    "amount_formatted": "$13,258,498"
+  }
+]

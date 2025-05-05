@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Federal Contract Recipients by State and Year</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .controls {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .control-group {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .control-group label {
+            font-weight: 500;
+        }
+        select {
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+            min-width: 120px;
+        }
+        .fetch-btn {
+            padding: 8px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background-color 0.2s;
+        }
+        .fetch-btn:hover {
+            background-color: #0056b3;
+        }
+        .fetch-btn:disabled {
+            background-color: #6c757d;
+            cursor: not-allowed;
+        }
+        .loading {
+            display: none;
+            color: #666;
+            text-align: center;
+            padding: 20px;
+        }
+        .error {
+            color: red;
+            display: none;
+            padding: 20px;
+            background-color: #fff3f3;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .summary {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+            position: relative;
+        }
+        .summary h2 {
+            margin-top: 0;
+        }
+        .download-btn {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 14px;
+            transition: background-color 0.2s;
+        }
+        .download-btn:hover {
+            background-color: #218838;
+        }
+        .download-btn:disabled {
+            background-color: #6c757d;
+            cursor: not-allowed;
+        }
+        .recipients-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: white;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+        }
+        .recipients-table th,
+        .recipients-table td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        .recipients-table th {
+            background-color: #f8f9fa;
+            font-weight: 600;
+        }
+        .recipients-table tr:hover {
+            background-color: #f5f5f5;
+        }
+        .amount {
+            text-align: right;
+            font-family: monospace;
+        }
+        .rank {
+            text-align: center;
+            width: 80px;
+        }
+        .category {
+            width: 150px;
+        }
+        .category-badge {
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 500;
+            color: white;
+        }
+        .category-Defense { background-color: #dc3545; }
+        .category-Technology { background-color: #0d6efd; }
+        .category-Healthcare { background-color: #198754; }
+        .category-Research { background-color: #6610f2; }
+        .category-Construction { background-color: #fd7e14; }
+        .category-Energy { background-color: #20c997; }
+        .category-Other { background-color: #6c757d; }
+        
+        .category-summary {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .category-stat {
+            background: white;
+            padding: 10px;
+            border-radius: 4px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <h1>Top Federal Contract Recipients</h1>
+    
+    <div class="controls">
+        <div class="control-group">
+            <label for="state-select">State:</label>
+            <select id="state-select">
+                <option value="VA">Virginia</option>
+                <option value="MD">Maryland</option>
+                <option value="CA">California</option>
+            </select>
+        </div>
+        <div class="control-group">
+            <label for="year-select">Fiscal Year:</label>
+            <select id="year-select">
+                <option value="2024">FY 2024</option>
+                <option value="2023">FY 2023</option>
+                <option value="2022">FY 2022</option>
+                <option value="2021">FY 2021</option>
+                <option value="2020">FY 2020</option>
+            </select>
+        </div>
+        <div class="control-group">
+            <label for="category-filter">Category:</label>
+            <select id="category-filter">
+                <option value="">All Categories</option>
+                <option value="Defense">Defense</option>
+                <option value="Technology">Technology</option>
+                <option value="Healthcare">Healthcare</option>
+                <option value="Research & Education">Research & Education</option>
+                <option value="Construction">Construction</option>
+                <option value="Energy">Energy</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+        <button id="fetch-btn" class="fetch-btn">
+            <i class="fas fa-sync"></i>
+            Fetch Data
+        </button>
+    </div>
+    
+    <div class="summary">
+        <h2>Summary</h2>
+        <div id="summary-stats"></div>
+        <div id="category-summary" class="category-summary"></div>
+        <button id="download-btn" class="download-btn" disabled>
+            <i class="fas fa-download"></i>
+            Download JSON
+        </button>
+    </div>
+
+    <div id="loading" class="loading">Fetching recipient data...</div>
+    <div id="error" class="error"></div>
+    
+    <table class="recipients-table">
+        <thead>
+            <tr>
+                <th class="rank">Rank</th>
+                <th>Recipient Name</th>
+                <th class="category">Category</th>
+                <th class="amount">Contract Amount</th>
+                <th>Recipient ID</th>
+            </tr>
+        </thead>
+        <tbody id="recipients-body">
+        </tbody>
+    </table>
+
+    <script src="JS/fetch_va_2023.js"></script>
+    <script>
+        const loadingEl = document.getElementById('loading');
+        const errorEl = document.getElementById('error');
+        const tableBody = document.getElementById('recipients-body');
+        const summaryStats = document.getElementById('summary-stats');
+        const categorySummary = document.getElementById('category-summary');
+        const downloadBtn = document.getElementById('download-btn');
+        const fetchBtn = document.getElementById('fetch-btn');
+        const stateSelect = document.getElementById('state-select');
+        const yearSelect = document.getElementById('year-select');
+        const categoryFilter = document.getElementById('category-filter');
+        
+        let currentData = null;
+
+        function downloadJSON(data) {
+            const state = stateSelect.value;
+            const fiscalYear = yearSelect.value;
+            const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+            const url = window.URL.createObjectURL(blob);
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = `${state.toLowerCase()}_recipients_fy${fiscalYear}_${new Date().toISOString().split('T')[0]}.json`;
+            document.body.appendChild(link);
+            link.click();
+            window.URL.revokeObjectURL(url);
+            document.body.removeChild(link);
+        }
+
+        function displayResults(data) {
+            currentData = data;
+            downloadBtn.disabled = false;
+            
+            const state = stateSelect.options[stateSelect.selectedIndex].text;
+            const fiscalYear = yearSelect.value;
+            const selectedCategory = categoryFilter.value;
+            
+            // Filter by category if selected
+            const filteredData = selectedCategory ? 
+                data.filter(item => item.category === selectedCategory) : 
+                data;
+            
+            // Calculate summary statistics
+            const totalAmount = filteredData.reduce((sum, item) => sum + item.amount, 0);
+            const averageAmount = totalAmount / filteredData.length;
+            
+            // Calculate category statistics
+            const categoryStats = data.reduce((stats, item) => {
+                if (!stats[item.category]) {
+                    stats[item.category] = {
+                        count: 0,
+                        total: 0
+                    };
+                }
+                stats[item.category].count++;
+                stats[item.category].total += item.amount;
+                return stats;
+            }, {});
+            
+            // Display main summary
+            summaryStats.innerHTML = `
+                <p>State: ${state}</p>
+                <p>Fiscal Year: ${fiscalYear}</p>
+                <p>Total Recipients: ${filteredData.length}</p>
+                <p>Total Contract Amount: ${new Intl.NumberFormat('en-US', {
+                    style: 'currency',
+                    currency: 'USD',
+                    minimumFractionDigits: 0,
+                    maximumFractionDigits: 0
+                }).format(totalAmount)}</p>
+                <p>Average Contract Amount: ${new Intl.NumberFormat('en-US', {
+                    style: 'currency',
+                    currency: 'USD',
+                    minimumFractionDigits: 0,
+                    maximumFractionDigits: 0
+                }).format(averageAmount)}</p>
+            `;
+
+            // Display category summary
+            categorySummary.innerHTML = Object.entries(categoryStats)
+                .map(([category, stats]) => `
+                    <div class="category-stat">
+                        <strong>${category}</strong><br>
+                        Recipients: ${stats.count}<br>
+                        Total: ${new Intl.NumberFormat('en-US', {
+                            style: 'currency',
+                            currency: 'USD',
+                            minimumFractionDigits: 0,
+                            maximumFractionDigits: 0
+                        }).format(stats.total)}
+                    </div>
+                `).join('');
+
+            // Display table rows
+            tableBody.innerHTML = filteredData.map(item => `
+                <tr>
+                    <td class="rank">${item.rank}</td>
+                    <td>${item.recipient_name}</td>
+                    <td class="category">
+                        <span class="category-badge category-${item.category.split(' ')[0]}">
+                            ${item.category}
+                        </span>
+                    </td>
+                    <td class="amount">${item.amount_formatted}</td>
+                    <td>${item.recipient_id}</td>
+                </tr>
+            `).join('');
+        }
+
+        // Add event listeners
+        downloadBtn.addEventListener('click', () => {
+            if (currentData) {
+                downloadJSON(currentData);
+            }
+        });
+
+        categoryFilter.addEventListener('change', () => {
+            if (currentData) {
+                displayResults(currentData);
+            }
+        });
+
+        async function fetchData() {
+            const state = stateSelect.value;
+            const fiscalYear = yearSelect.value;
+            
+            loadingEl.style.display = 'block';
+            errorEl.style.display = 'none';
+            downloadBtn.disabled = true;
+            fetchBtn.disabled = true;
+            tableBody.innerHTML = '';
+            summaryStats.innerHTML = '';
+            categorySummary.innerHTML = '';
+            
+            try {
+                const data = await fetchTopRecipients(state, fiscalYear);
+                loadingEl.style.display = 'none';
+                fetchBtn.disabled = false;
+                displayResults(data);
+            } catch (error) {
+                loadingEl.style.display = 'none';
+                fetchBtn.disabled = false;
+                errorEl.style.display = 'block';
+                errorEl.textContent = `Error: ${error.message}`;
+            }
+        }
+
+        // Add fetch button click handler
+        fetchBtn.addEventListener('click', fetchData);
+        
+        // Initial fetch
+        fetchData();
+    </script>
+</body>
+</html> 

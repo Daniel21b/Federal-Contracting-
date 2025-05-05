@@ -1,0 +1,4502 @@
+[
+  {
+    "rank": 1,
+    "recipient_name": "THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC",
+    "recipient_id": "4eae43e5-e1f1-0e77-b2fe-09a12a9a552c-C",
+    "amount": 1965845485,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$1,965,845,485"
+  },
+  {
+    "rank": 2,
+    "recipient_name": "LEIDOS BIOMEDICAL RESEARCH INC",
+    "recipient_id": "277c2f00-0fc5-832e-69d3-accd25c68bfc-C",
+    "amount": 1202324192,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$1,202,324,192"
+  },
+  {
+    "rank": 3,
+    "recipient_name": "BOOZ ALLEN HAMILTON INC",
+    "recipient_id": "ffca72e5-fba2-798a-6969-2a6c45e9f985-C",
+    "amount": 768093869,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$768,093,869"
+  },
+  {
+    "rank": 4,
+    "recipient_name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+    "recipient_id": "714e4813-7667-ae43-50eb-73dcba4aa3d9-C",
+    "amount": 737264331,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$737,264,331"
+  },
+  {
+    "rank": 5,
+    "recipient_name": "LEIDOS, INC.",
+    "recipient_id": "5ddb264f-234b-872c-2571-4731fde123c6-C",
+    "amount": 680179695,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$680,179,695"
+  },
+  {
+    "rank": 6,
+    "recipient_name": "BAE SYSTEMS TECHNOLOGY SOLUTIONS & SERVICES INC.",
+    "recipient_id": "2e141abe-fe8f-7ddc-e6a3-8bb2165836be-C",
+    "amount": 626824583,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$626,824,583"
+  },
+  {
+    "rank": 7,
+    "recipient_name": "FCN INC",
+    "recipient_id": "3792ca7f-d5d2-d89c-872b-8c64e4e6390e-C",
+    "amount": 610794304,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$610,794,304"
+  },
+  {
+    "rank": 8,
+    "recipient_name": "CLARK CONSTRUCTION GROUP LLC",
+    "recipient_id": "8470bfbc-50af-251d-d192-3059c5b82618-C",
+    "amount": 597478883,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$597,478,883"
+  },
+  {
+    "rank": 9,
+    "recipient_name": "GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC.",
+    "recipient_id": "455555be-773d-eab1-1e6b-7b94400b757e-C",
+    "amount": 562057319,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$562,057,319"
+  },
+  {
+    "rank": 10,
+    "recipient_name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+    "recipient_id": "8045a473-49bf-de71-ebb8-2351822daebe-C",
+    "amount": 482019724,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$482,019,724"
+  },
+  {
+    "rank": 11,
+    "recipient_name": "THE JOHNS HOPKINS MEDICAL SERVICES CORPORATION",
+    "recipient_id": "81fdb5c6-e1df-cea3-949b-1f69661fa81b-C",
+    "amount": 473725930,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$473,725,930"
+  },
+  {
+    "rank": 12,
+    "recipient_name": "AMENTUM SERVICES, INC.",
+    "recipient_id": "fe5366b4-84c8-12ff-126f-f123de29819c-C",
+    "amount": 470347005,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$470,347,005"
+  },
+  {
+    "rank": 13,
+    "recipient_name": "VERTEX AEROSPACE LLC",
+    "recipient_id": "fb63ba18-02ee-d557-7366-681926c60e0d-C",
+    "amount": 462318460,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$462,318,460"
+  },
+  {
+    "rank": 14,
+    "recipient_name": "INTERNATIONAL BUSINESS MACHINES CORPORATION",
+    "recipient_id": "6ffc4386-853e-ef89-67e8-22c28ddcf15c-C",
+    "amount": 455738891,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$455,738,891"
+  },
+  {
+    "rank": 15,
+    "recipient_name": "LEIDOS, INC.",
+    "recipient_id": "32109085-1976-8da6-d5cd-7c8077389b75-C",
+    "amount": 411289180,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$411,289,180"
+  },
+  {
+    "rank": 16,
+    "recipient_name": "TECHNICAL RESOURCES INTERNATIONAL, INC.",
+    "recipient_id": "2f1c3a02-e976-99d1-745f-029ad63e23e6-C",
+    "amount": 383137475,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$383,137,475"
+  },
+  {
+    "rank": 17,
+    "recipient_name": "BALFOUR BEATTY CONSTRUCTION, LLC",
+    "recipient_id": "13eeacaa-d03d-0f0b-43f9-8d2b9dbb0d3c-C",
+    "amount": 338871012,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$338,871,012"
+  },
+  {
+    "rank": 18,
+    "recipient_name": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+    "recipient_id": "20af0683-f17d-1f8f-38ee-2f11bd124559-C",
+    "amount": 330496061,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$330,496,061"
+  },
+  {
+    "rank": 19,
+    "recipient_name": "WESTAT, INC.",
+    "recipient_id": "1a05eb77-da74-5790-7cc1-11f261fd252e-C",
+    "amount": 294976302,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$294,976,302"
+  },
+  {
+    "rank": 20,
+    "recipient_name": "DELOITTE CONSULTING LLP",
+    "recipient_id": "92663aec-4451-0476-502b-d8c6919e98e0-C",
+    "amount": 292121088,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$292,121,088"
+  },
+  {
+    "rank": 21,
+    "recipient_name": "WHITING-TURNER CONTRACTING COMPANY, THE",
+    "recipient_id": "71cf1e91-51f2-f450-1fe3-3576b19bb828-C",
+    "amount": 282311414,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$282,311,414"
+  },
+  {
+    "rank": 22,
+    "recipient_name": "CACI, INC. - FEDERAL",
+    "recipient_id": "28eee911-76af-7147-f760-4ec5f90bec2d-C",
+    "amount": 264832753,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$264,832,753"
+  },
+  {
+    "rank": 23,
+    "recipient_name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+    "recipient_id": "e398bb29-99aa-01cc-549d-c40fc7d84e10-C",
+    "amount": 257980462,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$257,980,462"
+  },
+  {
+    "rank": 24,
+    "recipient_name": "BCG FEDERAL CORP.",
+    "recipient_id": "e0fc1ba7-7f61-1986-d36b-ac0ccc27e77a-C",
+    "amount": 257942557,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$257,942,557"
+  },
+  {
+    "rank": 25,
+    "recipient_name": "TEXTRON SYSTEMS CORPORATION",
+    "recipient_id": "fcd5772b-feb1-830f-fce9-45126a639593-C",
+    "amount": 256093319,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$256,093,319"
+  },
+  {
+    "rank": 26,
+    "recipient_name": "EMERGENT PRODUCT DEVELOPMENT GAITHERSBURG INC.",
+    "recipient_id": "f11cb234-3721-7806-3e4f-08dbd0408f5d-C",
+    "amount": 255719591,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$255,719,591"
+  },
+  {
+    "rank": 27,
+    "recipient_name": "HENSEL PHELPS CONSTRUCTION CO",
+    "recipient_id": "f08fe893-d99a-b14f-1e36-0777ed94a9f0-C",
+    "amount": 243693662,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$243,693,662"
+  },
+  {
+    "rank": 28,
+    "recipient_name": "ACCENTURE FEDERAL SERVICES LLC",
+    "recipient_id": "d41a6b8a-9d6a-0d28-7e24-989e31731aad-C",
+    "amount": 231375754,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$231,375,754"
+  },
+  {
+    "rank": 29,
+    "recipient_name": "SCIENCE SYSTEMS AND APPLICATIONS, INC.",
+    "recipient_id": "58f27a06-8b13-db66-44e8-66fff87b6bb7-C",
+    "amount": 224414310,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$224,414,310"
+  },
+  {
+    "rank": 30,
+    "recipient_name": "PERATON INC.",
+    "recipient_id": "129fccb1-783c-9fd1-7b6d-6ddea65ace79-C",
+    "amount": 198619888,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$198,619,888"
+  },
+  {
+    "rank": 31,
+    "recipient_name": "ASSOCIATION OF UNIVERSITIES FOR RESEARCH IN ASTRONOMY, INC.",
+    "recipient_id": "bc396b9b-bdab-f7b7-b1a8-1409da07fdc0-C",
+    "amount": 196339523,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$196,339,523"
+  },
+  {
+    "rank": 32,
+    "recipient_name": "KBR WYLE SERVICES, LLC",
+    "recipient_id": "eb13e842-2068-e3ee-0453-d02b9582e5cd-C",
+    "amount": 184169804,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$184,169,804"
+  },
+  {
+    "rank": 33,
+    "recipient_name": "LOCKHEED MARTIN CORPORATION",
+    "recipient_id": "49ba01f3-56b6-92fd-1814-1a521f21fe7e-C",
+    "amount": 179526123,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$179,526,123"
+  },
+  {
+    "rank": 34,
+    "recipient_name": "TISTA SCIENCE AND TECHNOLOGY CORPORATION",
+    "recipient_id": "505c4513-ce60-a739-a179-fd5a47a2297e-C",
+    "amount": 170692312,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$170,692,312"
+  },
+  {
+    "rank": 35,
+    "recipient_name": "THALES DEFENSE & SECURITY INC",
+    "recipient_id": "9074aacb-5498-a169-52a1-84bfc51ab116-C",
+    "amount": 170416639,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$170,416,639"
+  },
+  {
+    "rank": 36,
+    "recipient_name": "KBR WYLE SERVICES, LLC",
+    "recipient_id": "a0a87c1c-b46f-7c1f-9eb0-a389f77904a8-C",
+    "amount": 162168476,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$162,168,476"
+  },
+  {
+    "rank": 37,
+    "recipient_name": "PERATON TECHNOLOGY SERVICES INC.",
+    "recipient_id": "b6cf6b76-108b-9715-e35f-19d7e27422ca-C",
+    "amount": 160799981,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$160,799,981"
+  },
+  {
+    "rank": 38,
+    "recipient_name": "ABT GLOBAL LLC",
+    "recipient_id": "4b2f02c9-273a-8c69-ef1f-2e98bf47f78b-C",
+    "amount": 159258478,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$159,258,478"
+  },
+  {
+    "rank": 39,
+    "recipient_name": "KBR WYLE SERVICES, LLC",
+    "recipient_id": "c1555398-ca16-7024-230c-c902d4f1a351-C",
+    "amount": 159089147,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$159,089,147"
+  },
+  {
+    "rank": 40,
+    "recipient_name": "AXLE INFORMATICS, LLC",
+    "recipient_id": "42cd8754-63c7-5fcd-2bef-651175ecc88f-C",
+    "amount": 156656049,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$156,656,049"
+  },
+  {
+    "rank": 41,
+    "recipient_name": "PERATON ENTERPRISE SOLUTIONS LLC",
+    "recipient_id": "333909ba-42cf-a1ce-3959-1ede2882d7f6-C",
+    "amount": 153662602,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$153,662,602"
+  },
+  {
+    "rank": 42,
+    "recipient_name": "SMARTRONIX, LLC",
+    "recipient_id": "19ab04e2-74ac-5802-1022-90f48f550ee7-C",
+    "amount": 153298378,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$153,298,378"
+  },
+  {
+    "rank": 43,
+    "recipient_name": "AERODYNE-SGT ENGINEERING SERVICES, LLC",
+    "recipient_id": "cf84d383-a58c-fc3f-4835-a1c3280936a6-C",
+    "amount": 136296185,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$136,296,185"
+  },
+  {
+    "rank": 44,
+    "recipient_name": "PRECISE SYSTEMS, INC.",
+    "recipient_id": "45224ae1-9c05-49b9-7552-dd44f9a98318-C",
+    "amount": 130345560,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$130,345,560"
+  },
+  {
+    "rank": 45,
+    "recipient_name": "GUIDEHOUSE INC.",
+    "recipient_id": "a0cb5664-8703-c7dc-a188-4a96f90a16c9-C",
+    "amount": 129615531,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$129,615,531"
+  },
+  {
+    "rank": 46,
+    "recipient_name": "TCOM, L.P.",
+    "recipient_id": "647ea90d-332a-fa56-4076-8f8c117adea6-C",
+    "amount": 129561440,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$129,561,440"
+  },
+  {
+    "rank": 47,
+    "recipient_name": "RELI GROUP INC",
+    "recipient_id": "27d1396e-6220-99d3-ebf0-a775a91d36b6-C",
+    "amount": 128527028,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$128,527,028"
+  },
+  {
+    "rank": 48,
+    "recipient_name": "THE MITRE CORPORATION",
+    "recipient_id": "3903ae3c-2661-60bb-cdd3-1f26ad214167-C",
+    "amount": 128456203,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$128,456,203"
+  },
+  {
+    "rank": 49,
+    "recipient_name": "MEDICAL SCIENCE & COMPUTING, LLC",
+    "recipient_id": "fd038b3f-5057-f1b5-8369-0d91b3a6ea3d-C",
+    "amount": 125734173,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$125,734,173"
+  },
+  {
+    "rank": 50,
+    "recipient_name": "DELL MARKETING L.P.",
+    "recipient_id": "d49f36ae-b747-42e3-5257-6787a69e51e9-C",
+    "amount": 122806482,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$122,806,482"
+  },
+  {
+    "rank": 51,
+    "recipient_name": "INFORMATION SYSTEMS & NETWORKS CORPORATION",
+    "recipient_id": "302e94e3-d36e-0ff3-29bc-d64610c936ef-C",
+    "amount": 121948490,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$121,948,490"
+  },
+  {
+    "rank": 52,
+    "recipient_name": "CARAHSOFT TECHNOLOGY CORP",
+    "recipient_id": "4e74aeb5-dd21-20a7-63bd-e9f934d69583-C",
+    "amount": 121496000,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$121,496,000"
+  },
+  {
+    "rank": 53,
+    "recipient_name": "DELL FEDERAL SYSTEMS L.P",
+    "recipient_id": "3612de0a-9635-3846-a5a1-7f555fba52df-C",
+    "amount": 120189088,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$120,189,088"
+  },
+  {
+    "rank": 54,
+    "recipient_name": "AMERICAN ELECTRONIC WARFARE ASSOCIATES, INCORPORATED",
+    "recipient_id": "46d107e6-a861-1e03-482f-e201ddda4a66-C",
+    "amount": 120115728,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$120,115,728"
+  },
+  {
+    "rank": 55,
+    "recipient_name": "VERIZON BUSINESS NETWORK SERVICES LLC",
+    "recipient_id": "0341544e-23d8-fe98-3d76-1cdbc8b37e2f-C",
+    "amount": 115197965,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$115,197,965"
+  },
+  {
+    "rank": 56,
+    "recipient_name": "EARTH RESOURCES TECHNOLOGY, LLC",
+    "recipient_id": "157986dd-1d51-b2f0-1f9a-af1c5d1bb5c3-C",
+    "amount": 114913398,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$114,913,398"
+  },
+  {
+    "rank": 57,
+    "recipient_name": "JACOBS TECHNOLOGY INC.",
+    "recipient_id": "435aa33d-8ca5-7631-ec18-85dbb07c6fa1-C",
+    "amount": 113837638,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$113,837,638"
+  },
+  {
+    "rank": 58,
+    "recipient_name": "LEIDOS, INC.",
+    "recipient_id": "876f1621-8b69-d47c-7fa6-933c63b9da44-C",
+    "amount": 110132292,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$110,132,292"
+  },
+  {
+    "rank": 59,
+    "recipient_name": "COLOSSAL CONTRACTING LLC",
+    "recipient_id": "decd8e4d-0c57-0c5c-0a05-c76dce02e356-C",
+    "amount": 107378836,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$107,378,836"
+  },
+  {
+    "rank": 60,
+    "recipient_name": "SPARKSOFT CORPORATION",
+    "recipient_id": "d03d8a89-08e8-0366-c6f2-02c1551a6838-C",
+    "amount": 106172027,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$106,172,027"
+  },
+  {
+    "rank": 61,
+    "recipient_name": "DLH, LLC",
+    "recipient_id": "7dc5787c-1843-acc0-ff3f-e83c0b1341ab-C",
+    "amount": 105882269,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$105,882,269"
+  },
+  {
+    "rank": 62,
+    "recipient_name": "THUNDERCAT TECHNOLOGY, LLC",
+    "recipient_id": "dbceb126-f729-60e7-d55a-ba235f519653-C",
+    "amount": 103932760,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$103,932,760"
+  },
+  {
+    "rank": 63,
+    "recipient_name": "DELOITTE & TOUCHE LLP",
+    "recipient_id": "921ab747-c89d-0aa2-e86e-5fa9b858e626-C",
+    "amount": 103321947,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$103,321,947"
+  },
+  {
+    "rank": 64,
+    "recipient_name": "J.F. TAYLOR, INC.",
+    "recipient_id": "5f914a14-5846-8f8a-aa4b-58ff187995f2-C",
+    "amount": 99743459,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$99,743,459"
+  },
+  {
+    "rank": 65,
+    "recipient_name": "ENLIGHTEN IT CONSULTING LLC",
+    "recipient_id": "ef60f1f1-d857-05bd-637d-aee1f1197946-C",
+    "amount": 99055688,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$99,055,688"
+  },
+  {
+    "rank": 66,
+    "recipient_name": "IT CONCEPTS, INC.",
+    "recipient_id": "06a58e22-1667-d970-e0c2-078eacc221ed-C",
+    "amount": 98143575,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$98,143,575"
+  },
+  {
+    "rank": 67,
+    "recipient_name": "THE EMMES COMPANY LLC",
+    "recipient_id": "9d4c45a9-af83-30ed-2d2b-7be7d3df49b9-C",
+    "amount": 97629456,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$97,629,456"
+  },
+  {
+    "rank": 68,
+    "recipient_name": "LEIDOS, INC.",
+    "recipient_id": "e77c753b-6638-3d5b-442e-c1225ca669d6-C",
+    "amount": 95824829,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$95,824,829"
+  },
+  {
+    "rank": 69,
+    "recipient_name": "TRUE NORTH COMMUNICATIONS INC",
+    "recipient_id": "bc7206d3-3080-7e27-48f6-c8f58f806fe8-C",
+    "amount": 95800000,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$95,800,000"
+  },
+  {
+    "rank": 70,
+    "recipient_name": "MITCHELL VANTAGE SYSTEMS LLC",
+    "recipient_id": "c37f4e53-8649-e11b-bd51-1b138d3e8dde-C",
+    "amount": 94734629,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$94,734,629"
+  },
+  {
+    "rank": 71,
+    "recipient_name": "LEIDOS, INC.",
+    "recipient_id": "b37ddcf2-0924-f6e0-0fee-c40823f5789b-C",
+    "amount": 93667766,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$93,667,766"
+  },
+  {
+    "rank": 72,
+    "recipient_name": "EXECUTIVE INFORMATION SYSTEMS, L.L.C.",
+    "recipient_id": "589f33bf-0a5c-824b-5e51-d1c6cb930fb5-C",
+    "amount": 93438524,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$93,438,524"
+  },
+  {
+    "rank": 73,
+    "recipient_name": "MINBURN TECHNOLOGY GROUP, LLC",
+    "recipient_id": "625ff1da-e9a2-cbdc-c8b3-fdd521fd1efc-C",
+    "amount": 89349558,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$89,349,558"
+  },
+  {
+    "rank": 74,
+    "recipient_name": "SMITHS DETECTION INC.",
+    "recipient_id": "f3261357-004d-9f85-a1b9-c147727004ca-C",
+    "amount": 89299491,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$89,299,491"
+  },
+  {
+    "rank": 75,
+    "recipient_name": "MANTECH ADVANCED SYSTEMS INTERNATIONAL, INC.",
+    "recipient_id": "ceac1920-9ceb-17a6-9bf7-026817a02917-C",
+    "amount": 87110839,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$87,110,839"
+  },
+  {
+    "rank": 76,
+    "recipient_name": "TRIBALCO LLC",
+    "recipient_id": "d5ea71c2-8a43-2a4c-875e-4cbd942d888d-C",
+    "amount": 81683258,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$81,683,258"
+  },
+  {
+    "rank": 77,
+    "recipient_name": "AUGUST SCHELL ENTERPRISES, INC.",
+    "recipient_id": "85fe27a9-a9cf-c3d2-21e3-87e0f77b0ded-C",
+    "amount": 81586021,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$81,586,021"
+  },
+  {
+    "rank": 78,
+    "recipient_name": "L-3 CHESAPEAKE SCIENCES CORPORATION",
+    "recipient_id": "1d4a1db6-2268-7b21-2a38-5f2f0456d95a-C",
+    "amount": 80341839,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$80,341,839"
+  },
+  {
+    "rank": 79,
+    "recipient_name": "INDYNE, INC.",
+    "recipient_id": "fd3b6157-4013-5782-d35d-7003dc9f10d3-C",
+    "amount": 79539566,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$79,539,566"
+  },
+  {
+    "rank": 80,
+    "recipient_name": "THE MIL CORPORATION",
+    "recipient_id": "32b9e937-feee-6741-df80-3e6afd5e431c-C",
+    "amount": 78886355,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$78,886,355"
+  },
+  {
+    "rank": 81,
+    "recipient_name": "GOVCIO, LLC",
+    "recipient_id": "0eac385c-8f65-cdfa-5f38-e31678aede60-C",
+    "amount": 78566843,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$78,566,843"
+  },
+  {
+    "rank": 82,
+    "recipient_name": "MAXIMUS FEDERAL SERVICES, INC.",
+    "recipient_id": "f87b435f-0b05-95c9-7c0e-e60df7cdff50-C",
+    "amount": 76514508,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$76,514,508"
+  },
+  {
+    "rank": 83,
+    "recipient_name": "DRS NETWORK & IMAGING SYSTEMS LLC",
+    "recipient_id": "d2126cd6-57c0-413f-1983-5b4216598036-C",
+    "amount": 76131024,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$76,131,024"
+  },
+  {
+    "rank": 84,
+    "recipient_name": "FOUR LLC",
+    "recipient_id": "c07a6919-cdf9-7d1f-a566-40a65f12479b-C",
+    "amount": 75957762,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$75,957,762"
+  },
+  {
+    "rank": 85,
+    "recipient_name": "IMAGINE ONE TECHNOLOGY & MANAGEMENT LTD",
+    "recipient_id": "9689d4f4-346e-f380-f5b1-da7c74e31a5f-C",
+    "amount": 74548176,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$74,548,176"
+  },
+  {
+    "rank": 86,
+    "recipient_name": "INTEGRATED QUALITY SOLUTIONS, LLC",
+    "recipient_id": "ed38c2a8-24ec-443d-7546-1d619c5beab7-C",
+    "amount": 72099486,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$72,099,486"
+  },
+  {
+    "rank": 87,
+    "recipient_name": "UNIVERSITY OF MARYLAND, COLLEGE PARK",
+    "recipient_id": "e04c3b49-28c8-efb6-f8ea-b4c853900d6f-C",
+    "amount": 71606223,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$71,606,223"
+  },
+  {
+    "rank": 88,
+    "recipient_name": "ADNET SYSTEMS INC",
+    "recipient_id": "7e29d787-6472-8c8c-2360-ff95a9c118d1-C",
+    "amount": 70337361,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$70,337,361"
+  },
+  {
+    "rank": 89,
+    "recipient_name": "PLANET TECHNOLOGIES, INC.",
+    "recipient_id": "a4fe8f37-20e5-864d-34f2-35ccc6e4c65c-C",
+    "amount": 69837616,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$69,837,616"
+  },
+  {
+    "rank": 90,
+    "recipient_name": "FAIRWINDS TECHNOLOGIES LLC",
+    "recipient_id": "29efc594-6891-a465-5460-35af813de98c-C",
+    "amount": 68742424,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$68,742,424"
+  },
+  {
+    "rank": 91,
+    "recipient_name": "RELIANCE TEST & TECHNOLOGY, LLC",
+    "recipient_id": "c346868c-bd6a-c893-0b8a-d4cc136d17a2-C",
+    "amount": 68266872,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$68,266,872"
+  },
+  {
+    "rank": 92,
+    "recipient_name": "SPALDING CONSULTING, INC.",
+    "recipient_id": "e586920c-1349-10c3-6231-3661c3728184-C",
+    "amount": 67540735,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$67,540,735"
+  },
+  {
+    "rank": 93,
+    "recipient_name": "NEW TECH SOLUTIONS, INC.",
+    "recipient_id": "e0f8746a-9a3b-810a-257a-cae2d63868da-C",
+    "amount": 66161010,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$66,161,010"
+  },
+  {
+    "rank": 94,
+    "recipient_name": "AVIATION SYSTEMS ENGINEERING COMPANY INC",
+    "recipient_id": "2c85d7e2-72d7-eebf-6f54-eb6e7e0a8520-C",
+    "amount": 66078139,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$66,078,139"
+  },
+  {
+    "rank": 95,
+    "recipient_name": "RESOURCE MANAGEMENT CONCEPTS, INC.",
+    "recipient_id": "fa426c29-a1e9-7091-5ea0-8b65cd09d57e-C",
+    "amount": 66038846,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$66,038,846"
+  },
+  {
+    "rank": 96,
+    "recipient_name": "A SQUARE GROUP LLC",
+    "recipient_id": "ed7bc9ba-c097-8bdf-b0e7-033fc8d83380-C",
+    "amount": 63634763,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$63,634,763"
+  },
+  {
+    "rank": 97,
+    "recipient_name": "CGI FEDERAL INC.",
+    "recipient_id": "d86df7af-f6c1-a07a-ccc4-ec74331bafc5-C",
+    "amount": 63563826,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$63,563,826"
+  },
+  {
+    "rank": 98,
+    "recipient_name": "RESEARCH TRIANGLE INSTITUTE",
+    "recipient_id": "8303ed9b-9fb4-3e90-ca81-50bbcf400948-C",
+    "amount": 63466449,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$63,466,449"
+  },
+  {
+    "rank": 99,
+    "recipient_name": "MATHEMATICA INC.",
+    "recipient_id": "f2614075-5f79-8bb5-9d8f-f6057e8dc3c7-C",
+    "amount": 63008645,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$63,008,645"
+  },
+  {
+    "rank": 100,
+    "recipient_name": "HII MISSION TECHNOLOGIES CORP",
+    "recipient_id": "09209b6d-af2a-79f6-ec11-b314812e454b-C",
+    "amount": 62764991,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$62,764,991"
+  },
+  {
+    "rank": 101,
+    "recipient_name": "GUIDEHOUSE DIGITAL LLC",
+    "recipient_id": "7d6153d4-4d5e-6de7-cd4c-10cd4c355b26-C",
+    "amount": 62457388,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$62,457,388"
+  },
+  {
+    "rank": 102,
+    "recipient_name": "QLARANT INTEGRITY SOLUTIONS LLC",
+    "recipient_id": "d7b3b465-0df3-9721-9819-de856dd224e3-C",
+    "amount": 61597637,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$61,597,637"
+  },
+  {
+    "rank": 103,
+    "recipient_name": "ALCYON TECHNICAL SERVICES (ATS) JV, LLC",
+    "recipient_id": "7989ebd6-c61e-0675-fe9e-6560c6ec46b0-C",
+    "amount": 60183458,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$60,183,458"
+  },
+  {
+    "rank": 104,
+    "recipient_name": "FOUR POINTS TECHNOLOGY, L.L.C.",
+    "recipient_id": "2a4d3db7-e268-7b36-3610-c75337f0b7e1-C",
+    "amount": 59377496,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$59,377,496"
+  },
+  {
+    "rank": 105,
+    "recipient_name": "SOFTRAMS LLC",
+    "recipient_id": "032a0d60-c2bc-9e9b-abe5-d6e488d48084-C",
+    "amount": 59134126,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$59,134,126"
+  },
+  {
+    "rank": 106,
+    "recipient_name": "RAYTHEON COMPANY",
+    "recipient_id": "5c4dbc54-585f-19b5-0b02-a87b7b9981db-C",
+    "amount": 58581558,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$58,581,558"
+  },
+  {
+    "rank": 107,
+    "recipient_name": "COUNTERTRADE PRODUCTS, INC.",
+    "recipient_id": "99253b24-712b-034b-e1a4-77c8e86b4b5b-C",
+    "amount": 58252773,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$58,252,773"
+  },
+  {
+    "rank": 108,
+    "recipient_name": "DIGITAL MANAGEMENT LLC",
+    "recipient_id": "5da48da9-52e2-68fc-383f-bb500b230e4e-C",
+    "amount": 57894223,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$57,894,223"
+  },
+  {
+    "rank": 109,
+    "recipient_name": "NTT DATA FEDHEALTH, INC.",
+    "recipient_id": "4f394754-7572-e289-d3d3-fa73d9ab1325-C",
+    "amount": 55837225,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$55,837,225"
+  },
+  {
+    "rank": 110,
+    "recipient_name": "GRUNLEY CONSTRUCTION CO., INC.",
+    "recipient_id": "200196e0-e25e-1fdc-7a2c-38055ee78825-C",
+    "amount": 55448575,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$55,448,575"
+  },
+  {
+    "rank": 111,
+    "recipient_name": "INDEX ANALYTICS LLC",
+    "recipient_id": "2e5190eb-609b-6b63-0bd7-aea8dee8afa8-C",
+    "amount": 54955843,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$54,955,843"
+  },
+  {
+    "rank": 112,
+    "recipient_name": "SOFTWARE INFORMATION RESOURCE CORP.",
+    "recipient_id": "2a71ed51-39c8-082f-31a0-f31d55a0a651-C",
+    "amount": 54862746,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$54,862,746"
+  },
+  {
+    "rank": 113,
+    "recipient_name": "STRATEGIC TECHNOLOGY INSTITUTE INC",
+    "recipient_id": "729df09e-b862-5b69-a6fd-8f77b54988ff-C",
+    "amount": 53563429,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$53,563,429"
+  },
+  {
+    "rank": 114,
+    "recipient_name": "MAG DS CORP",
+    "recipient_id": "d67f40c0-1d20-fa4a-173d-eb96bfec5874-C",
+    "amount": 53212052,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$53,212,052"
+  },
+  {
+    "rank": 115,
+    "recipient_name": "HENDALL INC",
+    "recipient_id": "23a6d8ca-f37d-30a0-1a70-858bce6a155a-C",
+    "amount": 53187752,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$53,187,752"
+  },
+  {
+    "rank": 116,
+    "recipient_name": "MAXIM BIOMEDICAL, INC",
+    "recipient_id": "533b436c-610f-ae75-b596-d93057cefab4-C",
+    "amount": 52236000,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$52,236,000"
+  },
+  {
+    "rank": 117,
+    "recipient_name": "ICF INCORPORATED, L.L.C.",
+    "recipient_id": "f7268051-dfb6-e5cf-ab3d-11235ea4137f-C",
+    "amount": 52120207,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$52,120,207"
+  },
+  {
+    "rank": 118,
+    "recipient_name": "VAE, INC.",
+    "recipient_id": "c78c330d-48dc-80ec-0dcf-3076b010cf1b-C",
+    "amount": 51973132,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$51,973,132"
+  },
+  {
+    "rank": 119,
+    "recipient_name": "POTOMAC ELECTRIC POWER CO",
+    "recipient_id": "dc52358a-d325-c814-edc0-c1119df7ca1b-C",
+    "amount": 51576185,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$51,576,185"
+  },
+  {
+    "rank": 120,
+    "recipient_name": "QED SYSTEMS, LLC",
+    "recipient_id": "07745be7-ed36-9334-3f90-27da093aa3b7-C",
+    "amount": 51303564,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$51,303,564"
+  },
+  {
+    "rank": 121,
+    "recipient_name": "TEKLA RESEARCH, INC.",
+    "recipient_id": "39edbfd0-3921-02a8-bbe2-5b9f4196f036-C",
+    "amount": 50915610,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$50,915,610"
+  },
+  {
+    "rank": 122,
+    "recipient_name": "MICROSOFT CORPORATION",
+    "recipient_id": "dd77b7c3-663e-cb91-229f-5766a50e9b7f-C",
+    "amount": 50766788,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$50,766,788"
+  },
+  {
+    "rank": 123,
+    "recipient_name": "PARSONS GOVERNMENT SERVICES INC.",
+    "recipient_id": "cb0d434a-9ad7-93b5-09dc-6067d8c45d71-C",
+    "amount": 50766070,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$50,766,070"
+  },
+  {
+    "rank": 124,
+    "recipient_name": "HONEYWELL INTERNATIONAL, INC",
+    "recipient_id": "0eedf238-8a2b-ad43-3239-d399ca132f85-C",
+    "amount": 50172213,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$50,172,213"
+  },
+  {
+    "rank": 125,
+    "recipient_name": "MELWOOD HORTICULTURAL TRAINING CENTER, INC.",
+    "recipient_id": "d6763765-2a05-12a5-720f-61385bc0c601-C",
+    "amount": 49861639,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$49,861,639"
+  },
+  {
+    "rank": 126,
+    "recipient_name": "DOVEL TECHNOLOGIES LLC",
+    "recipient_id": "5945567e-9719-3590-4f9e-e4e167609793-C",
+    "amount": 49602390,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$49,602,390"
+  },
+  {
+    "rank": 127,
+    "recipient_name": "AVAYA FEDERAL SOLUTIONS, INC",
+    "recipient_id": "a585710c-11ed-d97e-ef99-9e3bbe747d7e-C",
+    "amount": 49558257,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$49,558,257"
+  },
+  {
+    "rank": 128,
+    "recipient_name": "SYSTEMS PLUS, INC.",
+    "recipient_id": "ea1bec85-b825-7589-17cf-e5eeb188dcbd-C",
+    "amount": 49363838,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$49,363,838"
+  },
+  {
+    "rank": 129,
+    "recipient_name": "LIVANTA LLC",
+    "recipient_id": "f4cf766a-de61-8350-4740-afe34caa7dd0-C",
+    "amount": 48618178,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$48,618,178"
+  },
+  {
+    "rank": 130,
+    "recipient_name": "THE AEROSPACE CORPORATION",
+    "recipient_id": "6cbea0a9-b56a-1fd8-3dee-e808ea373a4b-C",
+    "amount": 48444668,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$48,444,668"
+  },
+  {
+    "rank": 131,
+    "recipient_name": "BLACK CANYON CONSULTING LLC",
+    "recipient_id": "e4df6d9e-ef00-4bc2-8547-e801e7f887eb-C",
+    "amount": 48063895,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$48,063,895"
+  },
+  {
+    "rank": 132,
+    "recipient_name": "THE JOHNS HOPKINS UNIVERSITY",
+    "recipient_id": "e895f676-c226-223f-b5ed-dda80c2ec73a-C",
+    "amount": 47896547,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$47,896,547"
+  },
+  {
+    "rank": 133,
+    "recipient_name": "FEARLESS SOLUTIONS, LLC",
+    "recipient_id": "a6fc99d5-4787-697b-0d48-a69c3ede2b84-C",
+    "amount": 46643970,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$46,643,970"
+  },
+  {
+    "rank": 134,
+    "recipient_name": "NATIONAL OPINION RESEARCH CENTER",
+    "recipient_id": "5e7406f6-85c5-7077-5ebb-789745b75e2d-C",
+    "amount": 46462145,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$46,462,145"
+  },
+  {
+    "rank": 135,
+    "recipient_name": "CA, INC.",
+    "recipient_id": "31e6032f-fc55-8fb9-3a00-9172a505474c-C",
+    "amount": 46289557,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$46,289,557"
+  },
+  {
+    "rank": 136,
+    "recipient_name": "OPTUMSERVE TECHNOLOGY SERVICES, INC.",
+    "recipient_id": "3a233de4-91c7-d52c-b518-fc109bde010f-C",
+    "amount": 46141553,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$46,141,553"
+  },
+  {
+    "rank": 137,
+    "recipient_name": "ESIMPLICITY INC",
+    "recipient_id": "11a5f99b-96fc-48fa-2fb9-1e774006c5b3-C",
+    "amount": 46036990,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$46,036,990"
+  },
+  {
+    "rank": 138,
+    "recipient_name": "ARINC INCORPORATED",
+    "recipient_id": "8d53c10e-37d1-b137-87dd-36e855a2445c-C",
+    "amount": 45658952,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$45,658,952"
+  },
+  {
+    "rank": 139,
+    "recipient_name": "POWERTRAIN, INC.",
+    "recipient_id": "94477b02-5db7-922d-609b-06645c13c20c-C",
+    "amount": 45657410,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$45,657,410"
+  },
+  {
+    "rank": 140,
+    "recipient_name": "IQ SOLUTIONS, INC.",
+    "recipient_id": "f4eaafee-2471-0ecd-fe9b-e4c2cc1f8199-C",
+    "amount": 45591438,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$45,591,438"
+  },
+  {
+    "rank": 141,
+    "recipient_name": "SIGMA DEFENSE SYSTEMS LLC",
+    "recipient_id": "55b6b5ec-f875-a569-5029-b58837db4214-C",
+    "amount": 45414501,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$45,414,501"
+  },
+  {
+    "rank": 142,
+    "recipient_name": "ASRC FEDERAL SYSTEM SOLUTIONS LLC",
+    "recipient_id": "72067fac-0ca1-c385-07a1-3db3b8f3411f-C",
+    "amount": 45218650,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$45,218,650"
+  },
+  {
+    "rank": 143,
+    "recipient_name": "MOTOROLA SOLUTIONS, INC.",
+    "recipient_id": "0ec2982e-1af5-7c07-1267-43ca6833f333-C",
+    "amount": 45073768,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$45,073,768"
+  },
+  {
+    "rank": 144,
+    "recipient_name": "SPATIAL FRONT INC",
+    "recipient_id": "f702b7a6-2200-5cd4-c840-cdab470fcb25-C",
+    "amount": 44666848,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$44,666,848"
+  },
+  {
+    "rank": 145,
+    "recipient_name": "BELLESE TECHNOLOGIES, LLC",
+    "recipient_id": "df6196f0-e8fc-9d42-89ba-805d988d5b55-C",
+    "amount": 44569303,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$44,569,303"
+  },
+  {
+    "rank": 146,
+    "recipient_name": "LCG SYSTEMS LLC",
+    "recipient_id": "fc33ed09-ec5b-d188-a298-1303d09554e9-C",
+    "amount": 44302259,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$44,302,259"
+  },
+  {
+    "rank": 147,
+    "recipient_name": "DV UNITED LLC",
+    "recipient_id": "ea59d803-635b-0abc-76e5-841f4489e427-C",
+    "amount": 43822877,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$43,822,877"
+  },
+  {
+    "rank": 148,
+    "recipient_name": "PRECISE SOFTWARE SOLUTIONS, INC.",
+    "recipient_id": "fd81142c-9e43-2d05-d15e-a159c46b8145-C",
+    "amount": 43474553,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$43,474,553"
+  },
+  {
+    "rank": 149,
+    "recipient_name": "COMPETITIVE RANGE SOLUTIONS LLC",
+    "recipient_id": "ae48a311-2f28-79ef-5d3b-b36761ce23b3-C",
+    "amount": 43347936,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$43,347,936"
+  },
+  {
+    "rank": 150,
+    "recipient_name": "THE SURVICE ENGINEERING COMPANY LLC",
+    "recipient_id": "8e21c3cd-7701-16b1-5553-abcd49852fa8-C",
+    "amount": 42887439,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$42,887,439"
+  },
+  {
+    "rank": 151,
+    "recipient_name": "GAMA-1 TECHNOLOGIES, LLC",
+    "recipient_id": "8962502b-4d08-cbf4-8b01-89d28b1e6050-C",
+    "amount": 42202142,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$42,202,142"
+  },
+  {
+    "rank": 152,
+    "recipient_name": "ROHDE & SCHWARZ USA, INC.",
+    "recipient_id": "088e65c2-2b0e-9b5c-d6fd-207142152cda-C",
+    "amount": 41915537,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$41,915,537"
+  },
+  {
+    "rank": 153,
+    "recipient_name": "HEALTHAPT, LLC",
+    "recipient_id": "699d673f-e1bf-f3a0-943b-861da26ea657-C",
+    "amount": 41895258,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$41,895,258"
+  },
+  {
+    "rank": 154,
+    "recipient_name": "TRAX INTERNATIONAL CORPORATION",
+    "recipient_id": "78b2c5e2-ffe0-79d4-f52c-d4918f55404a-C",
+    "amount": 41754808,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$41,754,808"
+  },
+  {
+    "rank": 155,
+    "recipient_name": "VIASAT INC",
+    "recipient_id": "3e01e0d6-80fd-1df8-fd7c-08efc2828a82-C",
+    "amount": 41476621,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$41,476,621"
+  },
+  {
+    "rank": 156,
+    "recipient_name": "AS AND D, LLC",
+    "recipient_id": "88a2b27d-b103-32bb-8e3d-a4bffdbafb78-C",
+    "amount": 41339339,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$41,339,339"
+  },
+  {
+    "rank": 157,
+    "recipient_name": "DATA COMPUTER CORPORATION OF AMERICA",
+    "recipient_id": "9e3acb0f-39eb-24d2-a0a2-817b2cf496bb-C",
+    "amount": 41085430,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$41,085,430"
+  },
+  {
+    "rank": 158,
+    "recipient_name": "EMERGENT, LLC",
+    "recipient_id": "d20dbc28-ffde-003c-e506-9e3a16d343b6-C",
+    "amount": 40747085,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$40,747,085"
+  },
+  {
+    "rank": 159,
+    "recipient_name": "INFORMATION MANAGEMENT SERVICES, INC.",
+    "recipient_id": "d5f5f01e-1eb1-d7ec-a917-4edf7f748fec-C",
+    "amount": 40733389,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$40,733,389"
+  },
+  {
+    "rank": 160,
+    "recipient_name": "TECHNIKO LLC",
+    "recipient_id": "1ee42f50-f69a-0c9b-df99-550024ff5f07-C",
+    "amount": 40672393,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$40,672,393"
+  },
+  {
+    "rank": 161,
+    "recipient_name": "AT&T MOBILITY NATIONAL ACCOUNTS LLC",
+    "recipient_id": "0b29563c-bcdb-9f5e-b2eb-88e814082bc3-C",
+    "amount": 40168628,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$40,168,628"
+  },
+  {
+    "rank": 162,
+    "recipient_name": "WORKPLACE SOLUTIONS, INC.",
+    "recipient_id": "0a28dc3a-1610-3ae1-681f-2ec75f2627d6-C",
+    "amount": 39529524,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$39,529,524"
+  },
+  {
+    "rank": 163,
+    "recipient_name": "SWISH DATA CORPORATION",
+    "recipient_id": "84a05e3b-8abe-6d1d-7ed7-2027ad5179fc-C",
+    "amount": 39488644,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$39,488,644"
+  },
+  {
+    "rank": 164,
+    "recipient_name": "BLUE TECH INC.",
+    "recipient_id": "1d2b86ed-22ef-ab63-ef2c-787925497c54-C",
+    "amount": 39243060,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$39,243,060"
+  },
+  {
+    "rank": 165,
+    "recipient_name": "VENTECH SOLUTIONS INC",
+    "recipient_id": "52605493-c541-6d7a-f3bb-f4e5551b4494-C",
+    "amount": 38731455,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$38,731,455"
+  },
+  {
+    "rank": 166,
+    "recipient_name": "OLGOONIK ENTERPRISES, LLC",
+    "recipient_id": "fd6d41b6-c82c-4881-3f6f-3762974ec466-C",
+    "amount": 38672494,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$38,672,494"
+  },
+  {
+    "rank": 167,
+    "recipient_name": "RESILIENCE GOVERNMENT SERVICES, INC.",
+    "recipient_id": "4297947a-7bb2-f583-67c0-0f1a3e765cb4-C",
+    "amount": 38619145,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$38,619,145"
+  },
+  {
+    "rank": 168,
+    "recipient_name": "WINDSOR GROUP LLC",
+    "recipient_id": "55ed8080-badc-16df-3ead-ae7494ca0656-C",
+    "amount": 38519602,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$38,519,602"
+  },
+  {
+    "rank": 169,
+    "recipient_name": "SCITECH SERVICES INC",
+    "recipient_id": "1e99937b-2e54-d07b-a61a-a8b015abc7ad-C",
+    "amount": 38508463,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$38,508,463"
+  },
+  {
+    "rank": 170,
+    "recipient_name": "RAYTHEON COMPANY",
+    "recipient_id": "4a228748-a256-002e-de46-4dd145e98dfe-C",
+    "amount": 38324394,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$38,324,394"
+  },
+  {
+    "rank": 171,
+    "recipient_name": "TYBE-GARNEY FEDERAL JV LLC",
+    "recipient_id": "c5d4cd89-5d74-b3f0-90a9-0c282188fb70-C",
+    "amount": 38129761,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$38,129,761"
+  },
+  {
+    "rank": 172,
+    "recipient_name": "SCHUYLER LINE NAVIGATION CO LLC",
+    "recipient_id": "c9ae6590-d06f-f7a3-ec41-aae661333c40-C",
+    "amount": 37748653,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$37,748,653"
+  },
+  {
+    "rank": 173,
+    "recipient_name": "SEV1TECH, LLC",
+    "recipient_id": "355a083e-bded-6e23-4c75-1ca254c160e9-C",
+    "amount": 37627428,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$37,627,428"
+  },
+  {
+    "rank": 174,
+    "recipient_name": "HIGHRISE CONSULTING INC",
+    "recipient_id": "dcdc8a24-79f5-f0a5-a8b8-11322d297211-C",
+    "amount": 37468224,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$37,468,224"
+  },
+  {
+    "rank": 175,
+    "recipient_name": "AT&T ENTERPRISES, LLC",
+    "recipient_id": "d96f3486-0fa5-045a-5da7-9cffc0b4a114-C",
+    "amount": 37333314,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$37,333,314"
+  },
+  {
+    "rank": 176,
+    "recipient_name": "INMARSAT GOVERNMENT, INC.",
+    "recipient_id": "a76066ea-2b38-7251-6fd8-dab62b297127-C",
+    "amount": 37062690,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$37,062,690"
+  },
+  {
+    "rank": 177,
+    "recipient_name": "DANYA INTERNATIONAL LLC",
+    "recipient_id": "0444a5d5-fa21-0cc2-e9c1-2ec27384dd8d-C",
+    "amount": 36732428,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$36,732,428"
+  },
+  {
+    "rank": 178,
+    "recipient_name": "AEP ENERGY INC",
+    "recipient_id": "f2ba7a3b-4500-8ff1-5531-e03e5c368494-C",
+    "amount": 36652873,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$36,652,873"
+  },
+  {
+    "rank": 179,
+    "recipient_name": "KEENAN FT DETRICK ENERGY LLC",
+    "recipient_id": "6a96221c-845f-009f-bc6e-3e74e79e8525-C",
+    "amount": 36645765,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$36,645,765"
+  },
+  {
+    "rank": 180,
+    "recipient_name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+    "recipient_id": "fe9d3a84-40fb-1978-fc5a-00cfa7a04f3f-C",
+    "amount": 36463621,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$36,463,621"
+  },
+  {
+    "rank": 181,
+    "recipient_name": "OLGOONIK GENERAL, LLC",
+    "recipient_id": "4f7c4519-2525-84b7-cdfc-b57d356e4d54-C",
+    "amount": 36166736,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$36,166,736"
+  },
+  {
+    "rank": 182,
+    "recipient_name": "ANACAPA MICRO PRODUCTS, INC.",
+    "recipient_id": "a7060a5f-e8f7-e482-ceb4-e7f97a3ed5cb-C",
+    "amount": 35852545,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$35,852,545"
+  },
+  {
+    "rank": 183,
+    "recipient_name": "AT&T ENTERPRISES, LLC",
+    "recipient_id": "afc6cf90-c9e8-84a9-ca64-a47a39fd3153-C",
+    "amount": 35754930,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$35,754,930"
+  },
+  {
+    "rank": 184,
+    "recipient_name": "NATIONAL COLLEGIATE INVENTORS & INNOVATORS ALLIANCE, INC.",
+    "recipient_id": "06d04ad7-87ef-1f5c-0a8b-4c7e1b9f9326-C",
+    "amount": 35637477,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$35,637,477"
+  },
+  {
+    "rank": 185,
+    "recipient_name": "DAI GLOBAL LLC",
+    "recipient_id": "f5131cc3-19f5-1683-c880-bdc9614ba308-C",
+    "amount": 35417212,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$35,417,212"
+  },
+  {
+    "rank": 186,
+    "recipient_name": "MPF-ZAI SOLUTIONS LLC",
+    "recipient_id": "bc81be0c-e1bc-758b-7421-d56c6a1e3c06-C",
+    "amount": 34578833,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$34,578,833"
+  },
+  {
+    "rank": 187,
+    "recipient_name": "FGS, LLC",
+    "recipient_id": "f09ef3b7-e233-90d6-07e3-35d16a45017a-C",
+    "amount": 34556138,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$34,556,138"
+  },
+  {
+    "rank": 188,
+    "recipient_name": "AD HOC LLC",
+    "recipient_id": "334d9fcb-4595-b463-b33c-ae599724e488-C",
+    "amount": 34554718,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$34,554,718"
+  },
+  {
+    "rank": 189,
+    "recipient_name": "BA-ZAI JV, LLC",
+    "recipient_id": "cb08ada2-99f9-cf10-b513-2558ed944b8c-C",
+    "amount": 34422264,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$34,422,264"
+  },
+  {
+    "rank": 190,
+    "recipient_name": "ALPHA OMEGA INTEGRATION LLC",
+    "recipient_id": "e497f5e9-e86b-d863-b57c-6956d568afee-C",
+    "amount": 34313733,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$34,313,733"
+  },
+  {
+    "rank": 191,
+    "recipient_name": "NAVAL SYSTEMS, INC.",
+    "recipient_id": "80872c58-4044-7b69-8d62-b494e7263435-C",
+    "amount": 34057332,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$34,057,332"
+  },
+  {
+    "rank": 192,
+    "recipient_name": "CASHMAN DREDGING & MARINE CONTRACTING CO LLC",
+    "recipient_id": "efa43b5a-e93e-6564-6dd5-8f82e37ce8ae-C",
+    "amount": 34040010,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$34,040,010"
+  },
+  {
+    "rank": 193,
+    "recipient_name": "TRACE SYSTEMS INC.",
+    "recipient_id": "1c06cbd9-ad6c-cf24-d051-2dbdfe9f72d5-C",
+    "amount": 33511277,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$33,511,277"
+  },
+  {
+    "rank": 194,
+    "recipient_name": "JANUS RESEARCH GROUP, LLC",
+    "recipient_id": "334bdc1d-6749-c6ff-4920-3248f4a182cb-C",
+    "amount": 33312578,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$33,312,578"
+  },
+  {
+    "rank": 195,
+    "recipient_name": "PSI PAX, INC.",
+    "recipient_id": "fda2488c-7eef-714a-9cb7-a5c3fb2be52c-C",
+    "amount": 33302165,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$33,302,165"
+  },
+  {
+    "rank": 196,
+    "recipient_name": "LB & B ASSOCIATES INC",
+    "recipient_id": "a7ba2c56-9b50-69e1-1e3d-01a28654947a-C",
+    "amount": 33108914,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$33,108,914"
+  },
+  {
+    "rank": 197,
+    "recipient_name": "FISHER BIOSERVICES INC",
+    "recipient_id": "a0d3e41a-7fe1-9699-4cda-b5dc7489fac0-C",
+    "amount": 32786728,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$32,786,728"
+  },
+  {
+    "rank": 198,
+    "recipient_name": "AXIENT LLC",
+    "recipient_id": "e4f80b7a-5e27-decc-84ee-2790e8737c62-C",
+    "amount": 32688709,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$32,688,709"
+  },
+  {
+    "rank": 199,
+    "recipient_name": "PHOENIX INTERNATIONAL HOLDINGS, INC.",
+    "recipient_id": "49a25a3f-115c-8cc4-c564-503c656e6487-C",
+    "amount": 32567036,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$32,567,036"
+  },
+  {
+    "rank": 200,
+    "recipient_name": "ANALYTIC ACQUISITIONS LLC",
+    "recipient_id": "e4504e8e-def0-e15d-97f7-4569bcf1fb91-C",
+    "amount": 32481513,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$32,481,513"
+  },
+  {
+    "rank": 201,
+    "recipient_name": "FEDERAL RESOURCES SUPPLY COMPANY, LLC",
+    "recipient_id": "e3e4e272-4f51-0cff-6971-89d6c544d721-C",
+    "amount": 32442326,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$32,442,326"
+  },
+  {
+    "rank": 202,
+    "recipient_name": "SOLIPSYS CORPORATION",
+    "recipient_id": "ec19aa19-5743-cc5c-2c9f-e9fe33c8b72f-C",
+    "amount": 32287248,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$32,287,248"
+  },
+  {
+    "rank": 203,
+    "recipient_name": "TELECOMMUNICATION SYSTEMS INC",
+    "recipient_id": "f16a2dc7-ec02-51a4-2d2b-6271678c7c6b-C",
+    "amount": 32234379,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$32,234,379"
+  },
+  {
+    "rank": 204,
+    "recipient_name": "GOVCONNECTION INC",
+    "recipient_id": "886ecb6e-b658-7fee-1dfd-6c7b07cadf35-C",
+    "amount": 32174712,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$32,174,712"
+  },
+  {
+    "rank": 205,
+    "recipient_name": "JBS INTERNATIONAL, INC.",
+    "recipient_id": "261c7f5c-80ae-ef82-6d62-8a725370bf9e-C",
+    "amount": 32070401,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$32,070,401"
+  },
+  {
+    "rank": 206,
+    "recipient_name": "SAPIENT GOVERNMENT SERVICES, INC.",
+    "recipient_id": "48a14819-43ca-e7c7-e42b-c3aa96235a01-C",
+    "amount": 32065850,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$32,065,850"
+  },
+  {
+    "rank": 207,
+    "recipient_name": "TRIPLE CANOPY INC",
+    "recipient_id": "b9a8aca3-3402-7ba5-301b-8cabbaf8b523-C",
+    "amount": 31937005,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$31,937,005"
+  },
+  {
+    "rank": 208,
+    "recipient_name": "EAGLE HILL CONSULTING, LLC",
+    "recipient_id": "08452ac1-3da3-84df-9714-54c2b4f4e5f4-C",
+    "amount": 31898894,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$31,898,894"
+  },
+  {
+    "rank": 209,
+    "recipient_name": "GAP SOLUTIONS, INC.",
+    "recipient_id": "55991bd7-1546-f5b6-451c-8012c89927a2-C",
+    "amount": 31816897,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$31,816,897"
+  },
+  {
+    "rank": 210,
+    "recipient_name": "MANAGED CARE ADVISORS, INC.",
+    "recipient_id": "091c4f27-0817-c48f-9231-f9395693c5df-C",
+    "amount": 31791891,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$31,791,891"
+  },
+  {
+    "rank": 211,
+    "recipient_name": "UNIVERSITY OF MARYLAND, BALTIMORE",
+    "recipient_id": "23b1535c-77e8-dafd-4ece-46b518206e5d-C",
+    "amount": 31776402,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$31,776,402"
+  },
+  {
+    "rank": 212,
+    "recipient_name": "HALVIK CORP",
+    "recipient_id": "2ed31089-b7b4-7b1f-a182-2c09a533d721-C",
+    "amount": 31633355,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$31,633,355"
+  },
+  {
+    "rank": 213,
+    "recipient_name": "PALLADIAN PARTNERS, INC.",
+    "recipient_id": "dded5ca1-ec9a-47c1-0ce5-83336c3c2bbe-C",
+    "amount": 31600647,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$31,600,647"
+  },
+  {
+    "rank": 214,
+    "recipient_name": "SAFEGUARD SERVICES LLC",
+    "recipient_id": "27790fe4-47c7-0d3f-5ff9-316d14d4319d-C",
+    "amount": 31467009,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$31,467,009"
+  },
+  {
+    "rank": 215,
+    "recipient_name": "OPR LLC",
+    "recipient_id": "6157ad00-d5e0-5665-ab8e-9da37404377e-C",
+    "amount": 31328007,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$31,328,007"
+  },
+  {
+    "rank": 216,
+    "recipient_name": "ENCOMPASS LLC",
+    "recipient_id": "05d84a7b-60aa-2148-7d85-24f65989b572-C",
+    "amount": 31077923,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$31,077,923"
+  },
+  {
+    "rank": 217,
+    "recipient_name": "WGL ENERGY SERVICES, INC.",
+    "recipient_id": "74e140ee-beb0-192e-0c0f-f1ca933a9cfa-C",
+    "amount": 30652081,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$30,652,081"
+  },
+  {
+    "rank": 218,
+    "recipient_name": "SCHNEIDER ELECTRIC FEDERAL, INC.",
+    "recipient_id": "52860ea3-3b49-834a-5721-828e953a53b5-C",
+    "amount": 30582913,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$30,582,913"
+  },
+  {
+    "rank": 219,
+    "recipient_name": "CROWLEY GOVERNMENT SERVICES, INC.",
+    "recipient_id": "572e442b-f0f8-e4ab-6a99-b97521c958ef-C",
+    "amount": 30567627,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$30,567,627"
+  },
+  {
+    "rank": 220,
+    "recipient_name": "HYDROGEOLOGIC, INC.",
+    "recipient_id": "f3a56e43-7214-5772-23bf-fb0af2d16eb0-C",
+    "amount": 30502804,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$30,502,804"
+  },
+  {
+    "rank": 221,
+    "recipient_name": "NEANY, INC.",
+    "recipient_id": "ea4a22f2-850b-2c33-f2c7-c583186316c7-C",
+    "amount": 30499093,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$30,499,093"
+  },
+  {
+    "rank": 222,
+    "recipient_name": "EVERFOX LLC",
+    "recipient_id": "dfcb9e58-ed5c-8f88-c238-e8c1bd2abd40-C",
+    "amount": 30464980,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$30,464,980"
+  },
+  {
+    "rank": 223,
+    "recipient_name": "SLALOM, INC.",
+    "recipient_id": "79c13b7b-992a-0b88-7a3b-8704789eb98a-C",
+    "amount": 30322272,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$30,322,272"
+  },
+  {
+    "rank": 224,
+    "recipient_name": "AGILE DEFENSE, LLC",
+    "recipient_id": "f7101b2d-1601-28c3-6099-efd981538f28-C",
+    "amount": 30223889,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$30,223,889"
+  },
+  {
+    "rank": 225,
+    "recipient_name": "EA ENGINEERING, SCIENCE, AND TECHNOLOGY, INC., PBC",
+    "recipient_id": "42601b59-6dd7-26e8-b6d4-4cd7795103de-C",
+    "amount": 30109035,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$30,109,035"
+  },
+  {
+    "rank": 226,
+    "recipient_name": "APTITUDE MEDICAL SYSTEMS INC",
+    "recipient_id": "b251e087-7a30-b073-80a8-70624b7cc2a8-C",
+    "amount": 30021970,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$30,021,970"
+  },
+  {
+    "rank": 227,
+    "recipient_name": "LAULIMA GOVERNMENT SOLUTIONS, LLC",
+    "recipient_id": "628d6fa2-36e2-2432-deb5-f9fbd3fe95fb-C",
+    "amount": 30019454,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$30,019,454"
+  },
+  {
+    "rank": 228,
+    "recipient_name": "ECS FEDERAL, LLC",
+    "recipient_id": "ed304eb7-3464-d0e8-d3b2-66199b0e0fcb-C",
+    "amount": 29941101,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$29,941,101"
+  },
+  {
+    "rank": 229,
+    "recipient_name": "ENTERPRISE TECHNOLOGY SOLUTIONS, INC.",
+    "recipient_id": "b3bf0045-a393-0c84-7e1c-41efc4b25c9e-C",
+    "amount": 29769442,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$29,769,442"
+  },
+  {
+    "rank": 230,
+    "recipient_name": "THE HENRY M. JACKSON FOUNDATION FOR THE ADVANCEMENT OF MILITARY MEDICINE, INC.",
+    "recipient_id": "3e4caa6c-ea4b-e402-0001-860fad11861b-C",
+    "amount": 29683029,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$29,683,029"
+  },
+  {
+    "rank": 231,
+    "recipient_name": "VECTRUS-J&J FACILITIES SUPPORT, LLC",
+    "recipient_id": "d62f1ca9-b8b4-96b0-3a4f-413f0b352377-C",
+    "amount": 29279132,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$29,279,132"
+  },
+  {
+    "rank": 232,
+    "recipient_name": "BLIND INDUSTRIES AND SERVICES OF MARYLAND",
+    "recipient_id": "94594bbd-4b47-0662-b3e5-1fec98e7e127-C",
+    "amount": 29271995,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$29,271,995"
+  },
+  {
+    "rank": 233,
+    "recipient_name": "PRKK LLC",
+    "recipient_id": "e6078f40-0317-da44-82f0-d2f027d1e81b-C",
+    "amount": 28715252,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$28,715,252"
+  },
+  {
+    "rank": 234,
+    "recipient_name": "CITY LIGHT & POWER ABERDEEN, LLC",
+    "recipient_id": "a7d258d9-14ae-7a7e-950e-a4e6ae838909-C",
+    "amount": 28615725,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$28,615,725"
+  },
+  {
+    "rank": 235,
+    "recipient_name": "VALIDATEK-CITI, LLC",
+    "recipient_id": "c377e44f-8336-8cee-06b0-6b878daa9aae-C",
+    "amount": 28584592,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$28,584,592"
+  },
+  {
+    "rank": 236,
+    "recipient_name": "IRON VINE SECURITY LLC",
+    "recipient_id": "8e74902e-0b78-5369-b4a4-85524f4c5290-C",
+    "amount": 28270296,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$28,270,296"
+  },
+  {
+    "rank": 237,
+    "recipient_name": "SIRIUS FEDERAL LLC",
+    "recipient_id": "a1980d7c-a11a-89c5-686e-f6ae7ab15e53-C",
+    "amount": 28009219,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$28,009,219"
+  },
+  {
+    "rank": 238,
+    "recipient_name": "DATA SYSTEMS ANALYSTS INC",
+    "recipient_id": "235aec68-023a-d427-97e0-25180e993206-C",
+    "amount": 27918782,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$27,918,782"
+  },
+  {
+    "rank": 239,
+    "recipient_name": "ESSEX MANAGEMENT LLC",
+    "recipient_id": "62c72fc1-ef8d-2437-25c2-6c772b378892-C",
+    "amount": 27914265,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$27,914,265"
+  },
+  {
+    "rank": 240,
+    "recipient_name": "STERLING COMPUTERS CORPORATION",
+    "recipient_id": "456a17c9-3bd9-f107-77ee-816e474d173e-C",
+    "amount": 27824221,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$27,824,221"
+  },
+  {
+    "rank": 241,
+    "recipient_name": "MEM CONTRACTING, INC.",
+    "recipient_id": "8bd69457-2ec0-0805-17f2-5869340f6cde-C",
+    "amount": 27816466,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$27,816,466"
+  },
+  {
+    "rank": 242,
+    "recipient_name": "TEKSYNAP CORPORATION",
+    "recipient_id": "bf8c69f8-88f5-8c87-a3f1-229dde3c0af4-C",
+    "amount": 27783152,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$27,783,152"
+  },
+  {
+    "rank": 243,
+    "recipient_name": "CRL TECHNOLOGIES, INC.",
+    "recipient_id": "eb0df148-8f83-d601-444f-1c101b2854a9-C",
+    "amount": 27736985,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$27,736,985"
+  },
+  {
+    "rank": 244,
+    "recipient_name": "INTEGRAL FEDERAL, INC.",
+    "recipient_id": "7aa95ff0-b20c-cd58-239b-a25b2896c109-C",
+    "amount": 27695593,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$27,695,593"
+  },
+  {
+    "rank": 245,
+    "recipient_name": "PRICE MODERN LLC",
+    "recipient_id": "f747ad41-d1dc-cb51-7751-965aea4bb4a6-C",
+    "amount": 27684189,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$27,684,189"
+  },
+  {
+    "rank": 246,
+    "recipient_name": "CROSBY MARKETING COMMUNICATIONS INC.",
+    "recipient_id": "538e17bc-568d-a7e6-c70f-b27a5e5143ee-C",
+    "amount": 27427117,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$27,427,117"
+  },
+  {
+    "rank": 247,
+    "recipient_name": "SECURITYHUNTER, INC.",
+    "recipient_id": "45c6497d-d143-d716-3d22-5d664db3b5fe-C",
+    "amount": 27394786,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$27,394,786"
+  },
+  {
+    "rank": 248,
+    "recipient_name": "VECTRUS SYSTEMS LLC",
+    "recipient_id": "385c148c-559c-6218-53ff-80836c64dc4c-C",
+    "amount": 27314086,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$27,314,086"
+  },
+  {
+    "rank": 249,
+    "recipient_name": "KOMAN SUSTAINABLE SOLUTIONS, LLC",
+    "recipient_id": "de2d97b5-0e42-5673-5ead-ab4bbbe06b36-C",
+    "amount": 27300000,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$27,300,000"
+  },
+  {
+    "rank": 250,
+    "recipient_name": "NOBLIS, INC.",
+    "recipient_id": "7d96988d-f5f9-0427-55f1-bd3bf36777be-C",
+    "amount": 27147022,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$27,147,022"
+  },
+  {
+    "rank": 251,
+    "recipient_name": "DIGITAL INFUZION, LLC",
+    "recipient_id": "8ffc273d-0c9c-a4b8-666d-273ff5e04efa-C",
+    "amount": 27138487,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$27,138,487"
+  },
+  {
+    "rank": 252,
+    "recipient_name": "LEIDOS, INC.",
+    "recipient_id": "1a41bba8-1f82-5271-0da9-a713f592dc8b-C",
+    "amount": 27082200,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$27,082,200"
+  },
+  {
+    "rank": 253,
+    "recipient_name": "THIRDPACKET TECHNOLOGIES LLC",
+    "recipient_id": "4c4d3a1c-094c-1df7-bdbe-c07f1804614d-C",
+    "amount": 27004697,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$27,004,697"
+  },
+  {
+    "rank": 254,
+    "recipient_name": "CAELUM RESEARCH CORPORATION",
+    "recipient_id": "59844755-d8bd-ebde-4c3c-ceb81160e301-C",
+    "amount": 26953882,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$26,953,882"
+  },
+  {
+    "rank": 255,
+    "recipient_name": "OASIS SYSTEMS, LLC",
+    "recipient_id": "bc62a539-da64-77c2-0b2b-286752741463-C",
+    "amount": 26924817,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$26,924,817"
+  },
+  {
+    "rank": 256,
+    "recipient_name": "THE KEYW CORPORATION",
+    "recipient_id": "1b34d205-f0cd-208d-836d-5595c83acb98-C",
+    "amount": 26693349,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$26,693,349"
+  },
+  {
+    "rank": 257,
+    "recipient_name": "CHARLES RIVER LABORATORIES, INC.",
+    "recipient_id": "07aac610-edb4-a86c-7ce4-8aebfcc17d72-C",
+    "amount": 26604487,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$26,604,487"
+  },
+  {
+    "rank": 258,
+    "recipient_name": "ADG-REI TECHNOLOGY VENTURES, LLC",
+    "recipient_id": "2a82c348-0381-284f-d6e3-4500537abaa6-C",
+    "amount": 26544888,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$26,544,888"
+  },
+  {
+    "rank": 259,
+    "recipient_name": "ASRC COMMUNICATIONS, LTD.",
+    "recipient_id": "a15b075e-37dc-66ae-4944-6e79ab735115-C",
+    "amount": 26479421,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$26,479,421"
+  },
+  {
+    "rank": 260,
+    "recipient_name": "ARANEA SOLUTIONS INC",
+    "recipient_id": "3bac03ed-8d40-8d18-dd1a-edfc5e880412-C",
+    "amount": 26251175,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$26,251,175"
+  },
+  {
+    "rank": 261,
+    "recipient_name": "GREENBRIER GOVERNMENT SOLUTIONS INC",
+    "recipient_id": "5ca88440-a6c3-e664-edc6-4cff137c4fa1-C",
+    "amount": 26187763,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$26,187,763"
+  },
+  {
+    "rank": 262,
+    "recipient_name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+    "recipient_id": "c9a99560-348c-83f7-695c-4c99d1a3f138-C",
+    "amount": 26160246,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$26,160,246"
+  },
+  {
+    "rank": 263,
+    "recipient_name": "AFFIGENT, LLC",
+    "recipient_id": "b8d01603-144c-7b0c-ecf0-24060cd72b94-C",
+    "amount": 26029466,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$26,029,466"
+  },
+  {
+    "rank": 264,
+    "recipient_name": "EA-BAKER JV",
+    "recipient_id": "359b24aa-8aa3-0ef8-4875-cbf27c5df4d7-C",
+    "amount": 25977476,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$25,977,476"
+  },
+  {
+    "rank": 265,
+    "recipient_name": "MESO SCALE DIAGNOSTICS LLC",
+    "recipient_id": "b6d5c2f5-1875-5bf7-01b3-4dee3f8a7be2-C",
+    "amount": 25899742,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$25,899,742"
+  },
+  {
+    "rank": 266,
+    "recipient_name": "ASRC FEDERAL PROFESSIONAL SERVICES, LLC",
+    "recipient_id": "8021fb57-4a42-9b6a-81de-9ba41d9f4115-C",
+    "amount": 25889146,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$25,889,146"
+  },
+  {
+    "rank": 267,
+    "recipient_name": "NCS TECHNOLOGIES INC",
+    "recipient_id": "faf72fce-d59e-8ee6-79d3-a2e141451835-C",
+    "amount": 25776360,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$25,776,360"
+  },
+  {
+    "rank": 268,
+    "recipient_name": "FEDSTORE CORPORATION",
+    "recipient_id": "de156356-1833-fefa-04df-719370121423-C",
+    "amount": 25766605,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$25,766,605"
+  },
+  {
+    "rank": 269,
+    "recipient_name": "SIERRA NEVADA COMPANY, LLC",
+    "recipient_id": "c1b45f68-30f2-cc4f-d151-169001068edb-C",
+    "amount": 25681283,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$25,681,283"
+  },
+  {
+    "rank": 270,
+    "recipient_name": "FEDERAL RESOURCES CORPORATION",
+    "recipient_id": "48009a20-54f0-eb69-f814-43c52319796d-C",
+    "amount": 25663722,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$25,663,722"
+  },
+  {
+    "rank": 271,
+    "recipient_name": "NEWWAVE TELECOM AND TECHNOLOGIES, INC.",
+    "recipient_id": "abbe49ae-7cab-15b9-4882-4cb65f475b7a-C",
+    "amount": 25571438,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$25,571,438"
+  },
+  {
+    "rank": 272,
+    "recipient_name": "EAGLE SYSTEMS INC",
+    "recipient_id": "5494c38e-e346-6c94-7dc0-9abd37cc77d4-C",
+    "amount": 25473350,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$25,473,350"
+  },
+  {
+    "rank": 273,
+    "recipient_name": "GLOBAL SCIENCE & TECHNOLOGY, INC",
+    "recipient_id": "bb08ca23-20ae-b1e1-3131-1259d5b9a2d3-C",
+    "amount": 25310604,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$25,310,604"
+  },
+  {
+    "rank": 274,
+    "recipient_name": "CSP ENTERPRISES, LLC",
+    "recipient_id": "bb568d9a-9444-a87b-1a3b-70516d83949d-C",
+    "amount": 25218789,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$25,218,789"
+  },
+  {
+    "rank": 275,
+    "recipient_name": "VANE LINE BUNKERING, LLC",
+    "recipient_id": "b5104e48-4199-6671-a7a4-486ebb240f6d-C",
+    "amount": 25164672,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$25,164,672"
+  },
+  {
+    "rank": 276,
+    "recipient_name": "REMEDYBIZ, INC.",
+    "recipient_id": "87fde002-aa5a-6216-ca33-559f586b6849-C",
+    "amount": 25134723,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$25,134,723"
+  },
+  {
+    "rank": 277,
+    "recipient_name": "LOCKHEED MARTIN SERVICES, LLC",
+    "recipient_id": "81b6aa7b-b2d5-62f3-89db-70fbede89173-C",
+    "amount": 25095593,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$25,095,593"
+  },
+  {
+    "rank": 278,
+    "recipient_name": "MANAGEMENT SOLUTIONS CONSULTING GROUP, INC.",
+    "recipient_id": "34a4ef03-5e2e-a5a6-dcc5-ffa99fa7d76a-C",
+    "amount": 25088055,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$25,088,055"
+  },
+  {
+    "rank": 279,
+    "recipient_name": "AVIAN, LLC",
+    "recipient_id": "b8c9c7c3-b729-57ae-bf0c-0c03fff1a566-C",
+    "amount": 25056055,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$25,056,055"
+  },
+  {
+    "rank": 280,
+    "recipient_name": "BLUE WATER THINKING,LLC",
+    "recipient_id": "c33e911c-8a6f-8664-5cf9-4d239129fa2c-C",
+    "amount": 25006736,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$25,006,736"
+  },
+  {
+    "rank": 281,
+    "recipient_name": "OWL CYBER DEFENSE SOLUTIONS LLC",
+    "recipient_id": "4718cdb9-d661-bfbd-ce3b-436b29331fd7-C",
+    "amount": 24963951,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$24,963,951"
+  },
+  {
+    "rank": 282,
+    "recipient_name": "BELL BOEING JOINT PROJECT OFFICE",
+    "recipient_id": "846d3ff4-b2cb-3924-018c-2dee1e0259b7-C",
+    "amount": 24934411,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$24,934,411"
+  },
+  {
+    "rank": 283,
+    "recipient_name": "WALSH FEDERAL LLC",
+    "recipient_id": "05ed5d46-f203-4dc6-623a-3f47ed6933dd-C",
+    "amount": 24929000,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$24,929,000"
+  },
+  {
+    "rank": 284,
+    "recipient_name": "MRIGLOBAL",
+    "recipient_id": "c0850ab0-038c-74b3-5f19-e86010788b7e-C",
+    "amount": 24907359,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$24,907,359"
+  },
+  {
+    "rank": 285,
+    "recipient_name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+    "recipient_id": "d1c63755-acef-4158-47c7-a5b385acaf2b-C",
+    "amount": 24904874,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$24,904,874"
+  },
+  {
+    "rank": 286,
+    "recipient_name": "NATIONAL MARROW DONOR PROGRAM",
+    "recipient_id": "c45f6ea1-d8d1-5adc-7fbc-b54379906a79-C",
+    "amount": 24863150,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$24,863,150"
+  },
+  {
+    "rank": 287,
+    "recipient_name": "HARKINS BUILDERS, INC.",
+    "recipient_id": "64d7d1a7-8cb8-715f-46af-68f88a5df3b6-C",
+    "amount": 24794229,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$24,794,229"
+  },
+  {
+    "rank": 288,
+    "recipient_name": "AKIRA TECHNOLOGIES INC.",
+    "recipient_id": "c74ef19a-66b8-7c0a-e3c6-817b5b675967-C",
+    "amount": 24775840,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$24,775,840"
+  },
+  {
+    "rank": 289,
+    "recipient_name": "PHOENIX TRADING INC.",
+    "recipient_id": "2624df3b-c480-deb3-8953-67b9ba45b4c7-C",
+    "amount": 24701863,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$24,701,863"
+  },
+  {
+    "rank": 290,
+    "recipient_name": "ABT GLOBAL LLC",
+    "recipient_id": "fc4f80c3-8d23-149a-daef-5faf394ef076-C",
+    "amount": 24632799,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$24,632,799"
+  },
+  {
+    "rank": 291,
+    "recipient_name": "YOUR RECRUITING COMPANY, INC.",
+    "recipient_id": "61621f37-541f-a4a1-5419-e9d7265b4511-C",
+    "amount": 24584797,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$24,584,797"
+  },
+  {
+    "rank": 292,
+    "recipient_name": "TANTUS TECHNOLOGIES, INC.",
+    "recipient_id": "6b5e23b6-679c-f577-4121-2eb0e713f32f-C",
+    "amount": 24583162,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$24,583,162"
+  },
+  {
+    "rank": 293,
+    "recipient_name": "THE BOEING COMPANY",
+    "recipient_id": "9ab85632-42cc-5fa4-2a9c-d734034ddd33-C",
+    "amount": 24363968,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$24,363,968"
+  },
+  {
+    "rank": 294,
+    "recipient_name": "AMERICAN SYSTEMS CORPORATION",
+    "recipient_id": "64f84c6a-3ec2-0244-a2e5-bcc7e4a5a2ca-C",
+    "amount": 24329019,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$24,329,019"
+  },
+  {
+    "rank": 295,
+    "recipient_name": "THE BIZZELL GROUP LLC",
+    "recipient_id": "669db5bc-41a4-e042-f683-1ab3e79e56d2-C",
+    "amount": 24316170,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$24,316,170"
+  },
+  {
+    "rank": 296,
+    "recipient_name": "SYNERGY ENTERPRISES, INC",
+    "recipient_id": "d2a28321-06f5-0d76-7d4c-14965801d264-C",
+    "amount": 24261148,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$24,261,148"
+  },
+  {
+    "rank": 297,
+    "recipient_name": "THE RAND CORPORATION",
+    "recipient_id": "c2e789dd-a647-f435-a418-0a918163d623-C",
+    "amount": 24121427,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$24,121,427"
+  },
+  {
+    "rank": 298,
+    "recipient_name": "BUSINESS MISSION EDGE, LLC",
+    "recipient_id": "0b9fbf44-0ab5-d1bb-b1a4-f755af306692-C",
+    "amount": 24027591,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$24,027,591"
+  },
+  {
+    "rank": 299,
+    "recipient_name": "MANTA GROUP LLC",
+    "recipient_id": "a270df10-acae-6902-c4c6-0124df5e3dd0-C",
+    "amount": 23956783,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$23,956,783"
+  },
+  {
+    "rank": 300,
+    "recipient_name": "EXPRESSION NETWORKS LLC",
+    "recipient_id": "69c6f567-b887-d22f-7204-e4180e4392bf-C",
+    "amount": 23940852,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$23,940,852"
+  },
+  {
+    "rank": 301,
+    "recipient_name": "GOVERNMENT ACQUISITIONS INC",
+    "recipient_id": "bcd07db9-001a-b962-dbab-d463bb99028f-C",
+    "amount": 23928954,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$23,928,954"
+  },
+  {
+    "rank": 302,
+    "recipient_name": "EDGEWATER FEDERAL SOLUTIONS, INC.",
+    "recipient_id": "31debee1-cb15-d90b-80e4-1ebca4101d24-C",
+    "amount": 23835677,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$23,835,677"
+  },
+  {
+    "rank": 303,
+    "recipient_name": "ENTERPRISE RESOURCE PLANNING INTERNATIONAL, LLC",
+    "recipient_id": "79b7062c-2888-dfa6-9178-164089a39959-C",
+    "amount": 23828778,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$23,828,778"
+  },
+  {
+    "rank": 304,
+    "recipient_name": "IT FEDERAL SALES LLC",
+    "recipient_id": "eee98a6e-daff-a87e-ff7f-a3ba6376f9cf-C",
+    "amount": 23753216,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$23,753,216"
+  },
+  {
+    "rank": 305,
+    "recipient_name": "SEALING TECHNOLOGIES, LLC",
+    "recipient_id": "f8ac84f9-5c57-fadb-aac2-74a872a311b5-C",
+    "amount": 23749455,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$23,749,455"
+  },
+  {
+    "rank": 306,
+    "recipient_name": "GREENLAND ENTERPRISES, INC.",
+    "recipient_id": "2627933f-06ae-8f4d-c058-583ebaa3720e-C",
+    "amount": 23718772,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$23,718,772"
+  },
+  {
+    "rank": 307,
+    "recipient_name": "COMPASS SYSTEMS, INC.",
+    "recipient_id": "f0c48ecf-bef8-eb9a-ff51-20021efc2107-C",
+    "amount": 23644997,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$23,644,997"
+  },
+  {
+    "rank": 308,
+    "recipient_name": "SKOOKUM EDUCATIONAL PROGRAMS",
+    "recipient_id": "e41e79be-776c-8091-7dc2-b77c7f687af0-C",
+    "amount": 23595571,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$23,595,571"
+  },
+  {
+    "rank": 309,
+    "recipient_name": "RED RIVER TECHNOLOGY LLC",
+    "recipient_id": "b8289dc0-984f-6d16-9d31-0ac8ab3f63ec-C",
+    "amount": 23569740,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$23,569,740"
+  },
+  {
+    "rank": 310,
+    "recipient_name": "GENERAL DYNAMICS MISSION SYSTEMS, INC.",
+    "recipient_id": "f09ed3a7-cbd4-f4d6-046d-eb0780590412-C",
+    "amount": 23546528,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$23,546,528"
+  },
+  {
+    "rank": 311,
+    "recipient_name": "SABRE SYSTEMS, LLC",
+    "recipient_id": "381685bd-d904-a3fd-4e58-64b575eaac29-C",
+    "amount": 23528882,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$23,528,882"
+  },
+  {
+    "rank": 312,
+    "recipient_name": "SERVEFED INC.",
+    "recipient_id": "ce36a0b7-118b-906b-8048-ca46456c4053-C",
+    "amount": 23314895,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$23,314,895"
+  },
+  {
+    "rank": 313,
+    "recipient_name": "EFFECTUAL PUBLIC SECTOR INC",
+    "recipient_id": "754895d8-ae69-43ac-529c-1a1c4a2411b7-C",
+    "amount": 23198617,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$23,198,617"
+  },
+  {
+    "rank": 314,
+    "recipient_name": "THE ARORA GROUP, INC.",
+    "recipient_id": "b33b0642-9999-749e-165f-caaffddc9e59-C",
+    "amount": 23099778,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$23,099,778"
+  },
+  {
+    "rank": 315,
+    "recipient_name": "WASHINGTON GAS LIGHT COMPANY",
+    "recipient_id": "086f57a7-2a4b-96a4-fad5-c65c735b298c-C",
+    "amount": 23075416,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$23,075,416"
+  },
+  {
+    "rank": 316,
+    "recipient_name": "CER, INCORPORATED",
+    "recipient_id": "54eedd2f-aee9-1860-1590-611c939c12c9-C",
+    "amount": 23007734,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$23,007,734"
+  },
+  {
+    "rank": 317,
+    "recipient_name": "J & J MAINTENANCE INC",
+    "recipient_id": "80d30511-4f48-088f-1c94-f7404764de80-C",
+    "amount": 22951358,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$22,951,358"
+  },
+  {
+    "rank": 318,
+    "recipient_name": "JOHNSON CONTROLS BUILDING AUTOMATION SYSTEMS, LLC",
+    "recipient_id": "0d1a2358-e8ec-6142-7139-ea3ae4401a11-C",
+    "amount": 22860162,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$22,860,162"
+  },
+  {
+    "rank": 319,
+    "recipient_name": "VALIANT GOVERNMENT SERVICES LLC",
+    "recipient_id": "b3bcfccf-7591-d214-1705-8f25dc360434-C",
+    "amount": 22742064,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$22,742,064"
+  },
+  {
+    "rank": 320,
+    "recipient_name": "NEXT PHASE SOLUTIONS AND SERVICES, INC.",
+    "recipient_id": "38af7700-8b8d-ff43-0230-3e2526588898-C",
+    "amount": 22729635,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$22,729,635"
+  },
+  {
+    "rank": 321,
+    "recipient_name": "ACE ELECTRONICS DEFENSE SYSTEMS, LLC",
+    "recipient_id": "6dc0e15d-86d1-3d06-af1e-5c9f81a710d8-C",
+    "amount": 22632216,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$22,632,216"
+  },
+  {
+    "rank": 322,
+    "recipient_name": "FLEXION INC",
+    "recipient_id": "c3cb8678-8150-6272-25c5-e83c469bee8f-C",
+    "amount": 22566862,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$22,566,862"
+  },
+  {
+    "rank": 323,
+    "recipient_name": "ORACLE AMERICA, INC",
+    "recipient_id": "272478a2-195f-1dd5-da03-0969b678caf4-C",
+    "amount": 22563994,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$22,563,994"
+  },
+  {
+    "rank": 324,
+    "recipient_name": "BRILLIENT CORPORATION",
+    "recipient_id": "ff0e92d8-c4b1-63b0-993d-33774e5077d5-C",
+    "amount": 22559553,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$22,559,553"
+  },
+  {
+    "rank": 325,
+    "recipient_name": "ASRC FEDERAL DATA NETWORK TECHNOLOGIES, LLC",
+    "recipient_id": "9b0bcf4a-bc83-439c-30cc-8fb20c883625-C",
+    "amount": 22463116,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$22,463,116"
+  },
+  {
+    "rank": 326,
+    "recipient_name": "ADVANCED BIOSCIENCE LABORATORIES, INC.",
+    "recipient_id": "8142bf08-47eb-cf58-c981-e1f5504feade-C",
+    "amount": 22421717,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$22,421,717"
+  },
+  {
+    "rank": 327,
+    "recipient_name": "SANDOW CONSTRUCTION INC",
+    "recipient_id": "953f364b-8c10-e2c3-a556-b22afc9ff4ba-C",
+    "amount": 22189187,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$22,189,187"
+  },
+  {
+    "rank": 328,
+    "recipient_name": "JOHNSON CONTROLS GOVERNMENT SYSTEMS, LLC",
+    "recipient_id": "6eda3ee1-f612-3b12-8ada-a920384dd80b-C",
+    "amount": 22185032,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$22,185,032"
+  },
+  {
+    "rank": 329,
+    "recipient_name": "ACE MAINTENANCE & SERVICE INC",
+    "recipient_id": "52762fb0-f4f3-88d3-d654-50d58cfd3022-C",
+    "amount": 22143705,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$22,143,705"
+  },
+  {
+    "rank": 330,
+    "recipient_name": "NORSEMAN INC",
+    "recipient_id": "ae9a61fe-f9b1-2023-1b21-852cd4aade67-C",
+    "amount": 22062119,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$22,062,119"
+  },
+  {
+    "rank": 331,
+    "recipient_name": "JADE CREEK CONSTRUCTION LLC",
+    "recipient_id": "7172056c-2a4a-a771-3cc9-bec3334308f1-C",
+    "amount": 22021535,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$22,021,535"
+  },
+  {
+    "rank": 332,
+    "recipient_name": "EXCET, LLC",
+    "recipient_id": "519f12a2-d47f-4091-0a8c-de2e54d74999-C",
+    "amount": 22003577,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$22,003,577"
+  },
+  {
+    "rank": 333,
+    "recipient_name": "SOCIAL & SCIENTIFIC SYSTEMS, INC.",
+    "recipient_id": "acbe3b77-7c58-03b9-656c-abca516ec4e3-C",
+    "amount": 21914705,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$21,914,705"
+  },
+  {
+    "rank": 334,
+    "recipient_name": "RCT SYSTEMS, INC",
+    "recipient_id": "17394a65-1113-c78f-0d69-313c8eb8188d-C",
+    "amount": 21779685,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$21,779,685"
+  },
+  {
+    "rank": 335,
+    "recipient_name": "ALETHIX, LLC",
+    "recipient_id": "183083c0-2cbc-1903-c64f-5370f91554ae-C",
+    "amount": 21711869,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$21,711,869"
+  },
+  {
+    "rank": 336,
+    "recipient_name": "ZOLON TECH INC.",
+    "recipient_id": "9d281c68-5c98-34a8-293c-530a7b736e7e-C",
+    "amount": 21636291,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$21,636,291"
+  },
+  {
+    "rank": 337,
+    "recipient_name": "KEKOLU CONTRACTING, LLC",
+    "recipient_id": "9193c6d8-90ce-4106-850c-c56ea5daa88b-C",
+    "amount": 21511132,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$21,511,132"
+  },
+  {
+    "rank": 338,
+    "recipient_name": "ACENTRA HEALTH LLC",
+    "recipient_id": "389f0397-ee39-c8dd-f9de-644dfbdf8c8d-C",
+    "amount": 21477800,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$21,477,800"
+  },
+  {
+    "rank": 339,
+    "recipient_name": "RITZ CONSTRUCTION INC",
+    "recipient_id": "3e94ed3b-99b6-39e9-db14-e8356b37bd0c-C",
+    "amount": 21326144,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$21,326,144"
+  },
+  {
+    "rank": 340,
+    "recipient_name": "KBR WYLE SERVICES, LLC",
+    "recipient_id": "14c92d76-9870-ace3-dbf2-431863daf0bd-C",
+    "amount": 21314329,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$21,314,329"
+  },
+  {
+    "rank": 341,
+    "recipient_name": "YORK TELECOM CORP",
+    "recipient_id": "6fe6b4dc-2100-ca62-c1c1-af38a5ecb659-C",
+    "amount": 21197922,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$21,197,922"
+  },
+  {
+    "rank": 342,
+    "recipient_name": "A-TEK, INC.",
+    "recipient_id": "c2c1f451-73ec-3014-acb8-a8cbbd380dd3-C",
+    "amount": 21183420,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$21,183,420"
+  },
+  {
+    "rank": 343,
+    "recipient_name": "SENTURE LLC",
+    "recipient_id": "5cf72d12-86d5-5a55-191e-c2bc94ea60ed-C",
+    "amount": 21162449,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$21,162,449"
+  },
+  {
+    "rank": 344,
+    "recipient_name": "VENTERA LLC",
+    "recipient_id": "19e83b4b-e75f-9cfe-a698-1fbfa57078d6-C",
+    "amount": 21142534,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$21,142,534"
+  },
+  {
+    "rank": 345,
+    "recipient_name": "EMPOWER AI, INC.",
+    "recipient_id": "4ba55072-0228-c003-d8a4-067938e3a80a-C",
+    "amount": 21104873,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$21,104,873"
+  },
+  {
+    "rank": 346,
+    "recipient_name": "LOCKHEED MARTIN INTEGRATED SYSTEMS, LLC",
+    "recipient_id": "fb5a203d-4f4c-dd51-8b6d-b97b891ee3d8-C",
+    "amount": 21000000,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$21,000,000"
+  },
+  {
+    "rank": 347,
+    "recipient_name": "INUTEQ, LLC",
+    "recipient_id": "83253a28-d5e4-17db-0aa6-15d2c71ba1fa-C",
+    "amount": 20807826,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$20,807,826"
+  },
+  {
+    "rank": 348,
+    "recipient_name": "DCS CORPORATION",
+    "recipient_id": "6eb1a41a-0f06-b7ec-39f3-5c94f8248a6a-C",
+    "amount": 20743078,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$20,743,078"
+  },
+  {
+    "rank": 349,
+    "recipient_name": "HDR ARCHITECTURE, INC.",
+    "recipient_id": "2f0844b9-324b-3208-94ac-62097e1aff03-C",
+    "amount": 20502285,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$20,502,285"
+  },
+  {
+    "rank": 350,
+    "recipient_name": "FEDERAL MIRACLE TECH LLC",
+    "recipient_id": "d5f33ddf-f486-9fe0-d903-8dc39fe53a7f-C",
+    "amount": 20492040,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$20,492,040"
+  },
+  {
+    "rank": 351,
+    "recipient_name": "BOOZ ALLEN HAMILTON INC.",
+    "recipient_id": "708321e7-6fc7-9d1d-4e92-513ce9c43d78-C",
+    "amount": 20445674,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$20,445,674"
+  },
+  {
+    "rank": 352,
+    "recipient_name": "T AND T CONSULTING SERVICES INC.",
+    "recipient_id": "0dd717db-f811-c6a2-7ea0-8231c7930f16-C",
+    "amount": 20375907,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$20,375,907"
+  },
+  {
+    "rank": 353,
+    "recipient_name": "ASRC FEDERAL DATA NETWORX, LLC",
+    "recipient_id": "f305e88c-b13f-6bb0-c2ae-8ed6c7db263e-C",
+    "amount": 20071035,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$20,071,035"
+  },
+  {
+    "rank": 354,
+    "recipient_name": "REVEAL GLOBAL CONSULTING LLC",
+    "recipient_id": "19ef86d6-9c15-b7bf-5e7f-65a34c75d994-C",
+    "amount": 20045303,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$20,045,303"
+  },
+  {
+    "rank": 355,
+    "recipient_name": "THE BOEING COMPANY",
+    "recipient_id": "22d282c6-4508-7d30-97f1-7401ea73b12a-C",
+    "amount": 20044448,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$20,044,448"
+  },
+  {
+    "rank": 356,
+    "recipient_name": "SOLUTIONS BY DESIGN II, LLC",
+    "recipient_id": "6767b216-58c6-bd86-a2ff-7ec7eca8fb16-C",
+    "amount": 19945757,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$19,945,757"
+  },
+  {
+    "rank": 357,
+    "recipient_name": "PM CONSULTING GROUP LLC",
+    "recipient_id": "34c848b3-73c1-c484-edfc-40fc4b6bbc89-C",
+    "amount": 19927928,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$19,927,928"
+  },
+  {
+    "rank": 358,
+    "recipient_name": "CUBIC DIGITAL INTELLIGENCE INC",
+    "recipient_id": "c006f044-9b5a-053e-9691-05526da6b88d-C",
+    "amount": 19881224,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$19,881,224"
+  },
+  {
+    "rank": 359,
+    "recipient_name": "GLOBAL ALLIANT INC",
+    "recipient_id": "8edb3cbb-153f-8a38-5c71-a0773fe81c58-C",
+    "amount": 19821305,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$19,821,305"
+  },
+  {
+    "rank": 360,
+    "recipient_name": "THINK-HIGHPOINT JV, LLC",
+    "recipient_id": "7cb399d4-109d-aa61-c2d8-ebb91d7e889a-C",
+    "amount": 19801334,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$19,801,334"
+  },
+  {
+    "rank": 361,
+    "recipient_name": "COMPQSOFT, INC.",
+    "recipient_id": "24724179-ffa9-b86c-b68b-26ce7f4088ab-C",
+    "amount": 19799024,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$19,799,024"
+  },
+  {
+    "rank": 362,
+    "recipient_name": "ERNST & YOUNG LLP",
+    "recipient_id": "dd8305ba-1d9b-c594-9391-076ac5a963ad-C",
+    "amount": 19782481,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$19,782,481"
+  },
+  {
+    "rank": 363,
+    "recipient_name": "PRIORITY ONE SERVICES, INC.",
+    "recipient_id": "6422dba5-c14b-4c59-7b71-cbd2baf555ee-C",
+    "amount": 19566105,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$19,566,105"
+  },
+  {
+    "rank": 364,
+    "recipient_name": "ODDBALL, INC.",
+    "recipient_id": "8c52c101-e5d5-be48-ff24-ae7761803253-C",
+    "amount": 19563100,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$19,563,100"
+  },
+  {
+    "rank": 365,
+    "recipient_name": "SCIENCE & TECHNOLOGY CORPORATION",
+    "recipient_id": "ae479c65-476c-754e-aad9-af12367a8790-C",
+    "amount": 19537607,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$19,537,607"
+  },
+  {
+    "rank": 366,
+    "recipient_name": "IMSOLUTIONS LLC",
+    "recipient_id": "fbf54167-93da-a0f6-997a-389cd4677d8c-C",
+    "amount": 19477342,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$19,477,342"
+  },
+  {
+    "rank": 367,
+    "recipient_name": "SCOPE INFOTECH INC",
+    "recipient_id": "547d2ee9-badb-0cdb-6c43-80025f1786ea-C",
+    "amount": 19458491,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$19,458,491"
+  },
+  {
+    "rank": 368,
+    "recipient_name": "ATT MOBILITY LLC",
+    "recipient_id": "c0aa4884-6621-8b31-0942-50047a976c83-C",
+    "amount": 19361951,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$19,361,951"
+  },
+  {
+    "rank": 369,
+    "recipient_name": "AKIMA SUPPORT OPERATIONS, LLC",
+    "recipient_id": "ebd34fa4-6b86-a275-48e1-e800116e0697-C",
+    "amount": 19333932,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$19,333,932"
+  },
+  {
+    "rank": 370,
+    "recipient_name": "THE SANCHEZ GROUP OF COMPANIES, LLC",
+    "recipient_id": "6401f5e4-b6e6-0eb0-78d5-f8e095d93f98-C",
+    "amount": 19291076,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$19,291,076"
+  },
+  {
+    "rank": 371,
+    "recipient_name": "COMPUTERCRAFT CORPORATION",
+    "recipient_id": "f2d188a6-a581-c66f-7cb8-7e1656f92c2f-C",
+    "amount": 19254476,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$19,254,476"
+  },
+  {
+    "rank": 372,
+    "recipient_name": "AMETRINE INC",
+    "recipient_id": "3462eef0-47ed-1bc5-8343-88042e5216aa-C",
+    "amount": 19238785,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$19,238,785"
+  },
+  {
+    "rank": 373,
+    "recipient_name": "COHERENT TECHNICAL SERVICES, INC.",
+    "recipient_id": "86050e6f-97bb-535e-3e37-5917637216c4-C",
+    "amount": 19224571,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$19,224,571"
+  },
+  {
+    "rank": 374,
+    "recipient_name": "MAN-MACHINE SYSTEMS ASSESSMENT (MSA), INCORPORATED",
+    "recipient_id": "a3a97538-91cc-d0a4-038e-9be585da7f8f-C",
+    "amount": 19200351,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$19,200,351"
+  },
+  {
+    "rank": 375,
+    "recipient_name": "STRACON SERVICES GROUP, LLC",
+    "recipient_id": "bb7abdd6-2c14-3000-0f11-c917161faf01-C",
+    "amount": 19151905,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$19,151,905"
+  },
+  {
+    "rank": 376,
+    "recipient_name": "SPACE NETWORK SOLUTIONS LLC",
+    "recipient_id": "5db795d2-8cd4-f80f-1752-6c5478aeba78-C",
+    "amount": 19149621,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$19,149,621"
+  },
+  {
+    "rank": 377,
+    "recipient_name": "BOWHEAD BUSINESS AND TECHNOLOGY SOLUTIONS, LLC",
+    "recipient_id": "8e0aa57b-e6f2-2d41-f950-985e8d91428c-C",
+    "amount": 19130455,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$19,130,455"
+  },
+  {
+    "rank": 378,
+    "recipient_name": "IPKEYS TECHNOLOGIES LLC",
+    "recipient_id": "d286dc55-6796-2953-75e6-ab18ba7e1696-C",
+    "amount": 19094806,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$19,094,806"
+  },
+  {
+    "rank": 379,
+    "recipient_name": "THE LEWIN GROUP, INC.",
+    "recipient_id": "2cd822cf-04c8-0397-8526-d6da8ff340a8-C",
+    "amount": 19062119,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$19,062,119"
+  },
+  {
+    "rank": 380,
+    "recipient_name": "INTERNATIONAL CONSULTING ASSOCIATES, INC.",
+    "recipient_id": "42542734-470d-78b7-ab9b-d6b886535dcd-C",
+    "amount": 19046507,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$19,046,507"
+  },
+  {
+    "rank": 381,
+    "recipient_name": "MOUNTAIN HORSE LLC",
+    "recipient_id": "af4bc3fc-a537-5a3d-5a55-6bed76154cce-C",
+    "amount": 18958200,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$18,958,200"
+  },
+  {
+    "rank": 382,
+    "recipient_name": "BIOFACTURA INC",
+    "recipient_id": "11499b2b-0f9b-bbda-490a-a6fc6479262c-C",
+    "amount": 18878816,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$18,878,816"
+  },
+  {
+    "rank": 383,
+    "recipient_name": "EAGLE HEALTH, LLC",
+    "recipient_id": "fe07b8d1-2726-5fe1-3d0d-a04a5e482063-C",
+    "amount": 18865214,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$18,865,214"
+  },
+  {
+    "rank": 384,
+    "recipient_name": "SPN SOLUTIONS INC",
+    "recipient_id": "7d1092fb-ba93-bb0a-ccb3-e5816f96ecaf-C",
+    "amount": 18824083,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$18,824,083"
+  },
+  {
+    "rank": 385,
+    "recipient_name": "MANAGEMENT & TRAINING CORPORATION",
+    "recipient_id": "05d0fd70-3b91-2efe-b533-5d973d1ea671-C",
+    "amount": 18688564,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$18,688,564"
+  },
+  {
+    "rank": 386,
+    "recipient_name": "OCCI INC",
+    "recipient_id": "f72f79bb-ef42-3ae1-e23c-4b2b45c9c92a-C",
+    "amount": 18672521,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$18,672,521"
+  },
+  {
+    "rank": 387,
+    "recipient_name": "DATA NETWORKS, INC.",
+    "recipient_id": "bcfb1089-768f-7e1d-5566-08e9f6002158-C",
+    "amount": 18644626,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$18,644,626"
+  },
+  {
+    "rank": 388,
+    "recipient_name": "BATTELLE NATIONAL BIODEFENSE INSTITUTE, LLC",
+    "recipient_id": "de47f26d-a8c9-19a6-4475-7f569f4ce139-C",
+    "amount": 18607609,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$18,607,609"
+  },
+  {
+    "rank": 389,
+    "recipient_name": "BIOQUAL, INC.",
+    "recipient_id": "caeffb62-906b-1fa6-426c-c5d1f7b4ec12-C",
+    "amount": 18605767,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$18,605,767"
+  },
+  {
+    "rank": 390,
+    "recipient_name": "RITENET CORP.",
+    "recipient_id": "ab1d45c9-5053-dbf3-d63f-4e7e68482b1b-C",
+    "amount": 18555323,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$18,555,323"
+  },
+  {
+    "rank": 391,
+    "recipient_name": "L1 ENTERPRISES INCORPORATED",
+    "recipient_id": "9845be94-5753-d92b-1ce1-9f6e19b45efc-C",
+    "amount": 18429023,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$18,429,023"
+  },
+  {
+    "rank": 392,
+    "recipient_name": "TUNNELL CONSULTING INC",
+    "recipient_id": "c5686ad9-4596-7dd6-9479-a22986390606-C",
+    "amount": 18364675,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$18,364,675"
+  },
+  {
+    "rank": 393,
+    "recipient_name": "GOVSMART, INC.",
+    "recipient_id": "a4ce814d-f601-2150-98bf-6f203db0ea2f-C",
+    "amount": 18349806,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$18,349,806"
+  },
+  {
+    "rank": 394,
+    "recipient_name": "GREENFIELD ENGINEERING CORPORATION",
+    "recipient_id": "e49de4bb-5ba5-fa2d-f1bb-95ccff027626-C",
+    "amount": 18296989,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$18,296,989"
+  },
+  {
+    "rank": 395,
+    "recipient_name": "METRO OFFICE SOLUTIONS INC",
+    "recipient_id": "f067a12f-06ef-7a26-9f5c-6cb052bd6471-C",
+    "amount": 18199478,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$18,199,478"
+  },
+  {
+    "rank": 396,
+    "recipient_name": "CYBER ENGINEERING AND TECHNICAL ALLIANCE, LLC",
+    "recipient_id": "534f6e0d-1057-dcbe-2dfa-2309d643e857-C",
+    "amount": 18139639,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$18,139,639"
+  },
+  {
+    "rank": 397,
+    "recipient_name": "MILANI CONSTRUCTION LLC",
+    "recipient_id": "351d39aa-3ea7-760a-e992-9b5d1c2db473-C",
+    "amount": 18084999,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$18,084,999"
+  },
+  {
+    "rank": 398,
+    "recipient_name": "ANTECH SYSTEMS, INC.",
+    "recipient_id": "474ed035-970e-35be-1e34-fd2a04ac706d-C",
+    "amount": 18082927,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$18,082,927"
+  },
+  {
+    "rank": 399,
+    "recipient_name": "MERIDIAN MEDICAL TECHNOLOGIES, LLC",
+    "recipient_id": "8ae912b6-454c-ece3-7b6d-27a1d552273e-C",
+    "amount": 17966990,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$17,966,990"
+  },
+  {
+    "rank": 400,
+    "recipient_name": "KONIAG SERVICES, INC.",
+    "recipient_id": "377156ba-5675-3124-0875-d289198c3b7e-C",
+    "amount": 17910727,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$17,910,727"
+  },
+  {
+    "rank": 401,
+    "recipient_name": "CLARITY INNOVATIONS LLC",
+    "recipient_id": "254b3a41-c143-7bf0-4675-d073c74155cf-C",
+    "amount": 17818892,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$17,818,892"
+  },
+  {
+    "rank": 402,
+    "recipient_name": "HONEYWELL BUILDING SOLUTIONS SES CORP",
+    "recipient_id": "8b9353d3-556e-0888-6768-ad48b66a5f22-C",
+    "amount": 17791496,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$17,791,496"
+  },
+  {
+    "rank": 403,
+    "recipient_name": "RIPPLE EFFECT COMMUNICATIONS, INC.",
+    "recipient_id": "a3c668a9-c6c0-e0f5-3dbd-1d64ec1c9938-C",
+    "amount": 17785179,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$17,785,179"
+  },
+  {
+    "rank": 404,
+    "recipient_name": "GENERAL ELECTRIC COMPANY",
+    "recipient_id": "66092799-9c72-fde6-e008-9d381191aed2-C",
+    "amount": 17698126,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$17,698,126"
+  },
+  {
+    "rank": 405,
+    "recipient_name": "CADMUS CONCOURSE JV LLC",
+    "recipient_id": "b5329286-12ed-bb34-5fa9-1c58c10553e3-C",
+    "amount": 17668486,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$17,668,486"
+  },
+  {
+    "rank": 406,
+    "recipient_name": "PANAMERICA COMPUTERS, INC.",
+    "recipient_id": "70e674ba-2d79-d6bb-37c8-a03189735d37-C",
+    "amount": 17575265,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$17,575,265"
+  },
+  {
+    "rank": 407,
+    "recipient_name": "PHILLIPS CORPORATION",
+    "recipient_id": "72b6e447-1bdb-cce2-7fa4-88faf899eb5a-C",
+    "amount": 17559417,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$17,559,417"
+  },
+  {
+    "rank": 408,
+    "recipient_name": "OCTO CONSULTING GROUP LLC",
+    "recipient_id": "a8d2abcb-8ce1-7b83-07cc-02fe114f9d9f-C",
+    "amount": 17410200,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$17,410,200"
+  },
+  {
+    "rank": 409,
+    "recipient_name": "CTIS, INC.",
+    "recipient_id": "05fc39e3-b8fc-efee-2b6a-7c981ebad98d-C",
+    "amount": 17400351,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$17,400,351"
+  },
+  {
+    "rank": 410,
+    "recipient_name": "CHIMES DISTRICT OF COLUMBIA INC",
+    "recipient_id": "3b1d5cf9-3a4b-b48e-80f7-cacaadf58b49-C",
+    "amount": 17371301,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$17,371,301"
+  },
+  {
+    "rank": 411,
+    "recipient_name": "YULISTA SUPPORT SERVICES LLC",
+    "recipient_id": "461e3fef-27ee-d5f2-3cd8-4279262185cc-C",
+    "amount": 17357132,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$17,357,132"
+  },
+  {
+    "rank": 412,
+    "recipient_name": "ROSE LI AND ASSOCIATES, INC.",
+    "recipient_id": "0250e568-62a4-5f88-c8d4-813fb60a243e-C",
+    "amount": 17243529,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$17,243,529"
+  },
+  {
+    "rank": 413,
+    "recipient_name": "SNODGRASS CONTRACTING LLC",
+    "recipient_id": "4f80b11b-2dda-8921-4ef1-d0bcb4d44bbd-C",
+    "amount": 17194593,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$17,194,593"
+  },
+  {
+    "rank": 414,
+    "recipient_name": "CACI NSS, LLC",
+    "recipient_id": "49aa319d-7bfb-ef1b-d43e-e82eed09d3bf-C",
+    "amount": 16917040,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$16,917,040"
+  },
+  {
+    "rank": 415,
+    "recipient_name": "CYPRESS-SBS JV LLC",
+    "recipient_id": "0bc16739-6d77-fd9d-0bd2-a3f67b4a95a6-C",
+    "amount": 16911297,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$16,911,297"
+  },
+  {
+    "rank": 416,
+    "recipient_name": "BELT BUILT CONTRACTING, LLC",
+    "recipient_id": "4e95b68e-cf02-b1c8-e59b-e86540c91278-C",
+    "amount": 16906484,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$16,906,484"
+  },
+  {
+    "rank": 417,
+    "recipient_name": "DELA TECHNOLOGY CORPORATION",
+    "recipient_id": "69f0b2a1-18d5-5875-078e-480f4a74a429-C",
+    "amount": 16903267,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$16,903,267"
+  },
+  {
+    "rank": 418,
+    "recipient_name": "A P VENTURES, LLC",
+    "recipient_id": "eb800676-52f5-b891-7ab8-1e234fa558c3-C",
+    "amount": 16874897,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$16,874,897"
+  },
+  {
+    "rank": 419,
+    "recipient_name": "ASRC FEDERAL FACILITIES LOGISTICS LLC",
+    "recipient_id": "16b7202a-1f85-bbe9-9a70-ac3d3d564f93-C",
+    "amount": 16794419,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$16,794,419"
+  },
+  {
+    "rank": 420,
+    "recipient_name": "FIBERTEK, INC.",
+    "recipient_id": "37710b11-317d-4961-43ce-16722f04f89e-C",
+    "amount": 16726842,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$16,726,842"
+  },
+  {
+    "rank": 421,
+    "recipient_name": "CDA INC",
+    "recipient_id": "87e33c60-7beb-b2aa-9341-35e0f3b13062-C",
+    "amount": 16653061,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$16,653,061"
+  },
+  {
+    "rank": 422,
+    "recipient_name": "NATIONAL TECHNOLOGIES ASSOCIATES, INC.",
+    "recipient_id": "1e93dcaf-259d-50cb-0073-5eb38f9e7757-C",
+    "amount": 16617934,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$16,617,934"
+  },
+  {
+    "rank": 423,
+    "recipient_name": "AMERICAN WATER OPERATIONS AND MAINTENANCE, LLC",
+    "recipient_id": "46f97fce-25e6-b6f1-149e-4dae53576e82-C",
+    "amount": 16541772,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$16,541,772"
+  },
+  {
+    "rank": 424,
+    "recipient_name": "NATIONAL PLASTERING INDUSTRYS JOINT APPRENTICESHIP TRUST FUND",
+    "recipient_id": "b4567606-d77a-b598-f63c-84ef9f5cb5a8-C",
+    "amount": 16492804,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$16,492,804"
+  },
+  {
+    "rank": 425,
+    "recipient_name": "HARVARD PILGRIM HEALTH CARE INC",
+    "recipient_id": "c0103b26-3b3f-708e-e041-01c60221a8b9-C",
+    "amount": 16430859,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$16,430,859"
+  },
+  {
+    "rank": 426,
+    "recipient_name": "WASHINGTON SUBURBAN SANITARY COMMISSION",
+    "recipient_id": "df3881d6-d0fd-6518-dcd7-017ad63a8cc0-C",
+    "amount": 16185174,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$16,185,174"
+  },
+  {
+    "rank": 427,
+    "recipient_name": "TUCKMAN-BARBEE CONSTRUCTION CO., INC.",
+    "recipient_id": "c9e30508-2884-cab2-7a2c-55ca5383de00-C",
+    "amount": 16147940,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$16,147,940"
+  },
+  {
+    "rank": 428,
+    "recipient_name": "NEXTGEN FEDERAL SYSTEMS LLC",
+    "recipient_id": "78ce2c19-d730-7658-7267-f323436e66d9-C",
+    "amount": 16130034,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$16,130,034"
+  },
+  {
+    "rank": 429,
+    "recipient_name": "STS SOLUTIONS AND TRAINING, LLC",
+    "recipient_id": "043aa09e-071e-57da-2a2c-cb7d1d31c531-C",
+    "amount": 16009691,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$16,009,691"
+  },
+  {
+    "rank": 430,
+    "recipient_name": "DAVIS DEFENSE GROUP, INC.",
+    "recipient_id": "7175b06f-8a47-d003-d854-94f372d66bcd-C",
+    "amount": 15989543,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$15,989,543"
+  },
+  {
+    "rank": 431,
+    "recipient_name": "FUSE INTEGRATION, INC.",
+    "recipient_id": "34b5def5-3db7-c0a1-32fc-fbf8f08ad53b-C",
+    "amount": 15988406,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$15,988,406"
+  },
+  {
+    "rank": 432,
+    "recipient_name": "BETAH ASSOCIATES, INC.",
+    "recipient_id": "4e33ea00-4580-d059-86eb-82b6cbc0aa4f-C",
+    "amount": 15937482,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$15,937,482"
+  },
+  {
+    "rank": 433,
+    "recipient_name": "AVIAN-PRECISE COMPANY, LLC",
+    "recipient_id": "ba2dd423-c136-1279-0f1d-95e68100994a-C",
+    "amount": 15933268,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$15,933,268"
+  },
+  {
+    "rank": 434,
+    "recipient_name": "PTSI MANAGED SERVICES INC",
+    "recipient_id": "1b34c273-b52d-9dd4-5c61-1098530dd984-C",
+    "amount": 15930030,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$15,930,030"
+  },
+  {
+    "rank": 435,
+    "recipient_name": "FOXHOLE TECHNOLOGY LLC",
+    "recipient_id": "cdf4f09f-61db-99cc-6e64-eb74e9c6d533-C",
+    "amount": 15848127,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$15,848,127"
+  },
+  {
+    "rank": 436,
+    "recipient_name": "ODP BUSINESS SOLUTIONS, LLC",
+    "recipient_id": "e5d366b6-0642-ea4a-d379-dfea4d1b2b88-C",
+    "amount": 15801415,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$15,801,415"
+  },
+  {
+    "rank": 437,
+    "recipient_name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+    "recipient_id": "adb84f97-3d00-e3c0-4ef5-14e076ea4654-C",
+    "amount": 15763877,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$15,763,877"
+  },
+  {
+    "rank": 438,
+    "recipient_name": "THREE WIRE SYSTEMS, LLC",
+    "recipient_id": "7678e55d-3da3-0606-7fb1-da24efbc7cda-C",
+    "amount": 15591335,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$15,591,335"
+  },
+  {
+    "rank": 439,
+    "recipient_name": "STANDARD AERO (SAN ANTONIO) INC.",
+    "recipient_id": "d55a6ee1-7f20-3660-b0b8-97d4c9d31f49-C",
+    "amount": 15552995,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$15,552,995"
+  },
+  {
+    "rank": 440,
+    "recipient_name": "IMMIXTECHNOLOGY INC",
+    "recipient_id": "064ae3ed-3369-713b-8489-8ff60e8be050-C",
+    "amount": 15515848,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$15,515,848"
+  },
+  {
+    "rank": 441,
+    "recipient_name": "M2 STRATEGY, INC.",
+    "recipient_id": "878489c3-3d28-ee2d-4bd1-b4e88a38eab1-C",
+    "amount": 15505396,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$15,505,396"
+  },
+  {
+    "rank": 442,
+    "recipient_name": "CACI TECHNOLOGIES, LLC",
+    "recipient_id": "4763c991-6108-3b12-d5e3-f29d6935270b-C",
+    "amount": 15491684,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$15,491,684"
+  },
+  {
+    "rank": 443,
+    "recipient_name": "CENTRAL KENWORTH LLC",
+    "recipient_id": "4cace01f-222c-246a-0921-11ab12d00b49-C",
+    "amount": 15454558,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$15,454,558"
+  },
+  {
+    "rank": 444,
+    "recipient_name": "ALEUT CONSTRUCTION LLC",
+    "recipient_id": "8e393516-f3cc-3f78-d78d-f4802e0a1efb-C",
+    "amount": 15403086,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$15,403,086"
+  },
+  {
+    "rank": 445,
+    "recipient_name": "METROSTAR SYSTEMS, LLC",
+    "recipient_id": "53170587-a238-b5ed-a037-7c8a99e1b8bb-C",
+    "amount": 15370340,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$15,370,340"
+  },
+  {
+    "rank": 446,
+    "recipient_name": "JS TECHNOLOGY, INC",
+    "recipient_id": "88769c4f-d0e5-1c08-1bd1-45aa56d6f9d4-C",
+    "amount": 15341421,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$15,341,421"
+  },
+  {
+    "rank": 447,
+    "recipient_name": "NIMBUS CONSULTING LLC",
+    "recipient_id": "0c4fd511-bfcf-096d-5fb4-467b10bcc9cc-C",
+    "amount": 15339667,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$15,339,667"
+  },
+  {
+    "rank": 448,
+    "recipient_name": "SIERRA7, INC.",
+    "recipient_id": "4c8a4efd-2123-0b6f-3767-e43cf1681a8a-C",
+    "amount": 15233925,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$15,233,925"
+  },
+  {
+    "rank": 449,
+    "recipient_name": "PENOBSCOT SUPPORT SERVICES, LLC",
+    "recipient_id": "f17fbdf2-004d-9706-d117-424090c3e28e-C",
+    "amount": 15202064,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$15,202,064"
+  },
+  {
+    "rank": 450,
+    "recipient_name": "ATI GOVERNMENT SOLUTIONS LLC",
+    "recipient_id": "6ae410e8-78d6-a857-e19b-6516876f15c5-C",
+    "amount": 15172639,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$15,172,639"
+  },
+  {
+    "rank": 451,
+    "recipient_name": "COLONIAL METALS, INC",
+    "recipient_id": "a509dbbd-378d-47cf-848d-ffcb7c14e62b-C",
+    "amount": 15162993,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$15,162,993"
+  },
+  {
+    "rank": 452,
+    "recipient_name": "TECHFLOW MISSION SUPPORT, LLC",
+    "recipient_id": "8cc18426-2bb3-1c4d-2a7d-434835cafab2-C",
+    "amount": 15123847,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$15,123,847"
+  },
+  {
+    "rank": 453,
+    "recipient_name": "MARITIME APPLIED PHYSICS CORPORATION",
+    "recipient_id": "fe868828-1415-1725-3cba-d9e2dfb8d5f6-C",
+    "amount": 15122394,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$15,122,394"
+  },
+  {
+    "rank": 454,
+    "recipient_name": "CHEROENHAKA NOTTOWAY ENTERPRISES, LLC",
+    "recipient_id": "c3f9ee95-b197-0273-b427-9ca17642f9b2-C",
+    "amount": 15112589,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$15,112,589"
+  },
+  {
+    "rank": 455,
+    "recipient_name": "ADVANCED TECHNOLOGY AND RESEARCH CORPORATION",
+    "recipient_id": "e398aaf6-97d4-7170-f368-7685b9736a38-C",
+    "amount": 15083003,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$15,083,003"
+  },
+  {
+    "rank": 456,
+    "recipient_name": "DISYS SOLUTIONS, INC.",
+    "recipient_id": "9b66417e-ec21-2772-c91e-a41e40707090-C",
+    "amount": 15014198,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$15,014,198"
+  },
+  {
+    "rank": 457,
+    "recipient_name": "GEORGIA TECH APPLIED RESEARCH CORP",
+    "recipient_id": "36ac2fcd-7f60-603d-ffe7-a3101dd0bc95-C",
+    "amount": 15002136,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$15,002,136"
+  },
+  {
+    "rank": 458,
+    "recipient_name": "CUSTOMER VALUE PARTNERS, LLC",
+    "recipient_id": "8a2c800a-0d04-3aaf-816b-5aeb9d1b3726-C",
+    "amount": 14956096,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$14,956,096"
+  },
+  {
+    "rank": 459,
+    "recipient_name": "BELT BUILT CFM GOVERNMENT SERVICES JV LLC",
+    "recipient_id": "d26e4bd1-5063-31fd-e8a2-83e7b7226a30-C",
+    "amount": 14935046,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$14,935,046"
+  },
+  {
+    "rank": 460,
+    "recipient_name": "PALANTIR TECHNOLOGIES INC.",
+    "recipient_id": "1ea8a9a4-3726-3491-9040-66950bb67606-C",
+    "amount": 14833924,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$14,833,924"
+  },
+  {
+    "rank": 461,
+    "recipient_name": "SIGNET TECHNOLOGIES, INC.",
+    "recipient_id": "f5908740-52a2-bcb0-6bcf-a1a8e010951a-C",
+    "amount": 14799148,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$14,799,148"
+  },
+  {
+    "rank": 462,
+    "recipient_name": "JOHNSON CONTROLS BUILDING AUTOMATION SYSTEMS, LLC",
+    "recipient_id": "88199f05-5712-54a6-7917-601ddc851cc4-C",
+    "amount": 14745620,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$14,745,620"
+  },
+  {
+    "rank": 463,
+    "recipient_name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+    "recipient_id": "be76f12c-9cf2-f6d2-96e4-697195c37b60-C",
+    "amount": 14619445,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$14,619,445"
+  },
+  {
+    "rank": 464,
+    "recipient_name": "DSFEDERAL, INC",
+    "recipient_id": "6016b6a7-13ac-f184-0eda-68dd10dd65bf-C",
+    "amount": 14594624,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$14,594,624"
+  },
+  {
+    "rank": 465,
+    "recipient_name": "TRX SYSTEMS, INC.",
+    "recipient_id": "6bd54447-2c3b-cb74-a2dc-29ea75160885-C",
+    "amount": 14591313,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$14,591,313"
+  },
+  {
+    "rank": 466,
+    "recipient_name": "STAMPEDE VENTURES, INC.",
+    "recipient_id": "45835570-ab6e-0f11-49ae-17ffce019e33-C",
+    "amount": 14588390,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$14,588,390"
+  },
+  {
+    "rank": 467,
+    "recipient_name": "MATHEMATICA INC.",
+    "recipient_id": "3debc7b9-262b-227f-310a-1cbb379a3ada-C",
+    "amount": 14578618,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$14,578,618"
+  },
+  {
+    "rank": 468,
+    "recipient_name": "INTELSAT GENERAL COMMUNICATIONS LLC",
+    "recipient_id": "d3180969-f692-506e-88a5-ee066efbab2a-C",
+    "amount": 14562781,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$14,562,781"
+  },
+  {
+    "rank": 469,
+    "recipient_name": "JCS SOLUTIONS LLC",
+    "recipient_id": "609b84f9-5824-923e-176a-04fa6ae551d4-C",
+    "amount": 14550207,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$14,550,207"
+  },
+  {
+    "rank": 470,
+    "recipient_name": "STRATIVIA LLC",
+    "recipient_id": "a152e24e-b66c-1a43-713a-42ac9cc1340f-C",
+    "amount": 14537289,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$14,537,289"
+  },
+  {
+    "rank": 471,
+    "recipient_name": "DIVERSIFIED SERVICE CONTRACTING, INC.",
+    "recipient_id": "94224851-3f80-395c-4e71-5c86606492c6-C",
+    "amount": 14532097,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$14,532,097"
+  },
+  {
+    "rank": 472,
+    "recipient_name": "TECHNOLOGY SERVICE CORP",
+    "recipient_id": "5cab96dc-cdd4-81ec-1af4-83fd0b00fc4a-C",
+    "amount": 14508996,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$14,508,996"
+  },
+  {
+    "rank": 473,
+    "recipient_name": "DARK WOLF SOLUTIONS, LLC",
+    "recipient_id": "a27737a0-81f0-7f88-4984-b9914a4d635d-C",
+    "amount": 14478837,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$14,478,837"
+  },
+  {
+    "rank": 474,
+    "recipient_name": "SYSTEMS INTEGRATION & DEVELOPMENT INC",
+    "recipient_id": "d116a662-b1e1-e56e-c135-d388e1ed1c9f-C",
+    "amount": 14449805,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$14,449,805"
+  },
+  {
+    "rank": 475,
+    "recipient_name": "AMERICAN INSTITUTES FOR RESEARCH IN THE BEHAVIORAL SCIENCES",
+    "recipient_id": "0e232f5f-5cc0-3d79-f26b-893dc8cced0e-C",
+    "amount": 14423104,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$14,423,104"
+  },
+  {
+    "rank": 476,
+    "recipient_name": "PUYENPA CONSTRUCTION, LLC",
+    "recipient_id": "38ac5441-0924-ec86-ea29-77f9fd65c531-C",
+    "amount": 14402182,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$14,402,182"
+  },
+  {
+    "rank": 477,
+    "recipient_name": "VISION TECHNOLOGIES, LLC",
+    "recipient_id": "7defc357-2bbc-36dc-7d89-15dc23d60e5d-C",
+    "amount": 14384995,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$14,384,995"
+  },
+  {
+    "rank": 478,
+    "recipient_name": "BRAVIUM CONSULTING INC.",
+    "recipient_id": "007a6e84-068c-885b-ee25-a5a87577427b-C",
+    "amount": 14340048,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$14,340,048"
+  },
+  {
+    "rank": 479,
+    "recipient_name": "ONEIDA COMMUNICATIONS, INC.",
+    "recipient_id": "fb330072-9dfd-1ecb-7ba0-85ef350afcb1-C",
+    "amount": 14274532,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$14,274,532"
+  },
+  {
+    "rank": 480,
+    "recipient_name": "TRANSPORTATION COMMUNICATIONS UNION/IAM",
+    "recipient_id": "5b68405f-efb7-3d48-44e8-08d08f33eef3-C",
+    "amount": 14220937,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$14,220,937"
+  },
+  {
+    "rank": 481,
+    "recipient_name": "SCIENCE AND ENGINEERING SERVICES, LLC",
+    "recipient_id": "20362d0e-45a4-f2cc-a767-f32fea886782-C",
+    "amount": 14146612,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$14,146,612"
+  },
+  {
+    "rank": 482,
+    "recipient_name": "ZEMITEK LLC",
+    "recipient_id": "4c6235f2-c686-8581-2e85-d157143831a0-C",
+    "amount": 14140364,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$14,140,364"
+  },
+  {
+    "rank": 483,
+    "recipient_name": "MARINE POLYMERS, INC",
+    "recipient_id": "23130b89-e320-0e30-4ef0-7abeb8dd6ad6-C",
+    "amount": 14094286,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$14,094,286"
+  },
+  {
+    "rank": 484,
+    "recipient_name": "LYNKER CORPORATION",
+    "recipient_id": "769ae6c2-ab99-6c7c-d5a0-192e3904c1d4-C",
+    "amount": 14009721,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$14,009,721"
+  },
+  {
+    "rank": 485,
+    "recipient_name": "STRATEGIC COMMUNICATIONS LLC",
+    "recipient_id": "00083d9e-a764-866f-6f50-a750efc77659-C",
+    "amount": 14004235,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$14,004,235"
+  },
+  {
+    "rank": 486,
+    "recipient_name": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+    "recipient_id": "8a3a5525-3218-a488-db0e-4823241ceb90-C",
+    "amount": 13985407,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$13,985,407"
+  },
+  {
+    "rank": 487,
+    "recipient_name": "ALVAREZ LLC",
+    "recipient_id": "d55dabdb-0c89-b6e8-e4f5-5817d2be7b63-C",
+    "amount": 13950114,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$13,950,114"
+  },
+  {
+    "rank": 488,
+    "recipient_name": "IMMERSIVE CONCEPTS L.L.C.",
+    "recipient_id": "e74c193f-fd6d-f229-d201-ca2a01ea0c45-C",
+    "amount": 13921354,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$13,921,354"
+  },
+  {
+    "rank": 489,
+    "recipient_name": "PN-HEITECH, LLC",
+    "recipient_id": "e09dcf23-17df-3527-922a-b1cd8487d213-C",
+    "amount": 13915653,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$13,915,653"
+  },
+  {
+    "rank": 490,
+    "recipient_name": "SYSTEMATIC INC.",
+    "recipient_id": "a3f57baf-b0bd-e78a-dc28-7431a3462949-C",
+    "amount": 13843545,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$13,843,545"
+  },
+  {
+    "rank": 491,
+    "recipient_name": "SYSTEMS APPLICATION & TECHNOLOGIES INC",
+    "recipient_id": "dbd6125f-29de-77e0-d2ca-86f19b138476-C",
+    "amount": 13824900,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$13,824,900"
+  },
+  {
+    "rank": 492,
+    "recipient_name": "EXAMINATION RESOURCES LLC",
+    "recipient_id": "7c2477b0-4deb-27b8-c757-8febc9c507e8-C",
+    "amount": 13793048,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$13,793,048"
+  },
+  {
+    "rank": 493,
+    "recipient_name": "CREARE LLC",
+    "recipient_id": "4491538c-a280-803a-dc2f-2156613e47d8-C",
+    "amount": 13776795,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$13,776,795"
+  },
+  {
+    "rank": 494,
+    "recipient_name": "CITIZANT, INC.",
+    "recipient_id": "8cd34345-b205-94c8-ed54-37fc792f9a57-C",
+    "amount": 13745096,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$13,745,096"
+  },
+  {
+    "rank": 495,
+    "recipient_name": "LEIDOS, INC.",
+    "recipient_id": "0bf701d6-8935-ff83-f538-61a988d9e121-C",
+    "amount": 13734480,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$13,734,480"
+  },
+  {
+    "rank": 496,
+    "recipient_name": "HSU DEVELOPMENT, INC.",
+    "recipient_id": "2068aad2-32f5-043e-6651-134d8b825f99-C",
+    "amount": 13638706,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$13,638,706"
+  },
+  {
+    "rank": 497,
+    "recipient_name": "ASRC FEDERAL TECHNOLOGY SOLUTIONS, LLC",
+    "recipient_id": "01a03f2d-c40d-4764-04eb-93e265b3623d-C",
+    "amount": 13496120,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$13,496,120"
+  },
+  {
+    "rank": 498,
+    "recipient_name": "ALCOR TECHNICAL SOLUTIONS LLC",
+    "recipient_id": "0f9dafb3-09b5-e8ca-ffc7-9a528672e167-C",
+    "amount": 13379986,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$13,379,986"
+  },
+  {
+    "rank": 499,
+    "recipient_name": "RAVENTEK SOLUTION PARTNERS, LLC",
+    "recipient_id": "0acefb7f-f468-141e-69b4-b835d921e7ed-C",
+    "amount": 13355555,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$13,355,555"
+  },
+  {
+    "rank": 500,
+    "recipient_name": "DEXTERITECH SOLUTIONS, LLC",
+    "recipient_id": "542b772b-58c4-f9a9-d450-2cdcc663e051-C",
+    "amount": 13336968,
+    "fiscal_year": "2023",
+    "state": "MD",
+    "amount_formatted": "$13,336,968"
+  }
+]

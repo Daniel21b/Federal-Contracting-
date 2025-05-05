@@ -1,0 +1,4502 @@
+[
+  {
+    "rank": 1,
+    "recipient_name": "OPTUM PUBLIC SECTOR SOLUTIONS, INC.",
+    "recipient_id": "41694631-0b0f-72ed-221b-29193c88f0d2-C",
+    "amount": 9463314788,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$9,463,314,788"
+  },
+  {
+    "rank": 2,
+    "recipient_name": "TRIWEST HEALTHCARE ALLIANCE CORP",
+    "recipient_id": "bf1220c1-2373-042a-e8e1-33d5a29639d0-C",
+    "amount": 6936830681,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$6,936,830,681"
+  },
+  {
+    "rank": 3,
+    "recipient_name": "ATLANTIC DIVING SUPPLY, INC.",
+    "recipient_id": "9c708c7c-f339-5fc8-0455-a5aaea1d2da5-C",
+    "amount": 3044038957,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$3,044,038,957"
+  },
+  {
+    "rank": 4,
+    "recipient_name": "HUNTINGTON INGALLS INC",
+    "recipient_id": "dde47d6b-a165-dbed-d5bd-a6e55ca6e591-C",
+    "amount": 2860902117,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$2,860,902,117"
+  },
+  {
+    "rank": 5,
+    "recipient_name": "BOOZ ALLEN HAMILTON INC",
+    "recipient_id": "ffca72e5-fba2-798a-6969-2a6c45e9f985-C",
+    "amount": 2299738870,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$2,299,738,870"
+  },
+  {
+    "rank": 6,
+    "recipient_name": "GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC.",
+    "recipient_id": "455555be-773d-eab1-1e6b-7b94400b757e-C",
+    "amount": 2019303136,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$2,019,303,136"
+  },
+  {
+    "rank": 7,
+    "recipient_name": "ACCENTURE FEDERAL SERVICES LLC",
+    "recipient_id": "d41a6b8a-9d6a-0d28-7e24-989e31731aad-C",
+    "amount": 1649070132,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$1,649,070,132"
+  },
+  {
+    "rank": 8,
+    "recipient_name": "LEIDOS, INC.",
+    "recipient_id": "5ddb264f-234b-872c-2571-4731fde123c6-C",
+    "amount": 1509543009,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$1,509,543,009"
+  },
+  {
+    "rank": 9,
+    "recipient_name": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+    "recipient_id": "20af0683-f17d-1f8f-38ee-2f11bd124559-C",
+    "amount": 1426764655,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$1,426,764,655"
+  },
+  {
+    "rank": 10,
+    "recipient_name": "DELOITTE CONSULTING LLP",
+    "recipient_id": "92663aec-4451-0476-502b-d8c6919e98e0-C",
+    "amount": 1285946329,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$1,285,946,329"
+  },
+  {
+    "rank": 11,
+    "recipient_name": "THE MITRE CORPORATION",
+    "recipient_id": "3903ae3c-2661-60bb-cdd3-1f26ad214167-C",
+    "amount": 1229290232,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$1,229,290,232"
+  },
+  {
+    "rank": 12,
+    "recipient_name": "MAXIMUS FEDERAL SERVICES, INC.",
+    "recipient_id": "f87b435f-0b05-95c9-7c0e-e60df7cdff50-C",
+    "amount": 916724929,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$916,724,929"
+  },
+  {
+    "rank": 13,
+    "recipient_name": "CACI, INC. - FEDERAL",
+    "recipient_id": "28eee911-76af-7147-f760-4ec5f90bec2d-C",
+    "amount": 915391405,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$915,391,405"
+  },
+  {
+    "rank": 14,
+    "recipient_name": "CGI FEDERAL INC.",
+    "recipient_id": "d86df7af-f6c1-a07a-ccc4-ec74331bafc5-C",
+    "amount": 855613086,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$855,613,086"
+  },
+  {
+    "rank": 15,
+    "recipient_name": "CARAHSOFT TECHNOLOGY CORP",
+    "recipient_id": "4e74aeb5-dd21-20a7-63bd-e9f934d69583-C",
+    "amount": 706332019,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$706,332,019"
+  },
+  {
+    "rank": 16,
+    "recipient_name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+    "recipient_id": "20e2511b-72bb-ef09-f739-ac4bc059bafb-C",
+    "amount": 620339466,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$620,339,466"
+  },
+  {
+    "rank": 17,
+    "recipient_name": "MANTECH ADVANCED SYSTEMS INTERNATIONAL, INC.",
+    "recipient_id": "ceac1920-9ceb-17a6-9bf7-026817a02917-C",
+    "amount": 577099282,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$577,099,282"
+  },
+  {
+    "rank": 18,
+    "recipient_name": "PERATON INC.",
+    "recipient_id": "129fccb1-783c-9fd1-7b6d-6ddea65ace79-C",
+    "amount": 551341775,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$551,341,775"
+  },
+  {
+    "rank": 19,
+    "recipient_name": "LOCKHEED MARTIN CORPORATION",
+    "recipient_id": "b302814a-8713-3c2f-8b0a-d0b8fc09976f-C",
+    "amount": 517318950,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$517,318,950"
+  },
+  {
+    "rank": 20,
+    "recipient_name": "LEIDOS, INC.",
+    "recipient_id": "876f1621-8b69-d47c-7fa6-933c63b9da44-C",
+    "amount": 479211670,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$479,211,670"
+  },
+  {
+    "rank": 21,
+    "recipient_name": "FORS MARSH GROUP LLC",
+    "recipient_id": "9fc60084-0841-d30d-d513-79bcde62e106-C",
+    "amount": 446491227,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$446,491,227"
+  },
+  {
+    "rank": 22,
+    "recipient_name": "IRON BOW TECHNOLOGIES, LLC",
+    "recipient_id": "132f5878-a9b2-eeda-115a-041797eaf981-C",
+    "amount": 435944503,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$435,944,503"
+  },
+  {
+    "rank": 23,
+    "recipient_name": "LIBERTY IT SOLUTIONS LLC",
+    "recipient_id": "2d9a559d-25cf-52c9-ab77-545026f70977-C",
+    "amount": 403686263,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$403,686,263"
+  },
+  {
+    "rank": 24,
+    "recipient_name": "LEIDOS, INC.",
+    "recipient_id": "b37ddcf2-0924-f6e0-0fee-c40823f5789b-C",
+    "amount": 386437576,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$386,437,576"
+  },
+  {
+    "rank": 25,
+    "recipient_name": "MINBURN TECHNOLOGY GROUP, LLC",
+    "recipient_id": "625ff1da-e9a2-cbdc-c8b3-fdd521fd1efc-C",
+    "amount": 384170047,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$384,170,047"
+  },
+  {
+    "rank": 26,
+    "recipient_name": "CACI NSS, LLC",
+    "recipient_id": "b5d927cd-b446-286a-877d-dbdc6e0d20d5-C",
+    "amount": 379863544,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$379,863,544"
+  },
+  {
+    "rank": 27,
+    "recipient_name": "THUNDERCAT TECHNOLOGY, LLC",
+    "recipient_id": "dbceb126-f729-60e7-d55a-ba235f519653-C",
+    "amount": 377670849,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$377,670,849"
+  },
+  {
+    "rank": 28,
+    "recipient_name": "FOUR POINTS TECHNOLOGY, L.L.C.",
+    "recipient_id": "2a4d3db7-e268-7b36-3610-c75337f0b7e1-C",
+    "amount": 373787936,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$373,787,936"
+  },
+  {
+    "rank": 29,
+    "recipient_name": "VERIZON BUSINESS NETWORK SERVICES LLC",
+    "recipient_id": "0341544e-23d8-fe98-3d76-1cdbc8b37e2f-C",
+    "amount": 306174663,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$306,174,663"
+  },
+  {
+    "rank": 30,
+    "recipient_name": "METRO MACHINE CORP.",
+    "recipient_id": "54212f12-7156-e472-c7d9-9cfbdedf007e-C",
+    "amount": 305919972,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$305,919,972"
+  },
+  {
+    "rank": 31,
+    "recipient_name": "PERATON ENTERPRISE SOLUTIONS LLC",
+    "recipient_id": "333909ba-42cf-a1ce-3959-1ede2882d7f6-C",
+    "amount": 299560030,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$299,560,030"
+  },
+  {
+    "rank": 32,
+    "recipient_name": "BAE SYSTEMS NORFOLK SHIP REPAIR INC.",
+    "recipient_id": "881cc7b1-1565-b245-1554-a9edc55a5f45-C",
+    "amount": 298837371,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$298,837,371"
+  },
+  {
+    "rank": 33,
+    "recipient_name": "ICF INCORPORATED, L.L.C.",
+    "recipient_id": "f7268051-dfb6-e5cf-ab3d-11235ea4137f-C",
+    "amount": 283660247,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$283,660,247"
+  },
+  {
+    "rank": 34,
+    "recipient_name": "THE PROVIDENCIA GROUP LLC",
+    "recipient_id": "b617c119-a6de-433d-fbd9-4e833a52b3bf-C",
+    "amount": 278831140,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$278,831,140"
+  },
+  {
+    "rank": 35,
+    "recipient_name": "KPMG LLP",
+    "recipient_id": "6432ec51-4000-ee31-2f37-d259e7a75d15-C",
+    "amount": 278461660,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$278,461,660"
+  },
+  {
+    "rank": 36,
+    "recipient_name": "JEFFERSON SCIENCE ASSOCIATES, LLC",
+    "recipient_id": "922e681a-31fd-7c94-54df-717d940a89c9-C",
+    "amount": 270413499,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$270,413,499"
+  },
+  {
+    "rank": 37,
+    "recipient_name": "LEIDOS, INC.",
+    "recipient_id": "e77c753b-6638-3d5b-442e-c1225ca669d6-C",
+    "amount": 264425389,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$264,425,389"
+  },
+  {
+    "rank": 38,
+    "recipient_name": "AIRBUS US SPACE & DEFENSE INC",
+    "recipient_id": "f152cbca-9e40-26d9-b747-0de26c36b105-C",
+    "amount": 242965254,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$242,965,254"
+  },
+  {
+    "rank": 39,
+    "recipient_name": "SERCO INC",
+    "recipient_id": "89bcff2a-2813-19f6-92a5-47dd33313207-C",
+    "amount": 242355061,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$242,355,061"
+  },
+  {
+    "rank": 40,
+    "recipient_name": "COGNOSANTE MVH LLC",
+    "recipient_id": "8040802b-969d-bb42-f639-49fa32dcf7ea-C",
+    "amount": 238380744,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$238,380,744"
+  },
+  {
+    "rank": 41,
+    "recipient_name": "RAYTHEON COMPANY",
+    "recipient_id": "4a228748-a256-002e-de46-4dd145e98dfe-C",
+    "amount": 238227551,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$238,227,551"
+  },
+  {
+    "rank": 42,
+    "recipient_name": "CREDENCE MANAGEMENT SOLUTIONS LIMITED LIABILITY COMPANY",
+    "recipient_id": "421be47b-ffc8-a394-1f62-a25955938c63-C",
+    "amount": 230391655,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$230,391,655"
+  },
+  {
+    "rank": 43,
+    "recipient_name": "INSTITUTE FOR DEFENSE ANALYSES",
+    "recipient_id": "75aa05c3-f63a-d876-e5e5-87585cf51dce-C",
+    "amount": 228648832,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$228,648,832"
+  },
+  {
+    "rank": 44,
+    "recipient_name": "NTT DATA FEDERAL SERVICES, INC.",
+    "recipient_id": "f2ea0c78-8087-e053-6dae-e93e20e8f16e-C",
+    "amount": 228276337,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$228,276,337"
+  },
+  {
+    "rank": 45,
+    "recipient_name": "SALLYPORT GLOBAL HOLDINGS INC",
+    "recipient_id": "f563bf8f-9648-8c60-62ff-41655bccde0e-C",
+    "amount": 227242642,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$227,242,642"
+  },
+  {
+    "rank": 46,
+    "recipient_name": "EMERGENT, LLC",
+    "recipient_id": "d20dbc28-ffde-003c-e506-9e3a16d343b6-C",
+    "amount": 227024541,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$227,024,541"
+  },
+  {
+    "rank": 47,
+    "recipient_name": "ORBITAL SCIENCES LLC",
+    "recipient_id": "bbede84e-0bef-9d5b-c701-c96faf95b8ef-C",
+    "amount": 225446689,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$225,446,689"
+  },
+  {
+    "rank": 48,
+    "recipient_name": "GENERAL DYNAMICS INFORMATION TECHNOLOGY INC.",
+    "recipient_id": "97548240-0e02-74d3-4da0-9a8a260a47f0-C",
+    "amount": 224438521,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$224,438,521"
+  },
+  {
+    "rank": 49,
+    "recipient_name": "DLT SOLUTIONS, LLC",
+    "recipient_id": "abde3f7b-54a5-dbb5-7db4-5c1474b8cdff-C",
+    "amount": 223227398,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$223,227,398"
+  },
+  {
+    "rank": 50,
+    "recipient_name": "MAGELLAN FEDERAL, INC.",
+    "recipient_id": "2d99de66-dae6-be97-bf85-f0df84e5df5a-C",
+    "amount": 221684610,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$221,684,610"
+  },
+  {
+    "rank": 51,
+    "recipient_name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+    "recipient_id": "0f9b4dd9-bd66-c246-31da-ff9f21e11ff3-C",
+    "amount": 211292665,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$211,292,665"
+  },
+  {
+    "rank": 52,
+    "recipient_name": "OWENS & MINOR DISTRIBUTION INC",
+    "recipient_id": "84ec6fc7-f665-c4ab-a05f-3c994f06e3b8-C",
+    "amount": 211142908,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$211,142,908"
+  },
+  {
+    "rank": 53,
+    "recipient_name": "FOUR LLC",
+    "recipient_id": "c07a6919-cdf9-7d1f-a566-40a65f12479b-C",
+    "amount": 210837118,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$210,837,118"
+  },
+  {
+    "rank": 54,
+    "recipient_name": "DCS CORPORATION",
+    "recipient_id": "6eb1a41a-0f06-b7ec-39f3-5c94f8248a6a-C",
+    "amount": 206087733,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$206,087,733"
+  },
+  {
+    "rank": 55,
+    "recipient_name": "HII MISSION TECHNOLOGIES CORP",
+    "recipient_id": "09209b6d-af2a-79f6-ec11-b314812e454b-C",
+    "amount": 200106091,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$200,106,091"
+  },
+  {
+    "rank": 56,
+    "recipient_name": "ECS FEDERAL, LLC",
+    "recipient_id": "ed304eb7-3464-d0e8-d3b2-66199b0e0fcb-C",
+    "amount": 196282550,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$196,282,550"
+  },
+  {
+    "rank": 57,
+    "recipient_name": "DELOITTE & TOUCHE LLP",
+    "recipient_id": "921ab747-c89d-0aa2-e86e-5fa9b858e626-C",
+    "amount": 195778857,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$195,778,857"
+  },
+  {
+    "rank": 58,
+    "recipient_name": "VSE CORPORATION",
+    "recipient_id": "d72dd77c-3256-b596-907a-06ce910060d3-C",
+    "amount": 191066204,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$191,066,204"
+  },
+  {
+    "rank": 59,
+    "recipient_name": "BAE SYSTEMS ORDNANCE SYSTEMS INC",
+    "recipient_id": "b780a7bb-e7b9-1a7c-ce20-ae3fccbe8e8f-C",
+    "amount": 190614412,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$190,614,412"
+  },
+  {
+    "rank": 60,
+    "recipient_name": "RANGE GENERATION NEXT LLC",
+    "recipient_id": "efbf25aa-6c78-4e02-37f9-e9ea57594856-C",
+    "amount": 184856097,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$184,856,097"
+  },
+  {
+    "rank": 61,
+    "recipient_name": "MANTECH TSG-2 JOINT VENTURE",
+    "recipient_id": "7ae71094-9045-9fe2-c434-2440f003e5ef-C",
+    "amount": 181924547,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$181,924,547"
+  },
+  {
+    "rank": 62,
+    "recipient_name": "DGCI CORPORATION",
+    "recipient_id": "478579fd-fc1a-5713-dc62-00ccea729e14-C",
+    "amount": 181687225,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$181,687,225"
+  },
+  {
+    "rank": 63,
+    "recipient_name": "GENERAL DYNAMICS MISSION SYSTEMS, INC.",
+    "recipient_id": "ce3a6822-92c5-cded-c149-4a33114c7826-C",
+    "amount": 177599106,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$177,599,106"
+  },
+  {
+    "rank": 64,
+    "recipient_name": "CENTERRA GROUP, LLC",
+    "recipient_id": "170470f0-8d47-72dd-c09c-8affb0d48e5b-C",
+    "amount": 174252946,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$174,252,946"
+  },
+  {
+    "rank": 65,
+    "recipient_name": "BECHTEL NATIONAL, INC.",
+    "recipient_id": "b6a8698b-7697-5e4e-ef6c-df5f47158506-C",
+    "amount": 168817575,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$168,817,575"
+  },
+  {
+    "rank": 66,
+    "recipient_name": "PARAGON SYSTEMS INC",
+    "recipient_id": "9d4208db-18a5-67fc-43ec-1232c608ede7-C",
+    "amount": 167698040,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$167,698,040"
+  },
+  {
+    "rank": 67,
+    "recipient_name": "FORT MYER CONSTRUCTION CORP",
+    "recipient_id": "6d071183-4672-ba47-4079-b831011b64ec-C",
+    "amount": 166326006,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$166,326,006"
+  },
+  {
+    "rank": 68,
+    "recipient_name": "UNITED CAPITAL INVESTMENTS GROUP, INC.",
+    "recipient_id": "cc38e8d2-df88-b932-a82f-9141cc22b621-C",
+    "amount": 159047002,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$159,047,002"
+  },
+  {
+    "rank": 69,
+    "recipient_name": "LEIDOS, INC.",
+    "recipient_id": "15534848-08a8-1966-50fd-042be5191faa-C",
+    "amount": 157737315,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$157,737,315"
+  },
+  {
+    "rank": 70,
+    "recipient_name": "OPTUMSERVE HEALTH SERVICES, INC.",
+    "recipient_id": "f14c78b7-70f6-df32-45ed-a5f56e1b9f70-C",
+    "amount": 157221593,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$157,221,593"
+  },
+  {
+    "rank": 71,
+    "recipient_name": "AFFIGENT, LLC",
+    "recipient_id": "b8d01603-144c-7b0c-ecf0-24060cd72b94-C",
+    "amount": 152956732,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$152,956,732"
+  },
+  {
+    "rank": 72,
+    "recipient_name": "B 3 GROUP, LLC",
+    "recipient_id": "54434db9-a2ce-5e00-a398-2db911f96c3f-C",
+    "amount": 150863266,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$150,863,266"
+  },
+  {
+    "rank": 73,
+    "recipient_name": "AT&T TECHNICAL SERVICES COMPANY, INC",
+    "recipient_id": "8708390b-21cf-6f1f-9e7b-dc884a7967ef-C",
+    "amount": 149283228,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$149,283,228"
+  },
+  {
+    "rank": 74,
+    "recipient_name": "IGOV TECHNOLOGIES, INC.",
+    "recipient_id": "45764df7-cbcb-63d3-d13c-00c00d869778-C",
+    "amount": 148454965,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$148,454,965"
+  },
+  {
+    "rank": 75,
+    "recipient_name": "CACI TECHNOLOGIES, LLC",
+    "recipient_id": "4763c991-6108-3b12-d5e3-f29d6935270b-C",
+    "amount": 145621050,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$145,621,050"
+  },
+  {
+    "rank": 76,
+    "recipient_name": "DELL MARKETING L.P.",
+    "recipient_id": "d49f36ae-b747-42e3-5257-6787a69e51e9-C",
+    "amount": 143519392,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$143,519,392"
+  },
+  {
+    "rank": 77,
+    "recipient_name": "HPI FEDERAL LLC",
+    "recipient_id": "5854bb09-e3fb-546c-f374-0845f138f8e8-C",
+    "amount": 143055489,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$143,055,489"
+  },
+  {
+    "rank": 78,
+    "recipient_name": "GUIDEHOUSE LLP",
+    "recipient_id": "69d37197-a2a1-070a-a9a4-8f4dadcb5835-C",
+    "amount": 142353130,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$142,353,130"
+  },
+  {
+    "rank": 79,
+    "recipient_name": "LMI CONSULTING, LLC",
+    "recipient_id": "9291f485-a281-155d-c22c-1821a912cefe-C",
+    "amount": 140275711,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$140,275,711"
+  },
+  {
+    "rank": 80,
+    "recipient_name": "NOBLIS, INC.",
+    "recipient_id": "7d96988d-f5f9-0427-55f1-bd3bf36777be-C",
+    "amount": 139989904,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$139,989,904"
+  },
+  {
+    "rank": 81,
+    "recipient_name": "SALIENT CRGT, INC.",
+    "recipient_id": "fd25b722-602d-ec58-3a7a-d6555b8d8ea7-C",
+    "amount": 137680757,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$137,680,757"
+  },
+  {
+    "rank": 82,
+    "recipient_name": "AT&T ENTERPRISES, LLC",
+    "recipient_id": "0a1870fe-63cf-230c-7cff-41a3c552489b-C",
+    "amount": 137379856,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$137,379,856"
+  },
+  {
+    "rank": 83,
+    "recipient_name": "CHEROKEE NATION OPERATIONAL SOLUTIONS, L.L.C.",
+    "recipient_id": "0117432e-77db-83b3-281b-dd651614220f-C",
+    "amount": 136092380,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$136,092,380"
+  },
+  {
+    "rank": 84,
+    "recipient_name": "COLOSSAL CONTRACTING LLC",
+    "recipient_id": "decd8e4d-0c57-0c5c-0a05-c76dce02e356-C",
+    "amount": 133043688,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$133,043,688"
+  },
+  {
+    "rank": 85,
+    "recipient_name": "GENERAL DYNAMICS GLOBAL FORCE, LLC",
+    "recipient_id": "50162e7a-8377-ad16-0adb-d57782b7773b-C",
+    "amount": 132954265,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$132,954,265"
+  },
+  {
+    "rank": 86,
+    "recipient_name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+    "recipient_id": "d495753f-6864-1e9c-62ba-ae0907ad640d-C",
+    "amount": 131610945,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$131,610,945"
+  },
+  {
+    "rank": 87,
+    "recipient_name": "U.S. MARINE MANAGEMENT, LLC",
+    "recipient_id": "6fc20ce0-35fe-9544-8374-2371c850560d-C",
+    "amount": 131468061,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$131,468,061"
+  },
+  {
+    "rank": 88,
+    "recipient_name": "KBR SERVICES, LLC",
+    "recipient_id": "77b600af-8a01-de99-cfcc-06558d83a984-C",
+    "amount": 130325254,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$130,325,254"
+  },
+  {
+    "rank": 89,
+    "recipient_name": "EMPOWER AI, INC.",
+    "recipient_id": "4ba55072-0228-c003-d8a4-067938e3a80a-C",
+    "amount": 127477855,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$127,477,855"
+  },
+  {
+    "rank": 90,
+    "recipient_name": "MARINE HYDRAULICS INTERNATIONAL, LLC",
+    "recipient_id": "7eaf45d9-d4a1-1e56-4d2b-7c20579c6c00-C",
+    "amount": 126149668,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$126,149,668"
+  },
+  {
+    "rank": 91,
+    "recipient_name": "CACI ENTERPRISE SOLUTIONS, LLC",
+    "recipient_id": "c2072376-37c6-8a15-381b-4da433d3363d-C",
+    "amount": 123740964,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$123,740,964"
+  },
+  {
+    "rank": 92,
+    "recipient_name": "MICROSOFT CORPORATION",
+    "recipient_id": "dd77b7c3-663e-cb91-229f-5766a50e9b7f-C",
+    "amount": 123508442,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$123,508,442"
+  },
+  {
+    "rank": 93,
+    "recipient_name": "AIRBORNE TACTICAL ADVANTAGE CO LLC",
+    "recipient_id": "66be1594-79ae-5372-a234-efe181751749-C",
+    "amount": 122402608,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$122,402,608"
+  },
+  {
+    "rank": 94,
+    "recipient_name": "STG INTERNATIONAL, INC.",
+    "recipient_id": "8630a7d3-8a1b-1306-cfbc-9587febee443-C",
+    "amount": 122389477,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$122,389,477"
+  },
+  {
+    "rank": 95,
+    "recipient_name": "GENERAL DYNAMICS ONE SOURCE LLC",
+    "recipient_id": "1b23e97c-d19e-eb84-942e-5941369c9141-C",
+    "amount": 121994453,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$121,994,453"
+  },
+  {
+    "rank": 96,
+    "recipient_name": "MANAGEMENT SERVICES GROUP, INC.",
+    "recipient_id": "8f32d5ed-271c-05d1-5080-a57c1f1d25f8-C",
+    "amount": 121609979,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$121,609,979"
+  },
+  {
+    "rank": 97,
+    "recipient_name": "SEMANTICBITS LLC",
+    "recipient_id": "01169c62-a67e-9a7f-9c39-d3c6258605f9-C",
+    "amount": 120205331,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$120,205,331"
+  },
+  {
+    "rank": 98,
+    "recipient_name": "LONGVIEW INTERNATIONAL TECHNOLOGY SOLUTIONS, INC.",
+    "recipient_id": "8e8a2a65-e4c3-e30d-eb84-e36d22c9fa41-C",
+    "amount": 120112199,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$120,112,199"
+  },
+  {
+    "rank": 99,
+    "recipient_name": "XATOR LLC",
+    "recipient_id": "e3be6629-1714-1015-6fc5-92ae6e24ccb1-C",
+    "amount": 119389953,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$119,389,953"
+  },
+  {
+    "rank": 100,
+    "recipient_name": "ELBIT SYSTEMS OF AMERICA - NIGHT VISION LLC",
+    "recipient_id": "6b8b09a4-5f3a-e25e-ba3c-35d432d9c5cf-C",
+    "amount": 118845180,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$118,845,180"
+  },
+  {
+    "rank": 101,
+    "recipient_name": "J & J MAINTENANCE INC",
+    "recipient_id": "80d30511-4f48-088f-1c94-f7404764de80-C",
+    "amount": 117933308,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$117,933,308"
+  },
+  {
+    "rank": 102,
+    "recipient_name": "TEKSYNAP CORPORATION",
+    "recipient_id": "bf8c69f8-88f5-8c87-a3f1-229dde3c0af4-C",
+    "amount": 116746437,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$116,746,437"
+  },
+  {
+    "rank": 103,
+    "recipient_name": "CACI-ISS, LLC",
+    "recipient_id": "3da8307d-6dcb-c1a9-13be-fd84086d7b4c-C",
+    "amount": 116067779,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$116,067,779"
+  },
+  {
+    "rank": 104,
+    "recipient_name": "CACI PREMIER TECHNOLOGY, LLC",
+    "recipient_id": "f0be31cd-adf9-345b-52c9-0ccb2fdf4363-C",
+    "amount": 114611189,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$114,611,189"
+  },
+  {
+    "rank": 105,
+    "recipient_name": "SECURIGENCE LLC",
+    "recipient_id": "fe569147-ec14-c7b1-0396-b9c5fa2d212f-C",
+    "amount": 113520836,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$113,520,836"
+  },
+  {
+    "rank": 106,
+    "recipient_name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+    "recipient_id": "d6601efc-adc3-1030-5904-be323dc49433-C",
+    "amount": 111802483,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$111,802,483"
+  },
+  {
+    "rank": 107,
+    "recipient_name": "AMERICAN SYSTEMS CORPORATION",
+    "recipient_id": "64f84c6a-3ec2-0244-a2e5-bcc7e4a5a2ca-C",
+    "amount": 111721471,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$111,721,471"
+  },
+  {
+    "rank": 108,
+    "recipient_name": "REI SYSTEMS, INC.",
+    "recipient_id": "2e7503c5-6983-7a2c-e936-7f5f9567445a-C",
+    "amount": 111537299,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$111,537,299"
+  },
+  {
+    "rank": 109,
+    "recipient_name": "PARSONS GOVERNMENT SERVICES INC.",
+    "recipient_id": "cb0d434a-9ad7-93b5-09dc-6067d8c45d71-C",
+    "amount": 111191507,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$111,191,507"
+  },
+  {
+    "rank": 110,
+    "recipient_name": "CACI NSS, LLC",
+    "recipient_id": "49aa319d-7bfb-ef1b-d43e-e82eed09d3bf-C",
+    "amount": 110600974,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$110,600,974"
+  },
+  {
+    "rank": 111,
+    "recipient_name": "THE CNA CORPORATION",
+    "recipient_id": "481e4579-f0e1-606e-2ddf-66581a0c433c-C",
+    "amount": 109701532,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$109,701,532"
+  },
+  {
+    "rank": 112,
+    "recipient_name": "NATIONAL INDUSTRIES FOR THE BLIND",
+    "recipient_id": "a0104c10-6c8d-a143-ccc4-de83813d60c7-C",
+    "amount": 109496392,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$109,496,392"
+  },
+  {
+    "rank": 113,
+    "recipient_name": "INTERNATIONAL BUSINESS MACHINES CORPORATION",
+    "recipient_id": "6ffc4386-853e-ef89-67e8-22c28ddcf15c-C",
+    "amount": 108484253,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$108,484,253"
+  },
+  {
+    "rank": 114,
+    "recipient_name": "I3 FEDERAL LLC",
+    "recipient_id": "d466924a-46e8-7e29-9360-266030d4c8d9-C",
+    "amount": 107328385,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$107,328,385"
+  },
+  {
+    "rank": 115,
+    "recipient_name": "FORFEITURE SUPPORT ASSOCIATES LLC",
+    "recipient_id": "24515b84-620e-1924-974e-c6d0b649f793-C",
+    "amount": 105651642,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$105,651,642"
+  },
+  {
+    "rank": 116,
+    "recipient_name": "INTREPID LLC",
+    "recipient_id": "cc42d153-b742-6bde-a3b1-db4376a3307f-C",
+    "amount": 105447591,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$105,447,591"
+  },
+  {
+    "rank": 117,
+    "recipient_name": "QINETIQ INC.",
+    "recipient_id": "39259f00-4e82-79ef-4e26-bdb23d6bfb10-C",
+    "amount": 103739571,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$103,739,571"
+  },
+  {
+    "rank": 118,
+    "recipient_name": "FCN INC",
+    "recipient_id": "3792ca7f-d5d2-d89c-872b-8c64e4e6390e-C",
+    "amount": 103042240,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$103,042,240"
+  },
+  {
+    "rank": 119,
+    "recipient_name": "INMARSAT GOVERNMENT, INC.",
+    "recipient_id": "a76066ea-2b38-7251-6fd8-dab62b297127-C",
+    "amount": 102832603,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$102,832,603"
+  },
+  {
+    "rank": 120,
+    "recipient_name": "SECURITAS CRITICAL INFRASTRUCTURE SERVICES, INC.",
+    "recipient_id": "c6bc5e6e-609c-abbe-c76c-80f3f94c3e8e-C",
+    "amount": 102427676,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$102,427,676"
+  },
+  {
+    "rank": 121,
+    "recipient_name": "MAXIMUS EDUCATION LLC",
+    "recipient_id": "006841da-7298-d92c-02f0-ad58caa4eefa-C",
+    "amount": 100673674,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$100,673,674"
+  },
+  {
+    "rank": 122,
+    "recipient_name": "AECOM TECHNICAL SERVICES, INC.",
+    "recipient_id": "5613b50e-28cb-41f8-331e-2fc18e08b0ae-C",
+    "amount": 100271391,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$100,271,391"
+  },
+  {
+    "rank": 123,
+    "recipient_name": "HII FLEET SUPPORT GROUP LLC",
+    "recipient_id": "670bf984-b000-9ce3-4c3a-032ca41b44b9-C",
+    "amount": 100134925,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$100,134,925"
+  },
+  {
+    "rank": 124,
+    "recipient_name": "22ND CENTURY TECHNOLOGIES, INC.",
+    "recipient_id": "26a2f4e1-d541-6dbc-2cc8-2eb7af4ca03e-C",
+    "amount": 97589148,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$97,589,148"
+  },
+  {
+    "rank": 125,
+    "recipient_name": "COLONNA'S SHIP YARD, INCORPORATED",
+    "recipient_id": "88bb026b-1898-ec11-664b-37f75c99ea86-C",
+    "amount": 96711664,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$96,711,664"
+  },
+  {
+    "rank": 126,
+    "recipient_name": "NAKUPUNA SOLUTIONS, LLC",
+    "recipient_id": "346c58a1-4716-4995-baeb-e94afb8143c8-C",
+    "amount": 96360950,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$96,360,950"
+  },
+  {
+    "rank": 127,
+    "recipient_name": "SIGNATURE CHOICE, LLC",
+    "recipient_id": "56642eb9-e8d6-4d27-881b-1318d9474847-C",
+    "amount": 96024568,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$96,024,568"
+  },
+  {
+    "rank": 128,
+    "recipient_name": "GOVERNMENT SCIENTIFIC SOURCE INC",
+    "recipient_id": "faa583fb-c375-c938-9d1f-ab5e70c413be-C",
+    "amount": 95063765,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$95,063,765"
+  },
+  {
+    "rank": 129,
+    "recipient_name": "NORFOLK DREDGING COMPANY",
+    "recipient_id": "703d846a-c9f8-8d97-0ee7-fffbdb36437e-C",
+    "amount": 94371214,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$94,371,214"
+  },
+  {
+    "rank": 130,
+    "recipient_name": "BAE SYSTEMS TECHNOLOGY SOLUTIONS & SERVICES INC.",
+    "recipient_id": "2e141abe-fe8f-7ddc-e6a3-8bb2165836be-C",
+    "amount": 92204438,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$92,204,438"
+  },
+  {
+    "rank": 131,
+    "recipient_name": "CARELON HEALTH FEDERAL SERVICES, INC",
+    "recipient_id": "35a1e16b-e0cc-c851-3840-ff04edb8ef6f-C",
+    "amount": 91630887,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$91,630,887"
+  },
+  {
+    "rank": 132,
+    "recipient_name": "STEAMPUNK, INC.",
+    "recipient_id": "063933ec-ff9e-6092-a518-37a029be4c71-C",
+    "amount": 90238669,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$90,238,669"
+  },
+  {
+    "rank": 133,
+    "recipient_name": "VALIANT INTEGRATED SERVICES LLC",
+    "recipient_id": "a4cce72f-cc37-7acb-1b9b-d93f2a3d313e-C",
+    "amount": 89186272,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$89,186,272"
+  },
+  {
+    "rank": 134,
+    "recipient_name": "SYSCO HAMPTON ROADS, INC",
+    "recipient_id": "3cfda1aa-2b8b-ad2d-0b51-ee5a28ba3d4e-C",
+    "amount": 88895978,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$88,895,978"
+  },
+  {
+    "rank": 135,
+    "recipient_name": "PHLOW CORP.",
+    "recipient_id": "b087b3ac-0c88-4e4e-1a08-01ed69055984-C",
+    "amount": 87000000,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$87,000,000"
+  },
+  {
+    "rank": 136,
+    "recipient_name": "M. C. DEAN, INC.",
+    "recipient_id": "a81ae18c-cbc0-5d23-ac06-c9243fff1ad0-C",
+    "amount": 86818870,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$86,818,870"
+  },
+  {
+    "rank": 137,
+    "recipient_name": "ALVAREZ LLC",
+    "recipient_id": "d55dabdb-0c89-b6e8-e4f5-5817d2be7b63-C",
+    "amount": 85579542,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$85,579,542"
+  },
+  {
+    "rank": 138,
+    "recipient_name": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+    "recipient_id": "dfd33a5b-c61f-b4b7-1492-b74daca9a499-C",
+    "amount": 85526520,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$85,526,520"
+  },
+  {
+    "rank": 139,
+    "recipient_name": "GUIDEHOUSE INC.",
+    "recipient_id": "a0cb5664-8703-c7dc-a188-4a96f90a16c9-C",
+    "amount": 85137524,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$85,137,524"
+  },
+  {
+    "rank": 140,
+    "recipient_name": "ADVANCED COMPUTER CONCEPTS, INC.",
+    "recipient_id": "72ca0d6d-bfb3-664d-fa88-47cacc8687d3-C",
+    "amount": 84463291,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$84,463,291"
+  },
+  {
+    "rank": 141,
+    "recipient_name": "BALFOUR BEATTY CONSTRUCTION, LLC",
+    "recipient_id": "13eeacaa-d03d-0f0b-43f9-8d2b9dbb0d3c-C",
+    "amount": 83749840,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$83,749,840"
+  },
+  {
+    "rank": 142,
+    "recipient_name": "SENECA GLOBAL SERVICES LLC",
+    "recipient_id": "9515182c-9747-d27e-b80f-6610b179fede-C",
+    "amount": 83366642,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$83,366,642"
+  },
+  {
+    "rank": 143,
+    "recipient_name": "RAYTHEON COMPANY",
+    "recipient_id": "3443c753-cbdf-92e0-1c60-9b498f229846-C",
+    "amount": 82698496,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$82,698,496"
+  },
+  {
+    "rank": 144,
+    "recipient_name": "PERATON TECHNOLOGY SERVICES INC.",
+    "recipient_id": "b6cf6b76-108b-9715-e35f-19d7e27422ca-C",
+    "amount": 82502599,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$82,502,599"
+  },
+  {
+    "rank": 145,
+    "recipient_name": "DELL FEDERAL SYSTEMS L.P",
+    "recipient_id": "3612de0a-9635-3846-a5a1-7f555fba52df-C",
+    "amount": 82454141,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$82,454,141"
+  },
+  {
+    "rank": 146,
+    "recipient_name": "SERVICESOURCE INC",
+    "recipient_id": "91ef2a9d-a6f3-10c7-b108-c084b0764eb8-C",
+    "amount": 82102709,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$82,102,709"
+  },
+  {
+    "rank": 147,
+    "recipient_name": "KARSUN SOLUTIONS LLC",
+    "recipient_id": "0262ab5a-f1a2-e043-4c33-fa492145b96e-C",
+    "amount": 81732175,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$81,732,175"
+  },
+  {
+    "rank": 148,
+    "recipient_name": "GENERAL DYNAMICS MISSION SYSTEMS, INC.",
+    "recipient_id": "640f560e-9e37-a818-d662-999d2e874f91-C",
+    "amount": 81662062,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$81,662,062"
+  },
+  {
+    "rank": 149,
+    "recipient_name": "ACCENTURE FEDERAL SERVICES LLC",
+    "recipient_id": "5a09432b-bc58-9a12-4959-9081815c5e91-C",
+    "amount": 80784747,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$80,784,747"
+  },
+  {
+    "rank": 150,
+    "recipient_name": "VION CORPORATION",
+    "recipient_id": "6ec6295b-b104-4b21-b6d1-df5a8d3a0b3a-C",
+    "amount": 78821940,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$78,821,940"
+  },
+  {
+    "rank": 151,
+    "recipient_name": "LUMEN TECHNOLOGIES GOVERNMENT SOLUTIONS, INC.",
+    "recipient_id": "dcc7220d-7604-b0b5-8961-5a07865199ea-C",
+    "amount": 77624816,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$77,624,816"
+  },
+  {
+    "rank": 152,
+    "recipient_name": "CHEROKEE NATION STRATEGIC PROGRAMS, L.L.C.",
+    "recipient_id": "dbdc578b-4796-bcec-5cb8-74a02da492f5-C",
+    "amount": 77515704,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$77,515,704"
+  },
+  {
+    "rank": 153,
+    "recipient_name": "JACOBS TECHNOLOGY INC.",
+    "recipient_id": "435aa33d-8ca5-7631-ec18-85dbb07c6fa1-C",
+    "amount": 76523738,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$76,523,738"
+  },
+  {
+    "rank": 154,
+    "recipient_name": "FAVOR TECHCONSULTING, LLC",
+    "recipient_id": "4b91d726-1ebd-eccc-8880-29db13a1daee-C",
+    "amount": 76430126,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$76,430,126"
+  },
+  {
+    "rank": 155,
+    "recipient_name": "ADVANCED TECHNOLOGY SYSTEMS COMPANY, INC. (OF VIRGINIA)",
+    "recipient_id": "3cb73ae0-73f0-0f2d-a959-b32f8ed7ba5b-C",
+    "amount": 76248838,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$76,248,838"
+  },
+  {
+    "rank": 156,
+    "recipient_name": "APPLIED RESEARCH ASSOCIATES, INC.",
+    "recipient_id": "e4f166e8-db1c-b7aa-1fa5-f9bd4d7879f5-C",
+    "amount": 75578083,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$75,578,083"
+  },
+  {
+    "rank": 157,
+    "recipient_name": "SCIENCE APPLICATIONS INTERNATIONAL CORP",
+    "recipient_id": "900dcfe5-fb04-162f-2149-75b51d42021a-C",
+    "amount": 75137439,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$75,137,439"
+  },
+  {
+    "rank": 158,
+    "recipient_name": "LUMEN TECHNOLOGIES GOVERNMENT SOLUTIONS, INC",
+    "recipient_id": "e747e713-85fd-f6cf-888c-ad597b1c7a43-C",
+    "amount": 75017636,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$75,017,636"
+  },
+  {
+    "rank": 159,
+    "recipient_name": "LOGISTICS MANAGEMENT INSTITUTE",
+    "recipient_id": "26425a2d-2494-059b-e228-4f90d81ba0d1-C",
+    "amount": 74947952,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$74,947,952"
+  },
+  {
+    "rank": 160,
+    "recipient_name": "AT&T ENTERPRISES, LLC",
+    "recipient_id": "d96f3486-0fa5-045a-5da7-9cffc0b4a114-C",
+    "amount": 74926822,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$74,926,822"
+  },
+  {
+    "rank": 161,
+    "recipient_name": "GOVSMART, INC.",
+    "recipient_id": "a4ce814d-f601-2150-98bf-6f203db0ea2f-C",
+    "amount": 74733354,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$74,733,354"
+  },
+  {
+    "rank": 162,
+    "recipient_name": "RQ-MAGANN JV",
+    "recipient_id": "a745ca45-b655-0b86-9e7f-d2a7cafb0700-C",
+    "amount": 74696000,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$74,696,000"
+  },
+  {
+    "rank": 163,
+    "recipient_name": "MAYVIN, INC.",
+    "recipient_id": "854dd877-03d8-4083-8892-11c59f0901c3-C",
+    "amount": 73944453,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$73,944,453"
+  },
+  {
+    "rank": 164,
+    "recipient_name": "PANAMERICA COMPUTERS, INC.",
+    "recipient_id": "70e674ba-2d79-d6bb-37c8-a03189735d37-C",
+    "amount": 73701370,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$73,701,370"
+  },
+  {
+    "rank": 165,
+    "recipient_name": "ENSCO INC",
+    "recipient_id": "f518172a-b392-444f-1702-9e544b040284-C",
+    "amount": 73404709,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$73,404,709"
+  },
+  {
+    "rank": 166,
+    "recipient_name": "SICPA SECURINK CORP",
+    "recipient_id": "ee34ef76-6c21-0316-9dc0-834f5764a589-C",
+    "amount": 72701932,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$72,701,932"
+  },
+  {
+    "rank": 167,
+    "recipient_name": "SPINVI CONSULTING LLC",
+    "recipient_id": "9c071182-b2fa-d2e1-007a-13368fd8b448-C",
+    "amount": 71946315,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$71,946,315"
+  },
+  {
+    "rank": 168,
+    "recipient_name": "AMENTUM SERVICES, INC.",
+    "recipient_id": "fe5366b4-84c8-12ff-126f-f123de29819c-C",
+    "amount": 71165377,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$71,165,377"
+  },
+  {
+    "rank": 169,
+    "recipient_name": "NCC PS ENTERPRISES, LLC",
+    "recipient_id": "18edd62c-f6ff-6492-8d7f-2d6055f983d7-C",
+    "amount": 70492894,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$70,492,894"
+  },
+  {
+    "rank": 170,
+    "recipient_name": "MANTECH SRS TECHNOLOGIES, INC.",
+    "recipient_id": "9bc415b0-8563-ac1f-df7f-6fc2341cb09f-C",
+    "amount": 70481842,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$70,481,842"
+  },
+  {
+    "rank": 171,
+    "recipient_name": "VECTRUS SYSTEMS LLC",
+    "recipient_id": "082381d2-346d-1910-6482-310099493f81-C",
+    "amount": 69990348,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$69,990,348"
+  },
+  {
+    "rank": 172,
+    "recipient_name": "LEIDOS, INC.",
+    "recipient_id": "0bf701d6-8935-ff83-f538-61a988d9e121-C",
+    "amount": 69759897,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$69,759,897"
+  },
+  {
+    "rank": 173,
+    "recipient_name": "MICROTECHNOLOGIES LLC",
+    "recipient_id": "839e805e-7095-0376-08b1-f1e61beb9b66-C",
+    "amount": 69494875,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$69,494,875"
+  },
+  {
+    "rank": 174,
+    "recipient_name": "ALTAMIRA TECHNOLOGIES CORP",
+    "recipient_id": "9ed25378-83fe-31b6-95d0-be43b891725e-C",
+    "amount": 69165981,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$69,165,981"
+  },
+  {
+    "rank": 175,
+    "recipient_name": "PERATON GOVERNMENT COMMUNICATIONS INC.",
+    "recipient_id": "0d78a230-4ed0-724b-dff3-d60a61f326c5-C",
+    "amount": 68058713,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$68,058,713"
+  },
+  {
+    "rank": 176,
+    "recipient_name": "MVM, INC.",
+    "recipient_id": "79264273-149e-8ef6-92fd-e87fa83f9ca6-C",
+    "amount": 67784881,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$67,784,881"
+  },
+  {
+    "rank": 177,
+    "recipient_name": "SYSTEMS PLANNING AND ANALYSIS, INC.",
+    "recipient_id": "0a2926cc-4d2e-6cfb-62d0-f65d0e91ebb1-C",
+    "amount": 67445032,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$67,445,032"
+  },
+  {
+    "rank": 178,
+    "recipient_name": "GRANT THORNTON LLP",
+    "recipient_id": "9fe6a2c4-9f1d-e00b-52de-ca67a14a06a9-C",
+    "amount": 66879743,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$66,879,743"
+  },
+  {
+    "rank": 179,
+    "recipient_name": "EAST COAST REPAIR & FABRICATION, LLC",
+    "recipient_id": "dfdbe4dc-d921-5815-6b66-72ed7e5fb8e9-C",
+    "amount": 65532063,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$65,532,063"
+  },
+  {
+    "rank": 180,
+    "recipient_name": "PAE LABAT-ANDERSON LLC",
+    "recipient_id": "32aa02ac-5cd5-ce86-b910-e98540079c12-C",
+    "amount": 65001766,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$65,001,766"
+  },
+  {
+    "rank": 181,
+    "recipient_name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+    "recipient_id": "43da16e7-8e57-291c-6288-76696bef8671-C",
+    "amount": 64840637,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$64,840,637"
+  },
+  {
+    "rank": 182,
+    "recipient_name": "NCS TECHNOLOGIES INC",
+    "recipient_id": "faf72fce-d59e-8ee6-79d3-a2e141451835-C",
+    "amount": 64629529,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$64,629,529"
+  },
+  {
+    "rank": 183,
+    "recipient_name": "HIGHLIGHT TECHNOLOGIES, INC.",
+    "recipient_id": "a93123f1-08e7-e654-3aac-a48235da3c55-C",
+    "amount": 64073260,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$64,073,260"
+  },
+  {
+    "rank": 184,
+    "recipient_name": "AMERICAN TYPE CULTURE COLLECTION",
+    "recipient_id": "4b62b5d8-fc5a-7d10-a260-7955f3fee2bf-C",
+    "amount": 63649722,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$63,649,722"
+  },
+  {
+    "rank": 185,
+    "recipient_name": "SEV1TECH, LLC",
+    "recipient_id": "355a083e-bded-6e23-4c75-1ca254c160e9-C",
+    "amount": 63057761,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$63,057,761"
+  },
+  {
+    "rank": 186,
+    "recipient_name": "DEV TECHNOLOGY GROUP INC",
+    "recipient_id": "d768b60a-beaa-2e46-7aa5-6df63e232bb2-C",
+    "amount": 62870613,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$62,870,613"
+  },
+  {
+    "rank": 187,
+    "recipient_name": "TECHNOLOGY SERVICE CORP",
+    "recipient_id": "5cab96dc-cdd4-81ec-1af4-83fd0b00fc4a-C",
+    "amount": 62761554,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$62,761,554"
+  },
+  {
+    "rank": 188,
+    "recipient_name": "LS TECHNOLOGIES LLC",
+    "recipient_id": "1a917b14-b4b1-711f-67d8-028d3b5cc219-C",
+    "amount": 62155123,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$62,155,123"
+  },
+  {
+    "rank": 189,
+    "recipient_name": "HALVIK CORP",
+    "recipient_id": "2ed31089-b7b4-7b1f-a182-2c09a533d721-C",
+    "amount": 61865805,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$61,865,805"
+  },
+  {
+    "rank": 190,
+    "recipient_name": "RAYTHEON COMPANY",
+    "recipient_id": "ba61d3e5-9ee2-62c6-7002-6eb9efd7682d-C",
+    "amount": 61809595,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$61,809,595"
+  },
+  {
+    "rank": 191,
+    "recipient_name": "CA, INC.",
+    "recipient_id": "31e6032f-fc55-8fb9-3a00-9172a505474c-C",
+    "amount": 61381234,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$61,381,234"
+  },
+  {
+    "rank": 192,
+    "recipient_name": "CACI, LLC - COMMERCIAL",
+    "recipient_id": "59447845-5a9e-07d9-7305-2a3306a795cf-C",
+    "amount": 61373466,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$61,373,466"
+  },
+  {
+    "rank": 193,
+    "recipient_name": "ITC FEDERAL, LLC",
+    "recipient_id": "c004d114-4ef7-6b37-5b1b-dc2588174987-C",
+    "amount": 61350389,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$61,350,389"
+  },
+  {
+    "rank": 194,
+    "recipient_name": "CAMBRIDGE INTERNATIONAL SYSTEMS INC.",
+    "recipient_id": "d0bd1c8a-788f-7786-aec5-796688470257-C",
+    "amount": 61263051,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$61,263,051"
+  },
+  {
+    "rank": 195,
+    "recipient_name": "BROADLEAF, INC.",
+    "recipient_id": "81cab86b-0597-2493-1251-1032315009d3-C",
+    "amount": 61217341,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$61,217,341"
+  },
+  {
+    "rank": 196,
+    "recipient_name": "HUI HULIAU TECHNOLOGY SERVICES LLC",
+    "recipient_id": "b182ace4-a573-84a0-8ea2-e794fa1b6060-C",
+    "amount": 61143245,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$61,143,245"
+  },
+  {
+    "rank": 197,
+    "recipient_name": "SIMVENTIONS INC",
+    "recipient_id": "f880dbf4-5f45-4fe2-7d47-7d79d62ae5ff-C",
+    "amount": 61070630,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$61,070,630"
+  },
+  {
+    "rank": 198,
+    "recipient_name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+    "recipient_id": "03101b23-0561-1108-9afd-cf94e68bc6ef-C",
+    "amount": 60465720,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$60,465,720"
+  },
+  {
+    "rank": 199,
+    "recipient_name": "IMMIXTECHNOLOGY INC",
+    "recipient_id": "064ae3ed-3369-713b-8489-8ff60e8be050-C",
+    "amount": 60338618,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$60,338,618"
+  },
+  {
+    "rank": 200,
+    "recipient_name": "TWO SIX LABS, LLC",
+    "recipient_id": "0ea12e4e-2436-9483-0c45-9c799258c634-C",
+    "amount": 60320394,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$60,320,394"
+  },
+  {
+    "rank": 201,
+    "recipient_name": "GRANT THORNTON PUBLIC SECTOR LLC",
+    "recipient_id": "0cb4fa6d-9b55-3677-a4b8-b7b236fde31d-C",
+    "amount": 59544822,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$59,544,822"
+  },
+  {
+    "rank": 202,
+    "recipient_name": "KEARNEY & COMPANY, P.C.",
+    "recipient_id": "7d1bb88e-f48f-cd06-289d-f7f1940c634e-C",
+    "amount": 59541841,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$59,541,841"
+  },
+  {
+    "rank": 203,
+    "recipient_name": "TELOS CORPORATION",
+    "recipient_id": "4cc248e8-f64a-f442-4b15-888273e4933a-C",
+    "amount": 59159661,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$59,159,661"
+  },
+  {
+    "rank": 204,
+    "recipient_name": "MEB GENERAL CONTRACTORS INC",
+    "recipient_id": "8aab0555-f6df-cd89-ab6c-5a17356b0f6b-C",
+    "amount": 58693773,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$58,693,773"
+  },
+  {
+    "rank": 205,
+    "recipient_name": "GOLDBELT SECURITY LLC",
+    "recipient_id": "e47ca448-6685-a2f4-43fa-0137bc7a71ba-C",
+    "amount": 58399047,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$58,399,047"
+  },
+  {
+    "rank": 206,
+    "recipient_name": "PAE AVIATION AND TECHNICAL SERVICES LLC",
+    "recipient_id": "471e3321-891c-b37e-0f08-84a11e6849f4-C",
+    "amount": 57269874,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$57,269,874"
+  },
+  {
+    "rank": 207,
+    "recipient_name": "GUIDEHOUSE DIGITAL LLC",
+    "recipient_id": "7d6153d4-4d5e-6de7-cd4c-10cd4c355b26-C",
+    "amount": 57218146,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$57,218,146"
+  },
+  {
+    "rank": 208,
+    "recipient_name": "PAE AVIATION AND TECHNICAL SERVICES LLC",
+    "recipient_id": "8918c619-7c89-2317-7222-029df0cd8599-C",
+    "amount": 56801822,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$56,801,822"
+  },
+  {
+    "rank": 209,
+    "recipient_name": "QED SYSTEMS, INC.",
+    "recipient_id": "423c0292-b27c-040f-6da8-b77218e18967-C",
+    "amount": 56784699,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$56,784,699"
+  },
+  {
+    "rank": 210,
+    "recipient_name": "ARCHITECHTURE SOLUTIONS LLC",
+    "recipient_id": "34071056-44d2-e9d7-8e51-6020803f7a2a-C",
+    "amount": 56643388,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$56,643,388"
+  },
+  {
+    "rank": 211,
+    "recipient_name": "PRISM MARITIME LLC",
+    "recipient_id": "c82c1554-0644-b890-36bb-c9d6f155d777-C",
+    "amount": 56204104,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$56,204,104"
+  },
+  {
+    "rank": 212,
+    "recipient_name": "PAE PROFESSIONAL SERVICES, LLC",
+    "recipient_id": "7c10cc84-551a-ddda-1f3f-a917c800798e-C",
+    "amount": 55948047,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$55,948,047"
+  },
+  {
+    "rank": 213,
+    "recipient_name": "JACOBS BV A JOINT VENTURE",
+    "recipient_id": "dbe1dd2d-7b90-31ae-3ed9-0297c6044bdd-C",
+    "amount": 55842364,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$55,842,364"
+  },
+  {
+    "rank": 214,
+    "recipient_name": "FIBERTEK, INC.",
+    "recipient_id": "37710b11-317d-4961-43ce-16722f04f89e-C",
+    "amount": 55786647,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$55,786,647"
+  },
+  {
+    "rank": 215,
+    "recipient_name": "FALCONWOOD",
+    "recipient_id": "d7632c0a-651c-face-b155-5c6f9a857423-C",
+    "amount": 55639868,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$55,639,868"
+  },
+  {
+    "rank": 216,
+    "recipient_name": "WALSH FEDERAL LLC",
+    "recipient_id": "05ed5d46-f203-4dc6-623a-3f47ed6933dd-C",
+    "amount": 55423000,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$55,423,000"
+  },
+  {
+    "rank": 217,
+    "recipient_name": "NATIONWIDE IT SERVICES INC",
+    "recipient_id": "6185f9d1-db2b-d628-2eb4-6958d29d264b-C",
+    "amount": 55412838,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$55,412,838"
+  },
+  {
+    "rank": 218,
+    "recipient_name": "MIRACLE SYSTEMS LLC",
+    "recipient_id": "0b493848-5ea2-a07e-995c-4cfe572aadbf-C",
+    "amount": 55336209,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$55,336,209"
+  },
+  {
+    "rank": 219,
+    "recipient_name": "KBR WYLE SERVICES, LLC",
+    "recipient_id": "14c92d76-9870-ace3-dbf2-431863daf0bd-C",
+    "amount": 55231226,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$55,231,226"
+  },
+  {
+    "rank": 220,
+    "recipient_name": "PAE NATIONAL SECURITY SOLUTIONS LLC",
+    "recipient_id": "bce5f9ab-321a-9e96-be0e-19ff84447ae6-C",
+    "amount": 54611891,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$54,611,891"
+  },
+  {
+    "rank": 221,
+    "recipient_name": "ACUMEN SOLUTIONS, INC.",
+    "recipient_id": "82fc5d1d-3125-a7aa-c2b4-bc1f01c5a1e9-C",
+    "amount": 54492188,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$54,492,188"
+  },
+  {
+    "rank": 222,
+    "recipient_name": "MI TECHNICAL SOLUTIONS, INC.",
+    "recipient_id": "4a064e7e-283e-e0c7-8549-4ee16e8a1773-C",
+    "amount": 54372668,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$54,372,668"
+  },
+  {
+    "rank": 223,
+    "recipient_name": "GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC.",
+    "recipient_id": "aa0ccf6e-1401-c3b6-4777-04eb4433f191-C",
+    "amount": 52960528,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$52,960,528"
+  },
+  {
+    "rank": 224,
+    "recipient_name": "SMS DATA PRODUCTS GROUP INC",
+    "recipient_id": "e3aee88a-bcd0-2ce0-044b-3616a1128d5d-C",
+    "amount": 52718168,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$52,718,168"
+  },
+  {
+    "rank": 225,
+    "recipient_name": "SES SPACE & DEFENSE, INC.",
+    "recipient_id": "317546f9-7497-3aae-d1e8-f7c7cf755fcc-C",
+    "amount": 52068806,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$52,068,806"
+  },
+  {
+    "rank": 226,
+    "recipient_name": "APTIM FEDERAL SERVICES, LLC",
+    "recipient_id": "c5912817-ed0a-c755-b348-a6281e8c41cc-C",
+    "amount": 51898147,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$51,898,147"
+  },
+  {
+    "rank": 227,
+    "recipient_name": "PROFESSIONAL CONTRACT SERVICES, INC.",
+    "recipient_id": "0759412f-91f6-f348-daae-e077e056eeb7-C",
+    "amount": 51621880,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$51,621,880"
+  },
+  {
+    "rank": 228,
+    "recipient_name": "VIRGINIA ELECTRIC AND POWER COMPANY",
+    "recipient_id": "25bed424-595c-f091-acaa-5ccdea9eed59-C",
+    "amount": 51531296,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$51,531,296"
+  },
+  {
+    "rank": 229,
+    "recipient_name": "TUVLI LLC",
+    "recipient_id": "cc99fb0d-4dd3-648d-aeb7-5d2b2ac07453-C",
+    "amount": 51370485,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$51,370,485"
+  },
+  {
+    "rank": 230,
+    "recipient_name": "AKIMA LOGISTICS SERVICES LLC",
+    "recipient_id": "4dad604f-a40a-997f-f69f-73c148fdbaa6-C",
+    "amount": 51258675,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$51,258,675"
+  },
+  {
+    "rank": 231,
+    "recipient_name": "LYON SHIPYARD INC",
+    "recipient_id": "187dbed9-2e30-2468-8cc9-c190ea5e8249-C",
+    "amount": 50740978,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$50,740,978"
+  },
+  {
+    "rank": 232,
+    "recipient_name": "NEW TECH SOLUTIONS, INC.",
+    "recipient_id": "e0f8746a-9a3b-810a-257a-cae2d63868da-C",
+    "amount": 50636351,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$50,636,351"
+  },
+  {
+    "rank": 233,
+    "recipient_name": "MP SOLUTIONS, LLC",
+    "recipient_id": "f20d2a12-b5a9-83e7-8386-42f133dc95c4-C",
+    "amount": 50423780,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$50,423,780"
+  },
+  {
+    "rank": 234,
+    "recipient_name": "AXIENT LLC",
+    "recipient_id": "e4f80b7a-5e27-decc-84ee-2790e8737c62-C",
+    "amount": 50128675,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$50,128,675"
+  },
+  {
+    "rank": 235,
+    "recipient_name": "SPECTRUM HEALTHCARE RESOURCES, INC",
+    "recipient_id": "d1f0da88-2e10-1c9e-65d1-ab4aa08a29d5-C",
+    "amount": 50075023,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$50,075,023"
+  },
+  {
+    "rank": 236,
+    "recipient_name": "SOUTHEASTERN COMPUTER CONSULTANTS, INC.",
+    "recipient_id": "53e6e7b3-6ec2-5015-d16a-2c86bf0081c3-C",
+    "amount": 49902959,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$49,902,959"
+  },
+  {
+    "rank": 237,
+    "recipient_name": "AMYX INC",
+    "recipient_id": "625359d7-a8d0-018c-dd8b-ee00141360af-C",
+    "amount": 49886685,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$49,886,685"
+  },
+  {
+    "rank": 238,
+    "recipient_name": "TATITLEK TECHNOLOGIES INC",
+    "recipient_id": "ad763c03-03ba-3ee2-543c-d6de13a2c139-C",
+    "amount": 49708077,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$49,708,077"
+  },
+  {
+    "rank": 239,
+    "recipient_name": "CALIBRE SYSTEMS INC",
+    "recipient_id": "5607e316-33f8-0ffc-ef7e-10bfafc85f17-C",
+    "amount": 49287788,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$49,287,788"
+  },
+  {
+    "rank": 240,
+    "recipient_name": "OCEANEERING INTERNATIONAL INC",
+    "recipient_id": "75b58e8c-4e90-a9e5-c194-4c7f14679f6e-C",
+    "amount": 49060429,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$49,060,429"
+  },
+  {
+    "rank": 241,
+    "recipient_name": "PRESCIENT EDGE CORPORATION",
+    "recipient_id": "4177ecc7-1ce6-7fb1-a60a-84dd7c0d436b-C",
+    "amount": 48259989,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$48,259,989"
+  },
+  {
+    "rank": 242,
+    "recipient_name": "SKOOKUM EDUCATIONAL PROGRAMS",
+    "recipient_id": "e41e79be-776c-8091-7dc2-b77c7f687af0-C",
+    "amount": 48015590,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$48,015,590"
+  },
+  {
+    "rank": 243,
+    "recipient_name": "LYNKER CORPORATION",
+    "recipient_id": "769ae6c2-ab99-6c7c-d5a0-192e3904c1d4-C",
+    "amount": 47494155,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$47,494,155"
+  },
+  {
+    "rank": 244,
+    "recipient_name": "WIDEPOINT INTEGRATED SOLUTIONS CORP",
+    "recipient_id": "094ab099-c614-d129-225d-bc1cbf54de77-C",
+    "amount": 47447564,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$47,447,564"
+  },
+  {
+    "rank": 245,
+    "recipient_name": "SEVATEC LLC",
+    "recipient_id": "9f6bbc75-a556-15ed-3c5a-150eb76b477a-C",
+    "amount": 47402853,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$47,402,853"
+  },
+  {
+    "rank": 246,
+    "recipient_name": "INNOVATIVE MANAGEMENT CONCEPTS, INC",
+    "recipient_id": "724e5b77-bde4-5e41-654b-0d45a11d7132-C",
+    "amount": 47283434,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$47,283,434"
+  },
+  {
+    "rank": 247,
+    "recipient_name": "MINDPOINT GROUP LLC",
+    "recipient_id": "e67a48c1-6405-7dee-3f72-542f8454d2da-C",
+    "amount": 46948130,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$46,948,130"
+  },
+  {
+    "rank": 248,
+    "recipient_name": "SYSTEM HIGH CORPORATION",
+    "recipient_id": "9f190e55-63d7-267d-ee73-4bf1cc09075c-C",
+    "amount": 46851481,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$46,851,481"
+  },
+  {
+    "rank": 249,
+    "recipient_name": "ECHELON SERVICES, LLC",
+    "recipient_id": "7c15ae44-0a7a-b287-d880-77e4e6b3bc29-C",
+    "amount": 46757979,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$46,757,979"
+  },
+  {
+    "rank": 250,
+    "recipient_name": "DH TECHNOLOGIES, INC.",
+    "recipient_id": "3b8298c2-5bfd-7fc4-bb07-ad4c20d92543-C",
+    "amount": 46719711,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$46,719,711"
+  },
+  {
+    "rank": 251,
+    "recipient_name": "DIDLAKE INC",
+    "recipient_id": "d62a1ea5-5523-3370-d429-de744397f1ac-C",
+    "amount": 46705411,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$46,705,411"
+  },
+  {
+    "rank": 252,
+    "recipient_name": "HONEYWELL INTERNATIONAL INC",
+    "recipient_id": "f6af6197-5083-ed76-befd-626783ccaf59-C",
+    "amount": 46252782,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$46,252,782"
+  },
+  {
+    "rank": 253,
+    "recipient_name": "APTIVE RESOURCES LLC",
+    "recipient_id": "8fd7e07a-60b0-cb41-25f5-10784c4b61ef-C",
+    "amount": 46185700,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$46,185,700"
+  },
+  {
+    "rank": 254,
+    "recipient_name": "RER SOLUTIONS, INC.",
+    "recipient_id": "fb741e3c-b573-971c-f63c-55a505e833c4-C",
+    "amount": 46041761,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$46,041,761"
+  },
+  {
+    "rank": 255,
+    "recipient_name": "INNOVATIVE DEFENSE TECHNOLOGIES, LLC",
+    "recipient_id": "6e56ecb0-9986-82a6-43ff-4a1e9b71946c-C",
+    "amount": 46011006,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$46,011,006"
+  },
+  {
+    "rank": 256,
+    "recipient_name": "SPATIAL FRONT INC",
+    "recipient_id": "f702b7a6-2200-5cd4-c840-cdab470fcb25-C",
+    "amount": 45673556,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$45,673,556"
+  },
+  {
+    "rank": 257,
+    "recipient_name": "P E SYSTEMS, INC.",
+    "recipient_id": "5e12ae61-be8e-706a-510e-cffaafd530b4-C",
+    "amount": 45562257,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$45,562,257"
+  },
+  {
+    "rank": 258,
+    "recipient_name": "GOVCIO, LLC",
+    "recipient_id": "0eac385c-8f65-cdfa-5f38-e31678aede60-C",
+    "amount": 45143141,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$45,143,141"
+  },
+  {
+    "rank": 259,
+    "recipient_name": "TITAN ALPHA LLC",
+    "recipient_id": "ab7f9c95-5f86-babe-a5a9-bbfad02baaeb-C",
+    "amount": 44988722,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$44,988,722"
+  },
+  {
+    "rank": 260,
+    "recipient_name": "GAP SOLUTIONS, INC.",
+    "recipient_id": "55991bd7-1546-f5b6-451c-8012c89927a2-C",
+    "amount": 44714954,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$44,714,954"
+  },
+  {
+    "rank": 261,
+    "recipient_name": "W R SYSTEMS LTD.",
+    "recipient_id": "c6854097-06b7-2040-f39e-577847ec053f-C",
+    "amount": 44698698,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$44,698,698"
+  },
+  {
+    "rank": 262,
+    "recipient_name": "MACKSON CONSULTING, LLC",
+    "recipient_id": "f7507592-c537-136e-892f-c8e4e219c83c-C",
+    "amount": 44601832,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$44,601,832"
+  },
+  {
+    "rank": 263,
+    "recipient_name": "TURNER STRATEGIC TECHNOLOGIES, LLC",
+    "recipient_id": "15d6c81a-6fb2-4a5f-98b0-b684388486dd-C",
+    "amount": 44534838,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$44,534,838"
+  },
+  {
+    "rank": 264,
+    "recipient_name": "CHENEGA IT ENTERPRISE SERVICES, LLC",
+    "recipient_id": "220da283-9399-f6c3-d04b-127b385be420-C",
+    "amount": 44477552,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$44,477,552"
+  },
+  {
+    "rank": 265,
+    "recipient_name": "ASM RESEARCH, LLC",
+    "recipient_id": "95d4fe5c-75b7-541a-5388-4651995bd822-C",
+    "amount": 44316529,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$44,316,529"
+  },
+  {
+    "rank": 266,
+    "recipient_name": "CACI ENTERPRISE SOLUTIONS, LLC",
+    "recipient_id": "8c8ffc5d-4682-2ef6-19f9-cfaf060d441f-C",
+    "amount": 44285039,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$44,285,039"
+  },
+  {
+    "rank": 267,
+    "recipient_name": "CLOUD LAKE TECHNOLOGY LLC",
+    "recipient_id": "b37b8a4a-75b2-5d12-cdef-2e1d862d65d8-C",
+    "amount": 44242086,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$44,242,086"
+  },
+  {
+    "rank": 268,
+    "recipient_name": "QBASE, LLC",
+    "recipient_id": "6f04ece4-7912-04e0-9881-50a4bc17fba7-C",
+    "amount": 43874526,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$43,874,526"
+  },
+  {
+    "rank": 269,
+    "recipient_name": "KBR WYLE SERVICES, LLC",
+    "recipient_id": "43d3e6c3-0908-78aa-9f11-3c96054a37d2-C",
+    "amount": 43868641,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$43,868,641"
+  },
+  {
+    "rank": 270,
+    "recipient_name": "WARHORSE TRAINING SOLUTIONS, LLC",
+    "recipient_id": "5d631574-ab7e-e13d-21e0-626d62a4ec8a-C",
+    "amount": 43807985,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$43,807,985"
+  },
+  {
+    "rank": 271,
+    "recipient_name": "ALETHIX, LLC",
+    "recipient_id": "183083c0-2cbc-1903-c64f-5370f91554ae-C",
+    "amount": 43558341,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$43,558,341"
+  },
+  {
+    "rank": 272,
+    "recipient_name": "THE LEWIN GROUP, INC.",
+    "recipient_id": "2cd822cf-04c8-0397-8526-d6da8ff340a8-C",
+    "amount": 43197974,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$43,197,974"
+  },
+  {
+    "rank": 273,
+    "recipient_name": "HII MISSION TECHNOLOGIES CORP",
+    "recipient_id": "af71a671-8628-cf92-9d09-39fda820ddac-C",
+    "amount": 43119874,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$43,119,874"
+  },
+  {
+    "rank": 274,
+    "recipient_name": "UNISSANT INC.",
+    "recipient_id": "6be4bd04-2ddc-4a60-2485-c6c3912f2056-C",
+    "amount": 43078047,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$43,078,047"
+  },
+  {
+    "rank": 275,
+    "recipient_name": "LEIDOS, INC.",
+    "recipient_id": "32109085-1976-8da6-d5cd-7c8077389b75-C",
+    "amount": 42376908,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$42,376,908"
+  },
+  {
+    "rank": 276,
+    "recipient_name": "JO-KELL INC.",
+    "recipient_id": "ab3249bd-2af9-f474-905d-1e83474fadb9-C",
+    "amount": 42307729,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$42,307,729"
+  },
+  {
+    "rank": 277,
+    "recipient_name": "THE KEYW CORPORATION",
+    "recipient_id": "1b34d205-f0cd-208d-836d-5595c83acb98-C",
+    "amount": 42113869,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$42,113,869"
+  },
+  {
+    "rank": 278,
+    "recipient_name": "BLUE TECH INC.",
+    "recipient_id": "1d2b86ed-22ef-ab63-ef2c-787925497c54-C",
+    "amount": 41802580,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$41,802,580"
+  },
+  {
+    "rank": 279,
+    "recipient_name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+    "recipient_id": "e68195c5-489b-6025-5dd1-0d0b9c66a757-C",
+    "amount": 41447063,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$41,447,063"
+  },
+  {
+    "rank": 280,
+    "recipient_name": "360 PATRIOT ENTERPRISES LLC",
+    "recipient_id": "3f38f92b-d01e-37ee-8442-271df8326bc2-C",
+    "amount": 41167202,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$41,167,202"
+  },
+  {
+    "rank": 281,
+    "recipient_name": "AERMOR LLC",
+    "recipient_id": "155693eb-226f-3995-df1c-6e67fef6b3bc-C",
+    "amount": 41157632,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$41,157,632"
+  },
+  {
+    "rank": 282,
+    "recipient_name": "VECTRUS SYSTEMS LLC",
+    "recipient_id": "cad2e20c-b9f2-7a88-59cc-b5aaaadd6a66-C",
+    "amount": 40793702,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$40,793,702"
+  },
+  {
+    "rank": 283,
+    "recipient_name": "IST RESEARCH, LLC",
+    "recipient_id": "20cf7386-1122-bd1b-6c10-9b6591b29cea-C",
+    "amount": 40291930,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$40,291,930"
+  },
+  {
+    "rank": 284,
+    "recipient_name": "TRILOGY FEDERAL, LLC",
+    "recipient_id": "fd9d0b5f-3951-f44b-d27f-21cf2c51b40c-C",
+    "amount": 40197225,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$40,197,225"
+  },
+  {
+    "rank": 285,
+    "recipient_name": "GOVERNMENT ACQUISITIONS INC",
+    "recipient_id": "bcd07db9-001a-b962-dbab-d463bb99028f-C",
+    "amount": 39956032,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$39,956,032"
+  },
+  {
+    "rank": 286,
+    "recipient_name": "CULMEN INTERNATIONAL, LLC",
+    "recipient_id": "22ce51ea-b4d4-67f3-dcde-7694de694696-C",
+    "amount": 39809978,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$39,809,978"
+  },
+  {
+    "rank": 287,
+    "recipient_name": "VETERANS RANGE SOLUTIONS, LLC",
+    "recipient_id": "14c2a632-f014-7b3b-c4b8-487894556646-C",
+    "amount": 39723267,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$39,723,267"
+  },
+  {
+    "rank": 288,
+    "recipient_name": "THREE WIRE SYSTEMS, LLC",
+    "recipient_id": "7678e55d-3da3-0606-7fb1-da24efbc7cda-C",
+    "amount": 39646076,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$39,646,076"
+  },
+  {
+    "rank": 289,
+    "recipient_name": "UTILITY WORKS A JOINT VENTURE",
+    "recipient_id": "c71b6362-6770-f4d6-3e52-e3804f4f9b98-C",
+    "amount": 39606922,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$39,606,922"
+  },
+  {
+    "rank": 290,
+    "recipient_name": "BOWHEAD PROGRAM MANAGEMENT & OPERATIONS, LLC",
+    "recipient_id": "a2237a7e-a785-7445-faae-d5af8e099367-C",
+    "amount": 39539703,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$39,539,703"
+  },
+  {
+    "rank": 291,
+    "recipient_name": "DEFENSE MARITIME SOLUTIONS, INC.",
+    "recipient_id": "0c67f76e-26ab-afff-6f22-c835173b70be-C",
+    "amount": 39458785,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$39,458,785"
+  },
+  {
+    "rank": 292,
+    "recipient_name": "MILLENNIUM CORPORATION",
+    "recipient_id": "9b314654-c835-438b-1965-cfaa69a4951d-C",
+    "amount": 38962631,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$38,962,631"
+  },
+  {
+    "rank": 293,
+    "recipient_name": "DISTRIBUTED COMPUTING SYSTEM SOLUTIONS PROVIDER, INC",
+    "recipient_id": "bb1e49ea-e1a3-8805-d5f1-bb76d15494cf-C",
+    "amount": 38854066,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$38,854,066"
+  },
+  {
+    "rank": 294,
+    "recipient_name": "SAPIENT GOVERNMENT SERVICES, INC.",
+    "recipient_id": "48a14819-43ca-e7c7-e42b-c3aa96235a01-C",
+    "amount": 38833492,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$38,833,492"
+  },
+  {
+    "rank": 295,
+    "recipient_name": "INSERSO CORPORATION",
+    "recipient_id": "550b25e6-a0ee-e1ef-d841-a42b53b287d5-C",
+    "amount": 38801545,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$38,801,545"
+  },
+  {
+    "rank": 296,
+    "recipient_name": "CUSTOMER VALUE PARTNERS, LLC",
+    "recipient_id": "8a2c800a-0d04-3aaf-816b-5aeb9d1b3726-C",
+    "amount": 38765713,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$38,765,713"
+  },
+  {
+    "rank": 297,
+    "recipient_name": "OMNI FED LLC",
+    "recipient_id": "57a8488e-fd15-bde5-7d27-e75c8949855d-C",
+    "amount": 38598613,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$38,598,613"
+  },
+  {
+    "rank": 298,
+    "recipient_name": "CREATIVEIT SOLUTIONS LLC",
+    "recipient_id": "c433e797-379b-f44f-fe65-f227f90e6a99-C",
+    "amount": 38537964,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$38,537,964"
+  },
+  {
+    "rank": 299,
+    "recipient_name": "VERSABILITY RESOURCES, INC.",
+    "recipient_id": "4ba32518-1d19-14d9-95a2-2d6369ace0b6-C",
+    "amount": 38524428,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$38,524,428"
+  },
+  {
+    "rank": 300,
+    "recipient_name": "INTERNATIONAL BUSINESS & TECHNICAL CONSULTANTS, INC.",
+    "recipient_id": "602a7738-01c8-56f1-9f38-7c5b4a47f884-C",
+    "amount": 38455969,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$38,455,969"
+  },
+  {
+    "rank": 301,
+    "recipient_name": "EC AMERICA, INC",
+    "recipient_id": "d310f3eb-30b8-6184-6a1d-efdf51e39dfa-C",
+    "amount": 38233995,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$38,233,995"
+  },
+  {
+    "rank": 302,
+    "recipient_name": "AMERICAN INSTITUTE IN TAIWAN",
+    "recipient_id": "8f7aeca0-cb56-d56b-2f0b-44368367446e-C",
+    "amount": 38049074,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$38,049,074"
+  },
+  {
+    "rank": 303,
+    "recipient_name": "GOLDBELT FRONTIER, LLC",
+    "recipient_id": "f282b97a-99ec-c88f-ca06-d8fe95e75d35-C",
+    "amount": 38046245,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$38,046,245"
+  },
+  {
+    "rank": 304,
+    "recipient_name": "TRANSOCEANIC CABLE SHIP COMPANY LLC",
+    "recipient_id": "f8bc95ba-5a73-b7eb-250c-a73ad1d5ca52-C",
+    "amount": 37948215,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$37,948,215"
+  },
+  {
+    "rank": 305,
+    "recipient_name": "RED RIVER TECHNOLOGY LLC",
+    "recipient_id": "b8289dc0-984f-6d16-9d31-0ac8ab3f63ec-C",
+    "amount": 37540259,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$37,540,259"
+  },
+  {
+    "rank": 306,
+    "recipient_name": "W. F. MAGANN CORP",
+    "recipient_id": "c9f7af8c-99ab-bc74-252d-3375b314d1fe-C",
+    "amount": 37311659,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$37,311,659"
+  },
+  {
+    "rank": 307,
+    "recipient_name": "KEYSTONE SHIPPING SERVICES, INC.",
+    "recipient_id": "84c018e3-8e82-3916-f7b2-b22e73842306-C",
+    "amount": 37104705,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$37,104,705"
+  },
+  {
+    "rank": 308,
+    "recipient_name": "CAPGEMINI GOVERNMENT SOLUTIONS LLC",
+    "recipient_id": "cb03b591-89be-7536-e47d-09e57f30d4b3-C",
+    "amount": 37090932,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$37,090,932"
+  },
+  {
+    "rank": 309,
+    "recipient_name": "HCI MANAGEMENT SERVICES COMPANY",
+    "recipient_id": "44fe4d69-db0e-7016-8dfa-cf625e2b2d82-C",
+    "amount": 37081645,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$37,081,645"
+  },
+  {
+    "rank": 310,
+    "recipient_name": "AVANTUS FEDERAL LLC",
+    "recipient_id": "266ca0b8-90d7-4ee7-a8ec-696c5055f92d-C",
+    "amount": 37057189,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$37,057,189"
+  },
+  {
+    "rank": 311,
+    "recipient_name": "CACI IDT, LLC",
+    "recipient_id": "0256e4e2-4d00-e1e2-fe43-379e41da8317-C",
+    "amount": 37034131,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$37,034,131"
+  },
+  {
+    "rank": 312,
+    "recipient_name": "OBXTEK INC",
+    "recipient_id": "114c9d73-3e01-c62f-f99b-e9582cab4385-C",
+    "amount": 37026602,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$37,026,602"
+  },
+  {
+    "rank": 313,
+    "recipient_name": "SWISH DATA CORPORATION",
+    "recipient_id": "84a05e3b-8abe-6d1d-7ed7-2027ad5179fc-C",
+    "amount": 36980609,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$36,980,609"
+  },
+  {
+    "rank": 314,
+    "recipient_name": "BY LIGHT PROFESSIONAL IT SERVICES LLC",
+    "recipient_id": "f22eaf09-af96-bea0-f0c3-2876676ec949-C",
+    "amount": 36693172,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$36,693,172"
+  },
+  {
+    "rank": 315,
+    "recipient_name": "GLOBAL INFOTEK INC",
+    "recipient_id": "8fdcf1b3-e6a7-82d9-f698-8ec341d03332-C",
+    "amount": 36497497,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$36,497,497"
+  },
+  {
+    "rank": 316,
+    "recipient_name": "AGILE DEFENSE, LLC",
+    "recipient_id": "f7101b2d-1601-28c3-6099-efd981538f28-C",
+    "amount": 36495638,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$36,495,638"
+  },
+  {
+    "rank": 317,
+    "recipient_name": "COGGINS INTERNATIONAL CORP",
+    "recipient_id": "d0d22652-72eb-37f4-aedd-7cb57ecd6137-C",
+    "amount": 36176160,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$36,176,160"
+  },
+  {
+    "rank": 318,
+    "recipient_name": "NISGA'A TEK, LLC",
+    "recipient_id": "2680fc53-f495-2532-94ae-74626d6937d5-C",
+    "amount": 36127111,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$36,127,111"
+  },
+  {
+    "rank": 319,
+    "recipient_name": "THE KACE COMPANY, LLC.",
+    "recipient_id": "79fdca41-2358-930e-3033-0ef8538e1f4e-C",
+    "amount": 35856699,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$35,856,699"
+  },
+  {
+    "rank": 320,
+    "recipient_name": "CREATIVE SYSTEMS AND CONSULTING L.L.C.",
+    "recipient_id": "c260138e-301c-323a-da05-526c32e86e85-C",
+    "amount": 35856076,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$35,856,076"
+  },
+  {
+    "rank": 321,
+    "recipient_name": "GEORGE MASON UNIVERSITY",
+    "recipient_id": "959a5b47-d407-9807-55f0-ee776cca4bce-C",
+    "amount": 35784919,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$35,784,919"
+  },
+  {
+    "rank": 322,
+    "recipient_name": "SEKON ENTERPRISE, INC",
+    "recipient_id": "ff2ef283-d5c7-0192-1b7e-eae189a13a1a-C",
+    "amount": 35390814,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$35,390,814"
+  },
+  {
+    "rank": 323,
+    "recipient_name": "ATT MOBILITY LLC",
+    "recipient_id": "c0aa4884-6621-8b31-0942-50047a976c83-C",
+    "amount": 35330856,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$35,330,856"
+  },
+  {
+    "rank": 324,
+    "recipient_name": "SEAWARD MARINE SERVICES, LLC",
+    "recipient_id": "3701c9d8-57f9-edd6-ec3b-4e9e3c13e351-C",
+    "amount": 35322550,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$35,322,550"
+  },
+  {
+    "rank": 325,
+    "recipient_name": "KALMAN & COMPANY, INC.",
+    "recipient_id": "517dc4d6-90d6-bdda-9137-a951984534c3-C",
+    "amount": 35317994,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$35,317,994"
+  },
+  {
+    "rank": 326,
+    "recipient_name": "STRATASCOR, LLC",
+    "recipient_id": "09aef996-8847-3e3c-16a2-85ccc9d0077f-C",
+    "amount": 35128848,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$35,128,848"
+  },
+  {
+    "rank": 327,
+    "recipient_name": "TYTO ATHENE, LLC",
+    "recipient_id": "1329b682-1bde-8a26-b6c7-c93289f51f19-C",
+    "amount": 35069664,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$35,069,664"
+  },
+  {
+    "rank": 328,
+    "recipient_name": "SUSTAINABLE SYSTEM SOLUTIONS LLC",
+    "recipient_id": "9ee4e267-e5f7-3ef0-3e2f-d49bd38267e5-C",
+    "amount": 35047698,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$35,047,698"
+  },
+  {
+    "rank": 329,
+    "recipient_name": "BECHTEL NATIONAL, INC.",
+    "recipient_id": "7cfe19f0-3996-b85d-3d93-9ebc1c887d0a-C",
+    "amount": 34955535,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$34,955,535"
+  },
+  {
+    "rank": 330,
+    "recipient_name": "OBSIDIAN SOLUTIONS GROUP LLC",
+    "recipient_id": "5155c1cc-8e00-5e8e-9394-955f7ea45053-C",
+    "amount": 34857193,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$34,857,193"
+  },
+  {
+    "rank": 331,
+    "recipient_name": "MCR FEDERAL LLC",
+    "recipient_id": "8859a06b-349b-dd1b-bdc5-60a16ce8381c-C",
+    "amount": 34773307,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$34,773,307"
+  },
+  {
+    "rank": 332,
+    "recipient_name": "BOWHEAD MISSION SOLUTIONS, LLC",
+    "recipient_id": "12492d4c-a516-d3ab-29dc-b70e3f63cf2a-C",
+    "amount": 34714729,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$34,714,729"
+  },
+  {
+    "rank": 333,
+    "recipient_name": "INDIAN TOWNSHIP SOLUTIONS LLC",
+    "recipient_id": "139b81f6-0e1f-7f9a-2cc2-9e7786b5a2f2-C",
+    "amount": 34707499,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$34,707,499"
+  },
+  {
+    "rank": 334,
+    "recipient_name": "INTERNATIONAL BUSINESS MACHINES CORPORATION",
+    "recipient_id": "94ad56a0-99c0-fb83-ddd3-599bf9bbfed9-C",
+    "amount": 34592621,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$34,592,621"
+  },
+  {
+    "rank": 335,
+    "recipient_name": "TOP ACES CORP.",
+    "recipient_id": "0bd3f283-cd85-88c2-2501-a9382b2c59f4-C",
+    "amount": 34497946,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$34,497,946"
+  },
+  {
+    "rank": 336,
+    "recipient_name": "L3HARRIS MARITIME SERVICES INC",
+    "recipient_id": "5800e89a-8bd0-f860-8362-773278c61f86-C",
+    "amount": 34366868,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$34,366,868"
+  },
+  {
+    "rank": 337,
+    "recipient_name": "DYNAMO TECHNOLOGIES, LLC",
+    "recipient_id": "bc03ae95-a4bf-f415-2df4-f2f4bedd6447-C",
+    "amount": 34221072,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$34,221,072"
+  },
+  {
+    "rank": 338,
+    "recipient_name": "JOHNSON CONTROLS BUILDING AUTOMATION SYSTEMS, LLC",
+    "recipient_id": "0d1a2358-e8ec-6142-7139-ea3ae4401a11-C",
+    "amount": 34141859,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$34,141,859"
+  },
+  {
+    "rank": 339,
+    "recipient_name": "KONIAG MANAGEMENT SOLUTIONS LLC",
+    "recipient_id": "046106f6-e4f9-c735-c5d6-6367b71f498f-C",
+    "amount": 33965564,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$33,965,564"
+  },
+  {
+    "rank": 340,
+    "recipient_name": "MERLIN INTERNATIONAL, INC.",
+    "recipient_id": "3d17f196-5941-4e52-764c-2d8619b74e44-C",
+    "amount": 33923860,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$33,923,860"
+  },
+  {
+    "rank": 341,
+    "recipient_name": "ZEIDERS ENTERPRISES, INC.",
+    "recipient_id": "23a02f45-bee6-a723-d1fd-2e9ce27d91ef-C",
+    "amount": 33684318,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$33,684,318"
+  },
+  {
+    "rank": 342,
+    "recipient_name": "SAUER CONSTRUCTION, LLC",
+    "recipient_id": "c587380c-fe2b-292c-888b-4cd2249f856a-C",
+    "amount": 33679004,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$33,679,004"
+  },
+  {
+    "rank": 343,
+    "recipient_name": "GE AVIATION SYSTEMS LLC",
+    "recipient_id": "5a553103-a4e2-29fc-501c-594cee2aef6b-C",
+    "amount": 33661160,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$33,661,160"
+  },
+  {
+    "rank": 344,
+    "recipient_name": "NIKSOFT SYSTEMS CORP.",
+    "recipient_id": "904e2f11-3a4d-9727-17a6-94a7274a45ae-C",
+    "amount": 33556358,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$33,556,358"
+  },
+  {
+    "rank": 345,
+    "recipient_name": "PGLS LLC",
+    "recipient_id": "1f42d514-d16f-3de7-cf1d-9ae2333baabb-C",
+    "amount": 33347904,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$33,347,904"
+  },
+  {
+    "rank": 346,
+    "recipient_name": "ALLIANT TECHSYSTEMS OPERATIONS LLC",
+    "recipient_id": "18d19137-8ab9-a9ee-7f9b-19d6aecef08b-C",
+    "amount": 33212910,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$33,212,910"
+  },
+  {
+    "rank": 347,
+    "recipient_name": "FAIRLEAD BOATWORKS, INC.",
+    "recipient_id": "38588b2a-393f-7ad3-0751-8c3a7692f8a2-C",
+    "amount": 33082044,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$33,082,044"
+  },
+  {
+    "rank": 348,
+    "recipient_name": "VAE, INC.",
+    "recipient_id": "c78c330d-48dc-80ec-0dcf-3076b010cf1b-C",
+    "amount": 33002768,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$33,002,768"
+  },
+  {
+    "rank": 349,
+    "recipient_name": "CH2M HILL, INC",
+    "recipient_id": "dc0fcb13-4321-5205-e8c5-83821fb199bd-C",
+    "amount": 32968954,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$32,968,954"
+  },
+  {
+    "rank": 350,
+    "recipient_name": "KUDU DYNAMICS LLC",
+    "recipient_id": "95f15a50-7fb7-d544-72b0-268d191a3f41-C",
+    "amount": 32950874,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$32,950,874"
+  },
+  {
+    "rank": 351,
+    "recipient_name": "DECISION TECHNOLOGIES, INC.",
+    "recipient_id": "d9526331-c4c5-2187-2463-7ae0e6413ec9-C",
+    "amount": 32873185,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$32,873,185"
+  },
+  {
+    "rank": 352,
+    "recipient_name": "BIXAL SOLUTIONS INCORPORATED",
+    "recipient_id": "1a9c50fa-fae3-8e57-b010-899127fd1649-C",
+    "amount": 32804953,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$32,804,953"
+  },
+  {
+    "rank": 353,
+    "recipient_name": "BAM TECHNOLOGIES LLC",
+    "recipient_id": "51615230-97f3-7ad1-8b75-00f90ce8c5e6-C",
+    "amount": 32702766,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$32,702,766"
+  },
+  {
+    "rank": 354,
+    "recipient_name": "LOCKHEED MARTIN CORPORATION",
+    "recipient_id": "5ad7895c-192b-21cd-8baf-92c6dce0b593-C",
+    "amount": 32691304,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$32,691,304"
+  },
+  {
+    "rank": 355,
+    "recipient_name": "SOFTRAMS LLC",
+    "recipient_id": "032a0d60-c2bc-9e9b-abe5-d6e488d48084-C",
+    "amount": 32586894,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$32,586,894"
+  },
+  {
+    "rank": 356,
+    "recipient_name": "PACIFIC-GULF MARINE, INC.",
+    "recipient_id": "59e7da9f-a8f0-d18c-8b33-3a9fa015e84b-C",
+    "amount": 32565097,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$32,565,097"
+  },
+  {
+    "rank": 357,
+    "recipient_name": "BAE SYSTEMS LAND AND ARMAMENTS L.P.",
+    "recipient_id": "4e82bc60-9b65-7c43-0d5f-4d41ace9f16b-C",
+    "amount": 32515837,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$32,515,837"
+  },
+  {
+    "rank": 358,
+    "recipient_name": "HALFAKER AND ASSOCIATES, LLC",
+    "recipient_id": "947d1015-681f-ea0e-5290-4c8bad0d1912-C",
+    "amount": 32508786,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$32,508,786"
+  },
+  {
+    "rank": 359,
+    "recipient_name": "ADVANCED TECHNOLOGY SYSTEMS, INC.",
+    "recipient_id": "e3e36242-17f2-1905-13c2-4d4e16f84677-C",
+    "amount": 32487143,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$32,487,143"
+  },
+  {
+    "rank": 360,
+    "recipient_name": "ADVANCIA TECHNOLOGIES, LLC",
+    "recipient_id": "f6c313d2-f733-736b-abb6-89d85275b273-C",
+    "amount": 32477866,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$32,477,866"
+  },
+  {
+    "rank": 361,
+    "recipient_name": "STRATEGIC ANALYSIS, INC.",
+    "recipient_id": "ceb4bbef-8bd3-df25-15b1-03e132bff513-C",
+    "amount": 32419854,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$32,419,854"
+  },
+  {
+    "rank": 362,
+    "recipient_name": "COMCAST GOVERNMENT SERVICES LLC",
+    "recipient_id": "34cf0cfc-a4eb-83df-dd59-f4ad5595e02a-C",
+    "amount": 32125833,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$32,125,833"
+  },
+  {
+    "rank": 363,
+    "recipient_name": "KMS SOLUTIONS, LLC",
+    "recipient_id": "04531853-3d17-22bb-ca2b-6a667065c677-C",
+    "amount": 32115067,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$32,115,067"
+  },
+  {
+    "rank": 364,
+    "recipient_name": "EMCOR GOVERNMENT SERVICES, INC",
+    "recipient_id": "aff79c5c-0dd5-5065-2e7d-f75eacde1498-C",
+    "amount": 32001889,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$32,001,889"
+  },
+  {
+    "rank": 365,
+    "recipient_name": "LUMEN TECHNOLOGIES GOVERNMENT SOLUTIONS, INC.",
+    "recipient_id": "84758b34-2983-68e4-b5b7-0f754e6e46c5-C",
+    "amount": 31807054,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$31,807,054"
+  },
+  {
+    "rank": 366,
+    "recipient_name": "THREAT TEC - YORKTOWN JV, LLC",
+    "recipient_id": "6282c77a-e46a-4b2d-ef79-90922898feb6-C",
+    "amount": 31743032,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$31,743,032"
+  },
+  {
+    "rank": 367,
+    "recipient_name": "LHDTSV LLC",
+    "recipient_id": "1f5c8b89-27f2-ef4d-014a-5b6799e700dc-C",
+    "amount": 31507087,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$31,507,087"
+  },
+  {
+    "rank": 368,
+    "recipient_name": "WESTERN DOOR FEDERAL, LLC",
+    "recipient_id": "e4de6a96-7d30-8880-6a7b-e142b83ef1cd-C",
+    "amount": 31478879,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$31,478,879"
+  },
+  {
+    "rank": 369,
+    "recipient_name": "TUKNIK GOVERNMENT SERVICES LLC",
+    "recipient_id": "eb3864be-89b2-cfc7-91d3-27a3caebeda0-C",
+    "amount": 31295724,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$31,295,724"
+  },
+  {
+    "rank": 370,
+    "recipient_name": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
+    "recipient_id": "54713b78-258c-a4e1-ef18-1fbbb11ee4b7-C",
+    "amount": 31241750,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$31,241,750"
+  },
+  {
+    "rank": 371,
+    "recipient_name": "FOXHOLE TECHNOLOGY LLC",
+    "recipient_id": "cdf4f09f-61db-99cc-6e64-eb74e9c6d533-C",
+    "amount": 31236889,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$31,236,889"
+  },
+  {
+    "rank": 372,
+    "recipient_name": "COVENTBRIDGE USA INC",
+    "recipient_id": "1de8615c-8048-85f6-a316-48eff2a0121b-C",
+    "amount": 31139864,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$31,139,864"
+  },
+  {
+    "rank": 373,
+    "recipient_name": "ENGINEERING SERVICES NETWORK INC",
+    "recipient_id": "fef8028b-bf18-8dad-677c-137cbf80d7db-C",
+    "amount": 31130991,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$31,130,991"
+  },
+  {
+    "rank": 374,
+    "recipient_name": "IDEAL INNOVATIONS INCORPORATED",
+    "recipient_id": "48b3beb5-95d9-24fc-e9ed-2ec1d14c26f4-C",
+    "amount": 31100802,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$31,100,802"
+  },
+  {
+    "rank": 375,
+    "recipient_name": "COGNOSANTE, LLC",
+    "recipient_id": "5dc24b55-a319-2600-b800-ca46fb8743b6-C",
+    "amount": 30969060,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$30,969,060"
+  },
+  {
+    "rank": 376,
+    "recipient_name": "DELOITTE FINANCIAL ADVISORY SERVICES LLP",
+    "recipient_id": "fd3e565b-a271-f683-a428-367b14b058b4-C",
+    "amount": 30931682,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$30,931,682"
+  },
+  {
+    "rank": 377,
+    "recipient_name": "MICROHEALTH LLC",
+    "recipient_id": "7db9cee9-fc9b-1639-3c5a-f90c99ae6dbf-C",
+    "amount": 30919371,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$30,919,371"
+  },
+  {
+    "rank": 378,
+    "recipient_name": "ARTEL LLC",
+    "recipient_id": "bceca633-259c-9dd2-5fdf-c6eb470cc25a-C",
+    "amount": 30753150,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$30,753,150"
+  },
+  {
+    "rank": 379,
+    "recipient_name": "APPLIED ENTERPRISE MANAGEMENT CORPORATION",
+    "recipient_id": "1eed1917-0c11-0535-ba27-30422c4df986-C",
+    "amount": 30520292,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$30,520,292"
+  },
+  {
+    "rank": 380,
+    "recipient_name": "INSTITUTE OF INTERNATIONAL EDUCATION INC",
+    "recipient_id": "0ecfa3c9-cf1d-ef3d-ae82-fead18040fd8-C",
+    "amount": 30475000,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$30,475,000"
+  },
+  {
+    "rank": 381,
+    "recipient_name": "CPS PROFESSIONAL SERVICES, LLC",
+    "recipient_id": "e1d3a952-5c6f-3651-f7fd-24fdf99153d1-C",
+    "amount": 30125065,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$30,125,065"
+  },
+  {
+    "rank": 382,
+    "recipient_name": "PATRICIO ENTERPRISES, INC",
+    "recipient_id": "de25702c-3072-587b-9cd3-1dbe18a4404b-C",
+    "amount": 30064258,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$30,064,258"
+  },
+  {
+    "rank": 383,
+    "recipient_name": "COUNTERTRADE PRODUCTS, INC.",
+    "recipient_id": "99253b24-712b-034b-e1a4-77c8e86b4b5b-C",
+    "amount": 29956525,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$29,956,525"
+  },
+  {
+    "rank": 384,
+    "recipient_name": "INTELLIDYNE, L.L.C.",
+    "recipient_id": "7853ab10-b1f8-9ba0-76f6-d4ec72a9ee3d-C",
+    "amount": 29721921,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$29,721,921"
+  },
+  {
+    "rank": 385,
+    "recipient_name": "GOVPLACE, LLC",
+    "recipient_id": "8467a285-b38f-7ccf-fb4c-9c52c4762e7c-C",
+    "amount": 29476802,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$29,476,802"
+  },
+  {
+    "rank": 386,
+    "recipient_name": "DEWBERRY ENGINEERS INC.",
+    "recipient_id": "fa8d63df-6422-14a7-f964-4e76d42aea30-C",
+    "amount": 29419385,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$29,419,385"
+  },
+  {
+    "rank": 387,
+    "recipient_name": "AGUSTAWESTLAND PHILADELPHIA CORPORATION",
+    "recipient_id": "091bda6b-5cb5-2788-2497-63fa2eab4412-C",
+    "amount": 29218130,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$29,218,130"
+  },
+  {
+    "rank": 388,
+    "recipient_name": "THE TAURI GROUP, INC.",
+    "recipient_id": "3d878fee-3d1f-5acf-1e44-4e92c1f5c007-C",
+    "amount": 28841156,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$28,841,156"
+  },
+  {
+    "rank": 389,
+    "recipient_name": "GLOBAL ENTERPRISE SOLUTIONS, INC.",
+    "recipient_id": "bdc23c6d-5ce1-8ea3-b864-413c4da65c4d-C",
+    "amount": 28728157,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$28,728,157"
+  },
+  {
+    "rank": 390,
+    "recipient_name": "METRON INCORPORATED",
+    "recipient_id": "f8f164bb-8f01-4d1a-b440-14bf86f57df7-C",
+    "amount": 28706762,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$28,706,762"
+  },
+  {
+    "rank": 391,
+    "recipient_name": "GMS INDUSTRIAL SUPPLY, INC.",
+    "recipient_id": "168ef01c-6499-828e-451e-1beda74ed632-C",
+    "amount": 28656724,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$28,656,724"
+  },
+  {
+    "rank": 392,
+    "recipient_name": "AKIMA FACILITIES OPERATIONS LLC",
+    "recipient_id": "4fe1a364-ca0f-b20c-0ee2-8e08689e4b66-C",
+    "amount": 28313164,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$28,313,164"
+  },
+  {
+    "rank": 393,
+    "recipient_name": "GRYPHON TECHNOLOGIES, L.C.",
+    "recipient_id": "6b80c5f1-4c25-b0e4-3b22-1305de8fe9d2-C",
+    "amount": 28288193,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$28,288,193"
+  },
+  {
+    "rank": 394,
+    "recipient_name": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+    "recipient_id": "6d7248f9-fd1b-2fe9-b188-b5e95ce285bf-C",
+    "amount": 28189296,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$28,189,296"
+  },
+  {
+    "rank": 395,
+    "recipient_name": "KBR WYLE SERVICES, LLC",
+    "recipient_id": "a0a87c1c-b46f-7c1f-9eb0-a389f77904a8-C",
+    "amount": 28157984,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$28,157,984"
+  },
+  {
+    "rank": 396,
+    "recipient_name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+    "recipient_id": "a7284824-a186-1d38-f257-0fd2f2e09ff5-C",
+    "amount": 28146180,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$28,146,180"
+  },
+  {
+    "rank": 397,
+    "recipient_name": "RAFT LLC",
+    "recipient_id": "c36be5b4-7ac7-0b04-1068-7614c6dddfaa-C",
+    "amount": 27943741,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$27,943,741"
+  },
+  {
+    "rank": 398,
+    "recipient_name": "DUN & BRADSTREET, INC",
+    "recipient_id": "eee1777d-e5cc-e5ea-e738-ff1a503eff5c-C",
+    "amount": 27825556,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$27,825,556"
+  },
+  {
+    "rank": 399,
+    "recipient_name": "EPSILON SYSTEMS SOLUTIONS INC",
+    "recipient_id": "1183a32d-d5b7-6285-7900-ec42dd748cf6-C",
+    "amount": 27786176,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$27,786,176"
+  },
+  {
+    "rank": 400,
+    "recipient_name": "METAPHASE CONSULTING LLC",
+    "recipient_id": "46ab4a7b-cf07-7227-8022-2024d8e16c57-C",
+    "amount": 27720329,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$27,720,329"
+  },
+  {
+    "rank": 401,
+    "recipient_name": "ARDENT MANAGEMENT CONSULTING, LLC",
+    "recipient_id": "50754d13-facb-72e2-f578-516b08a25f64-C",
+    "amount": 27654190,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$27,654,190"
+  },
+  {
+    "rank": 402,
+    "recipient_name": "WORLD WIDE TECHNOLOGY LLC",
+    "recipient_id": "d96a4bfd-2da7-00c1-948d-44005efba1a1-C",
+    "amount": 27634732,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$27,634,732"
+  },
+  {
+    "rank": 403,
+    "recipient_name": "HDR ARCHITECTURE, INC.",
+    "recipient_id": "cf1ddc6f-27b8-6d44-e13c-eada0b5b6d87-C",
+    "amount": 27524976,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$27,524,976"
+  },
+  {
+    "rank": 404,
+    "recipient_name": "SIEMENS GOVERNMENT TECHNOLOGIES INC",
+    "recipient_id": "711c8d6c-e61e-ff97-78a4-2240a45d8684-C",
+    "amount": 27500488,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$27,500,488"
+  },
+  {
+    "rank": 405,
+    "recipient_name": "NETWORK DESIGNS, INC.",
+    "recipient_id": "9314c6ca-e51e-b4bb-64f5-29f569b38735-C",
+    "amount": 27456589,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$27,456,589"
+  },
+  {
+    "rank": 406,
+    "recipient_name": "DYNAMIC SYSTEMS TECHNOLOGY, INC.",
+    "recipient_id": "694a18af-4e41-59cb-a2e4-fcd4e626db7c-C",
+    "amount": 27151141,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$27,151,141"
+  },
+  {
+    "rank": 407,
+    "recipient_name": "EVIGILANT.COM, LLC",
+    "recipient_id": "ac478787-7c6b-dbf3-5d13-d2b23363c99a-C",
+    "amount": 27117009,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$27,117,009"
+  },
+  {
+    "rank": 408,
+    "recipient_name": "ADVANCED MANAGEMENT STRATEGIES GROUP, INC.",
+    "recipient_id": "1c70900b-8383-294b-2128-665646ab84fe-C",
+    "amount": 27107623,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$27,107,623"
+  },
+  {
+    "rank": 409,
+    "recipient_name": "ALUTIIQ INFORMATION MANAGEMENT, LLC",
+    "recipient_id": "5e7a6550-0b57-95a7-cdd1-a888d463c2ce-C",
+    "amount": 27083735,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$27,083,735"
+  },
+  {
+    "rank": 410,
+    "recipient_name": "PRODUCE SOURCE PARTNERS, INC.",
+    "recipient_id": "4aa83452-aefa-c047-6c29-f8a89c736c23-C",
+    "amount": 27071532,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$27,071,532"
+  },
+  {
+    "rank": 411,
+    "recipient_name": "LANCER INFORMATION SOLUTIONS, LLC",
+    "recipient_id": "ebab4895-f155-392d-b3ec-fca286753df2-C",
+    "amount": 27060718,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$27,060,718"
+  },
+  {
+    "rank": 412,
+    "recipient_name": "VALIANT GLOBAL DEFENSE SERVICES INC.",
+    "recipient_id": "3e8849bb-d4a7-c664-9900-3cc32c7d9f36-C",
+    "amount": 26994095,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$26,994,095"
+  },
+  {
+    "rank": 413,
+    "recipient_name": "CURTIN MARITIME CORP",
+    "recipient_id": "d1820a59-1886-cfa8-603a-80299b36c22f-C",
+    "amount": 26992265,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$26,992,265"
+  },
+  {
+    "rank": 414,
+    "recipient_name": "MAXIMUS FEDERAL CONSULTING, LLC",
+    "recipient_id": "6be0884c-0933-1815-48c1-7b0b343222c0-C",
+    "amount": 26920248,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$26,920,248"
+  },
+  {
+    "rank": 415,
+    "recipient_name": "SIGMATECH INC",
+    "recipient_id": "c9b40665-bbaa-4a0d-8ce4-5717167a604d-C",
+    "amount": 26735680,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$26,735,680"
+  },
+  {
+    "rank": 416,
+    "recipient_name": "RIVERSIDE RESEARCH INSTITUTE",
+    "recipient_id": "af8744f1-b6c5-6685-fec6-741c04f3751f-C",
+    "amount": 26632315,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$26,632,315"
+  },
+  {
+    "rank": 417,
+    "recipient_name": "GREAT HILL SOLUTIONS, LLC",
+    "recipient_id": "f7747802-731c-0690-b7a1-8774bfbfae9b-C",
+    "amount": 26611219,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$26,611,219"
+  },
+  {
+    "rank": 418,
+    "recipient_name": "HII MISSION TECHNOLOGIES CORP",
+    "recipient_id": "c542e79f-6952-bb17-1b88-4c553f80c95b-C",
+    "amount": 26602579,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$26,602,579"
+  },
+  {
+    "rank": 419,
+    "recipient_name": "ARCTIC SLOPE MISSION SERVICES LLC",
+    "recipient_id": "feddc64a-3256-2a41-33d2-c964074a07aa-C",
+    "amount": 26561218,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$26,561,218"
+  },
+  {
+    "rank": 420,
+    "recipient_name": "CIANBRO CORPORATION",
+    "recipient_id": "e544a31a-bb33-4028-888a-7e86afa740a6-C",
+    "amount": 26498000,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$26,498,000"
+  },
+  {
+    "rank": 421,
+    "recipient_name": "TRIPOINT SOLUTIONS, LLC",
+    "recipient_id": "8fdba303-3340-7540-89e7-1bcab17972bc-C",
+    "amount": 26327371,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$26,327,371"
+  },
+  {
+    "rank": 422,
+    "recipient_name": "ARSERVICES, LIMITED",
+    "recipient_id": "bb2cf977-f491-2531-63a4-d5388c065c82-C",
+    "amount": 26222757,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$26,222,757"
+  },
+  {
+    "rank": 423,
+    "recipient_name": "AT-IMPACT LLC",
+    "recipient_id": "a306d2e9-1e2e-c6c6-754c-c525f6fbc8f8-C",
+    "amount": 26106786,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$26,106,786"
+  },
+  {
+    "rank": 424,
+    "recipient_name": "INTEGRATED DATA SERVICES, LLC",
+    "recipient_id": "9ed7928b-7c89-cfdb-bd6f-a471607fd18a-C",
+    "amount": 25974137,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$25,974,137"
+  },
+  {
+    "rank": 425,
+    "recipient_name": "WWC GLOBAL LLC",
+    "recipient_id": "6d9b0b8c-25ea-c868-4707-841b4c64761b-C",
+    "amount": 25917335,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$25,917,335"
+  },
+  {
+    "rank": 426,
+    "recipient_name": "QED SYSTEMS, LLC",
+    "recipient_id": "07745be7-ed36-9334-3f90-27da093aa3b7-C",
+    "amount": 25892827,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$25,892,827"
+  },
+  {
+    "rank": 427,
+    "recipient_name": "ALPHA OMEGA INTEGRATION LLC",
+    "recipient_id": "e497f5e9-e86b-d863-b57c-6956d568afee-C",
+    "amount": 25853464,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$25,853,464"
+  },
+  {
+    "rank": 428,
+    "recipient_name": "ACCELERA SOLUTIONS INC",
+    "recipient_id": "d284378e-c35d-eb27-d360-a192ab19804e-C",
+    "amount": 25807921,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$25,807,921"
+  },
+  {
+    "rank": 429,
+    "recipient_name": "GREAT LAKES CHEESE CO INC",
+    "recipient_id": "f3ab128d-ff9d-08cf-78bb-44068c713b48-C",
+    "amount": 25590947,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$25,590,947"
+  },
+  {
+    "rank": 430,
+    "recipient_name": "PALANTIR TECHNOLOGIES INC.",
+    "recipient_id": "1ea8a9a4-3726-3491-9040-66950bb67606-C",
+    "amount": 25566900,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$25,566,900"
+  },
+  {
+    "rank": 431,
+    "recipient_name": "PAE GOVERNMENT SERVICES, INC.",
+    "recipient_id": "fd602973-d119-7ced-a3e7-11ecee5a9318-C",
+    "amount": 25478911,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$25,478,911"
+  },
+  {
+    "rank": 432,
+    "recipient_name": "ARANEA SOLUTIONS INC",
+    "recipient_id": "3bac03ed-8d40-8d18-dd1a-edfc5e880412-C",
+    "amount": 25160029,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$25,160,029"
+  },
+  {
+    "rank": 433,
+    "recipient_name": "IRVING BURTON ASSOCIATES, LLC",
+    "recipient_id": "ba61e2ac-53b9-4ec6-85f5-74e11a7e392f-C",
+    "amount": 25109938,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$25,109,938"
+  },
+  {
+    "rank": 434,
+    "recipient_name": "BY LIGHT PROFESSIONAL IT SERVICES LLC",
+    "recipient_id": "8865e640-b894-b272-86e2-ddd91808ae46-C",
+    "amount": 25059318,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$25,059,318"
+  },
+  {
+    "rank": 435,
+    "recipient_name": "JANUS RESEARCH GROUP, LLC",
+    "recipient_id": "334bdc1d-6749-c6ff-4920-3248f4a182cb-C",
+    "amount": 25052159,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$25,052,159"
+  },
+  {
+    "rank": 436,
+    "recipient_name": "THE MISSION ESSENTIAL GROUP, LLC",
+    "recipient_id": "096c0d36-de31-cbff-dfdf-36a0ac2ab9ae-C",
+    "amount": 25037874,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$25,037,874"
+  },
+  {
+    "rank": 437,
+    "recipient_name": "RIVA SOLUTIONS INC",
+    "recipient_id": "b0540572-b3ff-5a18-ae1c-c18561079743-C",
+    "amount": 25024777,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$25,024,777"
+  },
+  {
+    "rank": 438,
+    "recipient_name": "ENTERPRISE RESOURCE PLANNED SYSTEMS INTERNATIONAL, LLC",
+    "recipient_id": "eb49f407-9c16-af12-bd0b-f6ea3d7dd317-C",
+    "amount": 25016622,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$25,016,622"
+  },
+  {
+    "rank": 439,
+    "recipient_name": "L3HARRIS TECHNOLOGIES, INC.",
+    "recipient_id": "b3fdaac6-a70d-abb7-f1b8-fce717f51597-C",
+    "amount": 25000000,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$25,000,000"
+  },
+  {
+    "rank": 440,
+    "recipient_name": "BOWHEAD PROFESSIONAL AND TECHNICAL SOLUTIONS LLC",
+    "recipient_id": "b2902bbf-84e1-8f13-dbc9-1d2feb95a521-C",
+    "amount": 24970851,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$24,970,851"
+  },
+  {
+    "rank": 441,
+    "recipient_name": "MAG DS CORP",
+    "recipient_id": "c7bc0a8a-1e5d-9b1e-4881-aff39e7afdfe-C",
+    "amount": 24947397,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$24,947,397"
+  },
+  {
+    "rank": 442,
+    "recipient_name": "ARGO TURBOSERVE CORPORATION",
+    "recipient_id": "cb4efeff-f6fd-805e-7766-1d907c6b81e8-C",
+    "amount": 24920219,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$24,920,219"
+  },
+  {
+    "rank": 443,
+    "recipient_name": "THE SOURCE GROUP, INC.",
+    "recipient_id": "695ca4a7-0e6c-2a6b-f7ff-5c35f23a943e-C",
+    "amount": 24891522,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$24,891,522"
+  },
+  {
+    "rank": 444,
+    "recipient_name": "FOUNDATION MEDICINE, INC.",
+    "recipient_id": "7cb9321d-0162-4b81-d2e4-edb3c6ec300b-C",
+    "amount": 24848664,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$24,848,664"
+  },
+  {
+    "rank": 445,
+    "recipient_name": "SALIENT FEDERAL-SGIS INC",
+    "recipient_id": "8df071b7-371e-02b5-a31f-f3db8129ec91-C",
+    "amount": 24759277,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$24,759,277"
+  },
+  {
+    "rank": 446,
+    "recipient_name": "REDHAWK IT SOLUTIONS, LLC",
+    "recipient_id": "4c61a834-8a33-b7ca-aaa3-d58f9baf2e49-C",
+    "amount": 24753730,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$24,753,730"
+  },
+  {
+    "rank": 447,
+    "recipient_name": "OMEGA AERIAL REFUELING SERVICES, INC.",
+    "recipient_id": "60a36784-ff2f-2828-cc50-7b0d21221e61-C",
+    "amount": 24518589,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$24,518,589"
+  },
+  {
+    "rank": 448,
+    "recipient_name": "TALU LLC",
+    "recipient_id": "25eb3918-b262-5b46-c20e-c17821f0901d-C",
+    "amount": 24460345,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$24,460,345"
+  },
+  {
+    "rank": 449,
+    "recipient_name": "SALIENT FEDERAL SOLUTIONS, INC.",
+    "recipient_id": "6cca9603-9e68-7923-f40f-c0bcc7cb3380-C",
+    "amount": 24414800,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$24,414,800"
+  },
+  {
+    "rank": 450,
+    "recipient_name": "FEDBIZ IT SOLUTIONS LLC",
+    "recipient_id": "2bbe335d-7e61-f0b9-818e-62e3a78d0397-C",
+    "amount": 24325137,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$24,325,137"
+  },
+  {
+    "rank": 451,
+    "recipient_name": "CHUGACH TECHNICAL SOLUTIONS LLC",
+    "recipient_id": "9b406649-9b1a-1c70-c72a-de5d9fb6f986-C",
+    "amount": 24294164,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$24,294,164"
+  },
+  {
+    "rank": 452,
+    "recipient_name": "UNISON SOFTWARE INC",
+    "recipient_id": "6a34a51d-139f-c092-7b54-3fe5bbd48ecc-C",
+    "amount": 24278403,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$24,278,403"
+  },
+  {
+    "rank": 453,
+    "recipient_name": "ACUITY INC",
+    "recipient_id": "d916665f-8b24-8e24-9e77-25bd4a7010df-C",
+    "amount": 24268893,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$24,268,893"
+  },
+  {
+    "rank": 454,
+    "recipient_name": "CONCEPT PLUS, LLC",
+    "recipient_id": "096d5530-645b-34c8-88a4-d6ad617552e3-C",
+    "amount": 24149328,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$24,149,328"
+  },
+  {
+    "rank": 455,
+    "recipient_name": "CYDECOR INC.",
+    "recipient_id": "5a2b4109-779b-1f5b-0578-6e9d4095efc7-C",
+    "amount": 24124855,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$24,124,855"
+  },
+  {
+    "rank": 456,
+    "recipient_name": "CELLCO PARTNERSHIP",
+    "recipient_id": "f02045e8-ef98-57c5-2968-cd9f60dbc24a-C",
+    "amount": 24118366,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$24,118,366"
+  },
+  {
+    "rank": 457,
+    "recipient_name": "EVERFOX LLC",
+    "recipient_id": "567bd779-ce6e-df0d-7148-7684672206ec-C",
+    "amount": 24078132,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$24,078,132"
+  },
+  {
+    "rank": 458,
+    "recipient_name": "CELERITY GOVERNMENT SOLUTIONS LLC",
+    "recipient_id": "ccd78a76-9474-7cdb-972e-bdbd5d305cb7-C",
+    "amount": 24060566,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$24,060,566"
+  },
+  {
+    "rank": 459,
+    "recipient_name": "TECHNICA CORPORATION",
+    "recipient_id": "8cebbd42-cb32-b5f2-784c-4afbba64f631-C",
+    "amount": 24029825,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$24,029,825"
+  },
+  {
+    "rank": 460,
+    "recipient_name": "RESOURCE MANAGEMENT CONCEPTS, INC.",
+    "recipient_id": "fa426c29-a1e9-7091-5ea0-8b65cd09d57e-C",
+    "amount": 23888681,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$23,888,681"
+  },
+  {
+    "rank": 461,
+    "recipient_name": "DISYS SOLUTIONS, INC.",
+    "recipient_id": "9b66417e-ec21-2772-c91e-a41e40707090-C",
+    "amount": 23867662,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$23,867,662"
+  },
+  {
+    "rank": 462,
+    "recipient_name": "RQ CONSTRUCTION, LLC",
+    "recipient_id": "cfa69dd8-4b23-ff60-720d-4b32d819868b-C",
+    "amount": 23845560,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$23,845,560"
+  },
+  {
+    "rank": 463,
+    "recipient_name": "ALEXANDRIA INSIGHTS, INC.",
+    "recipient_id": "f00656a9-2828-e4c8-1f43-8726e4332356-C",
+    "amount": 23801404,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$23,801,404"
+  },
+  {
+    "rank": 464,
+    "recipient_name": "CHENEGA INFINITY, LLC",
+    "recipient_id": "d9190407-91ce-90cd-b653-b8e84ef900fc-C",
+    "amount": 23789507,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$23,789,507"
+  },
+  {
+    "rank": 465,
+    "recipient_name": "SOFT TECH CONSULTING, INC.",
+    "recipient_id": "8651becb-bc7e-7f4b-9b39-928f8a38ce66-C",
+    "amount": 23752484,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$23,752,484"
+  },
+  {
+    "rank": 466,
+    "recipient_name": "BCF SOLUTIONS, INC.",
+    "recipient_id": "d55c3098-63ec-24e9-f5e5-b5c6893df984-C",
+    "amount": 23738842,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$23,738,842"
+  },
+  {
+    "rank": 467,
+    "recipient_name": "MIDNIGHT SUN-CENTENNIAL KIRRATCHIAQ JV, LLC",
+    "recipient_id": "c116f6d8-9419-890c-65f5-fb79850c6fba-C",
+    "amount": 23688991,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$23,688,991"
+  },
+  {
+    "rank": 468,
+    "recipient_name": "MICHAEL STAPLETON ASSOCIATES, LTD.",
+    "recipient_id": "d871f267-14c7-a935-3cdd-c751333c1958-C",
+    "amount": 23524375,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$23,524,375"
+  },
+  {
+    "rank": 469,
+    "recipient_name": "LEIDOS, INC.",
+    "recipient_id": "ecd408f1-c41f-2c93-2bdb-cd5a6fc0ffdf-C",
+    "amount": 23423912,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$23,423,912"
+  },
+  {
+    "rank": 470,
+    "recipient_name": "W. M. JORDAN COMPANY, INCORPORATED",
+    "recipient_id": "13bdb4c1-63a8-384e-16fc-91607ba8ee13-C",
+    "amount": 23419851,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$23,419,851"
+  },
+  {
+    "rank": 471,
+    "recipient_name": "INTELLIWARE SYSTEMS INC",
+    "recipient_id": "7c4f8ef0-6d14-f777-e3e2-3da73edd44e3-C",
+    "amount": 23398028,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$23,398,028"
+  },
+  {
+    "rank": 472,
+    "recipient_name": "STRATEGIC AIRBORNE OPERATIONS JV, LLC",
+    "recipient_id": "1e9e9e26-1fd2-4759-cc63-09979de7fda1-C",
+    "amount": 23350177,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$23,350,177"
+  },
+  {
+    "rank": 473,
+    "recipient_name": "SIERRA7, INC.",
+    "recipient_id": "4c8a4efd-2123-0b6f-3767-e43cf1681a8a-C",
+    "amount": 23340096,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$23,340,096"
+  },
+  {
+    "rank": 474,
+    "recipient_name": "CROWLEY GOVERNMENT SERVICES, INC.",
+    "recipient_id": "572e442b-f0f8-e4ab-6a99-b97521c958ef-C",
+    "amount": 23287998,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$23,287,998"
+  },
+  {
+    "rank": 475,
+    "recipient_name": "HIVE GROUP, LLC",
+    "recipient_id": "206ea931-afb5-c196-331e-be2bc4cc0250-C",
+    "amount": 23246853,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$23,246,853"
+  },
+  {
+    "rank": 476,
+    "recipient_name": "CAPPS SHOE COMPANY, LLC",
+    "recipient_id": "72ef4f48-fad2-6e44-2acc-a479fcd32f25-C",
+    "amount": 23173313,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$23,173,313"
+  },
+  {
+    "rank": 477,
+    "recipient_name": "DEFINITIVE LOGIC CORPORATION",
+    "recipient_id": "8b98966a-66f9-df19-714d-12aa8ae99820-C",
+    "amount": 23136270,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$23,136,270"
+  },
+  {
+    "rank": 478,
+    "recipient_name": "ANALYTIC SERVICES INC.",
+    "recipient_id": "0c99f46d-305c-e656-a974-62d85012933d-C",
+    "amount": 22921778,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$22,921,778"
+  },
+  {
+    "rank": 479,
+    "recipient_name": "OCTO CONSULTING GROUP LLC",
+    "recipient_id": "a8d2abcb-8ce1-7b83-07cc-02fe114f9d9f-C",
+    "amount": 22897578,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$22,897,578"
+  },
+  {
+    "rank": 480,
+    "recipient_name": "INSIGNIA TECHNOLOGY SERVICES, LLC",
+    "recipient_id": "2d716401-7946-1061-dd4a-134573f67335-C",
+    "amount": 22873409,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$22,873,409"
+  },
+  {
+    "rank": 481,
+    "recipient_name": "NATIONAL ASSOCIATION OF STATE MENTAL HEALTH PROGRAM DIRECTORS INC.",
+    "recipient_id": "3f51c52c-a7f8-b5b4-764b-f9a0c010de19-C",
+    "amount": 22866179,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$22,866,179"
+  },
+  {
+    "rank": 482,
+    "recipient_name": "ALEUT O&M SERVICES, LLC",
+    "recipient_id": "1700baf6-5ab1-18dc-18a0-1a122018fb67-C",
+    "amount": 22813687,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$22,813,687"
+  },
+  {
+    "rank": 483,
+    "recipient_name": "GEMINI INDUSTRIES INC.",
+    "recipient_id": "97fde98a-a122-3065-77e7-47bbb847b8ea-C",
+    "amount": 22794661,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$22,794,661"
+  },
+  {
+    "rank": 484,
+    "recipient_name": "DAVIS DEFENSE GROUP, INC.",
+    "recipient_id": "7175b06f-8a47-d003-d854-94f372d66bcd-C",
+    "amount": 22659176,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$22,659,176"
+  },
+  {
+    "rank": 485,
+    "recipient_name": "AGILE-BOT II LLC",
+    "recipient_id": "96eda1fe-1d5b-f99f-7333-7751543bc6f4-C",
+    "amount": 22560190,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$22,560,190"
+  },
+  {
+    "rank": 486,
+    "recipient_name": "INCENTIVE TECHNOLOGY GROUP LLC",
+    "recipient_id": "ba54128b-d307-1a1b-8efb-7fd3c35ec697-C",
+    "amount": 22523477,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$22,523,477"
+  },
+  {
+    "rank": 487,
+    "recipient_name": "TUVA LLC",
+    "recipient_id": "326f0a80-1f66-cf3e-1457-a36860ca127b-C",
+    "amount": 22509277,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$22,509,277"
+  },
+  {
+    "rank": 488,
+    "recipient_name": "CYBERMEDIA TECHNOLOGIES, LLC",
+    "recipient_id": "62f50ed8-787f-b747-13db-3d1cccacadab-C",
+    "amount": 22495994,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$22,495,994"
+  },
+  {
+    "rank": 489,
+    "recipient_name": "JOHN C. GRIMBERG CO., INC.",
+    "recipient_id": "1200044c-ba09-d2a9-276c-4c5f5b853ca5-C",
+    "amount": 22483753,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$22,483,753"
+  },
+  {
+    "rank": 490,
+    "recipient_name": "TECHNOLOGY TRENDS GROUP, LLC",
+    "recipient_id": "e612943f-06a0-492b-4a08-8e85d468e11d-C",
+    "amount": 22431783,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$22,431,783"
+  },
+  {
+    "rank": 491,
+    "recipient_name": "RIOS PARTNERS, LLC",
+    "recipient_id": "bc1f1714-e561-c924-9e6e-3b29662ceb7a-C",
+    "amount": 22362442,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$22,362,442"
+  },
+  {
+    "rank": 492,
+    "recipient_name": "ARGON ST, INC.",
+    "recipient_id": "ad6fbadc-dd82-ab98-07fb-aeca67a38325-C",
+    "amount": 22277984,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$22,277,984"
+  },
+  {
+    "rank": 493,
+    "recipient_name": "DEVELOPMENT INFOSTRUCTURE LLC",
+    "recipient_id": "1051d3a9-553c-dffe-30d0-40b605827251-C",
+    "amount": 22253284,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$22,253,284"
+  },
+  {
+    "rank": 494,
+    "recipient_name": "COMPQSOFT, INC.",
+    "recipient_id": "24724179-ffa9-b86c-b68b-26ce7f4088ab-C",
+    "amount": 22145067,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$22,145,067"
+  },
+  {
+    "rank": 495,
+    "recipient_name": "EAGLE HARBOR, LLC",
+    "recipient_id": "6b3212a5-02c4-d64f-0b6f-7dba38a17821-C",
+    "amount": 22142960,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$22,142,960"
+  },
+  {
+    "rank": 496,
+    "recipient_name": "SOURCEAMERICA",
+    "recipient_id": "fd8c901d-647b-702c-9818-73b0fbacb6b6-C",
+    "amount": 22141576,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$22,141,576"
+  },
+  {
+    "rank": 497,
+    "recipient_name": "M2 TECHNOLOGY, INC.",
+    "recipient_id": "2a5e5d64-3506-b9b4-b0b5-c8a89266db63-C",
+    "amount": 22116628,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$22,116,628"
+  },
+  {
+    "rank": 498,
+    "recipient_name": "COASTAL DESIGN & CONSTRUCTION, INC",
+    "recipient_id": "97dd7005-c5dd-824d-c89a-a107377ab981-C",
+    "amount": 22109181,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$22,109,181"
+  },
+  {
+    "rank": 499,
+    "recipient_name": "COMMUNICATIONS RESOURCE INC",
+    "recipient_id": "a99992cc-4da9-4456-adef-e44bd83c59f2-C",
+    "amount": 22073075,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$22,073,075"
+  },
+  {
+    "rank": 500,
+    "recipient_name": "DZYNE TECHNOLOGIES, LLC",
+    "recipient_id": "71908073-5b98-4fb4-0a77-b5e04ad6953f-C",
+    "amount": 22070856,
+    "fiscal_year": "2022",
+    "state": "VA",
+    "amount_formatted": "$22,070,856"
+  }
+]
