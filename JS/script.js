@@ -1,5 +1,3 @@
-
-
 // DOM Elements
 const sections = document.querySelectorAll('section');
 const navLinks = document.querySelectorAll('nav ul li a');
@@ -97,7 +95,6 @@ function setupMobileMenu() {
     });
 }
 
-
 function setupVisualizationPlaceholders() {
     // Placeholder loader animations
     const placeholders = document.querySelectorAll('.visualization-placeholder');
@@ -111,6 +108,17 @@ function setupVisualizationPlaceholders() {
             }, 1000);
         }
     });
+    
+    // Add links to external visualizations
+    if (document.getElementById('timeline-viz')) {
+        const timelineViz = document.getElementById('timeline-viz');
+        timelineViz.innerHTML = `
+            <div class="viz-redirect">
+                <p>The animated bar chart visualization is available on a separate page.</p>
+                <a href="barchart.html" class="btn primary">View Bar Chart</a>
+            </div>
+        `;
+    }
 }
 
 // Placeholder functions for actual visualizations
