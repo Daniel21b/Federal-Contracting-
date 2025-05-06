@@ -1,12 +1,14 @@
-#vis svg {
+.purple-grid #vis svg {
     margin: 2rem 0;
-    border: 1px solid #120d0d;
-    background-color: #000000d7;
+    background-color: #1a1a1a;
+    display: block;
+    margin: auto;
 }
 
-path {
+.purple-grid path {
     stroke-width: 1px;
     stroke: #666;
+    transform: translate(50px, 50px);
 }
 
 .container {

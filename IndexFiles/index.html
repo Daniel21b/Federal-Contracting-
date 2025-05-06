@@ -5,7 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Federal Contracting Bar Chart Race</title>
   <link rel="stylesheet" href="../CSS/styles.css"/>
-  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <link rel="stylesheet" href="../CSS/map.css"/>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="https://d3js.org/topojson.v3.min.js"></script>
+  <script src="https://unpkg.com/flubber@0.4.2/build/flubber.min.js"></script>
 </head>
 <body>
   <div class="main-content">
@@ -14,19 +17,28 @@
     <section id="map-section">
       <div class="map-header">
         <h2>Geographic Distribution</h2>
-        <h2>Map name</h2>
+        <h2 id="state-name">California</h2>
       </div>
 
       <div class="map-grids">
         <div class="grid-container">
           <div class="inner-grid-container">
-            <div class="region-selector" id="map-vis"></div>
+            <div class="region-selector">
+              <h3>Select State</h3>
+              <ul>
+                <li><button onclick="morphToStateById('CA')">CA</button></li>
+                <li><button onclick="morphToStateById('MD')">MD</button></li>
+                <li><button onclick="morphToStateById('VA')">VA</button></li>
+              </ul>
+            </div>
             <div class="data-display"></div>
           </div>
         </div>
 
         <div class="grid-container purple-grid">
-         
+          <div id="vis">
+            <svg width="580" height="350"></svg>
+          </div>
         </div>
       </div>
     </section>
@@ -74,5 +86,6 @@
   </footer>
 
   <script src="JS/barchart.js"></script>
+  <script src="../JS/map.js"></script>
 </body>
 </html>
