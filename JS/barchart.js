@@ -40,11 +40,11 @@ function createControls() {
 
 // ── LOAD & NORMALIZE JSON ──────────────────────────────────────────────────────
 Promise.all([
-  d3.json("./data/CAd/ca_recipients_fy2020_2025-05-05.json"),
-  d3.json("./data/CAd/ca_recipients_fy2021_2025-05-05.json"),
-  d3.json("./data/CAd/ca_recipients_fy2022_2025-05-05.json"),
-  d3.json("./data/CAd/ca_recipients_fy2023_2025-05-05.json"),
-  d3.json("./data/CAd/ca_recipients_fy2024_2025-05-05.json")
+  d3.json("../data/BarChartCaliforniadata/ca_recipients_fy2020_2025-05-05.json"),
+  d3.json("../data/BarChartCaliforniadata/ca_recipients_fy2021_2025-05-05.json"),
+  d3.json("../data/BarChartCaliforniadata/ca_recipients_fy2022_2025-05-05.json"),
+  d3.json("../data/BarChartCaliforniadata/ca_recipients_fy2023_2025-05-05.json"),
+  d3.json("../data/BarChartCaliforniadata/ca_recipients_fy2024_2025-05-05.json")
 ])
 .then(allData => {
   console.log("Loaded data from all years");
