@@ -19,12 +19,20 @@ var stateNames = {
 var svgWidth = parseInt(svg.attr("width"));
 var svgHeight = parseInt(svg.attr("height"));
 
-// Complete state color mapping with lighter shades - only for allowed states
+// Complete state color mapping for maps
 var stateColors = {
-    'CA': '#f5deb3', // Beige
-    'MD': '#f4d35e', // Lavender
-    'VA': '#e6b89c', // Lavender
+    'CA': '#FFD670', // Beige
+    'MD': '#f4d35e', // Golden yellow
+    'VA': '#e6b89c', // Light peach
     'default': '#F5F5F5' // White smoke
+};
+
+// Text color mapping
+var textColors = {
+    'CA': '#70d6ff', // Coral red
+    'MD': '#4ecdc4', // Turquoise
+    'VA': '#45b7d1', // Sky blue
+    'default': '#FFFFFF' // White
 };
 
 function getBoundingBox(coordinates) {
