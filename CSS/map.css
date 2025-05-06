@@ -1,0 +1,39 @@
+#vis svg {
+    margin: 2rem 0;
+    border: 1px solid #120d0d;
+    background-color: #000000d7;
+}
+
+
+
+path {
+    stroke-width: 1px;
+    stroke: #666;
+}
+
+.container {
+    padding: 2rem 0;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.form-check {
+    margin: 0.5rem 1rem;
+}
+
+.form-check-label {
+    cursor: pointer;
+}
+
+.controls {
+    margin: 20px;
+}
+
+.radio-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
