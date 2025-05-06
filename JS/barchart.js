@@ -9,6 +9,7 @@ const marginRight= 6;
 const marginBottom=6;
 const marginLeft = 120;    // Increased to make room for labels
 const barSize    = 48;
+let currentState = "ca";  // Default state is California
 
 // Add controls container and button
 function createControls() {
@@ -17,7 +18,29 @@ function createControls() {
     .attr("class", "race-controls")
     .style("text-align", "center")
     .style("margin", "20px 0");
-    controls.append("button")
+    
+  // Add state selector
+  controls.append("select")
+    .attr("class", "state-selector")
+    .style("padding", "10px")
+    .style("font-size", "16px")
+    .style("margin-right", "20px")
+    .on("change", function() {
+      currentState = this.value;
+      loadDataAndCreateChart(currentState);
+    })
+    .selectAll("option")
+    .data([
+      {value: "ca", text: "California"},
+      {value: "md", text: "Maryland"},
+      {value: "va", text: "Virginia"}
+    ])
+    .enter()
+    .append("option")
+    .attr("value", d => d.value)
+    .text(d => d.text);
+    
+  controls.append("button")
     .attr("class", "start-button")
     .text("Start Race")
     .style("padding", "10px 20px")
@@ -35,47 +58,86 @@ function createControls() {
       d3.select(this).style("background-color", "#4CAF50");
     });
 
-  return controls.select(".start-button");
+  return controls;
 }
 
-// ── LOAD & NORMALIZE JSON ──────────────────────────────────────────────────────
-Promise.all([
-  d3.json("../data/BarChartCaliforniadata/ca_recipients_fy2020_2025-05-05.json"),
-  d3.json("../data/BarChartCaliforniadata/ca_recipients_fy2021_2025-05-05.json"),
-  d3.json("../data/BarChartCaliforniadata/ca_recipients_fy2022_2025-05-05.json"),
-  d3.json("../data/BarChartCaliforniadata/ca_recipients_fy2023_2025-05-05.json"),
-  d3.json("../data/BarChartCaliforniadata/ca_recipients_fy2024_2025-05-05.json")
-])
-.then(allData => {
-  console.log("Loaded data from all years");
+// Function to load data for a specific state
+function loadDataAndCreateChart(stateCode) {
+  // Clear existing chart
+  d3.select("#vis svg").remove();
   
-  // Combine and flatten the data from all years
-  const raw = allData.flat();
+  // Show loading message
+  const loadingMsg = d3.select("#vis").append("p")
+    .attr("class", "loading-message")
+    .text(`Loading ${stateCode.toUpperCase()} data...`);
   
-  // flatten into { date: Date, name: String, value: Number, category? }
-  const data = raw.map(d => {
-    const year = parseInt(d.fiscal_year);
-    return {
-      date: new Date(year, 0, 1),
-      name: d.recipient_name,
-      value: +d.amount,
-      category: d.state
-    };
-  });
+  // Get correct data directory name based on state code
+  let dataDir;
+  if (stateCode === "ca") {
+    dataDir = "BarChartCaliforniadata";
+  } else if (stateCode === "md") {
+    dataDir = "BarChartMarylandData";
+  } else if (stateCode === "va") {
+    dataDir = "BarChartVirginiaData";
+  }
+  
+  Promise.all([
+    d3.json(`../data/${dataDir}/${stateCode}_recipients_fy2020_2025-05-05.json`),
+    d3.json(`../data/${dataDir}/${stateCode}_recipients_fy2021_2025-05-05.json`),
+    d3.json(`../data/${dataDir}/${stateCode}_recipients_fy2022_2025-05-05.json`),
+    d3.json(`../data/${dataDir}/${stateCode}_recipients_fy2023_2025-05-05.json`),
+    d3.json(`../data/${dataDir}/${stateCode}_recipients_fy2024_2025-05-05.json`)
+  ])
+  .then(allData => {
+    console.log(`Loaded data for ${stateCode.toUpperCase()}`);
+    
+    // Remove loading message
+    loadingMsg.remove();
+    
+    // Combine and flatten the data from all years
+    const raw = allData.flat();
+    
+    // flatten into { date: Date, name: String, value: Number, category? }
+    const data = raw.map(d => {
+      const year = parseInt(d.fiscal_year);
+      return {
+        date: new Date(year, 0, 1),
+        name: d.recipient_name,
+        value: +d.amount,
+        category: d.state
+      };
+    });
 
-  // Log summary of years and records
-  const years = [...new Set(data.map(d => d.date.getFullYear()))].sort();
-  console.log("Years in dataset:", years);
-  console.log("Total records:", data.length);
-  
-  // Create the race chart with start button
-  createRaceChart(data);
-})
-.catch(err => console.error("Error loading JSON:", err));
+    // Log summary of years and records
+    const years = [...new Set(data.map(d => d.date.getFullYear()))].sort();
+    console.log("Years in dataset:", years);
+    console.log("Total records:", data.length);
+    
+    // Create the race chart with start button
+    createRaceChart(data);
+  })
+  .catch(err => {
+    console.error(`Error loading ${stateCode.toUpperCase()} JSON:`, err);
+    loadingMsg.text(`Error loading data for ${stateCode.toUpperCase()}. Please try another state.`);
+  });
+}
+
+// Helper function to capitalize first letter
+function capitalizeFirstLetter(string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
+// ── MAIN ENTRY ─────────────────────────────────────────────────────────────────
+// Initialize with California data on page load
+document.addEventListener('DOMContentLoaded', () => {
+  createControls();
+  loadDataAndCreateChart(currentState);
+});
 
 function createRaceChart(data) {
-  // Create the start button
-  const startButton = createControls();
+  // Get controls already created
+  const controls = d3.select(".race-controls");
+  const startButton = controls.select(".start-button");
   
   // Function to run the race
   async function runRace() {
