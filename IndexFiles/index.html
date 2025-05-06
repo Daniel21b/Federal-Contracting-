@@ -1,63 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Federal Contracting Bar Chart Race</title>
-    <link rel="stylesheet" href="../CSS/styles.css">
-    <script src="https://d3js.org/d3.v7.min.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Federal Contracting Bar Chart Race</title>
+  <link rel="stylesheet" href="../CSS/styles.css"/>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
 </head>
 <body>
-    <div class="main-content">
-        <h1>Tracing Federal Dollars: A State-by-State Exploration of U.S. Government Contracting</h1>
-        
-        <section id="map-section">
-            <h2>Geographic Distribution</h2>
-            <div id="map-vis"></div>
-        </section>
+  <div class="main-content">
+    <h1>Tracing Federal Dollars: A State-by-State Exploration of U.S. Government Contracting</h1>
 
-        <section id="barchart-section">
-            <h2>Contract Values Over Time</h2>
-            <div id="bar-vis"></div>
-        </section>
+    <section id="map-section">
+      <div class="map-header">
+        <h2>Geographic Distribution</h2>
+        <h2>Map name</h2>
+      </div>
 
-        <section id="sankey-section">
-            <h2>Fund Flow Analysis</h2>
-            <div id="sankey-vis"></div>
-        </section>
-
-        <section id="sunburst-section">
-            <h2>Hierarchical Contract Distribution</h2>
-            <div id="sunburst-vis"></div>
-        </section>
-    </div>
-
-    <footer>
-        <div class="footer-content">
-            <div class="footer-section">
-                <h3>About</h3>
-                <p>© 2024 Federal Contracting Analysis</p>
-                <p>All rights reserved.</p>
-            </div>
-            <div class="footer-section">
-                <h3>Resources</h3>
-                <ul>
-                    <li>Documentation</li>
-                    <li>Data Sources</li>
-                    <li>Methodology</li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h3>Contact</h3>
-                <ul>
-                    <li>Support</li>
-                    <li>Feedback</li>
-                    <li>GitHub</li>
-                </ul>
-            </div>
+      <div class="map-grids">
+        <div class="grid-container">
+          <div class="inner-grid-container">
+            <div class="region-selector" id="map-vis"></div>
+            <div class="data-display"></div>
+          </div>
         </div>
-    </footer>
 
-    <script src="JS/barchart.js"></script>
+        <div class="grid-container purple-grid">
+         
+        </div>
+      </div>
+    </section>
+
+    <section id="barchart-section">
+      <h2>Contract Values Over Time</h2>
+      <div id="bar-vis"></div>
+    </section>
+
+    <section id="sankey-section">
+      <h2>Fund Flow Analysis</h2>
+      <div id="sankey-vis"></div>
+    </section>
+
+    <section id="sunburst-section">
+      <h2>Hierarchical Contract Distribution</h2>
+      <div id="sunburst-vis"></div>
+    </section>
+  </div>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>About</h3>
+        <p>© 2024 Federal Contracting Analysis</p>
+        <p>All rights reserved.</p>
+      </div>
+      <div class="footer-section">
+        <h3>Resources</h3>
+        <ul>
+          <li>Documentation</li>
+          <li>Data Sources</li>
+          <li>Methodology</li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Contact</h3>
+        <ul>
+          <li>Support</li>
+          <li>Feedback</li>
+          <li>GitHub</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="JS/barchart.js"></script>
 </body>
-</html> 
+</html>

@@ -31,6 +31,52 @@ section {
     border-color: #FF6B6B;
 }
 
+#map-section > h2 {
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.grid-container {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 8px;
+    margin-top: 15px;
+    max-width: 45%;
+    margin-right: auto;
+    margin-left: 0;
+    min-height: 500px;
+}
+
+.inner-grid-container {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.region-selector {
+    background-color: #1a1a1a;
+    border: 2px solid;
+    padding: 15px;
+    border-radius: 6px;
+    min-width: 100px;
+    min-height: 150px;
+    height: fit-content;
+    align-self: stretch;
+}
+
+.data-display {
+    background-color: #1a1a1a;
+    border: 2px solid;
+    padding: 15px;
+    border-radius: 6px;
+    flex-grow: 1;
+    min-height: 450px;
+    height: fit-content;
+    align-self: stretch;
+}
+
 #barchart-section {
     border-color: #4ECDC4;
 }
@@ -96,4 +142,39 @@ footer {
     margin: 16px 0;
     color: #666;
     font-size: 16px;
+}
+
+/* New rules for the two side-by-side grids */
+/* make the two panels share the space equally */
+.map-grids {
+    display: flex;
+    gap: 20px;
+}
+.map-grids .grid-container {
+    margin: 0;
+    max-width: none;
+    flex: 1;
+}
+  
+.purple-grid {
+    background-color: #1a1a1a;
+    border: 2px solid;
+    border-color: #800080;
+}
+
+.map-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+}
+
+.map-header h2 {
+    margin: 0;
+}
+
+.map-header h2:last-child {
+    margin-left: 1000px;  /* Adjust this value to increase/decrease the space */
 }
