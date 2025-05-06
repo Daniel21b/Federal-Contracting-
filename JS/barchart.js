@@ -82,11 +82,11 @@ function loadDataAndCreateChart(stateCode) {
   }
   
   Promise.all([
-    d3.json(`../data/${dataDir}/${stateCode}_recipients_fy2020_2025-05-05.json`),
-    d3.json(`../data/${dataDir}/${stateCode}_recipients_fy2021_2025-05-05.json`),
-    d3.json(`../data/${dataDir}/${stateCode}_recipients_fy2022_2025-05-05.json`),
-    d3.json(`../data/${dataDir}/${stateCode}_recipients_fy2023_2025-05-05.json`),
-    d3.json(`../data/${dataDir}/${stateCode}_recipients_fy2024_2025-05-05.json`)
+    d3.json(`../data 2/${dataDir}/${stateCode}_recipients_fy2020_2025-05-05.json`),
+    d3.json(`../data 2/${dataDir}/${stateCode}_recipients_fy2021_2025-05-05.json`),
+    d3.json(`../data 2/${dataDir}/${stateCode}_recipients_fy2022_2025-05-05.json`),
+    d3.json(`../data 2/${dataDir}/${stateCode}_recipients_fy2023_2025-05-05.json`),
+    d3.json(`../data 2/${dataDir}/${stateCode}_recipients_fy2024_2025-05-05.json`)
   ])
   .then(allData => {
     console.log(`Loaded data for ${stateCode.toUpperCase()}`);
@@ -231,14 +231,18 @@ function runBarChartRace(data) {
       .rangeRound([marginTop, marginTop + barSize*(n+1.1)])
       .padding(0.1);
 
-  // color scale (by category or name)
+  // Enhanced color scale - generate distinct colors for better visual appeal
   const color = (() => {
-    const scale = d3.scaleOrdinal(d3.schemeTableau10);
-    if (data.some(d => d.category !== undefined)) {
-      scale.domain(Array.from(new Set(data.map(d=>d.category))));
-      return d => scale(d.category);
-    }
-    return d => scale(d.name);
+    // Create a colorful, enhanced scheme by interpolating between vibrant hues
+    const generateColors = (count) => {
+      return d3.quantize(t => d3.interpolateRainbow(t * 0.85), count);
+    };
+    
+    // Create palette with enough distinct colors for all bars
+    const colorPalette = generateColors(n);
+    
+    // Use enhanced color palette based on rank to ensure consistent, distinct colors
+    return d => colorPalette[d.rank % colorPalette.length];
   })();
 
   // Generate the race
@@ -281,7 +285,8 @@ function runBarChartRace(data) {
 // They don't need to change now that data items are {name,value,date}.
 
 function bars(svg, x, y, color, prev, next) {
-  let bar = svg.append("g").attr("fill-opacity",0.6).selectAll("rect");
+  // Improved fill opacity for better color vibrancy while maintaining readability
+  let bar = svg.append("g").attr("fill-opacity", 0.75).selectAll("rect");
   return ([, data], transition) => bar = bar
     .data(data.slice(0,n), d=>d.name)
     .join(
@@ -290,7 +295,9 @@ function bars(svg, x, y, color, prev, next) {
         .attr("height", y.bandwidth())
         .attr("x", x(0))
         .attr("y", d=>y((prev.get(d)||d).rank))
-        .attr("width", d=>x((prev.get(d)||d).value)-x(0)),
+        .attr("width", d=>x((prev.get(d)||d).value)-x(0))
+        // Add subtle rounded corners for a more modern look
+        .attr("rx", 2),
       update => update,
       exit => exit.transition(transition).remove()
         .attr("y", d=>y((next.get(d)||d).rank))
@@ -307,35 +314,73 @@ function formatCompanyName(name) {
 }
 
 function labels(svg, x, y, prev, next) {
-  let label = svg.append("g")
-    .style("font","bold 12px var(--sans-serif)")
-    .style("font-variant-numeric","tabular-nums")
-    .attr("text-anchor","end")
-    .selectAll("text");
-  return ([, data], transition) => label = label
-    .data(data.slice(0,n), d=>d.name)
-    .join(
-      enter => enter.append("text")
-        .attr("transform", d=>`translate(${x((prev.get(d)||d).value)},${y((prev.get(d)||d).rank)})`)
-        .attr("y", y.bandwidth()/2)
-        .attr("x", -6)
-        .attr("dy","-0.25em")
-        .text(d => formatCompanyName(d.name))
-        .call(t => t.append("tspan")
-          .attr("fill-opacity",0.7)
-          .attr("font-weight","normal")
-          .attr("x",-6)
-          .attr("dy","1.15em")
-          .text(d => formatNumber((prev.get(d)||d).value))),
-      update => update,
-      exit => exit.transition(transition).remove()
-        .attr("transform", d=>`translate(${x((next.get(d)||d).value)},${y((next.get(d)||d).rank)})`)
-        .call(g=>g.select("tspan").tween("text", d=>textTween(d.value,(next.get(d)||d).value)))
-    )
-    .call(sel=>sel.transition(transition)
-      .attr("transform", d=>`translate(${x(d.value)},${y(d.rank)})`)
-      .call(g=>g.select("tspan").tween("text", d=>textTween((prev.get(d)||d).value,d.value)))
-    );
+  // Create a container group for labels and connecting lines
+  const labelGroup = svg.append("g");
+  
+  // Add a group for the connecting lines, placed before the text group
+  const lineGroup = labelGroup.append("g")
+    .attr("class", "connecting-lines")
+    .attr("stroke", "#555555")  // Medium gray for better visibility
+    .attr("stroke-width", 1)
+    .attr("stroke-dasharray", "2,2");  // Dotted line for subtle effect
+  
+  // Add text group with proper styling
+  const textGroup = labelGroup.append("g")
+    .style("font", "bold 12px var(--sans-serif)")
+    .style("font-variant-numeric", "tabular-nums")
+    .attr("text-anchor", "end");
+  
+  // Initialize selections
+  let line = lineGroup.selectAll("line");
+  let label = textGroup.selectAll("text");
+  
+  return ([, data], transition) => {
+    // Update lines first
+    line = line
+      .data(data.slice(0, n), d => d.name)
+      .join(
+        enter => enter.append("line")
+          .attr("transform", d => `translate(${x((prev.get(d)||d).value)},${y((prev.get(d)||d).rank)})`)
+          .attr("x1", -20)  // Extend more to connect with text
+          .attr("x2", 0)   // Connect to the start of the bar
+          .attr("y1", y.bandwidth() / 2)
+          .attr("y2", y.bandwidth() / 2),
+        update => update,
+        exit => exit.transition(transition).remove()
+          .attr("transform", d => `translate(${x((next.get(d)||d).value)},${y((next.get(d)||d).rank)})`)
+      )
+      .call(sel => sel.transition(transition)
+        .attr("transform", d => `translate(${x(d.value)},${y(d.rank)})`)
+      );
+    
+    // Update text labels
+    label = label
+      .data(data.slice(0, n), d => d.name)
+      .join(
+        enter => enter.append("text")
+          .attr("transform", d => `translate(${x((prev.get(d)||d).value)},${y((prev.get(d)||d).rank)})`)
+          .attr("y", y.bandwidth() / 2)
+          .attr("x", -22)  // Position text with spacing for the connecting line
+          .attr("dy", "-0.25em")
+          .text(d => formatCompanyName(d.name))
+          .call(t => t.append("tspan")
+            .attr("fill-opacity", 0.8)  // Improved opacity for better readability
+            .attr("font-weight", "normal")
+            .attr("x", -22)  // Match the new x position
+            .attr("dy", "1.15em")
+            .text(d => formatNumber((prev.get(d)||d).value))),
+        update => update,
+        exit => exit.transition(transition).remove()
+          .attr("transform", d => `translate(${x((next.get(d)||d).value)},${y((next.get(d)||d).rank)})`)
+          .call(g => g.select("tspan").tween("text", d => textTween(d.value, (next.get(d)||d).value)))
+      )
+      .call(sel => sel.transition(transition)
+        .attr("transform", d => `translate(${x(d.value)},${y(d.rank)})`)
+        .call(g => g.select("tspan").tween("text", d => textTween((prev.get(d)||d).value, d.value)))
+      );
+      
+    return [line, label];
+  };
 }
 
 function axis(svg, x, y) {
@@ -346,7 +391,7 @@ function axis(svg, x, y) {
   return (_, transition) => {
     g.transition(transition).call(ax);
     g.select(".tick:first-of-type text").remove();
-    g.selectAll(".tick:not(:first-of-type) line").attr("stroke","white");
+    g.selectAll(".tick:not(:first-of-type) line").attr("stroke","#cccccc");
     g.select(".domain").remove();
   };
 }
@@ -355,12 +400,13 @@ function ticker(svg, keyframes) {
   console.log("Initializing ticker with keyframes:", keyframes);
   
   const now = svg.append("text")
-    .style("font", `bold ${barSize}px var(--sans-serif)`)
+    .style("font", `bold ${barSize * 1.2}px var(--sans-serif)`) // Increased font size for better visibility
     .style("font-variant-numeric", "tabular-nums")
     .attr("text-anchor", "end")
     .attr("x", width - marginRight)
     .attr("y", height - marginBottom)
-    .attr("dy", "0.32em");
+    .attr("dy", "0.32em")
+    .attr("fill", "#333"); // Darker color for better contrast
 
   // Set initial year
   if (keyframes && keyframes.length > 0 && keyframes[0][0]) {

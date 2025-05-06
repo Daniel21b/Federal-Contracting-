@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tracing Federal Dollars: A State-by-State Exploration of U.S. Government Contracting</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Tracing Federal Dollars</h1>
+            <h2>A State-by-State Exploration of U.S. Government Contracting</h2>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#visualizations">Visualizations</a></li>
+                    <li><a href="#data">Data</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
+            <button id="menu-toggle" class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="section active">
+            <div class="container">
+                <div class="intro-content">
+                    <h2>Exploring Federal Contract Spending</h2>
+                    <p>This interactive dashboard explores federal contracting data across Virginia, California, and Maryland, revealing patterns in government spending, agency allocations, and industry sectors.</p>
+                    <div class="cta-buttons">
+                        <a href="#visualizations" class="btn primary">View Visualizations</a>
+                        <a href="#data" class="btn secondary">Explore Data</a>
+                    </div>
+                </div>
+                <div class="overview-visualization viz-container">
+                    <h3>Overview: State Comparison</h3>
+                    <p>This visualization compares federal contract spending across Virginia, California, and Maryland.</p>
+                    <div class="visualization-placeholder" id="overview-viz">
+                        <div class="viz-loading">
+                            <i class="fas fa-chart-bar"></i>
+                            <p>Visualization will appear here</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="visualizations" class="section">
+            <div class="container">
+                <h2>Visualizations</h2>
+                
+                <div class="viz-tabs">
+                    <button class="tab-btn active" data-tab="state-comparison">State Comparison</button>
+                    <button class="tab-btn" data-tab="virginia">Virginia</button>
+                    <button class="tab-btn" data-tab="california">California</button>
+                    <button class="tab-btn" data-tab="maryland">Maryland</button>
+                    <button class="tab-btn" data-tab="agency">Agency Distribution</button>
+                    <button class="tab-btn" data-tab="industry">Industry Sectors</button>
+                    <button class="tab-btn" data-tab="timeline">Timeline & Trends</button>
+                </div>
+
+                <div class="viz-content">
+                    <div class="viz-panel active" id="state-comparison">
+                        <h3>State Comparison</h3>
+                        <p>Comparing federal contract spending across Virginia, California, and Maryland.</p>
+                        <div class="visualization-placeholder" id="state-comparison-viz">
+                            <div class="viz-loading">
+                                <i class="fas fa-chart-bar"></i>
+                                <p>Visualization will appear here</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="viz-panel" id="virginia">
+                        <h3>Virginia Federal Contracting</h3>
+                        <p>Exploring federal contract spending in Virginia.</p>
+                        <div class="visualization-placeholder" id="virginia-viz">
+                            <div class="viz-loading">
+                                <i class="fas fa-chart-pie"></i>
+                                <p>Visualization will appear here</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="viz-panel" id="california">
+                        <h3>California Federal Contracting</h3>
+                        <p>Exploring federal contract spending in California.</p>
+                        <div class="visualization-placeholder" id="california-viz">
+                            <div class="viz-loading">
+                                <i class="fas fa-chart-pie"></i>
+                                <p>Visualization will appear here</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="viz-panel" id="maryland">
+                        <h3>Maryland Federal Contracting</h3>
+                        <p>Exploring federal contract spending in Maryland.</p>
+                        <div class="visualization-placeholder" id="maryland-viz">
+                            <div class="viz-loading">
+                                <i class="fas fa-chart-pie"></i>
+                                <p>Visualization will appear here</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="viz-panel" id="agency">
+                        <h3>Agency Distribution</h3>
+                        <p>Distribution of federal contract spending by government agency.</p>
+                        <div class="visualization-placeholder" id="agency-viz">
+                            <div class="viz-loading">
+                                <i class="fas fa-sitemap"></i>
+                                <p>Visualization will appear here</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="viz-panel" id="industry">
+                        <h3>Industry Sectors</h3>
+                        <p>Breakdown of federal contract spending by industry sector.</p>
+                        <div class="visualization-placeholder" id="industry-viz">
+                            <div class="viz-loading">
+                                <i class="fas fa-industry"></i>
+                                <p>Visualization will appear here</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="viz-panel" id="timeline">
+                        <h3>Timeline & Trends</h3>
+                        <p>Trends in federal contract spending over time.</p>
+                        <div class="visualization-placeholder" id="timeline-viz">
+                            <div class="viz-loading">
+                                <i class="fas fa-chart-line"></i>
+                                <p>Visualization will appear here</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="data" class="section">
+            <div class="container">
+                <h2>Data Sources</h2>
+                <p>This project uses federal contracting data from the following sources:</p>
+                <ul class="data-sources">
+                    <li>
+                        <h4>USA Spending.gov</h4>
+                        <p>Official source of federal spending data for the U.S. Government</p>
+                    </li>
+                    <li>
+                        <h4>Federal Procurement Data System</h4>
+                        <p>The primary source for U.S. government procurement data</p>
+                    </li>
+                    <li>
+                        <h4>State-specific procurement databases</h4>
+                        <p>Additional data from Virginia, California, and Maryland procurement systems</p>
+                    </li>
+                </ul>
+                <div class="data-methodology">
+                    <h3>Methodology</h3>
+                    <p>Our data collection and analysis process includes:</p>
+                    <ol>
+                        <li>Data extraction from multiple government sources</li>
+                        <li>Data cleaning and normalization across sources</li>
+                        <li>Aggregation by state, agency, and industry sector</li>
+                        <li>Trend analysis over selected time periods</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About This Project</h2>
+                <div class="about-content">
+                    <div class="project-description">
+                        <h3>Project Background</h3>
+                        <p>This data visualization dashboard was created to provide transparency and insights into federal contracting patterns across Virginia, California, and Maryland. By visualizing this data, we aim to help stakeholders understand how federal dollars are distributed and identify patterns in government spending.</p>
+                    </div>
+                    <div class="team">
+                        <h3>Our Team</h3>
+                        <div class="team-members">
+                            <div class="team-member">
+                                <div class="member-icon"><i class="fas fa-user"></i></div>
+                                <h4>Robel Endashaw</h4>
+                            </div>
+                            <div class="team-member">
+                                <div class="member-icon"><i class="fas fa-user"></i></div>
+                                <h4>Johnathan Hale</h4>
+                            </div>
+                            <div class="team-member">
+                                <div class="member-icon"><i class="fas fa-user"></i></div>
+                                <h4>Benjamin Tanowitz</h4>
+                            </div>
+                            <div class="team-member">
+                                <div class="member-icon"><i class="fas fa-user"></i></div>
+                                <h4>Daniel Berhane</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact">
+                        <h3>CMSC471: Data Visualization</h3>
+                        <p>For questions or feedback about this project, please contact:</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-branding">
+                    <h3>Tracing Federal Dollars</h3>
+                    <p>A State-by-State Exploration of U.S. Government Contracting</p>
+                </div>
+                <div class="footer-nav">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#visualizations">Visualizations</a></li>
+                        <li><a href="#data">Data</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-credits">
+                    <p>&copy; 2023 Federal Contracting Data Visualization Project</p>
+                    <p>Data from USASpending.gov and FPDS</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- D3.js library -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    
+    <!-- Main script -->
+    <script src="JS/script.js"></script>
+</body>
+</html> 

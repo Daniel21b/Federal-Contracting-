@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Federal Spending Sunburst Chart | Tracing Federal Dollars</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/sunburst.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Tracing Federal Dollars</h1>
+            <h2>Federal Spending Sunburst Visualization</h2>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Back to Dashboard</a></li>
+                </ul>
+            </nav>
+            <button id="menu-toggle" class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="section active">
+            <div class="container">
+                <div class="sunburst-container">
+                    <h2>Federal Contract Spending Sunburst Chart</h2>
+                    <p>Explore federal spending hierarchically across states, agencies, and recipients. Hover over sections for details.</p>
+                    
+                    <div class="controls">
+                        <div class="breadcrumbs" id="sunburst-breadcrumbs">
+                            <span>All Contracts</span>
+                        </div>
+                        <button id="reset-sunburst" class="btn">Reset View</button>
+                    </div>
+                    
+                    <div class="loading-indicator" id="loading-indicator">
+                        <div class="spinner"></div>
+                        <p>Fetching data from USAspending API...</p>
+                    </div>
+                    
+                    <div id="sunburst-chart"></div>
+                    
+                    <div class="tooltip" id="sunburst-tooltip"></div>
+                    
+                    <div class="legend">
+                        <h3>Hierarchy Levels</h3>
+                        <ul>
+                            <li><span class="legend-color" style="background-color: #1f77b4;"></span> State</li>
+                            <li><span class="legend-color" style="background-color: #ff7f0e;"></span> Agency</li>
+                            <li><span class="legend-color" style="background-color: #2ca02c;"></span> Recipient</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="data-notes">
+                    <h3>Data Notes</h3>
+                    <p>This visualization uses data from the USAspending API for federal contracts awarded between October 1, 2019 and September 30, 2024 to recipients in Virginia, California, and Maryland.</p>
+                    <p>Contract values shown represent the federal_action_obligation amount in USD.</p>
+                    <a href="index.html" class="btn secondary">Return to Dashboard</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-branding">
+                    <h3>Tracing Federal Dollars</h3>
+                    <p>A State-by-State Exploration of U.S. Government Contracting</p>
+                </div>
+                <div class="footer-credits">
+                    <p>&copy; 2023 Federal Contracting Data Visualization Project</p>
+                    <p>Data from USASpending.gov and FPDS</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="JS/sunburst.js"></script>
+</body>
+</html> 
