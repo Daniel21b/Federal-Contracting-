@@ -29,9 +29,9 @@ var stateColors = {
 
 // Text color mapping
 var textColors = {
-    'CA': '#70d6ff', // Coral red
-    'MD': '#4ecdc4', // Turquoise
-    'VA': '#45b7d1', // Sky blue
+    'CA': '#ffffff', // Coral red
+    'MD': '#ffffff', // Turquoise
+    'VA': '#ffffff', // Sky blue
     'default': '#FFFFFF' // White
 };
 
@@ -106,6 +106,17 @@ function morphToStateById(stateId) {
     const targetState = statesData.find(state => state.id === stateId);
     if (targetState) {
         morphToState(targetState);
+        
+        // Hide all state descriptions
+        document.querySelectorAll('.state-description').forEach(desc => {
+            desc.style.display = 'none';
+        });
+        
+        // Show the selected state's description
+        const selectedDescription = document.getElementById(`${stateId.toLowerCase()}-description`);
+        if (selectedDescription) {
+            selectedDescription.style.display = 'block';
+        }
     }
 }
 
