@@ -7,8 +7,19 @@
   <link rel="stylesheet" href="../CSS/styles.css"/>
   <link rel="stylesheet" href="../CSS/map.css"/>
   <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script>
+    // Save D3 v4 reference for the map
+    var d3v4 = d3;
+  </script>
   <script src="https://d3js.org/topojson.v3.min.js"></script>
   <script src="https://unpkg.com/flubber@0.4.2/build/flubber.min.js"></script>
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+  <script>
+    // Save D3 v6 reference for the barchart
+    var d3v6 = d3;
+    // Restore D3 v4 reference for the map
+    d3 = d3v4;
+  </script>
 </head>
 <body>
   <div class="main-content">
@@ -49,7 +60,7 @@
         </div>
 
         <div class="grid-container purple-grid">
-          <div id="vis">
+          <div id="map-vis">
             <svg width="580" height="350"></svg>
           </div>
         </div>
@@ -57,19 +68,42 @@
     </section>
 
     <section id="barchart-section">
-      <h2>Contract Values Over Time</h2>
-      <div id="bar-vis"></div>
-    </section>
+      <div class="barchart-header">
+        <h2>Contract Values Over Time</h2>
+        <h2 id="chart-type">Total Contracts</h2>
+      </div>
 
-    <section id="sankey-section">
-      <h2>Fund Flow Analysis</h2>
-      <div id="sankey-vis"></div>
-    </section>
+      <div class="barchart-grids">
+        <div class="grid-container">
+          <div class="inner-grid-container">
+            <div class="chart-selector">
+              <h3>Select View</h3>
+              <ul>
+                <li><button onclick="updateChartView('total')">Total</button></li>
+                <li><button onclick="updateChartView('monthly')">Monthly</button></li>
+                <li><button onclick="updateChartView('quarterly')">Quarterly</button></li>
+              </ul>
+            </div>
+            <div class="chart-display">
+              <div id="total-description" class="chart-description">
+                <p>View the total contract values aggregated over time, showing the overall spending patterns and major contract allocations.</p>
+              </div>
+              <div id="monthly-description" class="chart-description" style="display: none;">
+                <p>Analyze month-by-month contract distributions to identify seasonal patterns and monthly spending trends.</p>
+              </div>
+              <div id="quarterly-description" class="chart-description" style="display: none;">
+                <p>Examine quarterly contract data to understand broader spending trends and fiscal period patterns.</p>
+              </div>
+            </div>
+          </div>
+        </div>
 
-    <section id="sunburst-section">
-      <h2>Hierarchical Contract Distribution</h2>
-      <div id="sunburst-vis"></div>
+        <div class="grid-container purple-grid">
+          <div id="bar-vis"></div>
+        </div>
+      </div>
     </section>
+  
   </div>
 
   <footer>
@@ -98,7 +132,50 @@
     </div>
   </footer>
 
-  <script src="JS/barchart.js"></script>
+  <script>
+    // Set d3 to v4 for map
+    d3 = d3v4;
+  </script>
   <script src="../JS/map.js"></script>
+  <script>
+    // Set d3 to v6 for barchart 
+    d3 = d3v6;
+  </script>
+  <script src="../JS/barchart.js"></script>
+  <script>
+    // Function to update chart view based on selection
+    function updateChartView(viewType) {
+      // Hide all descriptions
+      document.querySelectorAll('.chart-description').forEach(desc => {
+        desc.style.display = 'none';
+      });
+      
+      // Show the selected view's description
+      document.getElementById(`${viewType}-description`).style.display = 'block';
+      
+      // Update the chart type text
+      const chartTitle = document.getElementById('chart-type');
+      const titleMap = {
+        'total': 'Total Contracts',
+        'monthly': 'Monthly Breakdown',
+        'quarterly': 'Quarterly Analysis'
+      };
+      
+      // Fade out and in with new text
+      chartTitle.style.opacity = 0;
+      setTimeout(() => {
+        chartTitle.textContent = titleMap[viewType];
+        chartTitle.style.opacity = 1;
+        chartTitle.classList.add('fade-in');
+        setTimeout(() => {
+          chartTitle.classList.remove('fade-in');
+        }, 500);
+      }, 300);
+      
+      // Here you would update the actual chart visualization
+      // This is a placeholder for future implementation
+      console.log(`Switching to ${viewType} view`);
+    }
+  </script>
 </body>
 </html>

@@ -1,12 +1,24 @@
-var svg = d3.select("#vis svg"),
-    path = svg.append("path");
+// Ensure we're using D3 v4 for the map
+var d3 = d3v4;
+console.log("Map script started - using D3 version:", d3.version);
 
-var currentState = null;
+// Debug check if map-vis element exists
+console.log("Map container exists:", document.getElementById("map-vis") !== null);
+console.log("SVG in map-vis exists:", document.getElementById("map-vis")?.querySelector("svg") !== null);
+
+var svg = d3.select("#map-vis svg");
+console.log("SVG selection:", svg.empty() ? "FAILED - Not found" : "SUCCESS");
+
+var path = svg.append("path");
+console.log("Path appended:", path.empty() ? "FAILED" : "SUCCESS");
+
+var mapCurrentState = null;
 var scaleFactor = 0.57;
 var statesData = null;
 
 // Define allowed states
 var allowedStates = ['CA', 'MD', 'VA'];
+console.log("Allowed states:", allowedStates);
 
 // State name mapping
 var stateNames = {
@@ -18,6 +30,7 @@ var stateNames = {
 // Get SVG dimensions
 var svgWidth = parseInt(svg.attr("width"));
 var svgHeight = parseInt(svg.attr("height"));
+console.log("SVG dimensions:", {width: svgWidth, height: svgHeight});
 
 // Complete state color mapping for maps
 var stateColors = {
@@ -65,15 +78,20 @@ function scaleAndCenterCoordinates(coordinates) {
 }
 
 function morphToState(targetState) {
-    if (!currentState) return;
+    console.log("Morphing to state:", targetState.id);
+    if (!mapCurrentState) {
+        console.error("No current state defined for morphing");
+        return;
+    }
     
     var interpolator = flubber.interpolate(
-        scaleAndCenterCoordinates(currentState.coordinates),
+        scaleAndCenterCoordinates(mapCurrentState.coordinates),
         scaleAndCenterCoordinates(targetState.coordinates)
     );
 
     // Animate state name change
     const stateNameElement = d3.select("#state-name");
+    console.log("State name element found:", !stateNameElement.empty());
     
     // Fade out current name
     stateNameElement
@@ -97,14 +115,20 @@ function morphToState(targetState) {
         .attrTween("d", function() { return interpolator; })
         .style("fill", targetState.color)
         .on("end", function() {
-            currentState = targetState;
+            mapCurrentState = targetState;
+            console.log("Morph transition completed");
         });
 }
 
 function morphToStateById(stateId) {
-    if (!statesData) return;
+    console.log("morphToStateById called with:", stateId);
+    if (!statesData) {
+        console.error("No states data available");
+        return;
+    }
     const targetState = statesData.find(state => state.id === stateId);
     if (targetState) {
+        console.log("Found target state:", targetState.id);
         morphToState(targetState);
         
         // Hide all state descriptions
@@ -116,7 +140,11 @@ function morphToStateById(stateId) {
         const selectedDescription = document.getElementById(`${stateId.toLowerCase()}-description`);
         if (selectedDescription) {
             selectedDescription.style.display = 'block';
+        } else {
+            console.error("Description element not found for state:", stateId);
         }
+    } else {
+        console.error("Target state not found:", stateId);
     }
 }
 
@@ -126,8 +154,9 @@ function createPathFromCoordinates(coordinates) {
 }
 
 // Initialize the map
-d3.json("../data/MapCoordinates/states.json", function(err, topo) {
-    if (err) throw err;
+console.log("Attempting to load map data...");
+d3.json("../data/MapCoordinates/states.json").then(function(topo) {
+    console.log("Map data loaded successfully");
     
     // Filter to only include allowed states
     statesData = topojson.feature(topo, topo.objects.states)
@@ -141,14 +170,18 @@ d3.json("../data/MapCoordinates/states.json", function(err, topo) {
             };
         });
 
+    console.log("Processed states data:", statesData.map(s => s.id));
+    
     // Set initial state (California)
-    currentState = statesData.find(state => state.id === 'CA');
-    path.attr("d", createPathFromCoordinates(currentState.coordinates))
-        .style("fill", currentState.color);
+    mapCurrentState = statesData.find(state => state.id === 'CA');
+    console.log("Initial state set:", mapCurrentState ? mapCurrentState.id : "FAILED");
+    
+    path.attr("d", createPathFromCoordinates(mapCurrentState.coordinates))
+        .style("fill", mapCurrentState.color);
     
     // Set initial state name color
     d3.select("#state-name")
-        .style("color", currentState.color);
+        .style("color", mapCurrentState.color);
 
     // Create radio buttons for each state
     var controls = d3.select("#stateControls");
@@ -177,7 +210,12 @@ d3.json("../data/MapCoordinates/states.json", function(err, topo) {
             input.attr("checked", true);
         }
     });
+    
+    console.log("Map initialization complete");
+}).catch(function(err) {
+    console.error("Error loading map data:", err);
 });
 
 // Make morphToStateById globally accessible
 window.morphToStateById = morphToStateById;
+console.log("morphToStateById function made globally accessible");

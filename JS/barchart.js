@@ -9,15 +9,41 @@ const marginRight= 6;
 const marginBottom=6;
 const marginLeft = 120;    // Increased to make room for labels
 const barSize    = 48;
+let currentState = "ca";  // Default state is California
+
+// Store d3 reference locally for this file
+const d3 = d3v6;
 
 // Add controls container and button
 function createControls() {
-  const controls = d3.select("#vis")
+  const controls = d3.select("#bar-vis")
     .insert("div", "svg")
     .attr("class", "race-controls")
     .style("text-align", "center")
     .style("margin", "20px 0");
-    controls.append("button")
+    
+  // Add state selector
+  controls.append("select")
+    .attr("class", "state-selector")
+    .style("padding", "10px")
+    .style("font-size", "16px")
+    .style("margin-right", "20px")
+    .on("change", function() {
+      currentState = this.value;
+      loadDataAndCreateChart(currentState);
+    })
+    .selectAll("option")
+    .data([
+      {value: "ca", text: "California"},
+      {value: "md", text: "Maryland"},
+      {value: "va", text: "Virginia"}
+    ])
+    .enter()
+    .append("option")
+    .attr("value", d => d.value)
+    .text(d => d.text);
+    
+  controls.append("button")
     .attr("class", "start-button")
     .text("Start Race")
     .style("padding", "10px 20px")
@@ -35,47 +61,86 @@ function createControls() {
       d3.select(this).style("background-color", "#4CAF50");
     });
 
-  return controls.select(".start-button");
+  return controls;
 }
 
-// ── LOAD & NORMALIZE JSON ──────────────────────────────────────────────────────
-Promise.all([
-  d3.json("./data/CAd/ca_recipients_fy2020_2025-05-05.json"),
-  d3.json("./data/CAd/ca_recipients_fy2021_2025-05-05.json"),
-  d3.json("./data/CAd/ca_recipients_fy2022_2025-05-05.json"),
-  d3.json("./data/CAd/ca_recipients_fy2023_2025-05-05.json"),
-  d3.json("./data/CAd/ca_recipients_fy2024_2025-05-05.json")
-])
-.then(allData => {
-  console.log("Loaded data from all years");
+// Function to load data for a specific state
+function loadDataAndCreateChart(stateCode) {
+  // Clear existing chart
+  d3.select("#bar-vis svg").remove();
   
-  // Combine and flatten the data from all years
-  const raw = allData.flat();
+  // Show loading message
+  const loadingMsg = d3.select("#bar-vis").append("p")
+    .attr("class", "loading-message")
+    .text(`Loading ${stateCode.toUpperCase()} data...`);
   
-  // flatten into { date: Date, name: String, value: Number, category? }
-  const data = raw.map(d => {
-    const year = parseInt(d.fiscal_year);
-    return {
-      date: new Date(year, 0, 1),
-      name: d.recipient_name,
-      value: +d.amount,
-      category: d.state
-    };
-  });
+  // Get correct data directory name based on state code
+  let dataDir;
+  if (stateCode === "ca") {
+    dataDir = "BarChartCaliforniadata";
+  } else if (stateCode === "md") {
+    dataDir = "BarChartMarylandData";
+  } else if (stateCode === "va") {
+    dataDir = "BarChartVirginiaData";
+  }
+  
+  Promise.all([
+    d3.json(`../data/${dataDir}/${stateCode}_recipients_fy2020_2025-05-05.json`),
+    d3.json(`../data/${dataDir}/${stateCode}_recipients_fy2021_2025-05-05.json`),
+    d3.json(`../data/${dataDir}/${stateCode}_recipients_fy2022_2025-05-05.json`),
+    d3.json(`../data/${dataDir}/${stateCode}_recipients_fy2023_2025-05-05.json`),
+    d3.json(`../data/${dataDir}/${stateCode}_recipients_fy2024_2025-05-05.json`)
+  ])
+  .then(allData => {
+    console.log(`Loaded data for ${stateCode.toUpperCase()}`);
+    
+    // Remove loading message
+    loadingMsg.remove();
+    
+    // Combine and flatten the data from all years
+    const raw = allData.flat();
+    
+    // flatten into { date: Date, name: String, value: Number, category? }
+    const data = raw.map(d => {
+      const year = parseInt(d.fiscal_year);
+      return {
+        date: new Date(year, 0, 1),
+        name: d.recipient_name,
+        value: +d.amount,
+        category: d.state
+      };
+    });
 
-  // Log summary of years and records
-  const years = [...new Set(data.map(d => d.date.getFullYear()))].sort();
-  console.log("Years in dataset:", years);
-  console.log("Total records:", data.length);
-  
-  // Create the race chart with start button
-  createRaceChart(data);
-})
-.catch(err => console.error("Error loading JSON:", err));
+    // Log summary of years and records
+    const years = [...new Set(data.map(d => d.date.getFullYear()))].sort();
+    console.log("Years in dataset:", years);
+    console.log("Total records:", data.length);
+    
+    // Create the race chart with start button
+    createRaceChart(data);
+  })
+  .catch(err => {
+    console.error(`Error loading ${stateCode.toUpperCase()} JSON:`, err);
+    loadingMsg.text(`Error loading data for ${stateCode.toUpperCase()}. Please try another state.`);
+  });
+}
+
+// Helper function to capitalize first letter
+function capitalizeFirstLetter(string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
+// ── MAIN ENTRY ─────────────────────────────────────────────────────────────────
+// Initialize with California data on page load
+document.addEventListener('DOMContentLoaded', () => {
+  createControls();
+  loadDataAndCreateChart(currentState);
+});
 
 function createRaceChart(data) {
-  // Create the start button
-  const startButton = createControls();
+  // Get controls already created
+  const controls = d3.select(".race-controls");
+  const startButton = controls.select(".start-button");
   
   // Function to run the race
   async function runRace() {
@@ -153,10 +218,10 @@ function runBarChartRace(data) {
   }
 
   // Clear any existing SVG
-  d3.select("#vis svg").remove();
+  d3.select("#bar-vis svg").remove();
 
   // build SVG
-  const svg = d3.select("#vis").append("svg")
+  const svg = d3.select("#bar-vis").append("svg")
       .attr("viewBox", [0, 0, width, height])
       .attr("width", width)
       .attr("height", height)
@@ -169,14 +234,18 @@ function runBarChartRace(data) {
       .rangeRound([marginTop, marginTop + barSize*(n+1.1)])
       .padding(0.1);
 
-  // color scale (by category or name)
+  // Enhanced color scale - generate distinct colors for better visual appeal
   const color = (() => {
-    const scale = d3.scaleOrdinal(d3.schemeTableau10);
-    if (data.some(d => d.category !== undefined)) {
-      scale.domain(Array.from(new Set(data.map(d=>d.category))));
-      return d => scale(d.category);
-    }
-    return d => scale(d.name);
+    // Create a colorful, enhanced scheme by interpolating between vibrant hues
+    const generateColors = (count) => {
+      return d3.quantize(t => d3.interpolateRainbow(t * 0.85), count);
+    };
+    
+    // Create palette with enough distinct colors for all bars
+    const colorPalette = generateColors(n);
+    
+    // Use enhanced color palette based on rank to ensure consistent, distinct colors
+    return d => colorPalette[d.rank % colorPalette.length];
   })();
 
   // Generate the race
@@ -219,7 +288,8 @@ function runBarChartRace(data) {
 // They don't need to change now that data items are {name,value,date}.
 
 function bars(svg, x, y, color, prev, next) {
-  let bar = svg.append("g").attr("fill-opacity",0.6).selectAll("rect");
+  // Improved fill opacity for better color vibrancy while maintaining readability
+  let bar = svg.append("g").attr("fill-opacity", 0.75).selectAll("rect");
   return ([, data], transition) => bar = bar
     .data(data.slice(0,n), d=>d.name)
     .join(
@@ -228,7 +298,9 @@ function bars(svg, x, y, color, prev, next) {
         .attr("height", y.bandwidth())
         .attr("x", x(0))
         .attr("y", d=>y((prev.get(d)||d).rank))
-        .attr("width", d=>x((prev.get(d)||d).value)-x(0)),
+        .attr("width", d=>x((prev.get(d)||d).value)-x(0))
+        // Add subtle rounded corners for a more modern look
+        .attr("rx", 2),
       update => update,
       exit => exit.transition(transition).remove()
         .attr("y", d=>y((next.get(d)||d).rank))
@@ -245,35 +317,73 @@ function formatCompanyName(name) {
 }
 
 function labels(svg, x, y, prev, next) {
-  let label = svg.append("g")
-    .style("font","bold 12px var(--sans-serif)")
-    .style("font-variant-numeric","tabular-nums")
-    .attr("text-anchor","end")
-    .selectAll("text");
-  return ([, data], transition) => label = label
-    .data(data.slice(0,n), d=>d.name)
-    .join(
-      enter => enter.append("text")
-        .attr("transform", d=>`translate(${x((prev.get(d)||d).value)},${y((prev.get(d)||d).rank)})`)
-        .attr("y", y.bandwidth()/2)
-        .attr("x", -6)
-        .attr("dy","-0.25em")
-        .text(d => formatCompanyName(d.name))
-        .call(t => t.append("tspan")
-          .attr("fill-opacity",0.7)
-          .attr("font-weight","normal")
-          .attr("x",-6)
-          .attr("dy","1.15em")
-          .text(d => formatNumber((prev.get(d)||d).value))),
-      update => update,
-      exit => exit.transition(transition).remove()
-        .attr("transform", d=>`translate(${x((next.get(d)||d).value)},${y((next.get(d)||d).rank)})`)
-        .call(g=>g.select("tspan").tween("text", d=>textTween(d.value,(next.get(d)||d).value)))
-    )
-    .call(sel=>sel.transition(transition)
-      .attr("transform", d=>`translate(${x(d.value)},${y(d.rank)})`)
-      .call(g=>g.select("tspan").tween("text", d=>textTween((prev.get(d)||d).value,d.value)))
-    );
+  // Create a container group for labels and connecting lines
+  const labelGroup = svg.append("g");
+  
+  // Add a group for the connecting lines, placed before the text group
+  const lineGroup = labelGroup.append("g")
+    .attr("class", "connecting-lines")
+    .attr("stroke", "#555555")  // Medium gray for better visibility
+    .attr("stroke-width", 1)
+    .attr("stroke-dasharray", "2,2");  // Dotted line for subtle effect
+  
+  // Add text group with proper styling
+  const textGroup = labelGroup.append("g")
+    .style("font", "bold 12px var(--sans-serif)")
+    .style("font-variant-numeric", "tabular-nums")
+    .attr("text-anchor", "end");
+  
+  // Initialize selections
+  let line = lineGroup.selectAll("line");
+  let label = textGroup.selectAll("text");
+  
+  return ([, data], transition) => {
+    // Update lines first
+    line = line
+      .data(data.slice(0, n), d => d.name)
+      .join(
+        enter => enter.append("line")
+          .attr("transform", d => `translate(${x((prev.get(d)||d).value)},${y((prev.get(d)||d).rank)})`)
+          .attr("x1", -20)  // Extend more to connect with text
+          .attr("x2", 0)   // Connect to the start of the bar
+          .attr("y1", y.bandwidth() / 2)
+          .attr("y2", y.bandwidth() / 2),
+        update => update,
+        exit => exit.transition(transition).remove()
+          .attr("transform", d => `translate(${x((next.get(d)||d).value)},${y((next.get(d)||d).rank)})`)
+      )
+      .call(sel => sel.transition(transition)
+        .attr("transform", d => `translate(${x(d.value)},${y(d.rank)})`)
+      );
+    
+    // Update text labels
+    label = label
+      .data(data.slice(0, n), d => d.name)
+      .join(
+        enter => enter.append("text")
+          .attr("transform", d => `translate(${x((prev.get(d)||d).value)},${y((prev.get(d)||d).rank)})`)
+          .attr("y", y.bandwidth() / 2)
+          .attr("x", -22)  // Position text with spacing for the connecting line
+          .attr("dy", "-0.25em")
+          .text(d => formatCompanyName(d.name))
+          .call(t => t.append("tspan")
+            .attr("fill-opacity", 0.8)  // Improved opacity for better readability
+            .attr("font-weight", "normal")
+            .attr("x", -22)  // Match the new x position
+            .attr("dy", "1.15em")
+            .text(d => formatNumber((prev.get(d)||d).value))),
+        update => update,
+        exit => exit.transition(transition).remove()
+          .attr("transform", d => `translate(${x((next.get(d)||d).value)},${y((next.get(d)||d).rank)})`)
+          .call(g => g.select("tspan").tween("text", d => textTween(d.value, (next.get(d)||d).value)))
+      )
+      .call(sel => sel.transition(transition)
+        .attr("transform", d => `translate(${x(d.value)},${y(d.rank)})`)
+        .call(g => g.select("tspan").tween("text", d => textTween((prev.get(d)||d).value, d.value)))
+      );
+      
+    return [line, label];
+  };
 }
 
 function axis(svg, x, y) {
@@ -284,7 +394,7 @@ function axis(svg, x, y) {
   return (_, transition) => {
     g.transition(transition).call(ax);
     g.select(".tick:first-of-type text").remove();
-    g.selectAll(".tick:not(:first-of-type) line").attr("stroke","white");
+    g.selectAll(".tick:not(:first-of-type) line").attr("stroke","#cccccc");
     g.select(".domain").remove();
   };
 }
@@ -293,12 +403,13 @@ function ticker(svg, keyframes) {
   console.log("Initializing ticker with keyframes:", keyframes);
   
   const now = svg.append("text")
-    .style("font", `bold ${barSize}px var(--sans-serif)`)
+    .style("font", `bold ${barSize * 1.2}px var(--sans-serif)`) // Increased font size for better visibility
     .style("font-variant-numeric", "tabular-nums")
     .attr("text-anchor", "end")
     .attr("x", width - marginRight)
     .attr("y", height - marginBottom)
-    .attr("dy", "0.32em");
+    .attr("dy", "0.32em")
+    .attr("fill", "#333"); // Darker color for better contrast
 
   // Set initial year
   if (keyframes && keyframes.length > 0 && keyframes[0][0]) {
