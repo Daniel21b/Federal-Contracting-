@@ -1,33 +1,52 @@
 // ── CONFIG ─────────────────────────────────────────────────────────────────────
-const width      = 1200;
-const height     = 500;
-const n          = 10;     // show top-10 bars
-const k          = 40;     // frames per year (increased for smoother animation)
-const duration   = 150;    // ms per frame (increased for better visibility)
-const marginTop  = 16;
-const marginRight= 6;
-const marginBottom=6;
-const marginLeft = 120;    // Increased to make room for labels
-const barSize    = 48;
-let currentState = "ca";  // Default state is California
+const width      = 2000;    // Much larger width
+const height     = 1200;    // Much larger height
+const n          = 10;      // show top-10 bars
+const k          = 40;      // frames per year
+const duration   = 150;     // ms per frame
+const marginTop  = 10;      // Much larger top margin
+const marginRight= 60;      // Much larger right margin
+const marginBottom= 30;     // Much larger bottom margin
+const marginLeft = 30;      // Much larger left margin for longer labels
+const barSize    = 150;      // Much larger bar size
+let currentState = "ca";    // Default state is California
 
 // Store d3 reference locally for this file
 const d3 = d3v6;
 
 // Add controls container and button
 function createControls() {
-  const controls = d3.select("#bar-vis")
-    .insert("div", "svg")
+  // Create a grid container for controls
+  const controlGrid = d3.select("#bar-vis")
+    .style("display", "grid")
+    .style("grid-template-rows", "auto 1fr")
+    .style("height", "100%")
+    .style("gap", "15px");
+    
+  // Add controls in top row
+  const controls = controlGrid
+    .append("div")
     .attr("class", "race-controls")
-    .style("text-align", "center")
-    .style("margin", "20px 0");
+    .style("display", "flex")
+    .style("justify-content", "center")
+    .style("align-items", "center")
+    .style("gap", "15px")
+    .style("padding", "15px")
+    .style("background-color", "#1a1a1a")
+    .style("border", "2px solid #4ECDC4")
+    .style("border-radius", "6px");
     
   // Add state selector
   controls.append("select")
     .attr("class", "state-selector")
-    .style("padding", "10px")
+    .style("padding", "8px 15px")
     .style("font-size", "16px")
-    .style("margin-right", "20px")
+    .style("background-color", "#1a1a1a")
+    .style("color", "white")
+    .style("border", "2px dashed #4ECDC4")
+    .style("border-radius", "4px")
+    .style("font-family", "'Courier New', Courier, monospace")
+    .style("cursor", "pointer")
     .on("change", function() {
       currentState = this.value;
       loadDataAndCreateChart(currentState);
@@ -46,20 +65,41 @@ function createControls() {
   controls.append("button")
     .attr("class", "start-button")
     .text("Start Race")
-    .style("padding", "10px 20px")
+    .style("padding", "8px 15px")
     .style("font-size", "16px")
     .style("cursor", "pointer")
-    .style("background-color", "#4CAF50")
+    .style("background-color", "#1a1a1a")
     .style("color", "white")
-    .style("border", "none")
-    .style("border-radius", "5px")
-    .style("margin", "0 10px")
+    .style("border", "2px dashed #4ECDC4")
+    .style("border-radius", "4px")
+    .style("font-family", "'Courier New', Courier, monospace")
+    .style("font-weight", "600")
+    .style("transition", "all 0.3s ease")
+    .style("letter-spacing", "1px")
     .on("mouseover", function() {
-      d3.select(this).style("background-color", "#45a049");
+      d3.select(this)
+        .style("background-color", "#333")
+        .style("transform", "scale(1.05)");
     })
     .on("mouseout", function() {
-      d3.select(this).style("background-color", "#4CAF50");
+      d3.select(this)
+        .style("background-color", "#1a1a1a")
+        .style("transform", "scale(1.0)");
     });
+    
+  // Create visualization container in second row
+  const vizContainer = controlGrid
+    .append("div")
+    .attr("class", "race-visualization")
+    .style("width", "100%")
+    .style("min-height", "450px")
+    .style("background-color", "#1a1a1a")
+    .style("border", "2px solid #4ECDC4")
+    .style("border-radius", "6px")
+    .style("display", "flex")
+    .style("justify-content", "center")
+    .style("align-items", "center")
+    .style("overflow", "hidden");
 
   return controls;
 }
@@ -67,11 +107,14 @@ function createControls() {
 // Function to load data for a specific state
 function loadDataAndCreateChart(stateCode) {
   // Clear existing chart
-  d3.select("#bar-vis svg").remove();
+  d3.select("#bar-vis .race-visualization svg").remove();
   
   // Show loading message
-  const loadingMsg = d3.select("#bar-vis").append("p")
+  const loadingMsg = d3.select("#bar-vis .race-visualization").append("p")
     .attr("class", "loading-message")
+    .style("color", "white")
+    .style("font-family", "'Courier New', Courier, monospace")
+    .style("font-size", "16px")
     .text(`Loading ${stateCode.toUpperCase()} data...`);
   
   // Get correct data directory name based on state code
@@ -146,12 +189,16 @@ function createRaceChart(data) {
   async function runRace() {
     startButton.property("disabled", true)
                .style("opacity", "0.5")
+               .style("cursor", "not-allowed")
+               .style("border", "2px dashed #888")
                .text("Racing...");
                
     await runBarChartRace(data);
     
     startButton.property("disabled", false)
                .style("opacity", "1")
+               .style("cursor", "pointer")
+               .style("border", "2px dashed #4ECDC4")
                .text("Restart Race");
   }
   
@@ -217,22 +264,15 @@ function runBarChartRace(data) {
     return list;
   }
 
-  // Clear any existing SVG
-  d3.select("#bar-vis svg").remove();
+  // Build SVG
+  const svg = createSvg();
 
-  // build SVG
-  const svg = d3.select("#bar-vis").append("svg")
-      .attr("viewBox", [0, 0, width, height])
-      .attr("width", width)
-      .attr("height", height)
-      .style("max-width", "100%");
-
-  // set up scales
+  // set up scales with adjusted positioning
   const x = d3.scaleLinear([0,1], [marginLeft, width - marginRight]);
   const y = d3.scaleBand()
       .domain(d3.range(n+1))
-      .rangeRound([marginTop, marginTop + barSize*(n+1.1)])
-      .padding(0.1);
+      .rangeRound([marginTop, marginTop + barSize*n])  // Remove extra space multiplier
+      .padding(0.05);  // Reduce padding to bring bars closer
 
   // Enhanced color scale - generate distinct colors for better visual appeal
   const color = (() => {
@@ -289,7 +329,9 @@ function runBarChartRace(data) {
 
 function bars(svg, x, y, color, prev, next) {
   // Improved fill opacity for better color vibrancy while maintaining readability
-  let bar = svg.append("g").attr("fill-opacity", 0.75).selectAll("rect");
+  let bar = svg.append("g")
+    .attr("fill-opacity", 0.92)
+    .selectAll("rect");
   return ([, data], transition) => bar = bar
     .data(data.slice(0,n), d=>d.name)
     .join(
@@ -299,8 +341,11 @@ function bars(svg, x, y, color, prev, next) {
         .attr("x", x(0))
         .attr("y", d=>y((prev.get(d)||d).rank))
         .attr("width", d=>x((prev.get(d)||d).value)-x(0))
-        // Add subtle rounded corners for a more modern look
-        .attr("rx", 2),
+        // Add subtle rounded corners and stroke for better visibility
+        .attr("rx", 6) // Larger corner radius
+        .attr("stroke", "#fff")
+        .attr("stroke-width", 1)
+        .attr("stroke-opacity", 0.4),
       update => update,
       exit => exit.transition(transition).remove()
         .attr("y", d=>y((next.get(d)||d).rank))
@@ -311,11 +356,13 @@ function bars(svg, x, y, color, prev, next) {
       .attr("width", d=>x(d.value)-x(0)));
 }
 
+// Helper function to format company names - allow for longer names
 function formatCompanyName(name) {
-  // Truncate to 25 characters and add ellipsis if longer
-  return name.length > 25 ? name.substring(0, 25) + '...' : name;
+  // Truncate to 40 characters and add ellipsis if longer
+  return name.length > 40 ? name.substring(0, 40) + '...' : name;
 }
 
+// Update labels with much larger text
 function labels(svg, x, y, prev, next) {
   // Create a container group for labels and connecting lines
   const labelGroup = svg.append("g");
@@ -323,13 +370,13 @@ function labels(svg, x, y, prev, next) {
   // Add a group for the connecting lines, placed before the text group
   const lineGroup = labelGroup.append("g")
     .attr("class", "connecting-lines")
-    .attr("stroke", "#555555")  // Medium gray for better visibility
-    .attr("stroke-width", 1)
-    .attr("stroke-dasharray", "2,2");  // Dotted line for subtle effect
+    .attr("stroke", "#9ecaed")
+    .attr("stroke-width", 3)    // Thicker lines
+    .attr("stroke-dasharray", "5,3");
   
   // Add text group with proper styling
   const textGroup = labelGroup.append("g")
-    .style("font", "bold 12px var(--sans-serif)")
+    .style("font", `bold 30px var(--sans-serif)`) // Much larger font
     .style("font-variant-numeric", "tabular-nums")
     .attr("text-anchor", "end");
   
@@ -344,8 +391,8 @@ function labels(svg, x, y, prev, next) {
       .join(
         enter => enter.append("line")
           .attr("transform", d => `translate(${x((prev.get(d)||d).value)},${y((prev.get(d)||d).rank)})`)
-          .attr("x1", -20)  // Extend more to connect with text
-          .attr("x2", 0)   // Connect to the start of the bar
+          .attr("x1", -45)  // Extend more to connect with text
+          .attr("x2", 0)
           .attr("y1", y.bandwidth() / 2)
           .attr("y2", y.bandwidth() / 2),
         update => update,
@@ -363,14 +410,18 @@ function labels(svg, x, y, prev, next) {
         enter => enter.append("text")
           .attr("transform", d => `translate(${x((prev.get(d)||d).value)},${y((prev.get(d)||d).rank)})`)
           .attr("y", y.bandwidth() / 2)
-          .attr("x", -22)  // Position text with spacing for the connecting line
+          .attr("x", -50)  // Position text with more spacing
           .attr("dy", "-0.25em")
+          .attr("fill", "#fff")
+          .attr("text-shadow", "0 0 8px rgba(0,0,0,0.9)")  // Stronger shadow
+          .attr("font-size", "32px")  // Much larger font size
           .text(d => formatCompanyName(d.name))
           .call(t => t.append("tspan")
-            .attr("fill-opacity", 0.8)  // Improved opacity for better readability
+            .attr("fill", "#9ecaed")
             .attr("font-weight", "normal")
-            .attr("x", -22)  // Match the new x position
+            .attr("x", -50)
             .attr("dy", "1.15em")
+            .attr("font-size", "28px")  // Slightly smaller than the name
             .text(d => formatNumber((prev.get(d)||d).value))),
         update => update,
         exit => exit.transition(transition).remove()
@@ -386,37 +437,38 @@ function labels(svg, x, y, prev, next) {
   };
 }
 
-function axis(svg, x, y) {
-  const g = svg.append("g").attr("transform",`translate(0,${marginTop})`);
-  const ax = d3.axisTop(x).ticks(width/160,",d")
-      .tickSizeOuter(0)
-      .tickSizeInner(-barSize*(n+ y.padding()));
-  return (_, transition) => {
-    g.transition(transition).call(ax);
-    g.select(".tick:first-of-type text").remove();
-    g.selectAll(".tick:not(:first-of-type) line").attr("stroke","#cccccc");
-    g.select(".domain").remove();
-  };
-}
-
+// Update ticker to position year display below the chart
 function ticker(svg, keyframes) {
   console.log("Initializing ticker with keyframes:", keyframes);
   
-  const now = svg.append("text")
-    .style("font", `bold ${barSize * 1.2}px var(--sans-serif)`) // Increased font size for better visibility
-    .style("font-variant-numeric", "tabular-nums")
-    .attr("text-anchor", "end")
-    .attr("x", width - marginRight)
-    .attr("y", height - marginBottom)
-    .attr("dy", "0.32em")
-    .attr("fill", "#333"); // Darker color for better contrast
-
+  // Clear any existing year indicator
+  svg.selectAll(".year-indicator").remove();
+  
+  // Create a group for the year text positioned below the chart area
+  const yearGroup = svg.append("g")
+    .attr("class", "year-indicator")
+    .attr("transform", `translate(${width/2}, ${height + 60})`) // Position below the chart
+    .style("pointer-events", "none");
+  
+  // Add the main year text with fixed size
+  const now = yearGroup.append("text")
+    .attr("text-anchor", "middle")
+    .attr("dominant-baseline", "middle")
+    .attr("y", 0)
+    .attr("fill", "#4ECDC4")
+    .attr("font-family", "Courier New, monospace")
+    .attr("font-weight", "bold")
+    .attr("font-size", "200px") // Slightly smaller but still large
+    .attr("text-shadow", "0 0 15px rgba(0,0,0,0.9)")
+    .style("letter-spacing", "10px");
+  
   // Set initial year
   if (keyframes && keyframes.length > 0 && keyframes[0][0]) {
     console.log("Initial keyframe date:", keyframes[0][0]);
     const initialYear = keyframes[0][0].getFullYear();
     console.log("Initial year:", initialYear);
-    now.text("FY " + initialYear);
+    const yearText = "FY " + initialYear;
+    now.text(yearText);
   } else {
     console.warn("No valid initial keyframe found:", keyframes);
   }
@@ -426,13 +478,40 @@ function ticker(svg, keyframes) {
     if (date) {
       const year = date.getFullYear();
       console.log("New year to display:", year);
+      
       transition.end().then(() => {
-        console.log("Setting year text to:", "FY " + year);
-        now.text("FY " + year);
+        const yearText = "FY " + year;
+        console.log("Setting year text to:", yearText);
+        
+        // Update the text
+        now.text(yearText);
       });
     } else {
       console.warn("Received invalid date in ticker update:", date);
     }
+  };
+}
+
+// Update axis for massive text
+function axis(svg, x, y) {
+  const g = svg.append("g").attr("transform",`translate(0,${marginTop})`);
+  const ax = d3.axisTop(x)
+    .ticks(width/250, ",d")
+    .tickSizeOuter(0)
+    .tickSizeInner(-barSize*n - marginTop);
+  return (_, transition) => {
+    g.transition(transition).call(ax);
+    g.select(".tick:first-of-type text").remove();
+    g.selectAll(".tick:not(:first-of-type) line")
+      .attr("stroke", "#555")
+      .attr("stroke-opacity", 0.6)
+      .attr("stroke-width", 1.5)
+      .attr("stroke-dasharray", "3,4");
+    g.selectAll(".tick text")
+      .attr("fill", "#fff")
+      .attr("font-size", "26px") // Much larger axis labels
+      .attr("font-weight", "bold");
+    g.select(".domain").remove();
   };
 }
 
@@ -450,3 +529,28 @@ const formatNumber = d => {
 };
 
 const formatDate = d3.utcFormat("%Y");
+
+// Update the createSvg function to extend the SVG height to accommodate the year below
+function createSvg() {
+  // Clear any existing SVG
+  d3.select("#bar-vis .race-visualization svg").remove();
+
+  // Calculate extended height to accommodate the year display below
+  const extendedHeight = height + 200; // Add space for the year display
+
+  // build SVG with extra height
+  const svg = d3.select("#bar-vis .race-visualization").append("svg")
+    .attr("viewBox", [0, 0, width, extendedHeight])
+    .attr("width", "100%")
+    .attr("height", "100%")
+    .style("max-width", "100%")
+    .style("max-height", "1600px"); // Increased to accommodate the extended height
+    
+  // Add a background for better visibility - only covering the chart area
+  svg.append("rect")
+    .attr("width", width)
+    .attr("height", height) // Only cover the chart area, not the extended space
+    .attr("fill", "#2a2a2a");
+    
+  return svg;
+}
