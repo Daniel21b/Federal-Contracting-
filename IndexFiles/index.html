@@ -15,7 +15,7 @@
   <script src="https://unpkg.com/flubber@0.4.2/build/flubber.min.js"></script>
   <script src="https://d3js.org/d3.v6.min.js"></script>
   <script>
-    // Save D3 v6 reference for the barchart
+    // Save D3 v6 reference for the chart
     var d3v6 = d3;
     // Restore D3 v4 reference for the map
     d3 = d3v4;
@@ -44,15 +44,12 @@
             </div>
             <div class="data-display">
               <div id="ca-description" class="state-description">
-           
                 <p>California leads in federal contracting with a diverse portfolio spanning technology, defense, and research. The state's major contractors include tech giants and defense contractors, with significant investments in aerospace, renewable energy, and healthcare research.</p>
               </div>
               <div id="md-description" class="state-description" style="display: none;">
-      
                 <p>Maryland's federal contracting landscape is dominated by defense and healthcare sectors, with strong presence of research institutions and government contractors. The state hosts numerous federal agencies and research facilities, making it a hub for government contracting.</p>
               </div>
               <div id="va-description" class="state-description" style="display: none;">
-              
                 <p>Virginia's proximity to Washington D.C. makes it a key player in federal contracting, particularly in defense and technology sectors. The state hosts numerous defense contractors and technology companies serving federal agencies.</p>
               </div>
             </div>
@@ -68,44 +65,44 @@
     </section>
 
     <section id="barchart-section">
-      <div class="barchart-header">
-        <h2>Federal Contract Values</h2>
-        <h2 id="chart-type">Top Contract Recipients</h2>
+    <section id="race-chart-section">
+      <div class="race-chart-header">
+        <h2>Contract Value Evolution</h2>
+        <h2 id="race-chart-year">2021-2024</h2>
       </div>
 
-      <div class="barchart-grids">
-        <div class="grid-container">
-          <div class="inner-grid-container">
-            <div class="chart-selector">
-              <h3>Select State</h3>
-              <ul>
-                <li><button onclick="loadDataAndCreateChart('ca')">California</button></li>
-                <li><button onclick="loadDataAndCreateChart('md')">Maryland</button></li>
-                <li><button onclick="loadDataAndCreateChart('va')">Virginia</button></li>
-                <li><button onclick="restartRace()" class="restart-button">Restart Race</button></li>
-              </ul>
+      <div class="race-chart-container">
+        <div class="race-chart-controls">
+          <div class="control-panel">
+            <h3>Visualization Controls</h3>
+            <div class="state-selector">
+              <h4>Select State</h4>
+              <div class="button-group">
+                <button class="race-state-button active" data-state="california">California</button>
+                <button class="race-state-button" data-state="maryland">Maryland</button>
+                <button class="race-state-button" data-state="virginia">Virginia</button>
+              </div>
             </div>
-            <div class="chart-display">
-              <div id="total-description" class="chart-description">
-                <p>Loading state data summary...</p>
-              </div>
-              <div id="monthly-description" class="chart-description" style="display: none;">
-                <p>Analyze month-by-month contract distributions to identify seasonal patterns and monthly spending trends.</p>
-              </div>
-              <div id="quarterly-description" class="chart-description" style="display: none;">
-                <p>Examine quarterly contract data to understand broader spending trends and fiscal period patterns.</p>
-              </div>
+            <div class="race-controls">
+              <button id="restart-race" class="control-button">Restart Animation</button>
+              <button id="pause-race" class="control-button">Pause</button>
+            </div>
+          </div>
+          <div class="race-stats">
+            <div id="current-stats">
+              <h4>Current Statistics</h4>
+              <p id="total-contracts">Total Contracts: <span>Loading...</span></p>
+              <p id="top-contractor">Top Contractor: <span>Loading...</span></p>
+              <p id="current-year">Year: <span>Loading...</span></p>
             </div>
           </div>
         </div>
-
-        <div class="grid-container purple-grid">
-          <div id="bar-vis"></div>
-          <div id="fiscal-year-display" class="fiscal-year-display"></div>
+        
+        <div class="race-visualization">
+          <div id="race-chart"></div>
         </div>
       </div>
     </section>
-  
   </div>
 
   <footer>
@@ -140,42 +137,9 @@
   </script>
   <script src="../JS/map.js"></script>
   <script>
-    // Set d3 to v6 for barchart 
+    // Set d3 to v6 for chart
     d3 = d3v6;
   </script>
-  <script src="../JS/barchart.js"></script>
-  <script>
-    // Function to update chart view based on selection
-    function updateChartView(viewType) {
-      // This function remains for backward compatibility
-      // but is not actively used in the new UI
-      // Hide all descriptions
-      document.querySelectorAll('.chart-description').forEach(desc => {
-        desc.style.display = 'none';
-      });
-      
-      // Show the selected view's description
-      document.getElementById(`${viewType}-description`).style.display = 'block';
-      
-      // Update the chart type text
-      const chartTitle = document.getElementById('chart-type');
-      const titleMap = {
-        'total': 'Total Contracts',
-        'monthly': 'Monthly Breakdown',
-        'quarterly': 'Quarterly Analysis'
-      };
-      
-      // Fade out and in with new text
-      chartTitle.style.opacity = 0;
-      setTimeout(() => {
-        chartTitle.textContent = titleMap[viewType];
-        chartTitle.style.opacity = 1;
-        chartTitle.classList.add('fade-in');
-        setTimeout(() => {
-          chartTitle.classList.remove('fade-in');
-        }, 500);
-      }, 300);
-    }
-  </script>
+  <script src="../JS/example.js"></script>
 </body>
 </html>
