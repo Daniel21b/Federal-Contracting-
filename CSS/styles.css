@@ -116,7 +116,7 @@ section {
 }
 
 .data-display {
-    background-color: #1a1a1a;
+    background-color: #c56b59;
     border: 2px solid;
     padding: 15px;
     border-radius: 6px;
@@ -124,10 +124,6 @@ section {
     min-height: 450px;
     height: fit-content;
     align-self: stretch;
-}
-
-#barchart-section {
-    border-color: white;
 }
 
 #sankey-section {
@@ -270,188 +266,6 @@ footer {
     font-weight: 600;
 }
 
-/* Barchart section styles */
-.barchart-grids {
-    display: flex;
-    gap: 20px;
-}
-
-.barchart-grids .grid-container {
-    margin: 0;
-    max-width: none;
-    flex: 1;
-}
-
-.barchart-header {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-bottom: 20px;
-    border-bottom: 2px solid #1a1a1a;
-    padding-bottom: 10px;
-}
-
-.barchart-header h2 {
-    margin: 0;
-}
-
-.barchart-header h2:last-child {
-    margin-left: 1000px;
-}
-
-.chart-selector {
-    background-color: #1a1a1a;
-    border: 2px solid #1a1a1a;
-    padding: 15px;
-    border-radius: 6px;
-    min-width: 100px;
-    min-height: 150px;
-    height: fit-content;
-    align-self: stretch;
-}
-
-.chart-selector h3 {
-    color: white;
-    margin-bottom: 20px;
-    font-size: 1.2em;
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-.chart-selector ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.chart-selector ul li {
-    width: auto;
-    margin-bottom: 5px;
-}
-
-.chart-selector button {
-    color: rgb(250, 253, 249);
-    padding: 8px 15px;
-    margin-left: 0;
-    cursor: pointer;
-    border-radius: 4px;
-    border: none;
-    background: #1a1a1a;
-    border: 2px dashed #1a1a1a;
-    width: auto;
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 16px;
-    font-weight: 600;
-    transition: all 0.3s ease;
-    display: block;
-    margin-bottom: 8px;
-    letter-spacing: 1px;
-}
-
-.chart-selector button:hover {
-    background: #333;
-    transform: scale(1.05);
-    box-shadow: 0 0 10px rgba(78, 205, 196, 0.2);
-}
-
-/* Restart button styling */
-.restart-button {
-    background-color: #1a1a1a !important;
-    border: 2px dashed #FF6B6B !important;
-    margin-top: 20px !important;
-    color: #FF6B6B !important;
-    font-weight: 700 !important;
-}
-
-.restart-button:hover {
-    background: #333 !important;
-    transform: scale(1.05);
-    box-shadow: 0 0 10px rgba(255, 107, 107, 0.4) !important;
-}
-
-.chart-display {
-    background-color: #1a1a1a;
-    border: 2px solid #1a1a1a;
-    padding: 15px;
-    border-radius: 6px;
-    flex-grow: 1;
-    min-height: 450px;
-    height: fit-content;
-    align-self: stretch;
-}
-
-.chart-description {
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-    line-height: 1.6;
-    text-align: left;
-    padding: 0 15px;
-}
-
-.chart-description p {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 16px;
-    font-weight: 600;
-}
-
-#chart-type {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1.5em;
-    transition: opacity 0.3s ease-in-out;
-}
-
-/* Fiscal Year display styling */
-.fiscal-year-display {
-    font-family: 'Courier New', Courier, monospace;
-    color: #1a1a1a;
-    font-size: 4rem;
-    font-weight: bold;
-    text-align: center;
-    padding: 1rem 0;
-    letter-spacing: 5px;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
-    transition: all 0.3s ease;
-    margin-top: 1rem;
-}
-
-/* D3 Axis styling */
-.axis text {
-    fill: white;
-    font-size: 16px !important;
-    font-weight: bold;
-}
-
-.axis .tick line {
-    stroke: #555;
-    stroke-opacity: 0.6;
-}
-
-.race-visualization svg {
-    overflow: visible !important; /* Ensure axis labels are not cut off */
-}
-
-/* Enhance bar chart text visibility */
-.text-backgrounds rect {
-    opacity: 0.8;
-}
-
-.connecting-lines line {
-    stroke-dasharray: 4, 3;
-}
-
-.value-on-bar {
-    font-weight: bold !important;
-    text-shadow: 
-        0px 1px 0px white,
-        1px 0px 0px white,
-        0px -1px 0px white,
-        -1px 0px 0px white !important;
-}
-
 /* Race Chart Section Styles */
 #race-chart-section {
   border-color: #1a1a1a;
@@ -483,17 +297,22 @@ footer {
   display: flex;
   gap: 30px;
   min-height: 600px;
+  padding-left: 40px; /* Add padding to move everything right */
 }
 
+/* Separate control panel styles */
 .race-chart-controls {
-  flex: 0 0 300px;
+  width: 280px; /* Fixed width instead of flex */
+  min-width: 280px; /* Ensure minimum width */
   background: #1a1a1a;
   border: 2px solid white;
   border-radius: 8px;
   padding: 20px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 40px;
+  margin-left: -38px;
+  margin-right: 50px; /* Add space between controls and visualization */
 }
 
 .control-panel h3,
@@ -573,7 +392,7 @@ footer {
 }
 
 .race-stats h4 {
-  color: #4ECDC4;
+  color: rgb(0, 221, 255);
   margin: 0 0 15px 0;
 }
 
@@ -585,26 +404,35 @@ footer {
 }
 
 .race-stats span {
-  color: #4ECDC4;
+  color: white;
   font-weight: bold;
 }
 
+/* Separate visualization styles */
 .race-visualization {
-  flex: 1;
+  width: calc(100% - 240px); /* Take remaining width minus controls and gap */
   background: #1a1a1a;
   border: 2px solid #1a1a1a;
   border-radius: 8px;
-  padding: 20px;
+  padding: 20px 20px 0 20px;
   min-height: 600px;
   display: flex;
   flex-direction: column;
+  margin-left: 20px; /* Add space between controls and visualization */
 }
 
 #race-chart {
-  flex: 1;
   width: 100%;
   height: 100%;
   min-height: 500px;
+  margin-top: -20px;
+  overflow: visible;
+}
+
+/* Adjust the axis text positioning */
+#race-chart .axis text {
+  fill: #4ECDC4;
+  transform: translateY(-5px); /* Move axis text up slightly */
 }
 
 /* Enhance the bar chart appearance */
@@ -633,4 +461,31 @@ footer {
 
 #race-chart .axis path {
   stroke: #4ECDC4;
+}
+
+.tooltip {
+  position: absolute;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  pointer-events: none;
+  font-size: 14px;
+  line-height: 1.4;
+  z-index: 1000;
+}
+
+.legend {
+  font-family: var(--sans-serif);
+  font-size: 12px;
+}
+
+.legend-item {
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.legend-item:hover {
+  opacity: 0.7;
 }

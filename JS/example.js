@@ -1,14 +1,14 @@
 // Configuration
 const width = 1200;
 const height = 800;
-const marginTop = 16;
-const marginRight = 200;
-const marginBottom = 6;
-const marginLeft = 0;
-const barSize = 40;
+const marginTop = 50;
+const marginRight = 50;
+const marginBottom = 40;
+const marginLeft = 5;
+const barSize = 50;
 const n = 15; // Show top 15 contractors
 const k = 10;
-const duration = 2000;
+const duration = 1000;
 
 // Animation control
 let isAnimationPaused = false;
@@ -97,8 +97,8 @@ let tickFormat = d3.format("$,.0f");
 const x = d3.scaleLinear([0, 1], [marginLeft, width - marginRight]);
 const y = d3.scaleBand()
   .domain(d3.range(n + 1))
-  .rangeRound([marginTop, marginTop + barSize * (n + 1 + 0.1)])
-  .padding(0.1);
+  .rangeRound([marginTop, marginTop + barSize * (n + 0.5)])
+  .padding(0.08);
 
 // Function to update button states
 function updateButtons(selectedState) {
@@ -116,9 +116,55 @@ function updateStats(data, state) {
   const totalValue = d3.sum(data, d => d.value);
   const topContractor = data.sort((a, b) => b.value - a.value)[0];
   
+  // Update only total contracts and top contractor
   d3.select("#total-contracts span").text(formatNumber(totalValue));
   d3.select("#top-contractor span").text(shortenCompanyName(topContractor.name));
-  d3.select("#current-year span").text(formatDate(data[0].date));
+  
+  // Keep updating the header year display
+  const currentDate = data[0].date;
+  d3.select("#race-chart-year").text(currentDate ? currentDate.getFullYear() : '2024');
+}
+
+// Add tooltip div
+const tooltip = d3.select("body").append("div")
+  .attr("class", "tooltip")
+  .style("opacity", 0);
+
+// Function to format currency for tooltip
+const formatCurrency = d3.format("$,.2f");
+
+// Add legend
+function addLegend(svg) {
+  const legendData = [
+    { label: "Defense", color: "#FF6B6B" },
+    { label: "Technology", color: "#4ECDC4" },
+    { label: "Healthcare", color: "#45B7D1" },
+    { label: "Research", color: "#96CEB4" },
+    { label: "Infrastructure", color: "#FFEEAD" }
+  ];
+
+  const legend = svg.append("g")
+    .attr("class", "legend")
+    .attr("transform", `translate(${width - 160}, ${marginTop})`);
+
+  const legendItems = legend.selectAll(".legend-item")
+    .data(legendData)
+    .enter()
+    .append("g")
+    .attr("class", "legend-item")
+    .attr("transform", (d, i) => `translate(0, ${i * 20})`);
+
+  legendItems.append("rect")
+    .attr("width", 15)
+    .attr("height", 15)
+    .attr("fill", d => d.color);
+
+  legendItems.append("text")
+    .attr("x", 20)
+    .attr("y", 12)
+    .style("font-size", "12px")
+    .style("fill", "white")
+    .text(d => d.label);
 }
 
 // Function to load and display data for a state
@@ -131,19 +177,43 @@ async function loadStateData(state) {
   
   try {
     const data = await d3.csv(fileName);
+    console.log('Raw data sample:', data[0]); // Debug raw data
+    
+    // Properly parse the data with explicit date handling
     data.forEach(d => {
       d.value = +d.value;
-      d.date = new Date(d.date);
+      // Check what date field we have in the data
+      console.log('Date field in data:', d.date, d.year, d.fiscal_year);
+      
+      // Try to parse date from year if date is not available
+      if (d.year) {
+        d.date = new Date(+d.year, 0); // Convert year to Date object
+      } else if (d.fiscal_year) {
+        d.date = new Date(+d.fiscal_year, 0);
+      } else {
+        d.date = new Date(d.date); // Fallback to date field
+      }
     });
     
-    // Update initial statistics
+    // Debug first few records after parsing
+    console.log('First few records after parsing:', data.slice(0, 3).map(d => ({
+      name: d.name,
+      value: d.value,
+      date: d.date,
+      year: d.year,
+      fiscal_year: d.fiscal_year
+    })));
+    
+    // Update initial statistics with year handling
     updateStats(data, state);
     
-    // Process data
+    // Process data with proper date handling
     const names = new Set(data.map(d => d.name));
-    const datevalues = Array.from(d3.rollup(data, ([d]) => d.value, d => +d.date, d => d.name))
+    const datevalues = Array.from(d3.rollup(data, ([d]) => d.value, d => d.date.getTime(), d => d.name))
       .map(([date, data]) => [new Date(date), data])
       .sort(([a], [b]) => d3.ascending(a, b));
+
+    console.log('Processed datevalues:', datevalues.slice(0, 2)); // Debug datevalues
 
     function rank(value) {
       const data = Array.from(names, name => ({name, value: value(name)}));
@@ -152,15 +222,16 @@ async function loadStateData(state) {
       return data;
     }
 
-    // Generate keyframes
+    // Generate keyframes with proper date handling
     const keyframes = (() => {
       const frames = [];
       let ka, a, kb, b;
       for ([[ka, a], [kb, b]] of d3.pairs(datevalues)) {
         for (let i = 0; i < k; ++i) {
           const t = i / k;
+          const interpolatedDate = new Date(ka.getTime() * (1 - t) + kb.getTime() * t);
           frames.push([
-            new Date(ka * (1 - t) + kb * t),
+            interpolatedDate,
             rank(name => (a.get(name) || 0) * (1 - t) + (b.get(name) || 0) * t)
           ]);
         }
@@ -168,6 +239,12 @@ async function loadStateData(state) {
       frames.push([new Date(kb), rank(name => b.get(name) || 0)]);
       return frames;
     })();
+
+    // Debug first keyframe
+    console.log('First keyframe:', {
+      date: keyframes[0][0],
+      data: keyframes[0][1].slice(0, 3)
+    });
 
     const nameframes = d3.groups(keyframes.flatMap(([, data]) => data), d => d.name);
     const prev = new Map(nameframes.flatMap(([, data]) => d3.pairs(data, (a, b) => [b, a])));
@@ -222,41 +299,60 @@ async function loadStateData(state) {
         .attr("fill-opacity", 0.9)
         .selectAll("rect");
 
+      // Add legend to the chart
+      addLegend(svg);
+
       return ([date, data], transition) => {
-        // Ensure data is properly sliced and sorted
         const sortedData = data.slice(0, n);
         
-        bar = bar
+        bar = svg.select("g")
+          .selectAll("rect")
           .data(sortedData, d => d.name)
           .join(
             enter => enter.append("rect")
-              .attr("fill", d => getColorByRank(d.rank))
+              .attr("fill", d => colors[d.rank])
               .attr("height", y.bandwidth())
               .attr("x", x(0))
               .attr("y", d => y((prev.get(d) || d).rank))
               .attr("width", d => x((prev.get(d) || d).value) - x(0)),
             update => update,
             exit => exit.remove()
-          )
-          .call(bar => bar.transition(transition)
-            .attr("y", d => y(d.rank))
-            .attr("width", d => x(d.value) - x(0))
-            .attr("fill", d => getColorByRank(d.rank)));
+          );
 
-        // Add event listeners after the transition
+        // Add tooltip interactions
         bar
-          .style("cursor", "pointer")
           .on("mouseover", function(event, d) {
+            tooltip.transition()
+              .duration(200)
+              .style("opacity", .9);
+            tooltip.html(
+              `Company: ${d.name}<br/>
+               Value: ${formatCurrency(d.value)}<br/>
+               Rank: ${d.rank + 1}`
+            )
+              .style("left", (event.pageX + 10) + "px")
+              .style("top", (event.pageY - 28) + "px");
+            
             d3.select(this)
               .attr("fill-opacity", 1)
               .attr("stroke", "#fff")
               .attr("stroke-width", 2);
           })
           .on("mouseout", function(event, d) {
+            tooltip.transition()
+              .duration(500)
+              .style("opacity", 0);
+            
             d3.select(this)
               .attr("fill-opacity", 0.9)
-              .attr("stroke", "none");
+              .attr("stroke", "none")
+              .attr("fill", colors[d.rank]);
           });
+
+        bar.transition(transition)
+          .attr("y", d => y(d.rank))
+          .attr("width", d => x(d.value) - x(0))
+          .attr("fill", d => colors[d.rank]);
 
         return bar;
       };
