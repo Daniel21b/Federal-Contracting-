@@ -433,3 +433,21 @@ footer {
 .race-visualization svg {
     overflow: visible !important; /* Ensure axis labels are not cut off */
 }
+
+/* Enhance bar chart text visibility */
+.text-backgrounds rect {
+    opacity: 0.8;
+}
+
+.connecting-lines line {
+    stroke-dasharray: 4, 3;
+}
+
+.value-on-bar {
+    font-weight: bold !important;
+    text-shadow: 
+        0px 1px 0px white,
+        1px 0px 0px white,
+        0px -1px 0px white,
+        -1px 0px 0px white !important;
+}

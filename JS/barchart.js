@@ -7,7 +7,7 @@ const duration   = 150;     // ms per frame
 const marginTop  = 40;      // Increased from 10 to 40 for better axis label visibility
 const marginRight= 60;      // Much larger right margin
 const marginBottom= 30;     // Much larger bottom margin
-const marginLeft = 30;      // Much larger left margin for longer labels
+const marginLeft = 200;     // Increased from 30 to 200 for longer company name labels
 const barSize    = 70;      // Reduced bar size to fit in smaller container
 let currentState = "ca";    // Default state is California
 
@@ -151,8 +151,27 @@ function createStateSummary(data, stateCode) {
 
 // Helper function to format company names - shortened for smaller chart dimensions
 function formatCompanyName(name) {
-  // Truncate to 25 characters and add ellipsis if longer
-  return name.length > 25 ? name.substring(0, 25) + '...' : name;
+  // Truncate to 30 characters and add ellipsis if longer
+  // Handle common suffixes more gracefully
+  const suffixes = [', INC.', ' INC.', ' CORPORATION', ' CORP.', ' LLC', ' LTD', ' LIMITED'];
+  
+  let formattedName = name;
+  
+  // Check if name exceeds max length
+  if (name.length > 30) {
+    // Look for any common suffixes to remove
+    for (const suffix of suffixes) {
+      if (name.toUpperCase().endsWith(suffix)) {
+        // Remove suffix and add abbreviation
+        formattedName = name.substring(0, name.length - suffix.length).trim() + '...';
+        return formattedName;
+      }
+    }
+    // If no suffix found, just truncate
+    formattedName = name.substring(0, 27) + '...';
+  }
+  
+  return formattedName;
 }
 
 // Helper function to capitalize first letter
@@ -363,31 +382,60 @@ function labels(svg, x, y, prev, next) {
   // Create a container group for labels and connecting lines
   const labelGroup = svg.append("g");
   
+  // Create a background group for text backgrounds (for better readability)
+  const bgGroup = labelGroup.append("g")
+    .attr("class", "text-backgrounds");
+  
   // Add a group for the connecting lines, placed before the text group
   const lineGroup = labelGroup.append("g")
     .attr("class", "connecting-lines")
     .attr("stroke", "#9ecaed")
-    .attr("stroke-width", 2)    // Slightly thinner lines
+    .attr("stroke-width", 2)
     .attr("stroke-dasharray", "4,3");
   
   // Add text group with proper styling
   const textGroup = labelGroup.append("g")
-    .style("font", `bold 18px var(--sans-serif)`) // Smaller font size
+    .style("font", `bold 18px var(--sans-serif)`)
     .style("font-variant-numeric", "tabular-nums")
     .attr("text-anchor", "end");
   
   // Initialize selections
+  let bg = bgGroup.selectAll("rect");
   let line = lineGroup.selectAll("line");
   let label = textGroup.selectAll("text");
   
   return ([, data], transition) => {
-    // Update lines first
+    // Update text backgrounds first
+    bg = bg
+      .data(data.slice(0, n), d => d.name)
+      .join(
+        enter => enter.append("rect")
+          .attr("rx", 3)
+          .attr("ry", 3)
+          .attr("fill", "#1a1a1a")
+          .attr("fill-opacity", 0.7)
+          .attr("stroke", "#333")
+          .attr("stroke-width", 1)
+          .attr("transform", d => `translate(${x((prev.get(d)||d).value)},${y((prev.get(d)||d).rank)})`)
+          .attr("y", y.bandwidth() / 2 - 15)
+          .attr("x", -190)
+          .attr("width", 185)
+          .attr("height", 42),
+        update => update,
+        exit => exit.transition(transition).remove()
+          .attr("transform", d => `translate(${x((next.get(d)||d).value)},${y((next.get(d)||d).rank)})`)
+      )
+      .call(sel => sel.transition(transition)
+        .attr("transform", d => `translate(${x(d.value)},${y(d.rank)})`)
+      );
+      
+    // Update lines next
     line = line
       .data(data.slice(0, n), d => d.name)
       .join(
         enter => enter.append("line")
           .attr("transform", d => `translate(${x((prev.get(d)||d).value)},${y((prev.get(d)||d).rank)})`)
-          .attr("x1", -30)  // Shorter connecting line
+          .attr("x1", -8)  // Shorter connecting line that starts closer to the bar
           .attr("x2", 0)
           .attr("y1", y.bandwidth() / 2)
           .attr("y2", y.bandwidth() / 2),
@@ -406,18 +454,19 @@ function labels(svg, x, y, prev, next) {
         enter => enter.append("text")
           .attr("transform", d => `translate(${x((prev.get(d)||d).value)},${y((prev.get(d)||d).rank)})`)
           .attr("y", y.bandwidth() / 2)
-          .attr("x", -35)  // Position text with sufficient spacing
+          .attr("x", -12)  // Position text closer to bar end
           .attr("dy", "-0.25em")
           .attr("fill", "#fff")
-          .attr("text-shadow", "0 0 6px rgba(0,0,0,0.9)")  // Less extreme shadow
-          .attr("font-size", "18px")  // Smaller font size
+          .attr("text-shadow", "0 0 6px rgba(0,0,0,0.9)")
+          .attr("font-size", "18px")
           .text(d => formatCompanyName(d.name))
           .call(t => t.append("tspan")
-            .attr("fill", "#9ecaed")
-            .attr("font-weight", "normal")
-            .attr("x", -35)
+            .attr("fill", "#000")  // Black for maximum contrast
+            .attr("font-weight", "bold")  // Bold for better visibility
+            .attr("x", -12)  // Match the x position of company name
             .attr("dy", "1.15em")
-            .attr("font-size", "16px")  // Slightly smaller than the name
+            .attr("font-size", "16px")
+            .attr("text-shadow", "0 1px 0 white, 0 -1px 0 white, 1px 0 0 white, -1px 0 0 white")  // Text outline for better visibility
             .text(d => formatNumber((prev.get(d)||d).value))),
         update => update,
         exit => exit.transition(transition).remove()
@@ -429,7 +478,38 @@ function labels(svg, x, y, prev, next) {
         .call(g => g.select("tspan").tween("text", d => textTween((prev.get(d)||d).value, d.value)))
       );
       
-    return [line, label];
+    // Create another set of value labels specifically for display on top of bars
+    let valueLabels = labelGroup.selectAll(".value-on-bar")
+      .data(data.slice(0, n), d => d.name)
+      .join(
+        enter => {
+          const labels = enter.append("text")
+            .attr("class", "value-on-bar")
+            .attr("transform", d => `translate(${x((prev.get(d)||d).value)},${y((prev.get(d)||d).rank)})`)
+            .attr("y", y.bandwidth() / 2)
+            .attr("x", 10)  // Position inside the bar
+            .attr("text-anchor", "start")  // Left-aligned
+            .attr("dy", "0.35em")  // Center vertically
+            .attr("fill", "#000")
+            .attr("font-weight", "bold")
+            .attr("font-size", "16px")
+            .attr("text-shadow", "0 1px 0 white, 0 -1px 0 white, 1px 0 0 white, -1px 0 0 white")
+            .text(d => formatNumber((prev.get(d)||d).value));
+          return labels;
+        },
+        update => update,
+        exit => exit.transition(transition).remove()
+          .attr("transform", d => `translate(${x((next.get(d)||d).value)},${y((next.get(d)||d).rank)})`)
+      )
+      .call(sel => sel.transition(transition)
+        .attr("transform", d => `translate(${x(d.value)},${y(d.rank)})`)
+        .tween("text", function(d) {
+          const i = d3.interpolateNumber((prev.get(d)||d).value, d.value);
+          return t => this.textContent = formatNumber(i(t));
+        })
+      );
+      
+    return [bg, line, label, valueLabels];
   };
 }
 
