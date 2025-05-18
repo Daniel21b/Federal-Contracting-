@@ -6,6 +6,7 @@
   <title>Federal Contracting Bar Chart Race</title>
   <link rel="stylesheet" href="../CSS/styles.css"/>
   <link rel="stylesheet" href="../CSS/map.css"/>
+  <link rel="stylesheet" href="../CSS/bar-chart-visualization.css"/>
   <script src="https://d3js.org/d3.v4.min.js"></script>
   <script>
     // Save D3 v4 reference for the map
@@ -64,7 +65,20 @@
       </div>
     </section>
 
-    <!-- Add informative sections here -->
+    
+    <h1 id="title">Federal Contracting by State (2020-2024)</h1>
+    <div id="controls">
+        <button class="state-button active" data-state="california">California</button>
+        <button class="state-button" data-state="maryland">Maryland</button>
+        <button class="state-button" data-state="virginia">Virginia</button>
+        <button id="restart-button" class="control-button">Restart</button>
+        <button id="pause-button" class="control-button">Pause</button>
+    </div>
+   
+    <div id="chart"></div>
+    <script src="../JS/barchart.js"></script>
+
+    <!-- Add overview section -->
     <section id="overview-section" style="border: none; padding: 40px 20px;">
       <div style="max-width: 1200px; margin: 0 auto; text-align: left;">
         <h2 style="color: white; margin-bottom: 30px; font-size: 2em;">Understanding Federal Contracting</h2>
@@ -118,116 +132,8 @@
       </div>
     </section>
 
-    <section id="race-chart-section">
-      <div class="race-chart-header">
-        <h2>Contract Value Evolution</h2>
-        <h2 id="race-chart-year">2021-2024</h2>
-      </div>
-
-      <div class="race-chart-container">
-        <div class="race-chart-controls">
-          <div class="control-panel">
-            <h3>Visualization Controls</h3>
-            <div class="state-selector">
-              <h4>Select State</h4>
-              <div class="button-group">
-                <button class="race-state-button active" data-state="california">California</button>
-                <button class="race-state-button" data-state="maryland">Maryland</button>
-                <button class="race-state-button" data-state="virginia">Virginia</button>
-              </div>
-            </div>
-            <div class="race-controls">
-              <button id="restart-race" class="control-button">Restart Animation</button>
-              <button id="pause-race" class="control-button">Pause</button>
-            </div>
-          </div>
-          <div class="race-stats">
-            <div id="current-stats">
-              <h4>Current Statistics</h4>
-              <p id="total-contracts">Total Contracts: <span>Loading...</span></p>
-              <p id="top-contractor">Top Contractor: <span>Loading...</span></p>
-            </div>
-          </div>
-        </div>
-        
-        <div class="race-visualization">
-          <div id="race-chart"></div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Add conclusion section -->
-    <section id="conclusion-section" style="border: none; padding: 40px 20px; margin-bottom: 60px;">
-      <div style="max-width: 1200px; margin: 0 auto; text-align: left;">
-        <h2 style="color: white; margin-bottom: 30px; font-size: 2em;">Understanding the Impact of Federal Contracting</h2>
-        
-        <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 40px; margin-bottom: 40px;">
-          <div>
-            <h3 style="color: #d5567c; margin-bottom: 20px;">Economic Dynamics</h3>
-            <p style="line-height: 1.6; margin-bottom: 20px;">
-              Our visualization reveals how federal contracts shape regional economies through:
-              <ul style="margin-top: 10px; margin-left: 20px;">
-                <li>Job creation in specialized sectors</li>
-                <li>Investment in research and development</li>
-                <li>Support for small and large businesses</li>
-                <li>Promotion of technological innovation</li>
-              </ul>
-            </p>
-          </div>
-          <div>
-            <h3 style="color: #d5567c; margin-bottom: 20px;">Sector Evolution</h3>
-            <p style="line-height: 1.6; margin-bottom: 20px;">
-              The data highlights shifting priorities in federal investment:
-              <ul style="margin-top: 10px; margin-left: 20px;">
-                <li>Growth in digital transformation projects</li>
-                <li>Emphasis on cybersecurity infrastructure</li>
-                <li>Investment in sustainable technologies</li>
-                <li>Focus on healthcare modernization</li>
-              </ul>
-            </p>
-          </div>
-          <div>
-            <h3 style="color: #d5567c; margin-bottom: 20px;">Regional Patterns</h3>
-            <p style="line-height: 1.6; margin-bottom: 20px;">
-              State-specific contracting patterns reveal:
-              <ul style="margin-top: 10px; margin-left: 20px;">
-                <li>Specialized industry clusters</li>
-                <li>Strategic geographic advantages</li>
-                <li>Policy influence on contract distribution</li>
-                <li>Innovation ecosystem development</li>
-              </ul>
-            </p>
-          </div>
-        </div>
-
-        <div style="background: #1a1a1a; border: 2px solid white; padding: 30px; border-radius: 8px; margin-top: 20px;">
-          <h3 style="color: #cda14e; margin-bottom: 20px;">Educational Insights</h3>
-          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px;">
-            <div style="line-height: 1.6;">
-              <h4 style="color: white; margin-bottom: 15px;">Core Concepts Demonstrated:</h4>
-              <ul style="margin-left: 20px;">
-                <li>How government spending impacts local economies</li>
-                <li>The relationship between policy decisions and contract allocation</li>
-                <li>Patterns in public-private sector collaboration</li>
-                <li>The role of competition in driving innovation</li>
-              </ul>
-            </div>
-            <div style="line-height: 1.6;">
-              <h4 style="color: white; margin-bottom: 15px;">Learning Outcomes:</h4>
-              <ul style="margin-left: 20px;">
-                <li>Federal budget allocation processes</li>
-                <li>Regional economic development strategies</li>
-                <li>Industry specialization patterns</li>
-                <li>Data-driven policy analysis methods</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Add methodology and sources section before the footer -->
-    <section id="methodology-section" style="border: none; padding: 40px 20px; margin-bottom: 60px; borde;">
+    <!-- Add methodology and sources section -->
+    <section id="methodology-section" style="border: none; padding: 40px 20px; margin-bottom: 60px;">
       <div style="max-width: 1200px; margin: 0 auto; text-align: left;">
         <h2 style="color: white; margin-bottom: 30px; font-size: 2em;">Methodology & Data Sources</h2>
         
@@ -289,7 +195,7 @@
       </div>
     </section>
 
-    <!-- Existing footer section -->
+    <!-- Footer section -->
     <footer>
       <div class="footer-content">
         <div class="footer-section">
@@ -326,6 +232,5 @@
     // Set d3 to v6 for chart
     d3 = d3v6;
   </script>
-  <script src="../JS/example.js"></script>
 </body>
 </html>

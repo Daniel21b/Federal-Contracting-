@@ -1,0 +1,94 @@
+:root {
+    --sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+.state-button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #2E86C1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.state-button:hover {
+    background-color: #1a5276;
+}
+.state-button.active {
+    background-color: #1a5276;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+#chart {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+#title {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+.tooltip {
+    position: absolute;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    pointer-events: none;
+    font-size: 14px;
+    line-height: 1.4;
+    z-index: 1000;
+}
+#chart text {
+    fill: white;
+    font-family: var(--sans-serif);
+}
+#chart .axis line {
+    stroke: #4ECDC4;
+    stroke-opacity: 0.2;
+}
+#chart .axis text {
+    fill: #4ECDC4;
+}
+.control-button {
+    background: #2E86C1;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 0 5px;
+    transition: all 0.3s ease;
+}
+.control-button:hover {
+    background: #3498DB;
+}
+#restart-button {
+    background: #E74C3C;
+}
+#restart-button:hover {
+    background: #C0392B;
+}
+#stats {
+    text-align: center;
+    margin: 20px 0;
+    padding: 20px;
+    background: rgba(78, 205, 196, 0.1);
+    border-radius: 4px;
+}
+#stats p {
+    margin: 8px 0;
+    font-size: 14px;
+}
+#controls {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 1200px;
+} 

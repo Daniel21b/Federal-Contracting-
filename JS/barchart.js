@@ -1,92 +1,18 @@
 // Configuration
 const width = 1200;
 const height = 800;
-const marginTop = 50;
-const marginRight = 50;
-const marginBottom = 40;
-const marginLeft = 5;
-const barSize = 50;
+const marginTop = 16;
+const marginRight = 200;
+const marginBottom = 6;
+const marginLeft = 0;
+const barSize = 40;
 const n = 15; // Show top 15 contractors
 const k = 10;
-const duration = 1000;
+const duration = 2000;
 
 // Animation control
 let isAnimationPaused = false;
 let currentAnimation = null;
-
-// Company name mappings
-const companyShortNames = {
-  "HEALTH NET FEDERAL SERVICES, LLC": "Health Net",
-  "LAWRENCE LIVERMORE NATIONAL SECURITY, LLC": "LLNS",
-  "CALIFORNIA INSTITUTE OF TECHNOLOGY": "Caltech",
-  "GENERAL ATOMICS": "Gen Atomics",
-  "LOCKHEED MARTIN CORPORATION": "Lockheed",
-  "THE BOEING COMPANY": "Boeing",
-  "NATIONAL STEEL AND SHIPBUILDING COMPANY": "NASSCO",
-  "SPACE EXPLORATION TECHNOLOGIES CORP.": "SpaceX",
-  "UNIVERSITY OF CALIFORNIA REGENTS": "UC Regents",
-  "RAYTHEON COMPANY": "Raytheon",
-  "NORTHROP GRUMMAN CORPORATION": "Northrop",
-  "STANFORD UNIVERSITY": "Stanford",
-  "GENERAL DYNAMICS": "GDIT",
-  "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION": "SAIC",
-  "LEIDOS HOLDINGS, INC.": "Leidos",
-  "BAE SYSTEMS": "BAE",
-  "L3 TECHNOLOGIES": "L3",
-  "BOOZ ALLEN HAMILTON": "Booz Allen",
-  "AEROSPACE CORPORATION": "Aerospace",
-  "QTC MEDICAL GROUP INC": "QTC Medical"
-};
-
-// Color palette for bars
-const colors = [
-  "#FF6B6B", // Coral Red
-  "#4ECDC4", // Turquoise
-  "#45B7D1", // Sky Blue
-  "#96CEB4", // Sage Green
-  "#FFEEAD", // Cream
-  "#D4A5A5", // Dusty Rose
-  "#9B59B6", // Purple
-  "#3498DB", // Blue
-  "#E67E22", // Orange
-  "#27AE60", // Green
-  "#E74C3C", // Red
-  "#F1C40F", // Yellow
-  "#1ABC9C", // Turquoise
-  "#34495E", // Navy Blue
-  "#95A5A6"  // Gray
-];
-
-// Function to get color for a rank
-function getColorByRank(rank) {
-  return colors[rank % colors.length];
-}
-
-// Function to shorten company names
-function shortenCompanyName(name) {
-  // Check if we have a predefined short name
-  if (companyShortNames[name.toUpperCase()]) {
-    return companyShortNames[name.toUpperCase()];
-  }
-
-  // General shortening rules
-  let shortName = name
-    // Remove common suffixes
-    .replace(/(,?\s+Inc\.?|,?\s+LLC|,?\s+Corporation|,?\s+Corp\.?|,?\s+Ltd\.?|,?\s+Limited|,?\s+Company)/gi, '')
-    // Remove "The" from the beginning
-    .replace(/^The\s+/i, '')
-    // Remove legal terms
-    .replace(/(,?\s+International|,?\s+Incorporated|,?\s+Group|,?\s+Holding[s]?)/gi, '')
-    // Trim whitespace
-    .trim();
-
-  // If name is still too long, truncate to first 15 characters and add ...
-  if (shortName.length > 15) {
-    shortName = shortName.substring(0, 12) + '...';
-  }
-
-  return shortName;
-}
 
 // Initialize formatting functions
 const formatNumber = d3.format("$,.0f");
@@ -97,123 +23,71 @@ let tickFormat = d3.format("$,.0f");
 const x = d3.scaleLinear([0, 1], [marginLeft, width - marginRight]);
 const y = d3.scaleBand()
   .domain(d3.range(n + 1))
-  .rangeRound([marginTop, marginTop + barSize * (n + 0.5)])
-  .padding(0.08);
+  .rangeRound([marginTop, marginTop + barSize * (n + 1 + 0.1)])
+  .padding(0.1);
+
+// Color scale for bars
+const colors = [
+  "#FF6B6B", "#4ECDC4", "#45B7D1", "#96CEB4", "#FFEEAD",
+  "#D4A5A5", "#9B59B6", "#3498DB", "#E67E22", "#27AE60",
+  "#E74C3C", "#F1C40F", "#1ABC9C", "#34495E", "#95A5A6"
+];
+
+// Function to get color for a rank
+function getColorByRank(rank) {
+  return colors[rank % colors.length];
+}
 
 // Function to update button states
 function updateButtons(selectedState) {
-  d3.selectAll('.race-state-button').classed('active', false);
-  d3.select(`.race-state-button[data-state="${selectedState}"]`).classed('active', true);
+  d3.selectAll('.state-button').classed('active', false);
+  d3.select(`[data-state="${selectedState}"]`).classed('active', true);
 }
 
 // Function to clear the current chart
 function clearChart() {
-  d3.select("#race-chart").selectAll("*").remove();
+  d3.select("#chart").selectAll("*").remove();
 }
 
 // Function to update statistics
-function updateStats(data, state) {
+function updateStats(data) {
   const totalValue = d3.sum(data, d => d.value);
   const topContractor = data.sort((a, b) => b.value - a.value)[0];
   
-  // Update only total contracts and top contractor
   d3.select("#total-contracts span").text(formatNumber(totalValue));
-  d3.select("#top-contractor span").text(shortenCompanyName(topContractor.name));
-  
-  // Keep updating the header year display
-  const currentDate = data[0].date;
-  d3.select("#race-chart-year").text(currentDate ? currentDate.getFullYear() : '2024');
+  d3.select("#top-contractor span").text(topContractor.name);
+  d3.select("#current-year span").text(formatDate(data[0].date));
 }
 
-// Add tooltip div
+// Add tooltip
 const tooltip = d3.select("body").append("div")
   .attr("class", "tooltip")
   .style("opacity", 0);
 
-// Function to format currency for tooltip
-const formatCurrency = d3.format("$,.2f");
-
-// Add legend
-function addLegend(svg) {
-  const legendData = [
-    { label: "Defense", color: "#FF6B6B" },
-    { label: "Technology", color: "#4ECDC4" },
-    { label: "Healthcare", color: "#45B7D1" },
-    { label: "Research", color: "#96CEB4" },
-    { label: "Infrastructure", color: "#FFEEAD" }
-  ];
-
-  const legend = svg.append("g")
-    .attr("class", "legend")
-    .attr("transform", `translate(${width - 160}, ${marginTop})`);
-
-  const legendItems = legend.selectAll(".legend-item")
-    .data(legendData)
-    .enter()
-    .append("g")
-    .attr("class", "legend-item")
-    .attr("transform", (d, i) => `translate(0, ${i * 20})`);
-
-  legendItems.append("rect")
-    .attr("width", 15)
-    .attr("height", 15)
-    .attr("fill", d => d.color);
-
-  legendItems.append("text")
-    .attr("x", 20)
-    .attr("y", 12)
-    .style("font-size", "12px")
-    .style("fill", "white")
-    .text(d => d.label);
-}
-
 // Function to load and display data for a state
 async function loadStateData(state) {
   clearChart();
-  const currentDate = "2025-05-18";
+  const currentDate = new Date().toISOString().split('T')[0];
   const fileName = `../processed_data/${state}_contracts_${currentDate}.csv`;
   
-  const container = d3.select("#race-chart");
+  const container = d3.select("#chart");
   
   try {
     const data = await d3.csv(fileName);
-    console.log('Raw data sample:', data[0]); // Debug raw data
+    if (!data) {
+      throw new Error('No data loaded');
+    }
     
-    // Properly parse the data with explicit date handling
     data.forEach(d => {
       d.value = +d.value;
-      // Check what date field we have in the data
-      console.log('Date field in data:', d.date, d.year, d.fiscal_year);
-      
-      // Try to parse date from year if date is not available
-      if (d.year) {
-        d.date = new Date(+d.year, 0); // Convert year to Date object
-      } else if (d.fiscal_year) {
-        d.date = new Date(+d.fiscal_year, 0);
-      } else {
-        d.date = new Date(d.date); // Fallback to date field
-      }
+      d.date = new Date(d.date);
     });
     
-    // Debug first few records after parsing
-    console.log('First few records after parsing:', data.slice(0, 3).map(d => ({
-      name: d.name,
-      value: d.value,
-      date: d.date,
-      year: d.year,
-      fiscal_year: d.fiscal_year
-    })));
-    
-    // Update initial statistics with year handling
-    updateStats(data, state);
-    
-    // Process data with proper date handling
+    // Process data
     const names = new Set(data.map(d => d.name));
-    const datevalues = Array.from(d3.rollup(data, ([d]) => d.value, d => d.date.getTime(), d => d.name))
+    const datevalues = Array.from(d3.rollup(data, ([d]) => d.value, d => +d.date, d => d.name))
       .map(([date, data]) => [new Date(date), data])
       .sort(([a], [b]) => d3.ascending(a, b));
-
-    console.log('Processed datevalues:', datevalues.slice(0, 2)); // Debug datevalues
 
     function rank(value) {
       const data = Array.from(names, name => ({name, value: value(name)}));
@@ -222,16 +96,15 @@ async function loadStateData(state) {
       return data;
     }
 
-    // Generate keyframes with proper date handling
+    // Generate keyframes
     const keyframes = (() => {
       const frames = [];
       let ka, a, kb, b;
       for ([[ka, a], [kb, b]] of d3.pairs(datevalues)) {
         for (let i = 0; i < k; ++i) {
           const t = i / k;
-          const interpolatedDate = new Date(ka.getTime() * (1 - t) + kb.getTime() * t);
           frames.push([
-            interpolatedDate,
+            new Date(ka * (1 - t) + kb * t),
             rank(name => (a.get(name) || 0) * (1 - t) + (b.get(name) || 0) * t)
           ]);
         }
@@ -240,12 +113,6 @@ async function loadStateData(state) {
       return frames;
     })();
 
-    // Debug first keyframe
-    console.log('First keyframe:', {
-      date: keyframes[0][0],
-      data: keyframes[0][1].slice(0, 3)
-    });
-
     const nameframes = d3.groups(keyframes.flatMap(([, data]) => data), d => d.name);
     const prev = new Map(nameframes.flatMap(([, data]) => d3.pairs(data, (a, b) => [b, a])));
     const next = new Map(nameframes.flatMap(([, data]) => d3.pairs(data)));
@@ -253,10 +120,9 @@ async function loadStateData(state) {
     async function createChart() {
       const svg = d3.create("svg")
         .attr("viewBox", [0, 0, width, height])
-        .attr("width", "100%")
-        .attr("height", "100%")
-        .style("max-width", "100%")
-        .style("height", "auto");
+        .attr("width", width)
+        .attr("height", height)
+        .attr("style", "max-width: 100%; height: auto;");
 
       container.node().appendChild(svg.node());
 
@@ -285,7 +151,7 @@ async function loadStateData(state) {
           updateTicker(keyframe, transition);
           
           // Update statistics
-          updateStats(keyframe[1], state);
+          updateStats(keyframe[1]);
 
           await transition.end();
         }
@@ -299,18 +165,14 @@ async function loadStateData(state) {
         .attr("fill-opacity", 0.9)
         .selectAll("rect");
 
-      // Add legend to the chart
-      addLegend(svg);
-
       return ([date, data], transition) => {
         const sortedData = data.slice(0, n);
         
-        bar = svg.select("g")
-          .selectAll("rect")
+        bar = bar
           .data(sortedData, d => d.name)
           .join(
             enter => enter.append("rect")
-              .attr("fill", d => colors[d.rank])
+              .attr("fill", d => getColorByRank(d.rank))
               .attr("height", y.bandwidth())
               .attr("x", x(0))
               .attr("y", d => y((prev.get(d) || d).rank))
@@ -327,7 +189,7 @@ async function loadStateData(state) {
               .style("opacity", .9);
             tooltip.html(
               `Company: ${d.name}<br/>
-               Value: ${formatCurrency(d.value)}<br/>
+               Value: ${formatNumber(d.value)}<br/>
                Rank: ${d.rank + 1}`
             )
               .style("left", (event.pageX + 10) + "px")
@@ -346,13 +208,13 @@ async function loadStateData(state) {
             d3.select(this)
               .attr("fill-opacity", 0.9)
               .attr("stroke", "none")
-              .attr("fill", colors[d.rank]);
+              .attr("fill", getColorByRank(d.rank));
           });
 
         bar.transition(transition)
           .attr("y", d => y(d.rank))
           .attr("width", d => x(d.value) - x(0))
-          .attr("fill", d => colors[d.rank]);
+          .attr("fill", d => getColorByRank(d.rank));
 
         return bar;
       };
@@ -375,31 +237,36 @@ async function loadStateData(state) {
                 .attr("y", y.bandwidth() / 2)
                 .attr("x", -6)
                 .attr("dy", "-0.25em")
-                .attr("fill", d => getColorByRank(d.rank))
-                .text(d => shortenCompanyName(d.name));
+                .text(d => d.name);
 
               text.append("tspan")
-                .attr("fill", "white")
+                .attr("fill-opacity", 0.7)
                 .attr("font-weight", "normal")
                 .attr("x", -6)
                 .attr("dy", "1.15em");
 
               return text;
             },
-            update => update.attr("fill", d => getColorByRank(d.rank)),
+            update => update,
             exit => exit.transition(transition).remove()
               .attr("transform", d => `translate(${x((next.get(d) || d).value)},${y((next.get(d) || d).rank)})`)
           );
 
         label.transition(transition)
-          .attr("transform", d => `translate(${x(d.value)},${y(d.rank)})`)
-          .attr("fill", d => getColorByRank(d.rank));
+          .attr("transform", d => `translate(${x(d.value)},${y(d.rank)})`);
 
         label.select("tspan")
           .transition(transition)
           .tween("text", d => textTween((prev.get(d) || d).value, d.value));
 
         return label;
+      };
+    }
+
+    function textTween(a, b) {
+      const i = d3.interpolateNumber(a, b);
+      return function(t) {
+        this.textContent = formatNumber(i(t));
       };
     }
 
@@ -433,15 +300,8 @@ async function loadStateData(state) {
       return ([date], transition) => {
         transition.end().then(() => {
           now.text(formatDate(date));
-          d3.select("#race-chart-year").text(formatDate(date));
+          d3.select("#current-year span").text(formatDate(date));
         });
-      };
-    }
-
-    function textTween(a, b) {
-      const i = d3.interpolateNumber(a, b);
-      return function(t) {
-        this.textContent = formatNumber(i(t));
       };
     }
 
@@ -453,19 +313,19 @@ async function loadStateData(state) {
       .attr("class", "error")
       .style("color", "red")
       .style("text-align", "center")
-      .text(`Error loading ${state} data. Please try again.`);
+      .text(`Error loading ${state} data. Please try again. Make sure the data file exists at ${fileName}`);
   }
 }
 
 // Add click handlers to buttons
-d3.selectAll('.race-state-button').on('click', function() {
+d3.selectAll('.state-button').on('click', function() {
   const state = d3.select(this).attr('data-state');
   updateButtons(state);
   loadStateData(state);
 });
 
 // Add pause/resume handler
-d3.select('#pause-race').on('click', function() {
+d3.select('#pause-button').on('click', function() {
   const button = d3.select(this);
   if (isAnimationPaused) {
     button.text("Pause");
@@ -481,10 +341,10 @@ d3.select('#pause-race').on('click', function() {
 });
 
 // Add restart handler
-d3.select('#restart-race').on('click', function() {
-  const currentState = d3.select('.race-state-button.active').attr('data-state');
+d3.select('#restart-button').on('click', function() {
+  const currentState = d3.select('.state-button.active').attr('data-state');
   isAnimationPaused = false;
-  d3.select('#pause-race').text("Pause");
+  d3.select('#pause-button').text("Pause");
   loadStateData(currentState);
 });
 

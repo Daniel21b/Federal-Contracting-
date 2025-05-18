@@ -1,6 +1,6 @@
 body {
     background-color: #1a1a1a;
-    color: white; /* Adding white text color for better contrast */
+    color: white;
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
@@ -260,232 +260,230 @@ footer {
     line-height: 1.6;
     text-align: left;
     padding: 0 15px;
-
-    font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
     font-weight: 600;
 }
 
 /* Race Chart Section Styles */
 #race-chart-section {
-  border-color: #1a1a1a;
-  margin-top: 40px;
-  padding: 30px;
+    border-color: #1a1a1a;
+    margin-top: 40px;
+    padding: 30px;
 }
 
 .race-chart-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 30px;
-  border-bottom: 2px solid #1a1a1a;
-  padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #1a1a1a;
+    padding-bottom: 15px;
 }
 
 .race-chart-header h2 {
-  margin: 0;
-  color: white;
-  font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #race-chart-year {
-  font-size: 1.8em;
-  color: white;
+    font-size: 1.8em;
+    color: white;
 }
 
 .race-chart-container {
-  display: flex;
-  gap: 30px;
-  min-height: 600px;
-  padding-left: 40px; /* Add padding to move everything right */
+    display: flex;
+    gap: 30px;
+    min-height: 600px;
+    padding-left: 40px; /* Add padding to move everything right */
 }
 
 /* Separate control panel styles */
 .race-chart-controls {
-  width: 280px; /* Fixed width instead of flex */
-  min-width: 280px; /* Ensure minimum width */
-  background: #1a1a1a;
-  border: 2px solid white;
-  border-radius: 8px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-  margin-left: -38px;
-  margin-right: 50px; /* Add space between controls and visualization */
+    width: 280px; /* Fixed width instead of flex */
+    min-width: 280px; /* Ensure minimum width */
+    background: #1a1a1a;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: -38px;
+    margin-right: 50px; /* Add space between controls and visualization */
 }
 
 .control-panel h3,
 .control-panel h4 {
-  color: white;
-  margin: 0 0 15px 0;
-  font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin: 0 0 15px 0;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .state-selector {
-  margin-bottom: 25px;
+    margin-bottom: 25px;
 }
 
 .button-group {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .race-state-button {
-  background: transparent;
-  color: white;
-  border: 2px solid white;
-  padding: 10px 15px;
-  border-radius: 4px;
-  cursor: pointer;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 14px;
-  transition: all 0.3s ease;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    transition: all 0.3s ease;
 }
 
 .race-state-button:hover {
-  background: white;
-  color: #1a1a1a;
+    background: white;
+    color: #1a1a1a;
 }
 
 .race-state-button.active {
-  background: white;
-  color: #1a1a1a;
+    background: white;
+    color: #1a1a1a;
 }
 
 .race-controls {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .control-button {
-  background: #2E86C1;
-  color: white;
-  border: none;
-  padding: 12px 20px;
-  border-radius: 4px;
-  cursor: pointer;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 14px;
-  transition: all 0.3s ease;
+    background: #2E86C1;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    transition: all 0.3s ease;
 }
 
 .control-button:hover {
-  background: #3498DB;
+    background: #3498DB;
 }
 
 #restart-race {
-  background: #E74C3C;
+    background: #E74C3C;
 }
 
 #restart-race:hover {
-  background: #C0392B;
+    background: #C0392B;
 }
 
 .race-stats {
-  margin-top: auto;
-  padding: 20px;
-  background: rgba(78, 205, 196, 0.1);
-  border-radius: 4px;
+    margin-top: auto;
+    padding: 20px;
+    background: rgba(78, 205, 196, 0.1);
+    border-radius: 4px;
 }
 
 .race-stats h4 {
-  color: rgb(0, 221, 255);
-  margin: 0 0 15px 0;
+    color: rgb(0, 221, 255);
+    margin: 0 0 15px 0;
 }
 
 .race-stats p {
-  color: white;
-  margin: 8px 0;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 14px;
+    color: white;
+    margin: 8px 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
 }
 
 .race-stats span {
-  color: white;
-  font-weight: bold;
+    color: white;
+    font-weight: bold;
 }
 
 /* Separate visualization styles */
 .race-visualization {
-  width: calc(100% - 240px); /* Take remaining width minus controls and gap */
-  background: #1a1a1a;
-  border: 2px solid #1a1a1a;
-  border-radius: 8px;
-  padding: 20px 20px 0 20px;
-  min-height: 600px;
-  display: flex;
-  flex-direction: column;
-  margin-left: 20px; /* Add space between controls and visualization */
+    width: calc(100% - 240px); /* Take remaining width minus controls and gap */
+    background: #1a1a1a;
+    border: 2px solid #1a1a1a;
+    border-radius: 8px;
+    padding: 20px 20px 0 20px;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px; /* Add space between controls and visualization */
 }
 
 #race-chart {
-  width: 100%;
-  height: 100%;
-  min-height: 500px;
-  margin-top: -20px;
-  overflow: visible;
+    width: 100%;
+    height: 100%;
+    min-height: 500px;
+    margin-top: -20px;
+    overflow: visible;
 }
 
 /* Adjust the axis text positioning */
 #race-chart .axis text {
-  fill: #4ECDC4;
-  transform: translateY(-5px); /* Move axis text up slightly */
+    fill: #4ECDC4;
+    transform: translateY(-5px); /* Move axis text up slightly */
 }
 
 /* Enhance the bar chart appearance */
 #race-chart rect {
-  fill: #2E86C1;
-  transition: all 0.3s ease;
+    fill: #2E86C1;
+    transition: all 0.3s ease;
 }
 
 #race-chart rect:hover {
-  fill: #3498DB;
+    fill: #3498DB;
 }
 
 #race-chart text {
-  fill: white;
-  font-family: 'Courier New', Courier, monospace;
+    fill: white;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #race-chart .axis text {
-  fill: #4ECDC4;
+    fill: #4ECDC4;
 }
 
 #race-chart .axis line {
-  stroke: #4ECDC4;
-  stroke-opacity: 0.2;
+    stroke: #4ECDC4;
+    stroke-opacity: 0.2;
 }
 
 #race-chart .axis path {
-  stroke: #4ECDC4;
+    stroke: #4ECDC4;
 }
 
 .tooltip {
-  position: absolute;
-  padding: 10px;
-  background: rgba(0, 0, 0, 0.8);
-  color: white;
-  border: 1px solid white;
-  border-radius: 5px;
-  pointer-events: none;
-  font-size: 14px;
-  line-height: 1.4;
-  z-index: 1000;
+    position: absolute;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    pointer-events: none;
+    font-size: 14px;
+    line-height: 1.4;
+    z-index: 1000;
 }
 
 .legend {
-  font-family: var(--sans-serif);
-  font-size: 12px;
+    font-family: var(--sans-serif);
+    font-size: 12px;
 }
 
 .legend-item {
-  cursor: pointer;
-  transition: opacity 0.2s;
+    cursor: pointer;
+    transition: opacity 0.2s;
 }
 
 .legend-item:hover {
-  opacity: 0.7;
+    opacity: 0.7;
 }
