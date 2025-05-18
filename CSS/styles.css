@@ -358,6 +358,21 @@ footer {
     box-shadow: 0 0 10px rgba(78, 205, 196, 0.2);
 }
 
+/* Restart button styling */
+.restart-button {
+    background-color: #1a1a1a !important;
+    border: 2px dashed #FF6B6B !important;
+    margin-top: 20px !important;
+    color: #FF6B6B !important;
+    font-weight: 700 !important;
+}
+
+.restart-button:hover {
+    background: #333 !important;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(255, 107, 107, 0.4) !important;
+}
+
 .chart-display {
     background-color: #1a1a1a;
     border: 2px solid #4ECDC4;
@@ -387,4 +402,34 @@ footer {
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.5em;
     transition: opacity 0.3s ease-in-out;
+}
+
+/* Fiscal Year display styling */
+.fiscal-year-display {
+    font-family: 'Courier New', Courier, monospace;
+    color: #4ECDC4;
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem 0;
+    letter-spacing: 5px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    transition: all 0.3s ease;
+    margin-top: 1rem;
+}
+
+/* D3 Axis styling */
+.axis text {
+    fill: white;
+    font-size: 16px !important;
+    font-weight: bold;
+}
+
+.axis .tick line {
+    stroke: #555;
+    stroke-opacity: 0.6;
+}
+
+.race-visualization svg {
+    overflow: visible !important; /* Ensure axis labels are not cut off */
 }

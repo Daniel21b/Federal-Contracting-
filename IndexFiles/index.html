@@ -69,24 +69,25 @@
 
     <section id="barchart-section">
       <div class="barchart-header">
-        <h2>Contract Values Over Time</h2>
-        <h2 id="chart-type">Total Contracts</h2>
+        <h2>Federal Contract Values</h2>
+        <h2 id="chart-type">Top Contract Recipients</h2>
       </div>
 
       <div class="barchart-grids">
         <div class="grid-container">
           <div class="inner-grid-container">
             <div class="chart-selector">
-              <h3>Select View</h3>
+              <h3>Select State</h3>
               <ul>
-                <li><button onclick="updateChartView('total')">Total</button></li>
-                <li><button onclick="updateChartView('monthly')">Monthly</button></li>
-                <li><button onclick="updateChartView('quarterly')">Quarterly</button></li>
+                <li><button onclick="loadDataAndCreateChart('ca')">California</button></li>
+                <li><button onclick="loadDataAndCreateChart('md')">Maryland</button></li>
+                <li><button onclick="loadDataAndCreateChart('va')">Virginia</button></li>
+                <li><button onclick="restartRace()" class="restart-button">Restart Race</button></li>
               </ul>
             </div>
             <div class="chart-display">
               <div id="total-description" class="chart-description">
-                <p>View the total contract values aggregated over time, showing the overall spending patterns and major contract allocations.</p>
+                <p>Loading state data summary...</p>
               </div>
               <div id="monthly-description" class="chart-description" style="display: none;">
                 <p>Analyze month-by-month contract distributions to identify seasonal patterns and monthly spending trends.</p>
@@ -100,6 +101,7 @@
 
         <div class="grid-container purple-grid">
           <div id="bar-vis"></div>
+          <div id="fiscal-year-display" class="fiscal-year-display"></div>
         </div>
       </div>
     </section>
@@ -145,6 +147,8 @@
   <script>
     // Function to update chart view based on selection
     function updateChartView(viewType) {
+      // This function remains for backward compatibility
+      // but is not actively used in the new UI
       // Hide all descriptions
       document.querySelectorAll('.chart-description').forEach(desc => {
         desc.style.display = 'none';
@@ -171,10 +175,6 @@
           chartTitle.classList.remove('fade-in');
         }, 500);
       }, 300);
-      
-      // Here you would update the actual chart visualization
-      // This is a placeholder for future implementation
-      console.log(`Switching to ${viewType} view`);
     }
   </script>
 </body>

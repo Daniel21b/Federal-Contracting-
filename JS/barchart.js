@@ -1,94 +1,29 @@
 // ── CONFIG ─────────────────────────────────────────────────────────────────────
-const width      = 2000;    // Much larger width
-const height     = 1200;    // Much larger height
+const width      = 1200;    // Reduced width to fit better in container
+const height     = 800;     // Reduced height to fit better in container
 const n          = 10;      // show top-10 bars
 const k          = 40;      // frames per year
 const duration   = 150;     // ms per frame
-const marginTop  = 10;      // Much larger top margin
+const marginTop  = 40;      // Increased from 10 to 40 for better axis label visibility
 const marginRight= 60;      // Much larger right margin
 const marginBottom= 30;     // Much larger bottom margin
 const marginLeft = 30;      // Much larger left margin for longer labels
-const barSize    = 150;      // Much larger bar size
+const barSize    = 70;      // Reduced bar size to fit in smaller container
 let currentState = "ca";    // Default state is California
 
 // Store d3 reference locally for this file
 const d3 = d3v6;
 
-// Add controls container and button
-function createControls() {
-  // Create a grid container for controls
-  const controlGrid = d3.select("#bar-vis")
-    .style("display", "grid")
-    .style("grid-template-rows", "auto 1fr")
-    .style("height", "100%")
-    .style("gap", "15px");
-    
-  // Add controls in top row
-  const controls = controlGrid
-    .append("div")
-    .attr("class", "race-controls")
-    .style("display", "flex")
-    .style("justify-content", "center")
-    .style("align-items", "center")
-    .style("gap", "15px")
-    .style("padding", "15px")
-    .style("background-color", "#1a1a1a")
-    .style("border", "2px solid #4ECDC4")
-    .style("border-radius", "6px");
-    
-  // Add state selector
-  controls.append("select")
-    .attr("class", "state-selector")
-    .style("padding", "8px 15px")
-    .style("font-size", "16px")
-    .style("background-color", "#1a1a1a")
-    .style("color", "white")
-    .style("border", "2px dashed #4ECDC4")
-    .style("border-radius", "4px")
-    .style("font-family", "'Courier New', Courier, monospace")
-    .style("cursor", "pointer")
-    .on("change", function() {
-      currentState = this.value;
-      loadDataAndCreateChart(currentState);
-    })
-    .selectAll("option")
-    .data([
-      {value: "ca", text: "California"},
-      {value: "md", text: "Maryland"},
-      {value: "va", text: "Virginia"}
-    ])
-    .enter()
-    .append("option")
-    .attr("value", d => d.value)
-    .text(d => d.text);
-    
-  controls.append("button")
-    .attr("class", "start-button")
-    .text("Start Race")
-    .style("padding", "8px 15px")
-    .style("font-size", "16px")
-    .style("cursor", "pointer")
-    .style("background-color", "#1a1a1a")
-    .style("color", "white")
-    .style("border", "2px dashed #4ECDC4")
-    .style("border-radius", "4px")
-    .style("font-family", "'Courier New', Courier, monospace")
-    .style("font-weight", "600")
-    .style("transition", "all 0.3s ease")
-    .style("letter-spacing", "1px")
-    .on("mouseover", function() {
-      d3.select(this)
-        .style("background-color", "#333")
-        .style("transform", "scale(1.05)");
-    })
-    .on("mouseout", function() {
-      d3.select(this)
-        .style("background-color", "#1a1a1a")
-        .style("transform", "scale(1.0)");
-    });
-    
-  // Create visualization container in second row
-  const vizContainer = controlGrid
+// Function to load data for a specific state
+function loadDataAndCreateChart(stateCode) {
+  // Update current state
+  currentState = stateCode;
+  
+  // Clear existing chart
+  d3.select("#bar-vis .race-visualization").remove();
+  
+  // Create visualization container
+  const vizContainer = d3.select("#bar-vis")
     .append("div")
     .attr("class", "race-visualization")
     .style("width", "100%")
@@ -99,18 +34,10 @@ function createControls() {
     .style("display", "flex")
     .style("justify-content", "center")
     .style("align-items", "center")
-    .style("overflow", "hidden");
-
-  return controls;
-}
-
-// Function to load data for a specific state
-function loadDataAndCreateChart(stateCode) {
-  // Clear existing chart
-  d3.select("#bar-vis .race-visualization svg").remove();
+    .style("padding", "20px 10px"); // Added padding all around
   
   // Show loading message
-  const loadingMsg = d3.select("#bar-vis .race-visualization").append("p")
+  const loadingMsg = vizContainer.append("p")
     .attr("class", "loading-message")
     .style("color", "white")
     .style("font-family", "'Courier New', Courier, monospace")
@@ -159,13 +86,73 @@ function loadDataAndCreateChart(stateCode) {
     console.log("Years in dataset:", years);
     console.log("Total records:", data.length);
     
-    // Create the race chart with start button
+    // Generate a state data summary
+    createStateSummary(data, stateCode);
+    
+    // Create the race chart
     createRaceChart(data);
   })
   .catch(err => {
     console.error(`Error loading ${stateCode.toUpperCase()} JSON:`, err);
-    loadingMsg.text(`Error loading data for ${stateCode.toUpperCase()}. Please try another state.`);
+    vizContainer.append("p")
+      .attr("class", "loading-message")
+      .style("color", "white")
+      .style("font-family", "'Courier New', Courier, monospace")
+      .style("font-size", "16px")
+      .text(`Error loading data for ${stateCode.toUpperCase()}. Please try another state.`);
   });
+}
+
+// Helper function for number formatting (moved up for accessibility)
+const formatNumber = d => {
+  const n = Math.abs(d);
+  if (n >= 1e9) return (d/1e9).toFixed(1) + 'B';
+  if (n >= 1e6) return (d/1e6).toFixed(1) + 'M';
+  if (n >= 1e3) return (d/1e3).toFixed(1) + 'K';
+  return d.toString();
+};
+
+// Function to create a summary of the state data
+function createStateSummary(data, stateCode) {
+  // Calculate total contract amount
+  const totalAmount = d3.sum(data, d => d.value);
+  
+  // Find unique recipients
+  const uniqueRecipients = new Set(data.map(d => d.name)).size;
+  
+  // Get fiscal year range
+  const years = [...new Set(data.map(d => d.date.getFullYear()))].sort();
+  const yearRange = `${years[0]}-${years[years.length-1]}`;
+  
+  // Find top recipient in the most recent year
+  const mostRecentYear = Math.max(...years);
+  const mostRecentData = data.filter(d => d.date.getFullYear() === mostRecentYear);
+  
+  // Sort by value and get top recipient
+  mostRecentData.sort((a, b) => b.value - a.value);
+  const topRecipient = mostRecentData.length > 0 ? mostRecentData[0].name : "Not available";
+  const topAmount = mostRecentData.length > 0 ? formatNumber(mostRecentData[0].value) : "N/A";
+  
+  // Create formatted summary
+  const stateName = stateCode === 'ca' ? 'California' : stateCode === 'md' ? 'Maryland' : 'Virginia';
+  const summary = `
+    <p><strong>${stateName}</strong> received a total of <strong>${formatNumber(totalAmount)}</strong> in federal contracts 
+    during fiscal years ${yearRange}, distributed among <strong>${uniqueRecipients}</strong> unique recipients. 
+    In FY ${mostRecentYear}, the top recipient was <strong>${topRecipient}</strong> 
+    with <strong>${topAmount}</strong> in contract value.</p>
+  `;
+  
+  // Update the total-description div
+  document.getElementById('total-description').innerHTML = summary;
+  
+  // Make it visible if it's not already
+  document.getElementById('total-description').style.display = 'block';
+}
+
+// Helper function to format company names - shortened for smaller chart dimensions
+function formatCompanyName(name) {
+  // Truncate to 25 characters and add ellipsis if longer
+  return name.length > 25 ? name.substring(0, 25) + '...' : name;
 }
 
 // Helper function to capitalize first letter
@@ -173,37 +160,52 @@ function capitalizeFirstLetter(string) {
   return string.charAt(0).toUpperCase() + string.slice(1);
 }
 
+// Function to restart the race animation for the current state
+function restartRace() {
+  // Get the data from the current chart
+  const vizContainer = d3.select("#bar-vis .race-visualization");
+  
+  // If no visualization exists yet, load the default state
+  if (vizContainer.empty()) {
+    loadDataAndCreateChart(currentState);
+    return;
+  }
+  
+  // Otherwise, show a "restarting" message and trigger the race
+  const raceButton = d3.select(".restart-button");
+  
+  // Disable the button during animation
+  raceButton
+    .property("disabled", true)
+    .style("opacity", "0.5")
+    .style("cursor", "not-allowed")
+    .text("Restarting...");
+  
+  // Run the race
+  runBarChartRace(window.currentChartData);
+  
+  // Re-enable the button after animation
+  setTimeout(() => {
+    raceButton
+      .property("disabled", false)
+      .style("opacity", "1")
+      .style("cursor", "pointer")
+      .text("Restart Race");
+  }, duration * k * 5 + 500); // Approximate animation duration
+}
+
 // ── MAIN ENTRY ─────────────────────────────────────────────────────────────────
 // Initialize with California data on page load
 document.addEventListener('DOMContentLoaded', () => {
-  createControls();
   loadDataAndCreateChart(currentState);
 });
 
 function createRaceChart(data) {
-  // Get controls already created
-  const controls = d3.select(".race-controls");
-  const startButton = controls.select(".start-button");
+  // Save data reference for restart function
+  window.currentChartData = data;
   
-  // Function to run the race
-  async function runRace() {
-    startButton.property("disabled", true)
-               .style("opacity", "0.5")
-               .style("cursor", "not-allowed")
-               .style("border", "2px dashed #888")
-               .text("Racing...");
-               
-    await runBarChartRace(data);
-    
-    startButton.property("disabled", false)
-               .style("opacity", "1")
-               .style("cursor", "pointer")
-               .style("border", "2px dashed #4ECDC4")
-               .text("Restart Race");
-  }
-  
-  // Attach click handler
-  startButton.on("click", runRace);
+  // Start the race immediately
+  runBarChartRace(data);
 }
 
 // ── MAIN ENTRY ─────────────────────────────────────────────────────────────────
@@ -356,13 +358,7 @@ function bars(svg, x, y, color, prev, next) {
       .attr("width", d=>x(d.value)-x(0)));
 }
 
-// Helper function to format company names - allow for longer names
-function formatCompanyName(name) {
-  // Truncate to 40 characters and add ellipsis if longer
-  return name.length > 40 ? name.substring(0, 40) + '...' : name;
-}
-
-// Update labels with much larger text
+// Update labels with appropriate text sizes for the new dimensions
 function labels(svg, x, y, prev, next) {
   // Create a container group for labels and connecting lines
   const labelGroup = svg.append("g");
@@ -371,12 +367,12 @@ function labels(svg, x, y, prev, next) {
   const lineGroup = labelGroup.append("g")
     .attr("class", "connecting-lines")
     .attr("stroke", "#9ecaed")
-    .attr("stroke-width", 3)    // Thicker lines
-    .attr("stroke-dasharray", "5,3");
+    .attr("stroke-width", 2)    // Slightly thinner lines
+    .attr("stroke-dasharray", "4,3");
   
   // Add text group with proper styling
   const textGroup = labelGroup.append("g")
-    .style("font", `bold 30px var(--sans-serif)`) // Much larger font
+    .style("font", `bold 18px var(--sans-serif)`) // Smaller font size
     .style("font-variant-numeric", "tabular-nums")
     .attr("text-anchor", "end");
   
@@ -391,7 +387,7 @@ function labels(svg, x, y, prev, next) {
       .join(
         enter => enter.append("line")
           .attr("transform", d => `translate(${x((prev.get(d)||d).value)},${y((prev.get(d)||d).rank)})`)
-          .attr("x1", -45)  // Extend more to connect with text
+          .attr("x1", -30)  // Shorter connecting line
           .attr("x2", 0)
           .attr("y1", y.bandwidth() / 2)
           .attr("y2", y.bandwidth() / 2),
@@ -410,18 +406,18 @@ function labels(svg, x, y, prev, next) {
         enter => enter.append("text")
           .attr("transform", d => `translate(${x((prev.get(d)||d).value)},${y((prev.get(d)||d).rank)})`)
           .attr("y", y.bandwidth() / 2)
-          .attr("x", -50)  // Position text with more spacing
+          .attr("x", -35)  // Position text with sufficient spacing
           .attr("dy", "-0.25em")
           .attr("fill", "#fff")
-          .attr("text-shadow", "0 0 8px rgba(0,0,0,0.9)")  // Stronger shadow
-          .attr("font-size", "32px")  // Much larger font size
+          .attr("text-shadow", "0 0 6px rgba(0,0,0,0.9)")  // Less extreme shadow
+          .attr("font-size", "18px")  // Smaller font size
           .text(d => formatCompanyName(d.name))
           .call(t => t.append("tspan")
             .attr("fill", "#9ecaed")
             .attr("font-weight", "normal")
-            .attr("x", -50)
+            .attr("x", -35)
             .attr("dy", "1.15em")
-            .attr("font-size", "28px")  // Slightly smaller than the name
+            .attr("font-size", "16px")  // Slightly smaller than the name
             .text(d => formatNumber((prev.get(d)||d).value))),
         update => update,
         exit => exit.transition(transition).remove()
@@ -437,80 +433,76 @@ function labels(svg, x, y, prev, next) {
   };
 }
 
-// Update ticker to position year display below the chart
+// Update ticker to update the external fiscal year display instead of the SVG
 function ticker(svg, keyframes) {
-  console.log("Initializing ticker with keyframes:", keyframes);
-  
-  // Clear any existing year indicator
-  svg.selectAll(".year-indicator").remove();
-  
-  // Create a group for the year text positioned below the chart area
-  const yearGroup = svg.append("g")
-    .attr("class", "year-indicator")
-    .attr("transform", `translate(${width/2}, ${height + 60})`) // Position below the chart
-    .style("pointer-events", "none");
-  
-  // Add the main year text with fixed size
-  const now = yearGroup.append("text")
-    .attr("text-anchor", "middle")
-    .attr("dominant-baseline", "middle")
-    .attr("y", 0)
-    .attr("fill", "#4ECDC4")
-    .attr("font-family", "Courier New, monospace")
-    .attr("font-weight", "bold")
-    .attr("font-size", "200px") // Slightly smaller but still large
-    .attr("text-shadow", "0 0 15px rgba(0,0,0,0.9)")
-    .style("letter-spacing", "10px");
+  // Select the external fiscal year display element
+  const fiscalYearDisplay = d3.select("#fiscal-year-display");
   
   // Set initial year
   if (keyframes && keyframes.length > 0 && keyframes[0][0]) {
-    console.log("Initial keyframe date:", keyframes[0][0]);
     const initialYear = keyframes[0][0].getFullYear();
-    console.log("Initial year:", initialYear);
     const yearText = "FY " + initialYear;
-    now.text(yearText);
+    fiscalYearDisplay.text(yearText);
   } else {
-    console.warn("No valid initial keyframe found:", keyframes);
+    console.warn("No valid initial keyframe found");
   }
 
   return ([date], transition) => {
-    console.log("Updating ticker with date:", date);
     if (date) {
       const year = date.getFullYear();
-      console.log("New year to display:", year);
       
       transition.end().then(() => {
         const yearText = "FY " + year;
-        console.log("Setting year text to:", yearText);
         
-        // Update the text
-        now.text(yearText);
+        // Update the text in the external element
+        fiscalYearDisplay.text(yearText)
+          .style("opacity", 0)
+          .transition()
+          .duration(300)
+          .style("opacity", 1);
       });
     } else {
-      console.warn("Received invalid date in ticker update:", date);
+      console.warn("Received invalid date in ticker update");
     }
   };
 }
 
-// Update axis for massive text
+// Update axis with appropriate text size and positioning
 function axis(svg, x, y) {
-  const g = svg.append("g").attr("transform",`translate(0,${marginTop})`);
+  // Create a group for the axis, positioned with enough space from the top
+  const g = svg.append("g")
+    .attr("transform", `translate(0,${marginTop})`)
+    .attr("class", "axis");
+    
+  // Configure the axis
   const ax = d3.axisTop(x)
-    .ticks(width/250, ",d")
+    .ticks(width/200, ",d")
     .tickSizeOuter(0)
     .tickSizeInner(-barSize*n - marginTop);
+    
   return (_, transition) => {
+    // Apply the axis with transition
     g.transition(transition).call(ax);
+    
+    // Remove the first tick text (usually 0)
     g.select(".tick:first-of-type text").remove();
+    
+    // Style the grid lines
     g.selectAll(".tick:not(:first-of-type) line")
       .attr("stroke", "#555")
       .attr("stroke-opacity", 0.6)
-      .attr("stroke-width", 1.5)
-      .attr("stroke-dasharray", "3,4");
+      .attr("stroke-width", 1)
+      .attr("stroke-dasharray", "2,3");
+    
+    // Style the tick labels
     g.selectAll(".tick text")
       .attr("fill", "#fff")
-      .attr("font-size", "26px") // Much larger axis labels
-      .attr("font-weight", "bold");
+      .attr("font-size", "16px") // Increased font size
+      .attr("font-weight", "bold")
+      .attr("dy", "-0.7em") // Increased upward shift
+      .attr("text-anchor", "middle"); // Ensure text is centered on tick
+    
+    // Remove the domain line
     g.select(".domain").remove();
   };
 }
@@ -520,36 +512,28 @@ function textTween(a, b) {
   return t => this.textContent = formatNumber(i(t));
 }
 
-const formatNumber = d => {
-  const n = Math.abs(d);
-  if (n >= 1e9) return (d/1e9).toFixed(1) + 'B';
-  if (n >= 1e6) return (d/1e6).toFixed(1) + 'M';
-  if (n >= 1e3) return (d/1e3).toFixed(1) + 'K';
-  return d.toString();
-};
-
 const formatDate = d3.utcFormat("%Y");
 
-// Update the createSvg function to extend the SVG height to accommodate the year below
+// Update the createSvg function to make the chart more responsive
 function createSvg() {
   // Clear any existing SVG
   d3.select("#bar-vis .race-visualization svg").remove();
 
-  // Calculate extended height to accommodate the year display below
-  const extendedHeight = height + 200; // Add space for the year display
-
-  // build SVG with extra height
-  const svg = d3.select("#bar-vis .race-visualization").append("svg")
-    .attr("viewBox", [0, 0, width, extendedHeight])
+  // Create the SVG with proper dimensions for the container
+  const svg = d3.select("#bar-vis .race-visualization")
+    .append("svg")
+    .attr("viewBox", [0, 0, width, height])
     .attr("width", "100%")
     .attr("height", "100%")
     .style("max-width", "100%")
-    .style("max-height", "1600px"); // Increased to accommodate the extended height
+    .style("display", "block")
+    .style("margin", "0 auto")
+    .style("padding-top", "20px"); // Add padding at the top for axis labels
     
-  // Add a background for better visibility - only covering the chart area
+  // Add a background for better visibility
   svg.append("rect")
     .attr("width", width)
-    .attr("height", height) // Only cover the chart area, not the extended space
+    .attr("height", height)
     .attr("fill", "#2a2a2a");
     
   return svg;
