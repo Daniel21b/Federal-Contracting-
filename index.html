@@ -113,6 +113,45 @@
       <p style="color: #888; margin-top: 15px; font-size: 0.9em;">Note: Colors repeat for ranks beyond 5. Hover over bars to see exact rankings.</p>
     </div>
 
+    <!-- Add treemap visualization section -->
+    <section id="treemap-section" style="max-width: 1200px; margin: 40px auto; padding: 20px;">
+      <h2 style="color: white; margin-bottom: 20px;">Contract Categories Distribution</h2>
+      
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+        <div>
+          <select id="stateSelect" style="padding: 8px; border-radius: 4px; background: #2a2a2a; color: white; border: 1px solid #444;">
+            <option value="CA">California</option>
+            <option value="MD">Maryland</option>
+            <option value="VA">Virginia</option>
+          </select>
+        </div>
+        <div style="display: flex; align-items: center;">
+          <input type="range" id="yearSlider" min="2020" max="2024" value="2021" style="margin-right: 10px;">
+          <span id="yearLabel" style="color: white;">Year: 2021</span>
+        </div>
+      </div>
+
+      <div id="treemap"></div>
+      
+      <div style="text-align: right; padding: 5px; font-size: 12px; color: #888;">
+        Treemap visualization shows the distribution of contract categories by value
+      </div>
+    </section>
+
+    <script>
+      // Set d3 to v6 for treemap
+      d3 = d3v6;
+    </script>
+    <script>
+      // Override the file paths to ensure they match exactly
+      const correctPaths = {
+        "CA": "processed_data/california_contracts_2025-05-18.csv",
+        "MD": "processed_data/maryland_contracts_2025-05-18.csv",
+        "VA": "processed_data/virginia_contracts_2025-05-18.csv"
+      };
+    </script>
+    <script src="JS/treemap.js"></script>
+
     <!-- Add overview section -->
     <section id="overview-section" style="border: none; padding: 40px 20px;">
       <div style="max-width: 1200px; margin: 0 auto; text-align: left;">
