@@ -11,14 +11,17 @@
 ## Project Overview
 An interactive visualization system exploring federal contract spending across Virginia, California, and Maryland (2020-2024). The project features dynamic visualizations including an animated bar chart race and an interactive state map, making complex federal spending data accessible to the public.
 
+**Live Demo:** [https://federal-contracting.onrender.com](https://federal-contracting.onrender.com)
+
 ## Running Instructions
 
-### Prerequisites
-- Modern web browser (Chrome, Firefox, Safari recommended)
-- Node.js and npm
-- Local web server capability
+### Online Access
+The easiest way to view the visualization is through our live demo:
+- **Live Demo:** [https://federal-contracting.onrender.com](https://federal-contracting.onrender.com)
 
-### Installation Steps
+### Local Setup
+If you prefer to run the visualization locally:
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/Daniel21b/Federal-Contracting-.git
