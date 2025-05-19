@@ -1,0 +1,281 @@
+{
+  "nodes": [
+    {
+      "name": "SUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE",
+      "type": "action_type",
+      "value": 557530684.54
+    },
+    {
+      "name": "MARYLAND",
+      "type": "state",
+      "value": 5092395869.539997
+    },
+    {
+      "name": "Not Specified",
+      "type": "action_type",
+      "value": 2482878126.970001
+    },
+    {
+      "name": "VIRGINIA",
+      "type": "state",
+      "value": 1955691628.6999998
+    },
+    {
+      "name": "FUNDING ONLY ACTION",
+      "type": "action_type",
+      "value": 2336430259.199999
+    },
+    {
+      "name": "EXERCISE AN OPTION",
+      "type": "action_type",
+      "value": 1175939672.0
+    },
+    {
+      "name": "OTHER ADMINISTRATIVE ACTION",
+      "type": "action_type",
+      "value": 334447060.11999977
+    },
+    {
+      "name": "CHANGE ORDER",
+      "type": "action_type",
+      "value": 202811475.8199999
+    },
+    {
+      "name": "LEGAL CONTRACT CANCELLATION",
+      "type": "action_type",
+      "value": -725012.3
+    },
+    {
+      "name": "CLOSE OUT",
+      "type": "action_type",
+      "value": -11927260.859999998
+    },
+    {
+      "name": "CALIFORNIA",
+      "type": "state",
+      "value": 99665690.31
+    },
+    {
+      "name": "ADDITIONAL WORK (NEW AGREEMENT, JUSTIFICATION REQUIRED)",
+      "type": "action_type",
+      "value": 76296733.44
+    },
+    {
+      "name": "DEFINITIZE CHANGE ORDER",
+      "type": "action_type",
+      "value": 9499926.33
+    },
+    {
+      "name": "TERMINATE FOR CONVENIENCE (COMPLETE OR PARTIAL)",
+      "type": "action_type",
+      "value": -19954662.619999986
+    },
+    {
+      "name": "TERMINATE FOR CAUSE",
+      "type": "action_type",
+      "value": -265709.3
+    },
+    {
+      "name": "TERMINATE FOR DEFAULT (COMPLETE OR PARTIAL)",
+      "type": "action_type",
+      "value": -248057.0
+    },
+    {
+      "name": "DEFINITIZE LETTER CONTRACT",
+      "type": "action_type",
+      "value": 3378055.21
+    },
+    {
+      "name": "UNIQUE ENTITY ID OR LEGAL BUSINESS NAME CHANGE - NON-NOVATION",
+      "type": "action_type",
+      "value": 881421.0
+    },
+    {
+      "name": "REREPRESENTATION OF NON-NOVATED MERGER/ACQUISITION",
+      "type": "action_type",
+      "value": 600000.0
+    },
+    {
+      "name": "REREPRESENTATION",
+      "type": "action_type",
+      "value": 180476.0
+    }
+  ],
+  "links": [
+    {
+      "source": 0,
+      "target": 1,
+      "value": 518137006.62999976
+    },
+    {
+      "source": 2,
+      "target": 3,
+      "value": 888034244.1299998
+    },
+    {
+      "source": 4,
+      "target": 1,
+      "value": 2254210893.7899995
+    },
+    {
+      "source": 5,
+      "target": 1,
+      "value": 835112985.3999994
+    },
+    {
+      "source": 6,
+      "target": 1,
+      "value": 232256074.51999995
+    },
+    {
+      "source": 2,
+      "target": 1,
+      "value": 1523613544.509998
+    },
+    {
+      "source": 4,
+      "target": 3,
+      "value": 386071155.0400001
+    },
+    {
+      "source": 7,
+      "target": 3,
+      "value": 43799087.190000005
+    },
+    {
+      "source": 5,
+      "target": 3,
+      "value": 317440267.48
+    },
+    {
+      "source": 8,
+      "target": 1,
+      "value": 620433.35
+    },
+    {
+      "source": 9,
+      "target": 1,
+      "value": 6963795.419999998
+    },
+    {
+      "source": 5,
+      "target": 10,
+      "value": 23822633.38
+    },
+    {
+      "source": 0,
+      "target": 3,
+      "value": 106378662.96000004
+    },
+    {
+      "source": 6,
+      "target": 3,
+      "value": 277285748.55999994
+    },
+    {
+      "source": 11,
+      "target": 1,
+      "value": 59114150.91999999
+    },
+    {
+      "source": 7,
+      "target": 1,
+      "value": 202698005.81999993
+    },
+    {
+      "source": 4,
+      "target": 10,
+      "value": 5530669.03
+    },
+    {
+      "source": 6,
+      "target": 10,
+      "value": 3193434.22
+    },
+    {
+      "source": 2,
+      "target": 10,
+      "value": 71230338.32999998
+    },
+    {
+      "source": 12,
+      "target": 1,
+      "value": 9553145.93
+    },
+    {
+      "source": 13,
+      "target": 1,
+      "value": 15680347.81999997
+    },
+    {
+      "source": 0,
+      "target": 10,
+      "value": 3659704.09
+    },
+    {
+      "source": 7,
+      "target": 10,
+      "value": 204153.23
+    },
+    {
+      "source": 9,
+      "target": 10,
+      "value": 91006.67
+    },
+    {
+      "source": 14,
+      "target": 1,
+      "value": 265709.3
+    },
+    {
+      "source": 15,
+      "target": 1,
+      "value": 248057.0
+    },
+    {
+      "source": 9,
+      "target": 3,
+      "value": 5011519.169999998
+    },
+    {
+      "source": 16,
+      "target": 1,
+      "value": 3418055.21
+    },
+    {
+      "source": 13,
+      "target": 10,
+      "value": 211197.28
+    },
+    {
+      "source": 13,
+      "target": 3,
+      "value": 4144857.94
+    },
+    {
+      "source": 8,
+      "target": 3,
+      "value": 104923.35
+    },
+    {
+      "source": 17,
+      "target": 1,
+      "value": 881421.0
+    },
+    {
+      "source": 18,
+      "target": 1,
+      "value": 600000.0
+    },
+    {
+      "source": 11,
+      "target": 3,
+      "value": 17246569.48
+    },
+    {
+      "source": 19,
+      "target": 1,
+      "value": 180476.0
+    }
+  ]
+}

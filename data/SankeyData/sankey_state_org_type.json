@@ -1,0 +1,171 @@
+{
+  "nodes": [
+    {
+      "name": "MARYLAND",
+      "type": "state",
+      "value": 5092395869.539997
+    },
+    {
+      "name": "CORPORATE NOT TAX EXEMPT",
+      "type": "org_type",
+      "value": 4498592618.9699955
+    },
+    {
+      "name": "VIRGINIA",
+      "type": "state",
+      "value": 1955691628.6999998
+    },
+    {
+      "name": "CORPORATE TAX EXEMPT",
+      "type": "org_type",
+      "value": 812290122.42
+    },
+    {
+      "name": "Not Specified",
+      "type": "org_type",
+      "value": 591380147.2299998
+    },
+    {
+      "name": "US GOVERNMENT ENTITY",
+      "type": "org_type",
+      "value": 19094594.890000004
+    },
+    {
+      "name": "OTHER",
+      "type": "org_type",
+      "value": 515294643.7800012
+    },
+    {
+      "name": "SOLE PROPRIETORSHIP",
+      "type": "org_type",
+      "value": 30223705.769999992
+    },
+    {
+      "name": "PARTNERSHIP",
+      "type": "org_type",
+      "value": 680745169.0899999
+    },
+    {
+      "name": "CALIFORNIA",
+      "type": "state",
+      "value": 99665690.31
+    },
+    {
+      "name": "N",
+      "type": "org_type",
+      "value": 132186.4
+    }
+  ],
+  "links": [
+    {
+      "source": 0,
+      "target": 1,
+      "value": 3624323974.7899976
+    },
+    {
+      "source": 2,
+      "target": 1,
+      "value": 1301106815.5999992
+    },
+    {
+      "source": 0,
+      "target": 3,
+      "value": 813275675.8299993
+    },
+    {
+      "source": 0,
+      "target": 4,
+      "value": 427183395.4100002
+    },
+    {
+      "source": 2,
+      "target": 3,
+      "value": 16666700.750000002
+    },
+    {
+      "source": 0,
+      "target": 5,
+      "value": 19717752.169999998
+    },
+    {
+      "source": 0,
+      "target": 6,
+      "value": 433144158.5199999
+    },
+    {
+      "source": 0,
+      "target": 7,
+      "value": 21069262.810000002
+    },
+    {
+      "source": 0,
+      "target": 8,
+      "value": 324839883.09000015
+    },
+    {
+      "source": 2,
+      "target": 8,
+      "value": 426637940.18000025
+    },
+    {
+      "source": 2,
+      "target": 6,
+      "value": 96300894.74999997
+    },
+    {
+      "source": 2,
+      "target": 7,
+      "value": 16969234.66
+    },
+    {
+      "source": 9,
+      "target": 1,
+      "value": 93252210.70000002
+    },
+    {
+      "source": 2,
+      "target": 4,
+      "value": 187691732.95999998
+    },
+    {
+      "source": 9,
+      "target": 3,
+      "value": 3031067.46
+    },
+    {
+      "source": 9,
+      "target": 8,
+      "value": 139611.9
+    },
+    {
+      "source": 9,
+      "target": 6,
+      "value": 613304.41
+    },
+    {
+      "source": 9,
+      "target": 7,
+      "value": 574916.78
+    },
+    {
+      "source": 9,
+      "target": 5,
+      "value": 514470.48
+    },
+    {
+      "source": 2,
+      "target": 5,
+      "value": 11530.0
+    },
+    {
+      "source": 9,
+      "target": 4,
+      "value": 9817554.5
+    },
+    {
+      "source": 2,
+      "target": 10,
+      "value": 132186.4
+    }
+  ]
+}

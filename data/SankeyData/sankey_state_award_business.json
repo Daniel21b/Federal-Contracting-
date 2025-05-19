@@ -1,0 +1,151 @@
+{
+  "nodes": [
+    {
+      "name": "MARYLAND",
+      "type": "state",
+      "value": 5092395869.539997
+    },
+    {
+      "name": "DEFINITIVE CONTRACT",
+      "type": "award_type",
+      "value": 3996804613.109998
+    },
+    {
+      "name": "OTHER THAN SMALL BUSINESS",
+      "type": "business_size",
+      "value": 4839307497.919999
+    },
+    {
+      "name": "VIRGINIA",
+      "type": "state",
+      "value": 1955691628.6999998
+    },
+    {
+      "name": "BPA CALL",
+      "type": "award_type",
+      "value": 762784222.2399998
+    },
+    {
+      "name": "PURCHASE ORDER",
+      "type": "award_type",
+      "value": 85434677.04999998
+    },
+    {
+      "name": "SMALL BUSINESS",
+      "type": "business_size",
+      "value": 2308445690.629998
+    },
+    {
+      "name": "DELIVERY ORDER",
+      "type": "award_type",
+      "value": 2302729676.1500015
+    },
+    {
+      "name": "CALIFORNIA",
+      "type": "state",
+      "value": 99665690.31
+    }
+  ],
+  "links": [
+    {
+      "source": 0,
+      "target": 1,
+      "value": 3476586146.4900007
+    },
+    {
+      "source": 1,
+      "target": 2,
+      "value": 3539726619.03
+    },
+    {
+      "source": 3,
+      "target": 4,
+      "value": 426278566.6499997
+    },
+    {
+      "source": 4,
+      "target": 2,
+      "value": 367059323.25999975
+    },
+    {
+      "source": 0,
+      "target": 5,
+      "value": 79548317.44
+    },
+    {
+      "source": 5,
+      "target": 6,
+      "value": 77791269.97999999
+    },
+    {
+      "source": 5,
+      "target": 2,
+      "value": 25944954.250000007
+    },
+    {
+      "source": 3,
+      "target": 1,
+      "value": 813306381.6000003
+    },
+    {
+      "source": 1,
+      "target": 6,
+      "value": 776748289.2799997
+    },
+    {
+      "source": 0,
+      "target": 7,
+      "value": 1706266887.0499988
+    },
+    {
+      "source": 7,
+      "target": 6,
+      "value": 1278744668.8699996
+    },
+    {
+      "source": 3,
+      "target": 5,
+      "value": 14537875.970000006
+    },
+    {
+      "source": 0,
+      "target": 4,
+      "value": 401152751.6400003
+    },
+    {
+      "source": 4,
+      "target": 6,
+      "value": 469403226.3600002
+    },
+    {
+      "source": 3,
+      "target": 7,
+      "value": 791394211.0799997
+    },
+    {
+      "source": 7,
+      "target": 2,
+      "value": 1281595923.1200001
+    },
+    {
+      "source": 8,
+      "target": 5,
+      "value": 9650030.82
+    },
+    {
+      "source": 8,
+      "target": 1,
+      "value": 26582380.220000003
+    },
+    {
+      "source": 8,
+      "target": 4,
+      "value": 9031231.33
+    },
+    {
+      "source": 8,
+      "target": 7,
+      "value": 62679493.85999999
+    }
+  ]
+}

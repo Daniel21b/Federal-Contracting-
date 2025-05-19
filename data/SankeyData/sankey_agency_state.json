@@ -1,0 +1,606 @@
+{
+  "nodes": [
+    {
+      "name": "Department of Defense",
+      "type": "agency",
+      "value": 3170561259.269995
+    },
+    {
+      "name": "MARYLAND",
+      "type": "state",
+      "value": 5092395869.539997
+    },
+    {
+      "name": "Social Security Administration",
+      "type": "agency",
+      "value": 282498351.10999995
+    },
+    {
+      "name": "VIRGINIA",
+      "type": "state",
+      "value": 1955691628.6999998
+    },
+    {
+      "name": "Department of Veterans Affairs",
+      "type": "agency",
+      "value": 27371944.02999999
+    },
+    {
+      "name": "Department of Agriculture",
+      "type": "agency",
+      "value": 82957914.47999999
+    },
+    {
+      "name": "General Services Administration",
+      "type": "agency",
+      "value": 518429574.1200002
+    },
+    {
+      "name": "Department of Homeland Security",
+      "type": "agency",
+      "value": 119473342.06999998
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "type": "agency",
+      "value": 1220507071.5499997
+    },
+    {
+      "name": "Department of the Treasury",
+      "type": "agency",
+      "value": 388754137.4399999
+    },
+    {
+      "name": "Department of Justice",
+      "type": "agency",
+      "value": 15600330.690000003
+    },
+    {
+      "name": "Department of Housing and Urban Development",
+      "type": "agency",
+      "value": -10123884.180000002
+    },
+    {
+      "name": "Nuclear Regulatory Commission",
+      "type": "agency",
+      "value": 5552589.09
+    },
+    {
+      "name": "Agency for International Development",
+      "type": "agency",
+      "value": 18683642.79
+    },
+    {
+      "name": "CALIFORNIA",
+      "type": "state",
+      "value": 99665690.31
+    },
+    {
+      "name": "Department of Commerce",
+      "type": "agency",
+      "value": 403374325.29
+    },
+    {
+      "name": "Department of Energy",
+      "type": "agency",
+      "value": 141586188.95
+    },
+    {
+      "name": "Department of the Interior",
+      "type": "agency",
+      "value": 38687283.960000016
+    },
+    {
+      "name": "National Gallery of Art",
+      "type": "agency",
+      "value": 246221.43
+    },
+    {
+      "name": "Department of Transportation",
+      "type": "agency",
+      "value": 531645613.4000001
+    },
+    {
+      "name": "National Aeronautics and Space Administration",
+      "type": "agency",
+      "value": 113914458.37000002
+    },
+    {
+      "name": "Department of State",
+      "type": "agency",
+      "value": 20638728.54
+    },
+    {
+      "name": "Consumer Product Safety Commission",
+      "type": "agency",
+      "value": 2155205.4099999997
+    },
+    {
+      "name": "National Archives and Records Administration",
+      "type": "agency",
+      "value": 1843694.59
+    },
+    {
+      "name": "Federal Mediation and Conciliation Service",
+      "type": "agency",
+      "value": 285600.0
+    },
+    {
+      "name": "Department of Education",
+      "type": "agency",
+      "value": 27963599.05
+    },
+    {
+      "name": "Federal Communications Commission",
+      "type": "agency",
+      "value": 1059147.1900000002
+    },
+    {
+      "name": "Securities and Exchange Commission",
+      "type": "agency",
+      "value": 9922553.05
+    },
+    {
+      "name": "Consumer Financial Protection Bureau",
+      "type": "agency",
+      "value": 336817.76
+    },
+    {
+      "name": "Environmental Protection Agency",
+      "type": "agency",
+      "value": 2453244.6100000003
+    },
+    {
+      "name": "Government Accountability Office",
+      "type": "agency",
+      "value": 2635492.8899999997
+    },
+    {
+      "name": "Court Services and Offender Supervision Agency",
+      "type": "agency",
+      "value": 385332.48
+    },
+    {
+      "name": "Department of Labor",
+      "type": "agency",
+      "value": 2322387.05
+    },
+    {
+      "name": "Smithsonian Institution",
+      "type": "agency",
+      "value": 4081271.6500000004
+    },
+    {
+      "name": "Equal Employment Opportunity Commission",
+      "type": "agency",
+      "value": 9493.0
+    },
+    {
+      "name": "U.S. Agency for Global Media",
+      "type": "agency",
+      "value": 75000.0
+    },
+    {
+      "name": "Federal Trade Commission",
+      "type": "agency",
+      "value": 18737.48
+    },
+    {
+      "name": "National Science Foundation",
+      "type": "agency",
+      "value": 1550421.08
+    },
+    {
+      "name": "National Transportation Safety Board",
+      "type": "agency",
+      "value": 18337.5
+    },
+    {
+      "name": "Export-Import Bank of the United States",
+      "type": "agency",
+      "value": 3403.1000000000004
+    },
+    {
+      "name": "Small Business Administration",
+      "type": "agency",
+      "value": 39294.26
+    },
+    {
+      "name": "U.S. International Development Finance Corporation",
+      "type": "agency",
+      "value": 80000.0
+    },
+    {
+      "name": "Office of Personnel Management",
+      "type": "agency",
+      "value": 155064.0
+    }
+  ],
+  "links": [
+    {
+      "source": 0,
+      "target": 1,
+      "value": 2914636052.7699957
+    },
+    {
+      "source": 2,
+      "target": 3,
+      "value": 138565235.32
+    },
+    {
+      "source": 0,
+      "target": 3,
+      "value": 542713327.6200001
+    },
+    {
+      "source": 4,
+      "target": 1,
+      "value": 22922854.799999997
+    },
+    {
+      "source": 5,
+      "target": 1,
+      "value": 78354270.32000001
+    },
+    {
+      "source": 6,
+      "target": 1,
+      "value": 105368754.58999975
+    },
+    {
+      "source": 7,
+      "target": 1,
+      "value": 45498322.349999994
+    },
+    {
+      "source": 2,
+      "target": 1,
+      "value": 161116813.30000004
+    },
+    {
+      "source": 8,
+      "target": 1,
+      "value": 791999206.8999997
+    },
+    {
+      "source": 9,
+      "target": 1,
+      "value": 227082173.45999995
+    },
+    {
+      "source": 10,
+      "target": 1,
+      "value": 28907692.010000005
+    },
+    {
+      "source": 9,
+      "target": 3,
+      "value": 191375058.81
+    },
+    {
+      "source": 8,
+      "target": 3,
+      "value": 453907557.17000014
+    },
+    {
+      "source": 11,
+      "target": 1,
+      "value": 17488611.42
+    },
+    {
+      "source": 12,
+      "target": 3,
+      "value": 4526323.05
+    },
+    {
+      "source": 13,
+      "target": 1,
+      "value": 18683750.57
+    },
+    {
+      "source": 6,
+      "target": 3,
+      "value": 419355673.2799999
+    },
+    {
+      "source": 0,
+      "target": 14,
+      "value": 19359959.219999995
+    },
+    {
+      "source": 12,
+      "target": 1,
+      "value": 1498585.2000000002
+    },
+    {
+      "source": 15,
+      "target": 1,
+      "value": 352749345.40999985
+    },
+    {
+      "source": 16,
+      "target": 1,
+      "value": 84351868.35000001
+    },
+    {
+      "source": 17,
+      "target": 1,
+      "value": 38083336.55
+    },
+    {
+      "source": 4,
+      "target": 3,
+      "value": 7410788.71
+    },
+    {
+      "source": 18,
+      "target": 1,
+      "value": 246221.43
+    },
+    {
+      "source": 19,
+      "target": 1,
+      "value": 555941177.4699999
+    },
+    {
+      "source": 8,
+      "target": 14,
+      "value": 60378035.58
+    },
+    {
+      "source": 15,
+      "target": 3,
+      "value": 112598818.37999998
+    },
+    {
+      "source": 20,
+      "target": 1,
+      "value": 105441544.55
+    },
+    {
+      "source": 7,
+      "target": 3,
+      "value": 74579891.67999999
+    },
+    {
+      "source": 21,
+      "target": 1,
+      "value": 20371007.349999998
+    },
+    {
+      "source": 22,
+      "target": 3,
+      "value": 1143796.82
+    },
+    {
+      "source": 22,
+      "target": 1,
+      "value": 1122802.55
+    },
+    {
+      "source": 23,
+      "target": 3,
+      "value": 1661266.51
+    },
+    {
+      "source": 24,
+      "target": 1,
+      "value": 285600.0
+    },
+    {
+      "source": 25,
+      "target": 1,
+      "value": 34379851.949999996
+    },
+    {
+      "source": 20,
+      "target": 14,
+      "value": 1578358.8900000001
+    },
+    {
+      "source": 16,
+      "target": 3,
+      "value": 63829852.9
+    },
+    {
+      "source": 15,
+      "target": 14,
+      "value": 1271439.4600000002
+    },
+    {
+      "source": 26,
+      "target": 1,
+      "value": 2692107.4899999998
+    },
+    {
+      "source": 27,
+      "target": 1,
+      "value": 35778795.65
+    },
+    {
+      "source": 7,
+      "target": 14,
+      "value": 6000613.560000001
+    },
+    {
+      "source": 19,
+      "target": 3,
+      "value": 12208420.95
+    },
+    {
+      "source": 28,
+      "target": 1,
+      "value": 336817.76
+    },
+    {
+      "source": 23,
+      "target": 1,
+      "value": 222603.09999999998
+    },
+    {
+      "source": 20,
+      "target": 3,
+      "value": 8055198.3500000015
+    },
+    {
+      "source": 17,
+      "target": 3,
+      "value": 6602983.289999998
+    },
+    {
+      "source": 29,
+      "target": 1,
+      "value": 4863952.15
+    },
+    {
+      "source": 23,
+      "target": 14,
+      "value": 29100.4
+    },
+    {
+      "source": 9,
+      "target": 14,
+      "value": 2001241.67
+    },
+    {
+      "source": 30,
+      "target": 1,
+      "value": 2791642.21
+    },
+    {
+      "source": 31,
+      "target": 1,
+      "value": 385332.48
+    },
+    {
+      "source": 5,
+      "target": 3,
+      "value": 5513858.05
+    },
+    {
+      "source": 32,
+      "target": 3,
+      "value": 651301.08
+    },
+    {
+      "source": 2,
+      "target": 14,
+      "value": 788812.05
+    },
+    {
+      "source": 10,
+      "target": 14,
+      "value": 29057.0
+    },
+    {
+      "source": 10,
+      "target": 3,
+      "value": 288101.44
+    },
+    {
+      "source": 32,
+      "target": 14,
+      "value": 130410.64
+    },
+    {
+      "source": 32,
+      "target": 1,
+      "value": 3837168.41
+    },
+    {
+      "source": 33,
+      "target": 1,
+      "value": 4176964.5300000003
+    },
+    {
+      "source": 29,
+      "target": 3,
+      "value": 22990.72
+    },
+    {
+      "source": 34,
+      "target": 1,
+      "value": 9493.0
+    },
+    {
+      "source": 5,
+      "target": 14,
+      "value": 3147536.01
+    },
+    {
+      "source": 35,
+      "target": 1,
+      "value": 75000.0
+    },
+    {
+      "source": 36,
+      "target": 1,
+      "value": 4500.0
+    },
+    {
+      "source": 37,
+      "target": 1,
+      "value": 1550421.08
+    },
+    {
+      "source": 38,
+      "target": 1,
+      "value": 79312.5
+    },
+    {
+      "source": 4,
+      "target": 14,
+      "value": 786.0
+    },
+    {
+      "source": 36,
+      "target": 3,
+      "value": 14237.48
+    },
+    {
+      "source": 39,
+      "target": 1,
+      "value": 25790.699999999997
+    },
+    {
+      "source": 21,
+      "target": 3,
+      "value": 371625.01
+    },
+    {
+      "source": 40,
+      "target": 1,
+      "value": 39294.26
+    },
+    {
+      "source": 26,
+      "target": 3,
+      "value": 110808.68
+    },
+    {
+      "source": 41,
+      "target": 14,
+      "value": 80000.0
+    },
+    {
+      "source": 22,
+      "target": 14,
+      "value": 29597.28
+    },
+    {
+      "source": 42,
+      "target": 1,
+      "value": 155064.0
+    },
+    {
+      "source": 33,
+      "target": 3,
+      "value": 9920.0
+    },
+    {
+      "source": 6,
+      "target": 14,
+      "value": 13118188.47
+    }
+  ]
+}

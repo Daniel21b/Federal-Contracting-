@@ -1,0 +1,61 @@
+{
+  "nodes": [
+    {
+      "name": "MARYLAND",
+      "type": "state",
+      "value": 5092395869.539997
+    },
+    {
+      "name": "OTHER THAN SMALL BUSINESS",
+      "type": "business_size",
+      "value": 4839307497.919999
+    },
+    {
+      "name": "VIRGINIA",
+      "type": "state",
+      "value": 1955691628.6999998
+    },
+    {
+      "name": "SMALL BUSINESS",
+      "type": "business_size",
+      "value": 2308445690.629998
+    },
+    {
+      "name": "CALIFORNIA",
+      "type": "state",
+      "value": 99665690.31
+    }
+  ],
+  "links": [
+    {
+      "source": 0,
+      "target": 1,
+      "value": 3838233605.4300013
+    },
+    {
+      "source": 2,
+      "target": 1,
+      "value": 1317091857.2599998
+    },
+    {
+      "source": 0,
+      "target": 3,
+      "value": 1825320497.1899984
+    },
+    {
+      "source": 2,
+      "target": 3,
+      "value": 728425178.04
+    },
+    {
+      "source": 4,
+      "target": 1,
+      "value": 59001356.96999999
+    },
+    {
+      "source": 4,
+      "target": 3,
+      "value": 48941779.25999999
+    }
+  ]
+}

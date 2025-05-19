@@ -1,0 +1,101 @@
+{
+  "nodes": [
+    {
+      "name": "DEFINITIVE CONTRACT",
+      "type": "award_type",
+      "value": 3996804613.109998
+    },
+    {
+      "name": "MARYLAND",
+      "type": "state",
+      "value": 5092395869.539997
+    },
+    {
+      "name": "BPA CALL",
+      "type": "award_type",
+      "value": 762784222.2399998
+    },
+    {
+      "name": "VIRGINIA",
+      "type": "state",
+      "value": 1955691628.6999998
+    },
+    {
+      "name": "PURCHASE ORDER",
+      "type": "award_type",
+      "value": 85434677.04999998
+    },
+    {
+      "name": "DELIVERY ORDER",
+      "type": "award_type",
+      "value": 2302729676.1500015
+    },
+    {
+      "name": "CALIFORNIA",
+      "type": "state",
+      "value": 99665690.31
+    }
+  ],
+  "links": [
+    {
+      "source": 0,
+      "target": 1,
+      "value": 3476586146.4900007
+    },
+    {
+      "source": 2,
+      "target": 3,
+      "value": 426278566.6499997
+    },
+    {
+      "source": 4,
+      "target": 1,
+      "value": 79548317.44
+    },
+    {
+      "source": 0,
+      "target": 3,
+      "value": 813306381.6000003
+    },
+    {
+      "source": 5,
+      "target": 1,
+      "value": 1706266887.0499988
+    },
+    {
+      "source": 4,
+      "target": 3,
+      "value": 14537875.970000006
+    },
+    {
+      "source": 2,
+      "target": 1,
+      "value": 401152751.6400003
+    },
+    {
+      "source": 5,
+      "target": 3,
+      "value": 791394211.0799997
+    },
+    {
+      "source": 4,
+      "target": 6,
+      "value": 9650030.82
+    },
+    {
+      "source": 0,
+      "target": 6,
+      "value": 26582380.220000003
+    },
+    {
+      "source": 2,
+      "target": 6,
+      "value": 9031231.33
+    },
+    {
+      "source": 5,
+      "target": 6,
+      "value": 62679493.85999999
+    }
+  ]
+}
