@@ -131,9 +131,100 @@
         </div>
       </div>
     </section>
+    <section id="treemap-section" style="border: none; padding: 40px 20px;">
+      <div style="max-width: 1200px; margin: 0 auto;">
+        <h2 style="color: white; margin-bottom: 30px; font-size: 2em;">Federal Contracting Landscape by Category</h2>
+        
+        <div id="treemap-controls" style="margin-bottom: 20px;">
+          <label for="yearSelect" style="color: white; font-weight: bold;">Select Year:</label>
+          <select id="yearSelect">
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+          </select>
+          <label for="yearSlider" id="yearLabel">Year: 2021</label>
+          <input type="range" id="yearSlider" min=2021 max="2024" step="1" value="2021" />
+        </div>
+        <div id="treemap" style="width: 100%; height: 600px;"></div>
+      </div>
+    </section>
+    
+    </section>
 
-    <!-- Add methodology and sources section -->
-    <section id="methodology-section" style="border: none; padding: 40px 20px; margin-bottom: 60px;">
+    
+    <!-- Add conclusion section -->
+    <section id="conclusion-section" style="border: none; padding: 40px 20px; margin-bottom: 60px;">
+      <div style="max-width: 1200px; margin: 0 auto; text-align: left;">
+        <h2 style="color: white; margin-bottom: 30px; font-size: 2em;">Understanding the Impact of Federal Contracting</h2>
+        
+        <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 40px; margin-bottom: 40px;">
+          <div>
+            <h3 style="color: #d5567c; margin-bottom: 20px;">Economic Dynamics</h3>
+            <p style="line-height: 1.6; margin-bottom: 20px;">
+              Our visualization reveals how federal contracts shape regional economies through:
+              <ul style="margin-top: 10px; margin-left: 20px;">
+                <li>Job creation in specialized sectors</li>
+                <li>Investment in research and development</li>
+                <li>Support for small and large businesses</li>
+                <li>Promotion of technological innovation</li>
+              </ul>
+            </p>
+          </div>
+          <div>
+            <h3 style="color: #d5567c; margin-bottom: 20px;">Sector Evolution</h3>
+            <p style="line-height: 1.6; margin-bottom: 20px;">
+              The data highlights shifting priorities in federal investment:
+              <ul style="margin-top: 10px; margin-left: 20px;">
+                <li>Growth in digital transformation projects</li>
+                <li>Emphasis on cybersecurity infrastructure</li>
+                <li>Investment in sustainable technologies</li>
+                <li>Focus on healthcare modernization</li>
+              </ul>
+            </p>
+          </div>
+          <div>
+            <h3 style="color: #d5567c; margin-bottom: 20px;">Regional Patterns</h3>
+            <p style="line-height: 1.6; margin-bottom: 20px;">
+              State-specific contracting patterns reveal:
+              <ul style="margin-top: 10px; margin-left: 20px;">
+                <li>Specialized industry clusters</li>
+                <li>Strategic geographic advantages</li>
+                <li>Policy influence on contract distribution</li>
+                <li>Innovation ecosystem development</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+
+        <div style="background: #1a1a1a; border: 2px solid white; padding: 30px; border-radius: 8px; margin-top: 20px;">
+          <h3 style="color: #cda14e; margin-bottom: 20px;">Educational Insights</h3>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px;">
+            <div style="line-height: 1.6;">
+              <h4 style="color: white; margin-bottom: 15px;">Core Concepts Demonstrated:</h4>
+              <ul style="margin-left: 20px;">
+                <li>How government spending impacts local economies</li>
+                <li>The relationship between policy decisions and contract allocation</li>
+                <li>Patterns in public-private sector collaboration</li>
+                <li>The role of competition in driving innovation</li>
+              </ul>
+            </div>
+            <div style="line-height: 1.6;">
+              <h4 style="color: white; margin-bottom: 15px;">Learning Outcomes:</h4>
+              <ul style="margin-left: 20px;">
+                <li>Federal budget allocation processes</li>
+                <li>Regional economic development strategies</li>
+                <li>Industry specialization patterns</li>
+                <li>Data-driven policy analysis methods</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Add methodology and sources section before the footer -->
+    <section id="methodology-section" style="border: none; padding: 40px 20px; margin-bottom: 60px; borde;">
       <div style="max-width: 1200px; margin: 0 auto; text-align: left;">
         <h2 style="color: white; margin-bottom: 30px; font-size: 2em;">Methodology & Data Sources</h2>
         
@@ -222,15 +313,17 @@
       </div>
     </footer>
   </div>
-
+  
   <script>
     // Set d3 to v4 for map
     d3 = d3v4;
   </script>
   <script src="../JS/map.js"></script>
+
   <script>
     // Set d3 to v6 for chart
     d3 = d3v6;
   </script>
+  <script src="../JS/treemap.js"></script>
 </body>
 </html>
