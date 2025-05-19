@@ -61,6 +61,9 @@
           <div id="map-vis">
             <svg width="580" height="350"></svg>
           </div>
+          <div style="text-align: right; padding: 5px; font-size: 12px; color: #888;">
+            Map visualization adapted from <a href="https://observablehq.com/@veltman/centerline-labeling" style="color: #4ECDC4;">Observable: Centerline Labeling</a>
+          </div>
         </div>
       </div>
     </section>
@@ -76,7 +79,39 @@
     </div>
    
     <div id="chart"></div>
+    <div style="text-align: right; padding: 5px; font-size: 12px; color: #888; max-width: 1200px; margin: 0 auto;">
+      Bar chart race visualization adapted from <a href="https://observablehq.com/@d3/bar-chart-race-explained" style="color: #4ECDC4;">Observable: Bar Chart Race Explained</a>
+    </div>
     <script src="../JS/barchart.js"></script>
+
+    <!-- Add legend section -->
+    <div id="chart-legend" style="margin: 20px auto; max-width: 1200px; padding: 20px; background: #1a1a1a; border-radius: 8px;">
+      <h3 style="color: white; margin-bottom: 15px;">Ranking Color Guide</h3>
+      <p style="color: white; margin-bottom: 15px;">Colors indicate contractor ranking positions in the visualization:</p>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px;">
+        <div class="legend-item">
+          <span style="display: inline-block; width: 20px; height: 20px; background-color: #FF6B6B; margin-right: 10px; border-radius: 4px;"></span>
+          <span style="color: white;">Rank 1</span>
+        </div>
+        <div class="legend-item">
+          <span style="display: inline-block; width: 20px; height: 20px; background-color: #4ECDC4; margin-right: 10px; border-radius: 4px;"></span>
+          <span style="color: white;">Rank 2</span>
+        </div>
+        <div class="legend-item">
+          <span style="display: inline-block; width: 20px; height: 20px; background-color: #45B7D1; margin-right: 10px; border-radius: 4px;"></span>
+          <span style="color: white;">Rank 3</span>
+        </div>
+        <div class="legend-item">
+          <span style="display: inline-block; width: 20px; height: 20px; background-color: #96CEB4; margin-right: 10px; border-radius: 4px;"></span>
+          <span style="color: white;">Rank 4</span>
+        </div>
+        <div class="legend-item">
+          <span style="display: inline-block; width: 20px; height: 20px; background-color: #FFEEAD; margin-right: 10px; border-radius: 4px;"></span>
+          <span style="color: white;">Rank 5</span>
+        </div>
+      </div>
+      <p style="color: #888; margin-top: 15px; font-size: 0.9em;">Note: Colors repeat for ranks beyond 5. Hover over bars to see exact rankings.</p>
+    </div>
 
     <!-- Add overview section -->
     <section id="overview-section" style="border: none; padding: 40px 20px;">
