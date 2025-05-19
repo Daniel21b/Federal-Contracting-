@@ -1,3 +1,7 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 body {
     background-color: #1a1a1a;
     color: white;
@@ -220,14 +224,15 @@ footer {
     margin: 0;
 }
 
-.map-header h2:last-child {
-    margin-left: 1000px;  /* Adjust this value to increase/decrease the space */
+#state-name {
+    margin-left: 820px;  /* Adjust this value to increase/decrease the space */
 }
 
 #state-name {
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.5em;
     transition: opacity 0.3s ease-in-out;
+    color: white !important; /* Teal color - adjust this to match map */
 }
 
 @keyframes fadeInUp {
@@ -475,7 +480,7 @@ footer {
 }
 
 .legend {
-    font-family: var(--sans-serif);
+    font-family: 'Courier New', Courier, monospace;
     font-size: 12px;
 }
 
