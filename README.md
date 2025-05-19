@@ -2,10 +2,10 @@
 
 ## Team Information
 - Team Members: 
-  - Daniel Asfaw Berhane: Bar chart race implementation, data visualization
-  - Robel Endashaw: Map visualization, state transitions
-  - Benjamin Tanowitz: Data processing, API integration
-  - Jonathan Hale: UI/UX design, CSS styling
+  - Daniel Asfaw Berhane: Bar chart race visualization, data visualization
+  - Robel Endashaw: Interactive map visualization, state transitions
+  - Benjamin Tanowitz: Data processing, API integration, map visualization elements
+  - Jonathan Hale: UI/UX design, CSS styling, treemap visualization
 - Canvas Group: Final Project Group 8
 
 ## Project Overview
@@ -25,24 +25,7 @@ An interactive visualization system exploring federal contract spending across V
    cd Federal-Contracting-
    ```
 
-2. Install dependencies:
-   ```bash
-   npm install d3@4
-   npm install d3@6
-   npm install topojson@3
-   npm install flubber@0.4.2
-   ```
-
-3. Start the local server:
-   ```bash
-   # Option 1: Using Python 3
-   python -m http.server 8000
-   
-   # Option 2: Using Node.js
-   npx http-server
-   ```
-
-4. Access the visualization:
+2. Access the visualization:
    - Open your browser
    - Navigate to: `http://localhost:8000/IndexFiles/index.html`
 
@@ -81,26 +64,33 @@ Federal-Contracting-/
 - Managed data processing pipeline
 - Implemented API data fetching
 - Created data transformation scripts
+- Contributed to map visualization implementation
 - Handled data updates and storage
 
 ### Jonathan Hale
 - Developed UI/UX design
 - Implemented responsive CSS
-- Created visualization layouts
+- Designed and implemented treemap visualization for category analysis
 - Designed color schemes and typography
 
 ## Technical Implementation
-- **Bar Chart Race**: 
+- **Bar Chart Race** (Daniel Asfaw Berhane): 
   - D3.js v6 implementation
   - Dynamic ranking updates
   - Smooth transitions
   
-- **Interactive Map**: 
+- **Interactive Map** (Robel Endashaw, Benjamin Tanowitz): 
   - D3.js v4 with TopoJSON
   - Flubber for state morphing
   - State-specific styling
 
-- **Data Processing**:
+- **Treemap Visualization** (Jonathan Hale):
+  - D3.js v6 hierarchical data visualization
+  - Interactive category analysis
+  - Dynamic filtering by year and state
+  - Zoom and tooltip functionality
+
+- **Data Processing** (Benjamin Tanowitz):
   - Monthly USAspending.gov data updates
   - Custom data transformation scripts
   - Efficient data storage format
@@ -114,6 +104,7 @@ Federal-Contracting-/
 ### Visualization Inspiration
 - Bar Chart Race inspired by Mike Bostock's [Observable Bar Chart Race](https://observablehq.com/@d3/bar-chart-race-explained)
 - Map visualization techniques adapted from Noah Veltman's [Centerline Labeling](https://observablehq.com/@veltman/centerline-labeling)
+- Treemap visualization implemented using techniques from [Observable Treemap Component](https://observablehq.com/@d3/treemap-component)
 
 ### Libraries and Tools
 - [D3.js](https://d3js.org/) for data visualization
